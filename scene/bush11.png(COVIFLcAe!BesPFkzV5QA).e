@@ -1,0 +1,39 @@
+13
+837518622721
+625974390407198 1705804712677708800
+{
+  "name": "bush11.png",
+  "local_enabled": true,
+  "local_position": {
+    "X": 6.7422561645507812,
+    "Y": 1.4226934909820557
+  },
+  "local_rotation": 0,
+  "local_scale": {
+    "X": 1,
+    "Y": 1
+  },
+  "previous_sibling": "625909279024742:1705804694095672800",
+  "next_sibling": "626054295579196:1705804735481721700",
+  "parent": "622667000327364:1705803768786816500"
+},
+{
+  "cid": 1,
+  "aoid": "625974390599698:1705804712677763100",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Sprite_Renderer",
+  "data": {
+    "texture": "zoo/vegetation/bush11.png",
+    "depth_offset": 0,
+    "tint": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1,
+      "W": 1
+    },
+    "layer": 0,
+    "wait_for_load": false,
+    "wrap": false,
+    "mask_in_shadow": false
+  }
+}

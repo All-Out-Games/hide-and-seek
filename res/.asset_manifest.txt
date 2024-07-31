@@ -848,8 +848,6 @@ map_v2/Background/Background effects/Fog 7_/Fog 3.png - .ao - 66846256b45eb9e833
 map_v2/Background/Background effects/Fog 7_/Fog 3.png - .ao.ios - 6684904db45eb9e8339c09c3 - 11407799762289363093
 map_v2/Background/Background effects/Fog 7_/Fog 4.png - .ao - 66846257b45eb9e8339bed17 - 2888927039259501959
 map_v2/Background/Background effects/Fog 7_/Fog 4.png - .ao.ios - 6684904fb45eb9e8339c09c6 - 1391423987872745840
-map_v2/Background/Background effects/Map Background all.png - .ao - 6699ba8cb45eb9e8339c21a8 - 5194881424989965328
-map_v2/Background/Background effects/Map Background all.png - .ao.ios - 6699ba8cb45eb9e8339c21a9 - 9471830969233386381
 map_v2/Background/Background effects/moon/Moon.png - .ao - 66846259b45eb9e8339bed1c - 14776539763756945062
 map_v2/Background/Background effects/moon/Moon.png - .ao.ios - 6684625ab45eb9e8339bed1e - 13342006934809221905
 map_v2/Background/Background effects/moon/light moon.png - .ao - 6684625cb45eb9e8339bed20 - 5843605430014871554
@@ -2246,6 +2244,20 @@ shadow_small_object.png - .ao - 66846415b45eb9e8339bf6ea - 412112585670829836
 shadow_small_object.png - .ao.ios - 66849102b45eb9e8339c0de9 - 14961723710556108904
 shadow_small_tree.png - .ao - 66846416b45eb9e8339bf6ee - 444517517490797405
 shadow_small_tree.png - .ao.ios - 66849102b45eb9e8339c0dea - 14476980711684669430
+spawn/bg.png - .ao - 66aa853896cebaeb1f3299ca - 6802718132511056888
+spawn/bg.png - .ao.ios - 66aa853896cebaeb1f3299c9 - 2237058319001042384
+spawn/bush1.png - .ao - 66aa853896cebaeb1f3299c8 - 8422962093231119823
+spawn/bush1.png - .ao.ios - 66aa853896cebaeb1f3299cc - 12757133985656898561
+spawn/bush2.png - .ao - 66aa853896cebaeb1f3299cf - 13794973707738301752
+spawn/bush2.png - .ao.ios - 66aa853896cebaeb1f3299d0 - 3148064128923468222
+spawn/bush3.png - .ao - 66aa853996cebaeb1f3299d2 - 16760770655104789789
+spawn/bush3.png - .ao.ios - 66aa853996cebaeb1f3299d5 - 12287358332891823658
+spawn/tree1.png - .ao - 66aa853996cebaeb1f3299d6 - 18156655311932081408
+spawn/tree1.png - .ao.ios - 66aa853996cebaeb1f3299d8 - 2730057793974936754
+spawn/tree2.png - .ao - 66aa853996cebaeb1f3299db - 15386062649911388404
+spawn/tree2.png - .ao.ios - 66aa853996cebaeb1f3299dc - 15231666294537447272
+spawn/tree3.png - .ao - 66aa853a96cebaeb1f3299de - 15228772580434413323
+spawn/tree3.png - .ao.ios - 66aa853a96cebaeb1f3299e1 - 4216114170606727579
 targetscope.png - .ao - 66846416b45eb9e8339bf6f3 - 15646360397311774653
 targetscope.png - .ao.ios - 66846416b45eb9e8339bf6f4 - 9453364304655747421
 targetscopecrosshair.png - .ao - 66846417b45eb9e8339bf6f7 - 168193437177440688
@@ -2286,3 +2298,195 @@ vignetteoverlay5.png - .ao - 6684641eb45eb9e8339bf739 - 7681353868522953911
 vignetteoverlay5.png - .ao.ios - 6684641fb45eb9e8339bf73f - 16672991436092495239
 whitecircle2.png - .ao - 6684641fb45eb9e8339bf73d - 4623225293251369095
 whitecircle2.png - .ao.ios - 6684641fb45eb9e8339bf740 - 15935930734651273421
+zoo/TEMPORARY barriers/barrier1.png - .ao - 66aa853a96cebaeb1f3299e2 - 2858447181976436347
+zoo/TEMPORARY barriers/barrier1.png - .ao.ios - 66aa853a96cebaeb1f3299e6 - 10884117860342892559
+zoo/TEMPORARY barriers/barrier2.png - .ao - 66aa853a96cebaeb1f3299e7 - 11831942752764231059
+zoo/TEMPORARY barriers/barrier2.png - .ao.ios - 66aa853a96cebaeb1f3299e8 - 1439657699893554332
+zoo/TEMPORARY barriers/barrier3.png - .ao - 66aa853b96cebaeb1f3299eb - 1276102586121615238
+zoo/TEMPORARY barriers/barrier3.png - .ao.ios - 66aa853b96cebaeb1f3299ed - 18235902012992512075
+zoo/TEMPORARY barriers/barrier4.png - .ao - 66aa853b96cebaeb1f3299ee - 11064570720695158877
+zoo/TEMPORARY barriers/barrier4.png - .ao.ios - 66aa853b96cebaeb1f3299f1 - 1925277773053986393
+zoo/TEMPORARY barriers/barrier5.png - .ao - 66aa853b96cebaeb1f3299f3 - 17662684552652033265
+zoo/TEMPORARY barriers/barrier5.png - .ao.ios - 66aa853b96cebaeb1f3299f4 - 13836200011116320909
+zoo/TEMPORARY barriers/barrier6.png - .ao - 66aa853b96cebaeb1f3299f7 - 16411574017442160031
+zoo/TEMPORARY barriers/barrier6.png - .ao.ios - 66aa853b96cebaeb1f3299f8 - 6478049617324447353
+zoo/TEMPORARY minimap/minimap.png - .ao - 66aa853c96cebaeb1f3299fa - 1985435770032901857
+zoo/TEMPORARY minimap/minimap.png - .ao.ios - 66aa853c96cebaeb1f3299fd - 17563654080628274934
+zoo/base.png - .ao - 66aa853c96cebaeb1f3299ff - 5933255109704550129
+zoo/base.png - .ao.ios - 66aa853c96cebaeb1f329a01 - 2489820261460831724
+zoo/entrance.png - .ao - 66aa853c96cebaeb1f329a02 - 11935632671784167826
+zoo/entrance.png - .ao.ios - 66aa853d96cebaeb1f329a05 - 3381730715669531853
+zoo/farm/base.png - .ao - 66aa853d96cebaeb1f329a06 - 9558838227097404527
+zoo/farm/base.png - .ao.ios - 66aa853d96cebaeb1f329a08 - 5344517179925700213
+zoo/farm/fence1.png - .ao - 66aa853d96cebaeb1f329a0b - 4816483387444162142
+zoo/farm/fence1.png - .ao.ios - 66aa853d96cebaeb1f329a0c - 637305455378716510
+zoo/farm/fence2.png - .ao - 66aa853e96cebaeb1f329a0f - 9821546927156483809
+zoo/farm/fence2.png - .ao.ios - 66aa853e96cebaeb1f329a10 - 14671473540166578334
+zoo/farm/front_wall.png - .ao - 66aa853e96cebaeb1f329a12 - 11424005536490788284
+zoo/farm/front_wall.png - .ao.ios - 66aa853e96cebaeb1f329a15 - 11739938407300776865
+zoo/ice pen/fence1.png - .ao - 66aa853e96cebaeb1f329a16 - 15853667024862715937
+zoo/ice pen/fence1.png - .ao.ios - 66aa853e96cebaeb1f329a18 - 11847328633439773033
+zoo/ice pen/fence2/1.png - .ao - 66aa853f96cebaeb1f329a1c - 10190638744448970293
+zoo/ice pen/fence2/1.png - .ao.ios - 66aa853f96cebaeb1f329a1b - 15596150608437761282
+zoo/ice pen/fence2/2.png - .ao - 66aa853f96cebaeb1f329a1e - 16833949117815796906
+zoo/ice pen/fence2/2.png - .ao.ios - 66aa853f96cebaeb1f329a21 - 7809731666843507981
+zoo/ice pen/front wall.png - .ao - 66aa853f96cebaeb1f329a22 - 12181225176477601654
+zoo/ice pen/front wall.png - .ao.ios - 66aa853f96cebaeb1f329a24 - 8667879017129617378
+zoo/ice pen/wood.png - .ao - 66aa853f96cebaeb1f329a28 - 12036820544536488861
+zoo/ice pen/wood.png - .ao.ios - 66aa853f96cebaeb1f329a27 - 18303879772211755768
+zoo/inside zone/Capa 943.png - .ao - 66aa854096cebaeb1f329a2a - 17523199900082812630
+zoo/inside zone/Capa 943.png - .ao.ios - 66aa854096cebaeb1f329a2d - 2139453664855195165
+zoo/inside zone/asset1.png - .ao - 66aa854096cebaeb1f329a2e - 17499677714714582819
+zoo/inside zone/asset1.png - .ao.ios - 66aa854096cebaeb1f329a30 - 11106906169825752062
+zoo/inside zone/asset2.png - .ao - 66aa854096cebaeb1f329a33 - 6941834727247844254
+zoo/inside zone/asset2.png - .ao.ios - 66aa854096cebaeb1f329a34 - 14908559878471663110
+zoo/inside zone/asset3.png - .ao - 66aa854196cebaeb1f329a36 - 9201337994387803838
+zoo/inside zone/asset3.png - .ao.ios - 66aa854196cebaeb1f329a39 - 7973813542432931266
+zoo/inside zone/asset4.png - .ao - 66aa854196cebaeb1f329a3a - 11762161096651647919
+zoo/inside zone/asset4.png - .ao.ios - 66aa854196cebaeb1f329a3c - 3805843540055724793
+zoo/inside zone/base.png - .ao - 66aa854196cebaeb1f329a3f - 13939399871763182388
+zoo/inside zone/base.png - .ao.ios - 66aa854196cebaeb1f329a40 - 6833020277973175325
+zoo/inside zone/glass1.png - .ao - 66aa854296cebaeb1f329a42 - 16023866289997920074
+zoo/inside zone/glass1.png - .ao.ios - 66aa854296cebaeb1f329a46 - 4448347922348281896
+zoo/inside zone/glass2.png - .ao - 66aa854296cebaeb1f329a47 - 9443469848481695598
+zoo/inside zone/glass2.png - .ao.ios - 66aa854296cebaeb1f329a48 - 15890281536773813109
+zoo/inside zone/overlay_top.png - .ao - 66aa854296cebaeb1f329a4a - 11749328951822041802
+zoo/inside zone/overlay_top.png - .ao.ios - 66aa854396cebaeb1f329a4d - 808416414035882312
+zoo/inside zone/wall4.png - .ao - 66aa854396cebaeb1f329a4e - 3390737788110919289
+zoo/inside zone/wall4.png - .ao.ios - 66aa854396cebaeb1f329a50 - 16149221510722241406
+zoo/inside zone/wall5.png - .ao - 66aa854396cebaeb1f329a52 - 6182335172535602482
+zoo/inside zone/wall5.png - .ao.ios - 66aa854396cebaeb1f329a54 - 17549030929825474708
+zoo/inside zone/wall6.png - .ao - 66aa854396cebaeb1f329a56 - 1946689241963985529
+zoo/inside zone/wall6.png - .ao.ios - 66aa854396cebaeb1f329a58 - 17529265127990713700
+zoo/inside zone/wall7.png - .ao - 66aa854496cebaeb1f329a5c - 16602632420052714510
+zoo/inside zone/wall7.png - .ao.ios - 66aa854496cebaeb1f329a5d - 1643306989416931969
+zoo/lab/frontwall.png - .ao - 66aa854496cebaeb1f329a5e - 8810212155555906444
+zoo/lab/frontwall.png - .ao.ios - 66aa854496cebaeb1f329a61 - 17458802596274840998
+zoo/lab/lab base.png - .ao - 66aa854496cebaeb1f329a63 - 7397119455802923779
+zoo/lab/lab base.png - .ao.ios - 66aa854496cebaeb1f329a64 - 1051206296811113201
+zoo/lake/back_fence.png - .ao - 66aa854596cebaeb1f329a67 - 11283225261972586789
+zoo/lake/back_fence.png - .ao.ios - 66aa854596cebaeb1f329a69 - 13766409409826811114
+zoo/lake/front_fence.png - .ao - 66aa854596cebaeb1f329a6a - 11056304339662331371
+zoo/lake/front_fence.png - .ao.ios - 66aa854596cebaeb1f329a6d - 8740261493887748859
+zoo/office assets/board.png - .ao - 66aa854596cebaeb1f329a6f - 14716209222287313595
+zoo/office assets/board.png - .ao.ios - 66aa854596cebaeb1f329a70 - 17426160724853871556
+zoo/office assets/book.png - .ao - 66aa854596cebaeb1f329a72 - 7373598675681080466
+zoo/office assets/book.png - .ao.ios - 66aa854596cebaeb1f329a74 - 13064178501008229519
+zoo/office assets/chair.png - .ao - 66aa854696cebaeb1f329a76 - 3592796552499268829
+zoo/office assets/chair.png - .ao.ios - 66aa854696cebaeb1f329a78 - 5048192419981193957
+zoo/office assets/table1.png - .ao - 66aa854696cebaeb1f329a7b - 15874820448164893865
+zoo/office assets/table1.png - .ao.ios - 66aa854696cebaeb1f329a7c - 17514114238175164594
+zoo/office assets/table2.png - .ao - 66aa854696cebaeb1f329a7e - 907179943464776067
+zoo/office assets/table2.png - .ao.ios - 66aa854696cebaeb1f329a81 - 12073302005069076893
+zoo/office assets/table3.png - .ao - 66aa854696cebaeb1f329a82 - 3008899203885102738
+zoo/office assets/table3.png - .ao.ios - 66aa854796cebaeb1f329a84 - 13782722790151381136
+zoo/office assets/table4.png - .ao - 66aa854796cebaeb1f329a87 - 16338225141939979181
+zoo/office assets/table4.png - .ao.ios - 66aa854796cebaeb1f329a88 - 12113362828064793411
+zoo/office assets/wall3.png - .ao - 66aa854796cebaeb1f329a8a - 12753328076084742404
+zoo/office assets/wall3.png - .ao.ios - 66aa854796cebaeb1f329a8e - 8000312231508285120
+zoo/office assets/wall4.png - .ao - 66aa854796cebaeb1f329a8d - 11496561452840066630
+zoo/office assets/wall4.png - .ao.ios - 66aa854896cebaeb1f329a91 - 3436597724880912598
+zoo/outside_assets/light.png - .ao - 66aa854896cebaeb1f329a93 - 13756304964275365062
+zoo/outside_assets/light.png - .ao.ios - 66aa854896cebaeb1f329a94 - 7164944509199426579
+zoo/outside_assets/sign.png - .ao - 66aa854896cebaeb1f329a96 - 5226903618070492662
+zoo/outside_assets/sign.png - .ao.ios - 66aa854896cebaeb1f329a99 - 9371885793994377263
+zoo/outside_assets/trash_can.png - .ao - 66aa854896cebaeb1f329a9a - 5351484043373317339
+zoo/outside_assets/trash_can.png - .ao.ios - 66aa854896cebaeb1f329a9d - 216083960015989578
+zoo/overlay_ice_trees.png - .ao - 66aa854996cebaeb1f329a9f - 15387455671550557232
+zoo/overlay_ice_trees.png - .ao.ios - 66aa854996cebaeb1f329aa0 - 6890104566597999782
+zoo/overlay_rainbow_trees.png - .ao - 66aa854996cebaeb1f329aa3 - 13296664294063120473
+zoo/overlay_rainbow_trees.png - .ao.ios - 66aa854996cebaeb1f329aa5 - 18204186732633354165
+zoo/rainbow pen/fence1 copia.png - .ao - 66aa854996cebaeb1f329aa6 - 17555165937034024160
+zoo/rainbow pen/fence1 copia.png - .ao.ios - 66aa854996cebaeb1f329aa9 - 17650817938236173974
+zoo/rainbow pen/fence1.png - .ao - 66aa854996cebaeb1f329aaa - 3643619217915517053
+zoo/rainbow pen/fence1.png - .ao.ios - 66aa854a96cebaeb1f329aad - 11097046682372413361
+zoo/restaurant/plant wall/plantwall1.png - .ao - 66aa854a96cebaeb1f329aaf - 14168982216910238126
+zoo/restaurant/plant wall/plantwall1.png - .ao.ios - 66aa854a96cebaeb1f329ab0 - 1893054395592494758
+zoo/restaurant/plant wall/planwall2.png - .ao - 66aa854a96cebaeb1f329ab4 - 14642449800484325517
+zoo/restaurant/plant wall/planwall2.png - .ao.ios - 66aa854a96cebaeb1f329ab5 - 8682028490681015011
+zoo/restaurant/restaurand_base.png - .ao - 66aa854a96cebaeb1f329ab6 - 2834161223978169984
+zoo/restaurant/restaurand_base.png - .ao.ios - 66aa854b96cebaeb1f329aba - 1466226158372139239
+zoo/restaurant/table1.png - .ao - 66aa854b96cebaeb1f329ab9 - 17814083624466794622
+zoo/restaurant/table1.png - .ao.ios - 66aa854b96cebaeb1f329abc - 11716190158400897282
+zoo/restaurant/table2.png - .ao - 66aa854b96cebaeb1f329abf - 14192799764589075282
+zoo/restaurant/table2.png - .ao.ios - 66aa854b96cebaeb1f329ac0 - 12622823649697649562
+zoo/restaurant/table3.png - .ao - 66aa854b96cebaeb1f329ac2 - 10445982035236545338
+zoo/restaurant/table3.png - .ao.ios - 66aa854b96cebaeb1f329ac6 - 8512785784828284530
+zoo/restaurant/table4.png - .ao - 66aa854b96cebaeb1f329ac7 - 9072203924671176344
+zoo/restaurant/table4.png - .ao.ios - 66aa854b96cebaeb1f329ac8 - 10542634968948443175
+zoo/rock pen/front_wall.png - .ao - 66aa854c96cebaeb1f329acc - 18231648545561360227
+zoo/rock pen/front_wall.png - .ao.ios - 66aa854c96cebaeb1f329acd - 13897059524760897487
+zoo/rock pen/glass1.png - .ao - 66aa854c96cebaeb1f329ace - 11750476515214210690
+zoo/rock pen/glass1.png - .ao.ios - 66aa854c96cebaeb1f329ad1 - 3323085742291838558
+zoo/rock pen/glass2/1.png - .ao - 66aa854c96cebaeb1f329ad2 - 9080207715323026079
+zoo/rock pen/glass2/1.png - .ao.ios - 66aa854c96cebaeb1f329ad4 - 1840194795618184917
+zoo/rock pen/glass2/2.png - .ao - 66aa854d96cebaeb1f329ad7 - 6665522862610100335
+zoo/rock pen/glass2/2.png - .ao.ios - 66aa854d96cebaeb1f329ad8 - 17280797868489596516
+zoo/rock pen/rock_base.png - .ao - 66aa854d96cebaeb1f329ada - 10000660401732514009
+zoo/rock pen/rock_base.png - .ao.ios - 66aa854d96cebaeb1f329adc - 15988213708334195218
+zoo/rock pen/stair_rocks1.png - .ao - 66aa854d96cebaeb1f329ade - 667934489654419227
+zoo/rock pen/stair_rocks1.png - .ao.ios - 66aa854d96cebaeb1f329ae0 - 8142245725209455657
+zoo/rock pen/stair_rocks2.png - .ao - 66aa854e96cebaeb1f329ae3 - 16363599269179515064
+zoo/rock pen/stair_rocks2.png - .ao.ios - 66aa854e96cebaeb1f329ae4 - 11772116962985047596
+zoo/shop.png - .ao - 66aa854e96cebaeb1f329ae6 - 16868558543683281474
+zoo/shop.png - .ao.ios - 66aa854e96cebaeb1f329ae9 - 13228362131349504293
+zoo/south_bushes_overlay.png - .ao - 66aa854e96cebaeb1f329aea - 12073060808229049881
+zoo/south_bushes_overlay.png - .ao.ios - 66aa854e96cebaeb1f329aec - 17306118313661962933
+zoo/template.png - .ao - 66aa855096cebaeb1f329af3 - 17782345460347206954
+zoo/template.png - .ao.ios - 66aa855196cebaeb1f329af9 - 3815919162678090599
+zoo/trees2left.png - .ao - 66aa854f96cebaeb1f329af0 - 16510060126798161837
+zoo/trees2left.png - .ao.ios - 66aa855096cebaeb1f329af2 - 5615283676190194159
+zoo/trees2right.png - .ao - 66aa855096cebaeb1f329af5 - 11135046069610136226
+zoo/trees2right.png - .ao.ios - 66aa855196cebaeb1f329af8 - 4739126571812305256
+zoo/trees4.png - .ao - 66aa855196cebaeb1f329afa - 2308777469322113570
+zoo/trees4.png - .ao.ios - 66aa855296cebaeb1f329b00 - 1063982595262382659
+zoo/vegetation/bush1.png - .ao - 66aa855296cebaeb1f329afd - 5011369730776665569
+zoo/vegetation/bush1.png - .ao.ios - 66aa855296cebaeb1f329aff - 18110715930454114843
+zoo/vegetation/bush10.png - .ao - 66aa855296cebaeb1f329b02 - 1016393492250601424
+zoo/vegetation/bush10.png - .ao.ios - 66aa855296cebaeb1f329b04 - 18087316643215796597
+zoo/vegetation/bush11.png - .ao - 66aa855396cebaeb1f329b07 - 10070553659387092657
+zoo/vegetation/bush11.png - .ao.ios - 66aa855396cebaeb1f329b08 - 11199992209677129115
+zoo/vegetation/bush12.png - .ao - 66aa855396cebaeb1f329b0a - 5933760176959240718
+zoo/vegetation/bush12.png - .ao.ios - 66aa855396cebaeb1f329b0c - 15658460471174520178
+zoo/vegetation/bush2.png - .ao - 66aa855396cebaeb1f329b0e - 15591950285887578645
+zoo/vegetation/bush2.png - .ao.ios - 66aa855396cebaeb1f329b10 - 4172393610833462077
+zoo/vegetation/bush3.png - .ao - 66aa855496cebaeb1f329b13 - 7101334113858807289
+zoo/vegetation/bush3.png - .ao.ios - 66aa855496cebaeb1f329b15 - 9146942242465437940
+zoo/vegetation/bush4.png - .ao - 66aa855496cebaeb1f329b16 - 9615003332953861386
+zoo/vegetation/bush4.png - .ao.ios - 66aa855496cebaeb1f329b19 - 1391972907441480545
+zoo/vegetation/bush5.png - .ao - 66aa855496cebaeb1f329b1b - 17555945134953991961
+zoo/vegetation/bush5.png - .ao.ios - 66aa855496cebaeb1f329b1c - 4540189511043336974
+zoo/vegetation/bush6.png - .ao - 66aa855496cebaeb1f329b20 - 8940461906291595894
+zoo/vegetation/bush6.png - .ao.ios - 66aa855496cebaeb1f329b21 - 2706416205325901109
+zoo/vegetation/bush7.png - .ao - 66aa855596cebaeb1f329b22 - 13458917029145892072
+zoo/vegetation/bush7.png - .ao.ios - 66aa855596cebaeb1f329b26 - 11344598512454158071
+zoo/vegetation/bush8.png - .ao - 66aa855596cebaeb1f329b27 - 1784733043909662142
+zoo/vegetation/bush8.png - .ao.ios - 66aa855596cebaeb1f329b28 - 13090675712953042999
+zoo/vegetation/bush9.png - .ao - 66aa855596cebaeb1f329b2a - 537389051711614521
+zoo/vegetation/bush9.png - .ao.ios - 66aa855596cebaeb1f329b2d - 4624176493280415711
+zoo/vegetation/lightgreen copia 4.png - .ao - 66aa855596cebaeb1f329b2e - 7244195112038704866
+zoo/vegetation/lightgreen copia 4.png - .ao.ios - 66aa855696cebaeb1f329b30 - 2484603850879587756
+zoo/vegetation/lightgreen.png - .ao - 66aa855696cebaeb1f329b33 - 3752647272054000074
+zoo/vegetation/lightgreen.png - .ao.ios - 66aa855696cebaeb1f329b34 - 3366929086201469479
+zoo/vegetation/rock1.png - .ao - 66aa855696cebaeb1f329b36 - 125165288634295848
+zoo/vegetation/rock1.png - .ao.ios - 66aa855696cebaeb1f329b38 - 16653760211420080415
+zoo/vegetation/rock2.png - .ao - 66aa855696cebaeb1f329b3a - 13388170927023495196
+zoo/vegetation/rock2.png - .ao.ios - 66aa855796cebaeb1f329b3d - 5560977515661541338
+zoo/vegetation/rock3.png - .ao - 66aa855796cebaeb1f329b3e - 15540586152114635515
+zoo/vegetation/rock3.png - .ao.ios - 66aa855796cebaeb1f329b40 - 7881200660485222690
+zoo/vegetation/rock4.png - .ao - 66aa855796cebaeb1f329b43 - 8449638001331007362
+zoo/vegetation/rock4.png - .ao.ios - 66aa855796cebaeb1f329b44 - 10242733216263906771
+zoo/vegetation/tree.png - .ao - 66aa855796cebaeb1f329b46 - 6524867414619192828
+zoo/vegetation/tree.png - .ao.ios - 66aa855796cebaeb1f329b48 - 2640876092363304483
+zoo/vegetation/tree1.png - .ao - 66aa855896cebaeb1f329b4a - 8588430295472814325
+zoo/vegetation/tree1.png - .ao.ios - 66aa855896cebaeb1f329b4c - 17428368038310949340
+zoo/vegetation/tree2.png - .ao - 66aa855896cebaeb1f329b4f - 16143706884217242067
+zoo/vegetation/tree2.png - .ao.ios - 66aa855896cebaeb1f329b50 - 7029475870838296691
+zoo/vegetation/tree3.png - .ao - 66aa855896cebaeb1f329b54 - 15662024151892915530
+zoo/vegetation/tree3.png - .ao.ios - 66aa855896cebaeb1f329b55 - 5307383593300056768
+zoo/vegetation/tree4.png - .ao - 66aa855896cebaeb1f329b56 - 10899168715391350754
+zoo/vegetation/tree4.png - .ao.ios - 66aa855996cebaeb1f329b59 - 4581314011125923968
+zoo/vegetation/tree5.png - .ao - 66aa855996cebaeb1f329b5b - 9726521468679830245
+zoo/vegetation/tree5.png - .ao.ios - 66aa855996cebaeb1f329b5c - 156958670209007965
+zoo/vegetation/vegaetation15 copia 63.png - .ao - 66aa855996cebaeb1f329b60 - 16261063718041513436
+zoo/vegetation/vegaetation15 copia 63.png - .ao.ios - 66aa855996cebaeb1f329b61 - 17056860228839772612
