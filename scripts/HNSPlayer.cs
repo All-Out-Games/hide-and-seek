@@ -15,6 +15,26 @@ public class HNSPlayer : Player
     {
         SpineAnimator.Entity.LocalScale = new Vector2(0.528f, 0.528f);
         CurrentPropIndex.OnSync += OnPropChange;
+
+        _playerRole.OnSync += (old, value) =>
+        {
+            RemoveEffect<SpectatorEffect>(false);
+            if (PlayerRole == PlayerRole.Spectator)
+            {
+                AddEffect<SpectatorEffect>();
+            }
+        };
+    }
+
+    public override void Start()
+    {
+        if (Network.IsServer)
+        {
+            if (GameManager.Instance.State == GameState.WaitingForPlayers || GameManager.Instance.State == GameState.CountingDown)
+            {
+                PlayerRole = PlayerRole.Prop;
+            }
+        }
     }
 
     public void OnPropChange(int old, int newValue)
