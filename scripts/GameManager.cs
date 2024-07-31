@@ -3,6 +3,8 @@ using System.Collections;
 
 public partial class GameManager : Component
 {
+    public const int IntroLayer = 1000;
+
     [AOIgnore] public static GameManager Instance;
     
     public const int RoleNameLayer = 200;
@@ -12,6 +14,8 @@ public partial class GameManager : Component
     public SyncVar<float> Countdown = new();
     public SyncVar<float> HideTimer = new();
     public SyncVar<bool> BarrierEnabled = new();
+
+    public SyncVar<bool> VoiceChatEnabled = new(false);
 
     private SyncVar<int> _currentState = new();
     public GameState State
@@ -30,6 +34,21 @@ public partial class GameManager : Component
     public override void Awake()
     {
         Instance = this;
+
+        VoiceChatEnabled.OnSync += (_, enabled) => {
+            if (Network.LocalPlayer != null)
+            {
+                if (enabled && Network.LocalPlayer.HasEffect<SpectatorEffect>() == false)
+                {
+                    Game.SetVoiceEnabled(true);
+                }
+            }
+
+            if (enabled == false)
+            {
+                Game.SetVoiceEnabled(false);
+            }
+        };
     }
 
     public override void Start()
@@ -71,6 +90,30 @@ public partial class GameManager : Component
         // }
     }
 
+    public static UI.TextSettings GetTextSettings(float size, float offset = 0, FontAsset font = null, UI.HorizontalAlignment halign = UI.HorizontalAlignment.Center)
+    {
+        if (font == null)
+        {
+            font = UI.Fonts.BarlowBold;
+        }
+        var ts = new UI.TextSettings()
+        {
+            Font = font,
+            Size = size,
+            Color = Vector4.White,
+            DropShadowColor = new Vector4(0f,0f,0f,0.5f),
+            DropShadowOffset = new Vector2(0f,-3f),
+            HorizontalAlignment = halign,
+            VerticalAlignment = UI.VerticalAlignment.Center,
+            WordWrap = false,
+            WordWrapOffset = 0,
+            Outline = true,
+            OutlineThickness = 3,
+            Offset = new Vector2(0, offset),
+        };
+        return ts;
+    }
+
     public void RunChatCommand(Player p, string command)
     {
         var parts = command.Split(' ');
@@ -93,6 +136,7 @@ public partial class GameManager : Component
                 "/s[tart] : start round immediately\n"+
                 "/noclip [on]\n"+
                 "/shadows [on]\n"+
+                "/voice : Toggles voice chat on and off.\n"+
                 "/restart : Restart round immediately\n"+
                 "/god [on | off] : Toggle godmode. Shadows off, speed 3, zoom 3, noclip.\n"+
                 "");
@@ -129,6 +173,11 @@ public partial class GameManager : Component
                     RunChatCommand(p, "sp 1");
                     RunChatCommand(p, "shadows on");
                 }
+                break;
+            }
+            case "voice":
+            {
+                VoiceChatEnabled.Set(!VoiceChatEnabled);
                 break;
             }
             case "s":
@@ -179,6 +228,19 @@ public partial class GameManager : Component
         }
     }
 
+    [ClientRpc]
+    public void DoRoundStartAnimation()
+    {
+        foreach (var p in Player.AllPlayers)
+        {
+            var player = (HNSPlayer)p;
+            if (player.PlayerRole == PlayerRole.Hunter || player.PlayerRole == PlayerRole.Prop)
+            {
+                player.AddEffect<RoundStartAnimationEffect>();
+            }
+        }
+    }
+
     public void SetUpRound()
     {
         Util.Assert(Network.IsServer, "SetUpRound can only be called on the server");
@@ -194,6 +256,8 @@ public partial class GameManager : Component
 
         var hunterSpawns = new List<Entity>(WorldManager.Instance.CurrentWorld.HunterSpawns);
         var propSpawns = new List<Entity>(WorldManager.Instance.CurrentWorld.PropSpawns);
+
+        CallClient_ClearAllPlayerEffects();
 
         for (var i = 0; i < players.Count; i++)
         {
@@ -221,6 +285,7 @@ public partial class GameManager : Component
                 player.Teleport(spawn.Position);
             }
         }
+        CallClient_DoRoundStartAnimation();
     }
 
     public void MessageAllPlayers(string message)
