@@ -3,15 +3,16 @@ using System.Collections;
 
 public partial class GameManager : Component
 {
-    public const int RoleNameLayer = 200;
-
-    public const int PlayersNeededToStartGame = 2;
-
-    public SyncVar<float> Countdown = new();
-    public float GameEndTimer;
-
     [AOIgnore] public static GameManager Instance;
     
+    public const int RoleNameLayer = 200;
+    public const int PlayersNeededToStartGame = 2;
+    public const float HideTime = 10f;
+
+    public SyncVar<float> Countdown = new();
+    public SyncVar<float> HideTimer = new();
+    public SyncVar<bool> BarrierEnabled = new();
+
     private SyncVar<int> _currentState = new();
     public GameState State
     {
@@ -19,7 +20,12 @@ public partial class GameManager : Component
         set => _currentState.Set((int)value);
     }
 
-    public List<Entity> RegionColliders = new();
+    [Serialized] public Entity HunterSpawnsParent;
+    [Serialized] public Entity PropSpawnsParent;
+    [Serialized] public Entity HunterBarrier;
+
+    public List<Entity> HunterSpawns = new();
+    public List<Entity> PropSpawns = new();
 
     public Dictionary<PlayerRole, PlayerRoleDefinition> Roles = new Dictionary<PlayerRole, PlayerRoleDefinition>()
     {
@@ -32,24 +38,19 @@ public partial class GameManager : Component
     {
         Instance = this;
 
-        // foreach (var child in Entity.FindByName("map").TryGetChildByName("V2").Children)
-        // {
-        //     var regionCollider = child.GetComponent<Polygon_Collider>();
-        //     if (regionCollider != null)
-        //     {
-        //         if (Network.IsServer)
-        //         {
-        //             regionCollider.OnCollisionEnter = (other) =>
-        //             {
-        //                 Log.Info("Region collsion: " + regionCollider.Entity.Name + " " + other.Name);
-        //                 var player = other.GetComponent<MyPlayer>();
-        //                 if (player == null) return;
-        //                 player.Region.Set(regionCollider.Entity.Name);
-        //             };
-        //         }
-        //         RegionColliders.Add(child);
-        //     }
-        // }
+        foreach (var c in HunterSpawnsParent.Children)
+        {
+            HunterSpawns.Add(c);
+        }
+
+        foreach (var c in PropSpawnsParent.Children)
+        {
+            PropSpawns.Add(c);
+        }
+
+        BarrierEnabled.OnSync += (_, v) => {
+            HunterBarrier.LocalEnabled = v;
+        };
     }
 
     public override void Start()
@@ -201,6 +202,42 @@ public partial class GameManager : Component
         Util.Assert(Player.AllPlayers.Count >= 2, "We need at least 2 players to start the game!");
 
         Log.Info("RESETTING ROUND ------------------");
+
+        var players = new List<HNSPlayer>(Player.AllPlayers.Cast<HNSPlayer>());
+        players.Shuffle();
+        
+        var huntersCount = (int) (players.Count * 0.2f);
+        huntersCount = Math.Max(1, huntersCount);
+
+        var hunterSpawns = new List<Entity>(HunterSpawns);
+        var propSpawns = new List<Entity>(PropSpawns);
+
+        for (var i = 0; i < players.Count; i++)
+        {
+            var player = players[i];
+            player.PlayerRole = i < huntersCount ? PlayerRole.Hunter : PlayerRole.Prop;
+
+            if (player.PlayerRole == PlayerRole.Hunter)
+            {
+                var spawn = hunterSpawns[0];
+                hunterSpawns.RemoveAt(0);
+                if (hunterSpawns.Count == 0)
+                {
+                    hunterSpawns = new List<Entity>(HunterSpawns);
+                }
+                player.Teleport(spawn.Position);
+            }
+            else
+            {
+                var spawn = propSpawns[0];
+                propSpawns.RemoveAt(0); 
+                if (propSpawns.Count == 0)
+                {
+                    propSpawns = new List<Entity>(PropSpawns);
+                }
+                player.Teleport(spawn.Position);
+            }
+        }
     }
 
     public void MessageAllPlayers(string message)
@@ -224,6 +261,7 @@ public partial class GameManager : Component
                         MessageAllPlayers("STARTING ROUND IN 30 SECONDS");
                         State = GameState.CountingDown;
                         Countdown.Set(30f);
+                        BarrierEnabled.Set(false);
                     }
                     break;
                 }
@@ -243,7 +281,9 @@ public partial class GameManager : Component
                         MessageAllPlayers("STARTING ROUND!!!");
                         SetUpRound();
                         Countdown.Set(0);
-                        State = GameState.Round;
+                        HideTimer.Set(HideTime);
+                        State = GameState.Hiding;
+                        BarrierEnabled.Set(true);
                     }
                     catch (Exception e)
                     {
@@ -251,6 +291,17 @@ public partial class GameManager : Component
                         State = GameState.WaitingForPlayers;
                     }
                     
+                    break;
+                }
+                case GameState.Hiding:
+                {
+                    HideTimer.Set(HideTimer - Time.DeltaTime);
+                    if (HideTimer < 0f)
+                    {
+                        MessageAllPlayers("Ready or not, here we come!");
+                        State = GameState.Round;
+                        BarrierEnabled.Set(false);
+                    }
                     break;
                 }
                 case GameState.Round:
@@ -285,7 +336,17 @@ public partial class GameManager : Component
                 }
                 case GameState.CountingDown:
                 {
-                    UI.Text(bottomBarRect,("Round starts in "+Math.Round(GameManager.Instance.Countdown)).ToString()+" seconds...",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+                    UI.Text(bottomBarRect,("Round starts in "+Math.Round(Countdown)).ToString()+" seconds...",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+                    break;
+                }
+                case GameState.StartRound:
+                {
+                    UI.Text(bottomBarRect,"Starting round...",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+                    break;
+                }
+                case GameState.Hiding:
+                {
+                    UI.Text(bottomBarRect,"Hiding: " + Math.Round(HideTimer) + "s", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
                     break;
                 }
                 case GameState.Round:
@@ -355,6 +416,7 @@ public enum GameState
     WaitingForPlayers,
     CountingDown,
     StartRound,
+    Hiding,
     Round,
 }
 
