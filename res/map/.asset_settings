@@ -1,0 +1,5 @@
+[
+	{ "id": "map/garden/floor.png",       "texture": { "resample_multiplier": 0.25 } },
+	{ "id": "map/garden/lake.png",        "texture": { "resample_multiplier": 0.5 } },
+	{ "id": "map/garden/down block.png",  "texture": { "resample_multiplier": 0.5 } },
+]

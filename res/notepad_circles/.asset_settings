@@ -1,0 +1,8 @@
+[
+    { "id": "notepad_circles/notepad_circle_1.png", "texture": { "resample_multiplier": 0.15 } },
+    { "id": "notepad_circles/notepad_circle_2.png", "texture": { "resample_multiplier": 0.15 } },
+    { "id": "notepad_circles/notepad_circle_3.png", "texture": { "resample_multiplier": 0.15 } },
+    { "id": "notepad_circles/notepad_circle_4.png", "texture": { "resample_multiplier": 0.15 } },
+    { "id": "notepad_circles/notepad_circle_5.png", "texture": { "resample_multiplier": 0.15 } },
+    { "id": "notepad_circles/notepad_circle_6.png", "texture": { "resample_multiplier": 0.15 } }
+]
