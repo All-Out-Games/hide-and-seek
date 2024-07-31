@@ -14,7 +14,6 @@
     "Y": 1
   },
   "previous_sibling": "616977759452046:1705802145143242100",
-  "next_sibling": "3975397103963827:1722459152147312100",
   "spawn_as_networked_entity": true
 },
 {
@@ -23,8 +22,15 @@
   "component_type": "Mono_Component",
   "mono_component_type": "GameManager",
   "data": {
-    "HunterSpawnsParent": "756566104793231:1705878886488643400",
-    "PropSpawnsParent": "756572650990672:1705878888356852800",
-    "HunterBarrier": "3975397103963827:1722459152147312100"
+
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3984636452555275:1722463526835977600",
+  "component_type": "Mono_Component",
+  "mono_component_type": "WorldManager",
+  "data": {
+
   }
 }

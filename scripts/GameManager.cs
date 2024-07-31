@@ -20,13 +20,6 @@ public partial class GameManager : Component
         set => _currentState.Set((int)value);
     }
 
-    [Serialized] public Entity HunterSpawnsParent;
-    [Serialized] public Entity PropSpawnsParent;
-    [Serialized] public Entity HunterBarrier;
-
-    public List<Entity> HunterSpawns = new();
-    public List<Entity> PropSpawns = new();
-
     public Dictionary<PlayerRole, PlayerRoleDefinition> Roles = new Dictionary<PlayerRole, PlayerRoleDefinition>()
     {
         [PlayerRole.Spectator] = new () { ID = 0, roleName = "Spectator"},
@@ -37,20 +30,6 @@ public partial class GameManager : Component
     public override void Awake()
     {
         Instance = this;
-
-        foreach (var c in HunterSpawnsParent.Children)
-        {
-            HunterSpawns.Add(c);
-        }
-
-        foreach (var c in PropSpawnsParent.Children)
-        {
-            PropSpawns.Add(c);
-        }
-
-        BarrierEnabled.OnSync += (_, v) => {
-            HunterBarrier.LocalEnabled = v;
-        };
     }
 
     public override void Start()
@@ -66,6 +45,10 @@ public partial class GameManager : Component
         {
             Chat.SetChatMode(Chat.Mode.BubbleOnly);
         }
+
+        BarrierEnabled.OnSync += (_, v) => {
+            WorldManager.Instance.CurrentWorld.HunterBarrier.LocalEnabled = v;
+        };
     }
 
     public override void OnDestroy()
@@ -209,8 +192,8 @@ public partial class GameManager : Component
         var huntersCount = (int) (players.Count * 0.2f);
         huntersCount = Math.Max(1, huntersCount);
 
-        var hunterSpawns = new List<Entity>(HunterSpawns);
-        var propSpawns = new List<Entity>(PropSpawns);
+        var hunterSpawns = new List<Entity>(WorldManager.Instance.CurrentWorld.HunterSpawns);
+        var propSpawns = new List<Entity>(WorldManager.Instance.CurrentWorld.PropSpawns);
 
         for (var i = 0; i < players.Count; i++)
         {
@@ -223,7 +206,7 @@ public partial class GameManager : Component
                 hunterSpawns.RemoveAt(0);
                 if (hunterSpawns.Count == 0)
                 {
-                    hunterSpawns = new List<Entity>(HunterSpawns);
+                    hunterSpawns = new List<Entity>(WorldManager.Instance.CurrentWorld.HunterSpawns);
                 }
                 player.Teleport(spawn.Position);
             }
@@ -233,7 +216,7 @@ public partial class GameManager : Component
                 propSpawns.RemoveAt(0); 
                 if (propSpawns.Count == 0)
                 {
-                    propSpawns = new List<Entity>(PropSpawns);
+                    propSpawns = new List<Entity>(WorldManager.Instance.CurrentWorld.PropSpawns);
                 }
                 player.Teleport(spawn.Position);
             }
@@ -261,7 +244,9 @@ public partial class GameManager : Component
                         MessageAllPlayers("STARTING ROUND IN 30 SECONDS");
                         State = GameState.CountingDown;
                         Countdown.Set(30f);
-                        BarrierEnabled.Set(false);
+
+                        var rand = new Random();
+                        WorldManager.Instance.CurrentWorldIndex.Set(rand.Next(0, WorldManager.Instance.Worlds.Count));
                     }
                     break;
                 }

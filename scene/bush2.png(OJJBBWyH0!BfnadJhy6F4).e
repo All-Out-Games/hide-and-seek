@@ -1,29 +1,29 @@
 13
-1082331758593
-764357175779091 1705881109970232300
+1352914698241
+3980851664331252 1722461734797287800
 {
-  "name": "light.png",
+  "name": "bush2.png",
   "local_enabled": true,
   "local_position": {
-    "X": 0.5156250000000000,
-    "Y": 1.6572389602661133
+    "X": 0.8902359008789062,
+    "Y": 1.3987360000610352
   },
   "local_rotation": 0,
   "local_scale": {
-    "X": 1,
-    "Y": 1
+    "X": 1.2000000476837158,
+    "Y": 1.2000000476837158
   },
-  "next_sibling": "764394284105399:1705881120560520200",
+  "previous_sibling": "764763157432551:1705881225832702800",
   "parent": "764215028464876:1705881069403032600"
 },
 {
   "cid": 1,
-  "aoid": "764357175999515:1705881109970294700",
+  "aoid": "3980851664509431:1722461734797371400",
   "component_type": "Internal_Component",
   "internal_component_type": "Sprite_Renderer",
   "data": {
-    "texture": "zoo/outside_assets/light.png",
-    "depth_offset": -0.3300000131130219,
+    "texture": "zoo/vegetation/bush2.png",
+    "depth_offset": 0,
     "tint": {
       "X": 1,
       "Y": 1,

@@ -5,8 +5,8 @@
   "name": "lightgreen.png",
   "local_enabled": true,
   "local_position": {
-    "X": 0.5034208297729492,
-    "Y": 1.6238460540771484
+    "X": -0.7763395309448242,
+    "Y": 1.7730207443237305
   },
   "local_rotation": 0,
   "local_scale": {

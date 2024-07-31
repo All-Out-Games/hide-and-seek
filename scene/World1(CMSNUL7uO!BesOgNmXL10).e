@@ -35,4 +35,15 @@
     "wrap": false,
     "mask_in_shadow": false
   }
+},
+{
+  "cid": 2,
+  "aoid": "3984645793855153:1722463531258938500",
+  "component_type": "Mono_Component",
+  "mono_component_type": "World",
+  "data": {
+    "HunterSpawnsParent": "756566104793231:1705878886488643400",
+    "PropSpawnsParent": "756572650990672:1705878888356852800",
+    "HunterBarrier": "3975397103963827:1722459152147312100"
+  }
 }

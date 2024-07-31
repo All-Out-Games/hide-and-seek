@@ -5,8 +5,8 @@
   "name": "trash_can.png",
   "local_enabled": true,
   "local_position": {
-    "X": 0.9666461944580078,
-    "Y": 1.2692251205444336
+    "X": -0.3445186614990234,
+    "Y": 1.3712921142578125
   },
   "local_rotation": 0,
   "local_scale": {
