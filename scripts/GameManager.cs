@@ -10,7 +10,7 @@ public partial class GameManager : Component
     public const int RoleNameLayer = 200;
     public const int PlayersNeededToStartGame = 2;
     public const float HideTime = 10f;
-    public const float SeekTime = 60 * 5;
+    public const float SeekTime = 1 * 5;
 
     public float CurrentTimer;
     public SyncVar<int> Countdown = new();
@@ -617,10 +617,6 @@ public partial class GameManager : Component
                     var timeRect = bottomBarRect.Offset(0, -50);
                     var timeTextRect = UI.Text(timeRect, str, GetTextSettingsColor(60, new Vector4(1, 1, 0, 1), 0f, null, UI.HorizontalAlignment.Center));
                     UI.Text(timeTextRect.TopRect().Offset(0, 35), "Time Left", GetTextSettings(40, 0f, null, UI.HorizontalAlignment.Center));
-                    if (localPlayer.PlayerRole == PlayerRole.Spectator)
-                    {
-                        UI.Text(topBarRect.Grow(0, 0, 100, 0), "(Fly around till the next round starts!)", GetTextSettings(36, 0f, null));
-                    }
 
                     if (Game.IsPhone)
                     {
@@ -634,17 +630,20 @@ public partial class GameManager : Component
                     if (localPlayer.Alive())
                     {
                         vignetteIsShowing = true;
-                        if (localPlayer.PlayerRole == Winner)
+                        if (localPlayer.WasPresentAtRoundStart)
                         {
-                            IM.SetNextSerial(vignetteSerial);
-                            UI.Image(UI.ScreenRect, null, new Vector4(0, 1, 0, 1) * 0.6f * VignetteFader);
-                            UI.Text(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU WIN", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
-                        }
-                        else
-                        {
-                            IM.SetNextSerial(vignetteSerial);
-                            UI.Image(UI.ScreenRect, null, new Vector4(1, 0, 0, 1) * 0.6f * VignetteFader);
-                            UI.Text(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU LOSE", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
+                            if (localPlayer.PlayerRole == Winner)
+                            {
+                                IM.SetNextSerial(vignetteSerial);
+                                UI.Image(UI.ScreenRect, null, new Vector4(0, 1, 0, 1) * 0.6f * VignetteFader);
+                                UI.Text(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU WIN", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
+                            }
+                            else
+                            {
+                                IM.SetNextSerial(vignetteSerial);
+                                UI.Image(UI.ScreenRect, null, new Vector4(1, 0, 0, 1) * 0.6f * VignetteFader);
+                                UI.Text(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU LOSE", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
+                            }
                         }
                     }
                     var str = "Seekers";

@@ -19,6 +19,8 @@ public partial class HNSPlayer : Player
 
     public SyncVar<int> WinsSync = new();
 
+    public bool WasPresentAtRoundStart;
+
     public int Wins
     {
         get 
@@ -172,6 +174,8 @@ public partial class HNSPlayer : Player
             Network.Spawn(playerCorpse.Entity);
             PlayerCorpse.Set(playerCorpse.Entity);
         }
+
+        WasPresentAtRoundStart = true;
 
         if (PlayerRole == PlayerRole.Seeker || PlayerRole == PlayerRole.Prop)
         {
