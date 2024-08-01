@@ -10,7 +10,7 @@ public partial class GameManager : Component
     public const int RoleNameLayer = 200;
     public const int PlayersNeededToStartGame = 2;
     public const float HideTime = 10f;
-    public const float SeekTime = 1 * 5;
+    public const float SeekTime = 60 * 3;
 
     public float CurrentTimer;
     public SyncVar<int> Countdown = new();
