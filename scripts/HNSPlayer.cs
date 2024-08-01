@@ -109,6 +109,7 @@ public partial class HNSPlayer : Player
                 DrawDefaultAbilityUI(new AbilityDrawOptions(){
                     Abilities = new Ability[] {
                         GetAbility<SwapAbility>(),
+                        GetAbility<DecoyAbility>(),
                     }
                 });
             }
@@ -465,7 +466,11 @@ public abstract class MyAbility : Ability
 
     public override bool CanUse()
     {
-        if (GameManager.Instance.State != GameState.Round)
+        if (Player.PlayerRole == PlayerRole.Hunter && GameManager.Instance.State != GameState.Round)
+        {
+            return false;
+        }
+        if (Player.PlayerRole == PlayerRole.Prop && GameManager.Instance.State != GameState.Round && GameManager.Instance.State != GameState.Hiding)
         {
             return false;
         }

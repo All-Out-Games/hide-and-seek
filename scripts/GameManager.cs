@@ -275,6 +275,12 @@ public partial class GameManager : Component
             corpse.Entity.Destroy();
         }
 
+        foreach (var prop in Scene.Components<DecoyProp>(true))
+        {
+            Network.Despawn(prop.Entity);
+            prop.Entity.Destroy();
+        }
+
         for (var i = 0; i < players.Count; i++)
         {
             var player = players[i];

@@ -1,19 +1,9 @@
 using AO;
 
-public class SwapAbility : Ability
+public class SwapAbility : MyAbility
 {
     public override TargettingMode TargettingMode => TargettingMode.Self;
-
-    public override bool CanTarget(Player player)
-    {
-        return true;
-    }
-
-    public override bool CanUse()
-    {
-        return (Player as HNSPlayer).PlayerRole == PlayerRole.Prop;
-    }
-
+    
     public override bool OnTryActivate(List<Player> targetPlayers, Vector2 positionOrDirection, float magnitude)
     {
         if (Network.IsServer)
