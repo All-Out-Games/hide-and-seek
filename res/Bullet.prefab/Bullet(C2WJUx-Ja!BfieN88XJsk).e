@@ -1,4 +1,4 @@
-11
+13
 532575944705
 801966305833562 1721070907794692900
 {
@@ -48,14 +48,18 @@
     "start_position": {
       "X": 0,
       "Y": 0
-    }
+    },
+    "projectile_id": "",
+    "instance_id": "",
+    "spawn_id": 0,
+    "owner_network_id": 0
   }
 },
 {
   "cid": 3,
   "aoid": "803912263651156:1721071463148590500",
   "component_type": "Mono_Component",
-  "mono_component_type": "MurderProjectile",
+  "mono_component_type": "GunProjectile",
   "data": {
 
   }

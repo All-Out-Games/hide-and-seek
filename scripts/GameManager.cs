@@ -242,15 +242,12 @@ public partial class GameManager : Component
     }
 
     [ClientRpc]
-    public void DoRoundStartAnimation()
+    public void StartRoundForPlayers()
     {
         foreach (var p in Player.AllPlayers)
         {
             var player = (HNSPlayer)p;
-            if (player.PlayerRole == PlayerRole.Hunter || player.PlayerRole == PlayerRole.Prop)
-            {
-                player.AddEffect<RoundStartAnimationEffect>();
-            }
+            player.PreparePlayerForRound();
         }
     }
 
@@ -271,6 +268,12 @@ public partial class GameManager : Component
         var propSpawns = new List<Entity>(WorldManager.Instance.CurrentWorld.PropSpawns);
 
         CallClient_ClearAllPlayerEffects();
+
+        foreach (var corpse in Scene.Components<PlayerCorpse>(true))
+        {
+            Network.Despawn(corpse.Entity);
+            corpse.Entity.Destroy();
+        }
 
         for (var i = 0; i < players.Count; i++)
         {
@@ -298,7 +301,7 @@ public partial class GameManager : Component
                 player.Teleport(spawn.Position);
             }
         }
-        CallClient_DoRoundStartAnimation();
+        CallClient_StartRoundForPlayers();
     }
 
     public void MessageAllPlayers(string message)
