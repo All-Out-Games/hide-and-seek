@@ -92,6 +92,7 @@ public partial class GunProjectile : Component
 
         var projectile = Entity.GetComponent<Projectile>();
         if (player == projectile.Owner) return;
+        if (player.PlayerRole == PlayerRole.Seeker) return;
 
         // HIT CONFIRMED
         AlreadyHitSomething = true;
