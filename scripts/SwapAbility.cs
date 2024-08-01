@@ -3,7 +3,7 @@ using AO;
 public class SwapAbility : MyAbility
 {
     public override TargettingMode TargettingMode => TargettingMode.Self;
-    public override Texture Icon => Assets.GetAsset<Texture>("ui/swap_button.png");
+    public override Texture Icon => Assets.GetAsset<Texture>("Ability_Icons/hidenseek/randomize_1.png");
     
     public override bool OnTryActivate(List<Player> targetPlayers, Vector2 positionOrDirection, float magnitude)
     {

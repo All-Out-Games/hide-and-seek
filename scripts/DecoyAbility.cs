@@ -4,7 +4,7 @@ public class DecoyAbility : MyAbility
 {
     public override TargettingMode TargettingMode => TargettingMode.Self;
     public override float Cooldown => 10f;
-    public override Texture Icon => Assets.GetAsset<Texture>("ui/decoy_icon.png");
+    public override Texture Icon => Assets.GetAsset<Texture>("Ability_Icons/hidenseek/decoy_3.png");
 
     public override bool OnTryActivate(List<Player> targetPlayers, Vector2 positionOrDirection, float magnitude)
     {
