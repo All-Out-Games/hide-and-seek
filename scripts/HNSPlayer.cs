@@ -40,23 +40,89 @@ public partial class HNSPlayer : Player
         PropSpriteRenderer = PropEntity.AddComponent<Sprite_Renderer>();
         PropEntity.LocalEnabled = false;
         
-        var propEyesEntity = Entity.Create();
-        propEyesEntity.SetParent(Entity, false);
-        PropEyes = propEyesEntity.AddComponent<Spine_Animator>();
-        PropEyes.SpineInstance.SetSkeleton(Assets.GetAsset<SpineSkeletonAsset>("animations/eyes/Eyes_mIK.spine"));
-        var sm = StateMachine.Make();
-        var appearTrigger = sm.CreateVariable("appear", StateMachineVariableKind.TRIGGER);
-        var layer = sm.CreateLayer("main");
-        var appearState = layer.CreateState("appear", 0, false);
-        var disappearState = layer.CreateState("disappear", 0, false);
-        var idleState = layer.CreateState("idle_mIK", 0, true);
-        layer.SetInitialState(idleState);
-        layer.CreateGlobalTransition(appearState).CreateTriggerCondition(appearTrigger);
-        layer.CreateTransition(appearState, idleState, true);
-        PropEyes.SpineInstance.SetStateMachine(sm, Entity);
-        propEyesEntity.LocalScale = new Vector2(1.0f, 1.0f);
-        PropEyes.SetCrewchsia(ColorIndex);
-        propEyesEntity.LocalEnabled = false;
+        {
+            var propEyesEntity = Entity.Create();
+            propEyesEntity.SetParent(Entity, false);
+            PropEyes = propEyesEntity.AddComponent<Spine_Animator>();
+            PropEyes.SpineInstance.SetSkeleton(Assets.GetAsset<SpineSkeletonAsset>("animations/eyes/Eyes_mIK.spine"));
+            var sm = StateMachine.Make();
+            var appearTrigger = sm.CreateVariable("appear", StateMachineVariableKind.TRIGGER);
+            var layer = sm.CreateLayer("main");
+            var appearState = layer.CreateState("appear", 0, false);
+            var disappearState = layer.CreateState("disappear", 0, false);
+            var idleState = layer.CreateState("idle_mIK", 0, true);
+            layer.SetInitialState(idleState);
+            layer.CreateGlobalTransition(appearState).CreateTriggerCondition(appearTrigger);
+            layer.CreateTransition(appearState, idleState, true);
+            PropEyes.SpineInstance.SetStateMachine(sm, Entity);
+            propEyesEntity.LocalScale = new Vector2(1.0f, 1.0f);
+            PropEyes.SetCrewchsia(ColorIndex);
+            propEyesEntity.LocalEnabled = false;
+        }
+
+        {
+            var murderLayer = SpineAnimator.SpineInstance.StateMachine.CreateLayer("murder_layer", 10);
+            var aoLayer = SpineAnimator.SpineInstance.StateMachine.TryGetLayerByName("main");
+            var aoIdleState = aoLayer.TryGetStateByName("Idle");
+            var aoRunState = aoLayer.TryGetStateByName("Run_Fast");
+            var idleState = murderLayer.CreateState("MURD_002/empty", 0, true);
+            murderLayer.SetInitialState(idleState);
+
+            var pointBool = SpineAnimator.SpineInstance.StateMachine.CreateVariable("point", StateMachineVariableKind.BOOLEAN);
+            var pointExaggerateTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("point_exaggerate", StateMachineVariableKind.TRIGGER);
+            var pointState = murderLayer.CreateState("MURD_002/point_mIK_AL", 0, true);
+            var pointExaggerateState = murderLayer.CreateState("MURD_002/point_ex_mIK_AL", 0, false);
+            murderLayer.CreateTransition(idleState, pointState, false).CreateBoolCondition(pointBool, true);
+            murderLayer.CreateTransition(pointState, pointExaggerateState, false).CreateTriggerCondition(pointExaggerateTrigger);
+            murderLayer.CreateTransition(pointExaggerateState, pointExaggerateState, false).CreateTriggerCondition(pointExaggerateTrigger);
+            murderLayer.CreateTransition(pointExaggerateState, pointState, true);
+            murderLayer.CreateTransition(pointState, idleState, false).CreateBoolCondition(pointBool, false);
+
+            var attackTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("murder_attack", StateMachineVariableKind.TRIGGER);
+            var attackState = murderLayer.CreateState("MURD_002/kill_swipe_mIK_AL", 0, false);
+            murderLayer.CreateGlobalTransition(attackState).CreateTriggerCondition(attackTrigger);
+            murderLayer.CreateTransition(attackState, idleState, true);
+
+            var openFolderTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("open_folder", StateMachineVariableKind.TRIGGER);
+            var closeFolderTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("close_folder", StateMachineVariableKind.TRIGGER);
+            var takeOutFolderState = aoLayer.CreateState("MURD_002/evidence_take_out", 0, false);
+            var folderLoopState = aoLayer.CreateState("MURD_002/evidence_loop", 0, true);
+            var putAwayFolderState = aoLayer.CreateState("MURD_002/evidence_put_away", 0, false);
+            aoLayer.CreateGlobalTransition(takeOutFolderState).CreateTriggerCondition(openFolderTrigger);
+            aoLayer.CreateTransition(takeOutFolderState, folderLoopState, true);
+            aoLayer.CreateTransition(folderLoopState, putAwayFolderState, false).CreateTriggerCondition(closeFolderTrigger);
+            aoLayer.CreateTransition(putAwayFolderState, aoIdleState, true);
+
+            var openCamerasTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("open_cameras", StateMachineVariableKind.TRIGGER);
+            var closeCamerasTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("close_cameras", StateMachineVariableKind.TRIGGER);
+            var takeOutCamerasState = aoLayer.CreateState("MURD_002/camera_tablet_take_out", 0, false);
+            var camerasLoopState = aoLayer.CreateState("MURD_002/camera_tablet_loop", 0, true);
+            var putAwayCamerasState = aoLayer.CreateState("MURD_002/camera_tablet_put_away", 0, false);
+            aoLayer.CreateGlobalTransition(takeOutCamerasState).CreateTriggerCondition(openCamerasTrigger);
+            aoLayer.CreateTransition(takeOutCamerasState, camerasLoopState, true);
+            aoLayer.CreateTransition(camerasLoopState, putAwayCamerasState, false).CreateTriggerCondition(closeCamerasTrigger);
+            aoLayer.CreateTransition(putAwayCamerasState, aoIdleState, true);
+
+            var transformTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("transform_start", StateMachineVariableKind.TRIGGER);
+            var transformBackTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("transform_back_end", StateMachineVariableKind.TRIGGER);
+            var toKillerState = aoLayer.CreateState("MURD_002/transform_to_imposter_start", 0, false);
+            var fromKillerState = aoLayer.CreateState("MURD_002/transform_to_normal_end", 0, false);
+            aoLayer.CreateGlobalTransition(toKillerState).CreateTriggerCondition(transformTrigger);
+            aoLayer.CreateTransition(toKillerState, aoIdleState, true);
+            aoLayer.CreateGlobalTransition(fromKillerState).CreateTriggerCondition(transformBackTrigger);
+            aoLayer.CreateTransition(fromKillerState, aoIdleState, true);
+
+            var dragBodyBool = SpineAnimator.SpineInstance.StateMachine.CreateVariable("dragging_body", StateMachineVariableKind.BOOLEAN);
+            var aoMovingBool = SpineAnimator.SpineInstance.StateMachine.TryGetVariableByName("moving");
+            var dragIdle = aoLayer.CreateState("MURD_002/drag_body_idle_right", 0, true);
+            var dragMove = aoLayer.CreateState("MURD_002/drag_body_walk_right", 0, true);
+            aoLayer.CreateTransition(aoIdleState, dragIdle, false).CreateBoolCondition(dragBodyBool, true);
+            aoLayer.CreateTransition(dragIdle, aoIdleState, false).CreateBoolCondition(dragBodyBool, false);
+            aoLayer.CreateTransition(aoRunState, dragMove, false).CreateBoolCondition(dragBodyBool, true);
+            aoLayer.CreateTransition(dragMove, aoRunState, false).CreateBoolCondition(dragBodyBool, false);
+            aoLayer.CreateTransition(dragIdle, dragMove, false).CreateBoolCondition(aoMovingBool, true);
+            aoLayer.CreateTransition(dragMove, dragIdle, false).CreateBoolCondition(aoMovingBool, false);
+        }
     }
 
     public override void Start()
@@ -90,6 +156,8 @@ public partial class HNSPlayer : Player
         }
     }
 
+    public override bool DisableDirectionalFlipping => HasEffect<KnifeSwingEffect>();
+
     public override void Update()
     {
         if (IsLocal)
@@ -100,6 +168,7 @@ public partial class HNSPlayer : Player
                     AbilityElementSize = 75,
                     Abilities = new Ability[]{
                         GetAbility<GunAbility>(),
+                        GetAbility<KnifeAbility>(),
                     }
                 });
             }
@@ -178,10 +247,13 @@ public class PropEffect : MyEffect
         Player.AddInvisibilityReason(nameof(PropEffect));
         Player.AddNameInvisibilityReason(nameof(PropEffect));
         
-        var localPlayerRole = (Network.LocalPlayer as HNSPlayer).PlayerRole;
-        if (localPlayerRole != PlayerRole.Hunter)
+        if (Network.IsClient)
         {
-            Player.PropEyes.Entity.LocalEnabled = true;
+            var localPlayerRole = (Network.LocalPlayer as HNSPlayer).PlayerRole;
+            if (localPlayerRole != PlayerRole.Hunter)
+            {
+                Player.PropEyes.Entity.LocalEnabled = true;
+            }
         }
         
         RefreshProp();
