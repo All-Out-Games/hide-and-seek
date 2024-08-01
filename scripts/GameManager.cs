@@ -19,7 +19,7 @@ public partial class GameManager : Component
     public SyncVar<int> EndRoundTime = new();
     public SyncVar<bool> BarrierEnabled = new();
 
-    public SyncVar<bool> VoiceChatEnabled = new(true);
+    public SyncVar<bool> VoiceChatEnabled = new(false);
 
     private SyncVar<int> _currentState = new();
     public GameState State
