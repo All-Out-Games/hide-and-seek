@@ -3,7 +3,7 @@ using AO;
 public partial class KnifeAbility : MyAbility
 {
     public override TargettingMode TargettingMode => TargettingMode.Line;
-    public override Texture Icon => Assets.GetAsset<Texture>("Ability_Icons/revolver_icon.png");
+    public override Texture Icon => Assets.GetAsset<Texture>("Ability_Icons/kill_cleaver_icon.png");
     public override Type Effect => typeof(KnifeSwingEffect);
     public override Type TargettingEffect => typeof(AimingKnife);
     public override float MaxDistance => 10f;
