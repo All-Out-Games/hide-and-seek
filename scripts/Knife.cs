@@ -7,7 +7,7 @@ public partial class KnifeAbility : MyAbility
     public override Type Effect => typeof(KnifeSwingEffect);
     public override Type TargettingEffect => typeof(AimingKnife);
     public override float MaxDistance => 10f;
-    public override float Cooldown => 1;
+    public override float Cooldown => 4;
 
     public override bool CanUse()
     {
