@@ -17,6 +17,27 @@ public partial class HNSPlayer : Player
     public Sprite_Renderer PropSpriteRenderer;
     public Spine_Animator PropEyes;
 
+    public SyncVar<int> WinsSync = new();
+
+    public int Wins
+    {
+        get 
+        { 
+            if (Network.IsClient) return 0;
+            return Save.GetInt(this, "wins", 0); 
+        }
+
+        set 
+        { 
+            if (Network.IsServer)
+            {
+                Save.SetInt(this, "wins", value); 
+                Save.OrderedSet("wins", $"{this.UserId}", value);
+                WinsSync.Set(value);
+            }
+        }
+    }
+
     public override void Awake()
     {
         SpineAnimator.Entity.LocalScale = new Vector2(0.528f, 0.528f);
@@ -133,6 +154,8 @@ public partial class HNSPlayer : Player
             {
                 PlayerRole = PlayerRole.Prop;
             }
+
+            WinsSync.Set(Wins);
         }
     }
 

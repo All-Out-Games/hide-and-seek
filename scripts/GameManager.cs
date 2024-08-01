@@ -19,7 +19,7 @@ public partial class GameManager : Component
     public SyncVar<int> EndRoundTime = new();
     public SyncVar<bool> BarrierEnabled = new();
 
-    public SyncVar<bool> VoiceChatEnabled = new(false);
+    public SyncVar<bool> VoiceChatEnabled = new(true);
 
     private SyncVar<int> _currentState = new();
     public GameState State
@@ -71,15 +71,37 @@ public partial class GameManager : Component
         {
             State = GameState.WaitingForPlayers;   
         }
-        else
-        {
-            Chat.SetChatMode(Chat.Mode.BubbleOnly);
-        }
 
         BarrierEnabled.OnSync += (_, v) =>
         {
             WorldManager.Instance.CurrentWorld.HunterBarrier.LocalEnabled = v;
         };
+
+        Leaderboard.RegisterSortCallback((Player[] players) =>
+        {
+            Array.Sort(players, (a, b) =>
+            {
+                return ((HNSPlayer)b).WinsSync.Value.CompareTo(((HNSPlayer)a).WinsSync);
+            });
+        });
+
+        Leaderboard.Register("Wins", (Player[] players, string[] scores) =>
+        {
+            for (int i = 0; i < players.Length; i++)
+            {
+                var player = (HNSPlayer)players[i];
+                scores[i] = $"{player.WinsSync:N0}";
+            }
+        });
+
+        Leaderboard.Register("Role", (Player[] players, string[] scores) =>
+        {
+            for (int i = 0; i < players.Length; i++)
+            {
+                var player = (HNSPlayer)players[i];
+                scores[i] = Roles[player.PlayerRole].roleName;
+            }
+        });
     }
 
     public override void OnDestroy()
@@ -399,6 +421,14 @@ public partial class GameManager : Component
                         State = GameState.EndRound;
                         CurrentTimer = 10;
                         EndRoundTime.Set((int)CurrentTimer);
+
+                        foreach (var player in Player.AllPlayers.Cast<HNSPlayer>())
+                        {
+                            if (player.PlayerRole == PlayerRole.Prop)
+                            {
+                                player.Wins += 1;
+                            }
+                        }
                     }
                     else
                     {
@@ -420,6 +450,14 @@ public partial class GameManager : Component
                             State = GameState.EndRound;
                             CurrentTimer = 10;
                             EndRoundTime.Set((int)CurrentTimer);
+
+                            foreach (var player in Player.AllPlayers.Cast<HNSPlayer>())
+                            {
+                                if (player.PlayerRole == PlayerRole.Hunter)
+                                {
+                                    player.Wins += 1;
+                                }
+                            }
                         }
                     }
                     break;
