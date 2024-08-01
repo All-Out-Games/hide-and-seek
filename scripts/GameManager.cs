@@ -21,7 +21,7 @@ public partial class GameManager : Component
 
     public float VignetteFader;
 
-    public SyncVar<bool> VoiceChatEnabled = new(true);
+    public SyncVar<bool> VoiceChatEnabled = new(false);
 
     private SyncVar<int> _currentState = new();
     public GameState State
