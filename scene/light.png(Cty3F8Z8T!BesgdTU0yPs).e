@@ -5,8 +5,8 @@
   "name": "light.png",
   "local_enabled": true,
   "local_position": {
-    "X": 0.5156250000000000,
-    "Y": 1.6572389602661133
+    "X": -3.1404714584350586,
+    "Y": -0.4544557332992554
   },
   "local_rotation": 0,
   "local_scale": {
@@ -31,7 +31,7 @@
       "W": 1
     },
     "layer": 0,
-    "wait_for_load": false,
+    "wait_for_load": true,
     "wrap": false,
     "mask_in_shadow": false
   }

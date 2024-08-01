@@ -36,9 +36,11 @@ public class World : Component
     [Serialized] public Entity HunterSpawnsParent;
     [Serialized] public Entity PropSpawnsParent;
     [Serialized] public Entity HunterBarrier;
+    [Serialized] public Entity PropsParent;
 
     public List<Entity> HunterSpawns = new();
     public List<Entity> PropSpawns = new();
+    public List<Sprite_Renderer> Props = new();
 
     public override void Awake()
     {
@@ -52,5 +54,15 @@ public class World : Component
         {
             PropSpawns.Add(c);
         }
+
+        foreach (var c in PropsParent.Children)
+        {
+            Props.Add(c.GetComponent<Sprite_Renderer>());
+        }
+    }
+
+    public Sprite_Renderer GetPristineProp(int index)
+    {
+        return Props[index % Props.Count];
     }
 }

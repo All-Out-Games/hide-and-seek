@@ -1,6 +1,6 @@
 using AO;
 
-public class HNSPlayer : Player
+public partial class HNSPlayer : Player
 {
     private SyncVar<int> _playerRole = new((int)PlayerRole.Spectator);
     public PlayerRole PlayerRole
@@ -11,14 +11,60 @@ public class HNSPlayer : Player
 
     public SyncVar<int> CurrentPropIndex = new(0);
 
+    public Entity PropEntity;
+    public Sprite_Renderer PropSpriteRenderer;
+    public Spine_Animator PropEyes;
+
     public override void Awake()
     {
         SpineAnimator.Entity.LocalScale = new Vector2(0.528f, 0.528f);
-        CurrentPropIndex.OnSync += OnPropChange;
+
+        PropEntity = Entity.Create();
+        PropEntity.SetParent(Entity, false);
+        PropSpriteRenderer = PropEntity.AddComponent<Sprite_Renderer>();
+        PropEntity.LocalEnabled = false;
+        
+        var propEyesEntity = Entity.Create();
+        propEyesEntity.SetParent(Entity, false);
+        PropEyes = propEyesEntity.AddComponent<Spine_Animator>();
+        PropEyes.SpineInstance.SetSkeleton(Assets.GetAsset<SpineSkeletonAsset>("animations/eyes/Eyes_mIK.spine"));
+        var sm = StateMachine.Make();
+        var appearTrigger = sm.CreateVariable("appear", StateMachineVariableKind.TRIGGER);
+        var layer = sm.CreateLayer("main");
+        var appearState = layer.CreateState("appear", 0, false);
+        var disappearState = layer.CreateState("disappear", 0, false);
+        var idleState = layer.CreateState("idle_mIK", 0, true);
+        layer.SetInitialState(idleState);
+        layer.CreateGlobalTransition(appearState).CreateTriggerCondition(appearTrigger);
+        layer.CreateTransition(appearState, idleState, true);
+        PropEyes.SpineInstance.SetStateMachine(sm, Entity);
+        propEyesEntity.LocalScale = new Vector2(1.0f, 1.0f);
+        PropEyes.SetCrewchsia(ColorIndex);
+        propEyesEntity.LocalEnabled = false;
     }
 
-    public void OnPropChange(int old, int newValue)
+    public override void Update()
     {
+        if (IsLocal)
+        {
+            if (PlayerRole == PlayerRole.Prop && (GameManager.Instance.State == GameState.Round || GameManager.Instance.State == GameState.Hiding))
+            {
+                DrawDefaultAbilityUI(new AbilityDrawOptions(){
+                    Abilities = new Ability[] {
+                        GetAbility<SwapAbility>(),
+                    }
+                });
+            }
+        }
+    }
+
+    [ClientRpc]
+    public void RoundStart()
+    {
+        if (PlayerRole == PlayerRole.Prop)
+        {
+            AddEffect<PropEffect>();
+        }
     }
 }
 
@@ -26,6 +72,97 @@ public abstract class MyEffect : AEffect
 {
     public new HNSPlayer Player => (HNSPlayer)base.Player;
 }
+
+public class PropEffect : MyEffect
+{
+    public override bool IsActiveEffect => false;
+    public override bool GetInterruptedByNewActiveEffects => true;
+    public override bool IsValidTarget => true;
+
+    public Vector2 EyeTarget;
+
+    public override void OnEffectStart(bool isDropIn)
+    {
+        Player.CurrentPropIndex.OnSync += OnPropChange;
+        Player.PropEntity.LocalEnabled = true;
+        Player.AddInvisibilityReason(nameof(PropEffect));
+        Player.AddNameInvisibilityReason(nameof(PropEffect));
+        
+        var localPlayerRole = (Network.LocalPlayer as HNSPlayer).PlayerRole;
+        if (localPlayerRole != PlayerRole.Hunter)
+        {
+            Player.PropEyes.Entity.LocalEnabled = true;
+        }
+        
+        RefreshProp();
+    }
+
+    public override void OnEffectEnd(bool interrupt)
+    {
+        Player.CurrentPropIndex.OnSync -= OnPropChange;
+        Player.PropEntity.LocalEnabled = false;
+        Player.PropEyes.Entity.LocalEnabled = false;
+        Player.RemoveInvisibilityReason(nameof(PropEffect));
+        Player.RemoveNameInvisibilityReason(nameof(PropEffect));
+    }
+
+    public void RefreshProp()
+    {
+        var prop = WorldManager.Instance.CurrentWorld.GetPristineProp(Player.CurrentPropIndex);
+        Player.PropSpriteRenderer.Sprite = prop.Sprite;
+        // Player.PropSpriteRenderer.DepthOffset = prop.DepthOffset;
+        Player.PropEntity.LocalScale = prop.Entity.Scale;
+        
+        var propRoot = prop.Entity.TryGetChildByName("root");
+        if (propRoot != null) 
+        {
+            Player.PropEntity.LocalPosition = propRoot.LocalPosition * -1 * prop.Entity.Scale;
+            Player.PropSpriteRenderer.DepthOffset = (Player.Position.Y - Player.PropEntity.Position.Y) / prop.Entity.Scale.Y;
+
+            var propEyes = propRoot.TryGetChildByName("eyes");
+            if (propEyes != null)
+            {
+                Player.PropEyes.Entity.LocalPosition = propEyes.LocalPosition * prop.Entity.Scale;
+                Player.PropEyes.DepthOffset = Player.Position.Y - Player.PropEyes.Position.Y - 0.001f;
+            }
+        }
+
+        Player.PropEyes.SpineInstance.StateMachine.SetTrigger("appear");
+    }
+
+    public void OnPropChange(int old, int newValue)
+    {
+        RefreshProp();
+    }
+
+    public override void OnEffectUpdate()
+    {
+        Player nearestHunter = null;
+        foreach (var p in AO.Player.AllPlayers.Cast<HNSPlayer>())
+        {
+            if (p.PlayerRole == PlayerRole.Hunter)
+            {
+                if (nearestHunter == null || Vector2.Distance(Player.Position, p.Position) < Vector2.Distance(Player.Position, nearestHunter.Position))
+                {
+                    nearestHunter = p;
+                }
+            }
+        }
+
+        var target = Player.GetMousePosition();
+        if (nearestHunter != null && Vector2.Distance(Player.Position, nearestHunter.Position) < 5)
+        {
+            target = nearestHunter.Position;
+        }
+
+        EyeTarget = Vector2.Lerp(EyeTarget, target, Time.DeltaTime * 20);
+
+        var bonePos = EyeTarget - Player.PropEyes.Position;
+        bonePos.X *= Math.Sign(Player.Entity.LocalScale.X);
+        Player.PropEyes.SpineInstance.SetBonePosition("AIM", bonePos);
+    }
+}
+
 
 public class WaitForAnimEffect : MyEffect
 {

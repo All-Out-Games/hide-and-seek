@@ -5,8 +5,8 @@
   "name": "lightgreen.png",
   "local_enabled": true,
   "local_position": {
-    "X": -0.7763395309448242,
-    "Y": 1.7730207443237305
+    "X": -0.8031044602394104,
+    "Y": 0.1403976678848267
   },
   "local_rotation": 0,
   "local_scale": {
@@ -14,7 +14,7 @@
     "Y": 1
   },
   "previous_sibling": "764447365481649:1705881135709331200",
-  "next_sibling": "764763157432551:1705881225832702800",
+  "next_sibling": "3980851664331252:1722461734797287800",
   "parent": "764215028464876:1705881069403032600"
 },
 {
@@ -32,7 +32,7 @@
       "W": 1
     },
     "layer": 0,
-    "wait_for_load": false,
+    "wait_for_load": true,
     "wrap": false,
     "mask_in_shadow": false
   }

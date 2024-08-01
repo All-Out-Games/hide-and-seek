@@ -5,15 +5,16 @@
   "name": "bush2.png",
   "local_enabled": true,
   "local_position": {
-    "X": 0.8902359008789062,
-    "Y": 1.3987360000610352
+    "X": -0.8423138856887817,
+    "Y": -0.5750440359115601
   },
   "local_rotation": 0,
   "local_scale": {
     "X": 1.2000000476837158,
     "Y": 1.2000000476837158
   },
-  "previous_sibling": "764763157432551:1705881225832702800",
+  "previous_sibling": "764608627108249:1705881181731535300",
+  "next_sibling": "3993884783448784:1722467905777624800",
   "parent": "764215028464876:1705881069403032600"
 },
 {
@@ -31,7 +32,7 @@
       "W": 1
     },
     "layer": 0,
-    "wait_for_load": false,
+    "wait_for_load": true,
     "wrap": false,
     "mask_in_shadow": false
   }

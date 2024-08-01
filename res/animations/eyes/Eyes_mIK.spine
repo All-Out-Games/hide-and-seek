@@ -1,0 +1,540 @@
+{
+"skeleton": { "hash": "M+QW+zloKuw", "spine": "4.0.64", "x": -77.51, "y": -12.96, "width": 155.61, "height": 83 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Face", "parent": "root" },
+	{ "name": "eyeball_R", "parent": "Face", "length": 12, "x": 37.11, "y": 28.04 },
+	{ "name": "eyelids_R", "parent": "eyeball_R", "x": 0.34, "y": 6.37, "scaleX": -1 },
+	{ "name": "eyeball_L", "parent": "Face", "x": -35.51, "y": 28.54 },
+	{ "name": "eyelids_L", "parent": "eyeball_L", "x": -0.14, "y": 5.87 },
+	{ "name": "EyeR_AIM", "parent": "eyeball_R", "length": 21.73 },
+	{ "name": "pupil_R", "parent": "EyeR_AIM", "rotation": -180, "x": 21.73, "transform": "onlyTranslation" },
+	{ "name": "EyeL_Aim", "parent": "eyeball_L", "length": 21.73, "transform": "onlyTranslation" },
+	{ "name": "pupil_L", "parent": "EyeL_Aim", "rotation": -0.81, "x": 21.73, "transform": "onlyTranslation" },
+	{ "name": "AIM", "parent": "root", "x": 352.35 },
+	{ "name": "mouth", "parent": "Face", "y": -32.6 }
+],
+"slots": [
+	{ "name": "eyeball_L", "bone": "eyeball_L", "attachment": "images/eyeball_L" },
+	{ "name": "eyeball_R", "bone": "eyeball_R", "attachment": "images/eyeball_R" },
+	{ "name": "pupil_L", "bone": "pupil_L", "attachment": "images/pupil_L" },
+	{ "name": "pupil_R", "bone": "pupil_R", "attachment": "images/pupil_R" },
+	{ "name": "eyelids_L", "bone": "eyelids_L" },
+	{ "name": "eyelids_R", "bone": "eyelids_R" },
+	{ "name": "mouth", "bone": "mouth" }
+],
+"ik": [
+	{
+		"name": "AIM_L",
+		"bones": [ "EyeL_Aim" ],
+		"target": "AIM",
+		"mix": 0,
+		"compress": true
+	},
+	{
+		"name": "AIM_R",
+		"order": 1,
+		"bones": [ "EyeR_AIM" ],
+		"target": "AIM",
+		"mix": 0,
+		"compress": true
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"eyeball_L": {
+				"images/eyeball_L": { "width": 84, "height": 83 }
+			},
+			"eyeball_R": {
+				"images/eyeball_R": { "width": 82, "height": 82 }
+			},
+			"eyelids_L": {
+				"images/eyelids/lid_angry": { "x": 3.31, "y": 6.17, "width": 77, "height": 59 },
+				"images/eyelids/lid_blink": { "y": -5.69, "width": 84, "height": 83 },
+				"images/eyelids/lid_happy": { "x": 1.03, "y": -24.81, "width": 82, "height": 46 },
+				"images/eyelids/lid_sad": { "width": 84, "height": 97 }
+			},
+			"eyelids_R": {
+				"images/eyelids/lid_angry": { "x": 3.31, "y": 6.17, "width": 77, "height": 59 },
+				"images/eyelids/lid_blink": { "y": -5.69, "width": 84, "height": 83 },
+				"images/eyelids/lid_happy": { "x": 1.03, "y": -24.81, "width": 82, "height": 46 },
+				"images/eyelids/lid_sad": { "width": 84, "height": 97 }
+			},
+			"mouth": {
+				"images/mouth_sleep_closed": { "y": 0.5, "width": 36, "height": 31 },
+				"images/mouth_sleep_open": { "x": 0.5, "y": 0.5, "width": 103, "height": 49 },
+				"images/mouth_teethygrin": { "x": 0.5, "width": 97, "height": 44 }
+			},
+			"pupil_L": {
+				"images/pupil_L": { "x": 1.12, "width": 37, "height": 37 }
+			},
+			"pupil_R": {
+				"images/pupil_R": { "width": 36, "height": 36 }
+			}
+		}
+	}
+],
+"animations": {
+	"appear": {
+		"slots": {
+			"eyeball_L": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 0.67, 0.089, 1 ]
+					},
+					{ "time": 0.1167, "color": "ffffffff" }
+				]
+			},
+			"eyeball_R": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 0.67, 0.089, 1 ]
+					},
+					{ "time": 0.1167, "color": "ffffffff" }
+				]
+			},
+			"eyelids_L": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 0.67, 0.089, 1 ]
+					},
+					{ "time": 0.1167, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.3667, "name": "images/eyelids/lid_blink" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.5167, "name": "images/eyelids/lid_blink" },
+					{ "time": 0.5833, "name": null }
+				]
+			},
+			"eyelids_R": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 0.67, 0.089, 1 ]
+					},
+					{ "time": 0.1167, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.3667, "name": "images/eyelids/lid_blink" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.5167, "name": "images/eyelids/lid_blink" },
+					{ "time": 0.5833, "name": null }
+				]
+			},
+			"mouth": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 0.67, 0.089, 1 ]
+					},
+					{ "time": 0.1167, "color": "ffffffff" }
+				]
+			},
+			"pupil_L": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 0.67, 0.089, 1 ]
+					},
+					{ "time": 0.1167, "color": "ffffffff" }
+				]
+			},
+			"pupil_R": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 1, 0.089, 1, 0.028, 0.67, 0.089, 1 ]
+					},
+					{ "time": 0.1167, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"pupil_L": {
+				"translate": [
+					{
+						"x": -21.73,
+						"curve": [ 0.028, -34.18, 0.09, -44.42, 0.028, 7.08, 0.089, 12.95 ]
+					},
+					{
+						"time": 0.1167,
+						"x": -40.41,
+						"y": 10.62,
+						"curve": [ 0.2, -27.96, 0.283, -21.73, 0.2, 3.54, 0.283, 0 ]
+					},
+					{ "time": 0.3667, "x": -21.73, "curve": "stepped" },
+					{
+						"time": 0.6167,
+						"x": -21.73,
+						"curve": [ 0.672, -21.73, 0.728, 0, 0.672, 0, 0.728, 0 ]
+					},
+					{ "time": 0.7833 }
+				]
+			},
+			"pupil_R": {
+				"translate": [
+					{
+						"x": -21.73,
+						"curve": [ 0.028, -10.81, 0.09, -1.8, 0.028, 4.25, 0.089, 7.78 ]
+					},
+					{
+						"time": 0.1167,
+						"x": -5.35,
+						"y": 6.37,
+						"curve": [ 0.2, -16.27, 0.283, -21.73, 0.2, 2.12, 0.283, 0 ]
+					},
+					{ "time": 0.3667, "x": -21.73, "curve": "stepped" },
+					{
+						"time": 0.6167,
+						"x": -21.73,
+						"curve": [ 0.672, -21.73, 0.728, 0, 0.672, 0, 0.728, 0 ]
+					},
+					{ "time": 0.7833 }
+				]
+			},
+			"Face": {
+				"scale": [
+					{
+						"x": 0.277,
+						"y": 0.277,
+						"curve": [ 0.028, 0.87, 0.089, 1.167, 0.028, 0.87, 0.089, 1.167 ]
+					},
+					{
+						"time": 0.1167,
+						"x": 1.167,
+						"y": 1.167,
+						"curve": [ 0.15, 1.167, 0.183, 0.894, 0.15, 1.167, 0.183, 0.894 ]
+					},
+					{
+						"time": 0.2167,
+						"x": 0.894,
+						"y": 0.894,
+						"curve": [ 0.25, 0.894, 0.283, 0.965, 0.25, 0.894, 0.283, 0.965 ]
+					},
+					{ "time": 0.3167 }
+				]
+			},
+			"eyeball_L": {
+				"scale": [
+					{ "time": 0.35 },
+					{ "time": 0.4, "x": 1.111, "y": 0.937 },
+					{ "time": 0.4667, "curve": "stepped" },
+					{ "time": 0.5 },
+					{ "time": 0.55, "x": 1.111, "y": 0.937 },
+					{ "time": 0.6167 }
+				]
+			},
+			"eyeball_R": {
+				"scale": [
+					{ "time": 0.35 },
+					{ "time": 0.4, "x": 1.111, "y": 0.937 },
+					{ "time": 0.4667, "curve": "stepped" },
+					{ "time": 0.5 },
+					{ "time": 0.55, "x": 1.111, "y": 0.937 },
+					{ "time": 0.6167 }
+				]
+			}
+		},
+		"ik": {
+			"AIM_L": [
+				{
+					"time": 0.6167,
+					"mix": 0,
+					"compress": true,
+					"curve": [ 0.672, 0, 0.728, 1, 0.672, 0, 0.728, 0 ]
+				},
+				{ "time": 0.7833, "compress": true }
+			],
+			"AIM_R": [
+				{
+					"time": 0.6167,
+					"mix": 0,
+					"compress": true,
+					"curve": [ 0.672, 0, 0.728, 1, 0.672, 0, 0.728, 0 ]
+				},
+				{ "time": 0.7833, "compress": true }
+			]
+		}
+	},
+	"disappear": {
+		"slots": {
+			"eyeball_L": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"eyeball_R": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"eyelids_L": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"eyelids_R": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"mouth": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"pupil_L": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"pupil_R": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"pupil_L": {
+				"translate": [
+					{
+						"curve": [ 0.028, 0, 0.072, -17.05, 0.028, 0, 0.072, -14.05 ]
+					},
+					{
+						"time": 0.1,
+						"x": -17.05,
+						"y": -14.05,
+						"curve": [ 0.128, -17.05, 0.156, -20.7, 0.128, -14.05, 0.156, -1.28 ]
+					},
+					{ "time": 0.1833, "x": -20.7, "y": -1.28 }
+				]
+			},
+			"pupil_R": {
+				"translate": [
+					{
+						"curve": [ 0.028, 0, 0.072, -22.98, 0.028, 0, 0.072, -11.22 ]
+					},
+					{
+						"time": 0.1,
+						"x": -22.98,
+						"y": -11.22,
+						"curve": [ 0.128, -22.98, 0.156, -22.98, 0.128, -11.22, 0.156, -3.74 ]
+					},
+					{ "time": 0.1833, "x": -22.98, "y": -3.74 }
+				]
+			},
+			"Face": {
+				"scale": [
+					{
+						"curve": [ 0.028, 1.146, 0.108, 1.366, 0.028, 1.146, 0.108, 1.366 ]
+					},
+					{
+						"time": 0.1167,
+						"x": 1.218,
+						"y": 1.218,
+						"curve": [ 0.161, 0.497, 0.206, 0.136, 0.161, 0.497, 0.206, 0.136 ]
+					},
+					{ "time": 0.25, "x": 0.136, "y": 0.136 }
+				]
+			}
+		},
+		"ik": {
+			"AIM_L": [
+				{ "compress": true },
+				{ "time": 0.0833, "mix": 0, "compress": true }
+			],
+			"AIM_R": [
+				{ "compress": true },
+				{ "time": 0.0833, "mix": 0, "compress": true }
+			]
+		}
+	},
+	"idle": {
+		"slots": {
+			"eyelids_L": {
+				"attachment": [
+					{ "time": 6.5, "name": null },
+					{ "time": 6.5167, "name": "images/eyelids/lid_blink" },
+					{ "time": 6.6, "name": null }
+				]
+			},
+			"eyelids_R": {
+				"attachment": [
+					{ "time": 6.5, "name": null },
+					{ "time": 6.5167, "name": "images/eyelids/lid_blink" },
+					{ "time": 6.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"eyelids_L": {
+				"scale": [
+					{ "time": 6.5167 }
+				]
+			},
+			"eyelids_R": {
+				"scale": [
+					{ "time": 6.5167 }
+				]
+			},
+			"eyeball_L": {
+				"scale": [
+					{ "time": 6.5 },
+					{ "time": 6.55, "x": 1.111, "y": 0.937 },
+					{ "time": 6.6167 }
+				]
+			},
+			"eyeball_R": {
+				"scale": [
+					{ "time": 6.5 },
+					{ "time": 6.55, "x": 1.111, "y": 0.937 },
+					{ "time": 6.6167 }
+				]
+			},
+			"pupil_L": {
+				"translate": [
+					{ "x": -21.73, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"x": -21.73,
+						"curve": [ 1.389, -25.27, 1.444, -32.36, 1.389, -2.83, 1.444, -8.5 ]
+					},
+					{ "time": 1.5, "x": -32.36, "y": -8.5, "curve": "stepped" },
+					{
+						"time": 2.6667,
+						"x": -32.36,
+						"y": -8.5,
+						"curve": [ 2.722, -33.06, 2.778, -34.48, 2.722, -2.48, 2.778, 9.56 ]
+					},
+					{ "time": 2.8333, "x": -34.48, "y": 9.56, "curve": "stepped" },
+					{
+						"time": 4.3333,
+						"x": -34.48,
+						"y": 9.56,
+						"curve": [ 4.389, -34.48, 4.444, -8.98, 4.389, 9.56, 4.444, -3.19 ]
+					},
+					{ "time": 4.5, "x": -8.98, "y": -3.19, "curve": "stepped" },
+					{
+						"time": 5.6667,
+						"x": -8.98,
+						"y": -3.19,
+						"curve": [ 5.722, -8.98, 5.778, -21.73, 5.722, -3.19, 5.778, 0 ]
+					},
+					{ "time": 5.8333, "x": -21.73 }
+				]
+			},
+			"pupil_R": {
+				"translate": [
+					{ "x": -21.73, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"x": -21.73,
+						"curve": [ 1.389, -24.92, 1.444, -31.29, 1.389, -2.48, 1.444, -7.44 ]
+					},
+					{ "time": 1.5, "x": -31.29, "y": -7.44, "curve": "stepped" },
+					{
+						"time": 2.6667,
+						"x": -31.29,
+						"y": -7.44,
+						"curve": [ 2.722, -30.94, 2.778, -30.23, 2.722, -1.77, 2.778, 9.56 ]
+					},
+					{ "time": 2.8333, "x": -30.23, "y": 9.56, "curve": "stepped" },
+					{
+						"time": 4.3333,
+						"x": -30.23,
+						"y": 9.56,
+						"curve": [ 4.389, -30.23, 4.444, -6.86, 4.389, 9.56, 4.444, -4.25 ]
+					},
+					{ "time": 4.5, "x": -6.86, "y": -4.25, "curve": "stepped" },
+					{
+						"time": 5.6667,
+						"x": -6.86,
+						"y": -4.25,
+						"curve": [ 5.722, -6.86, 5.778, -21.73, 5.722, -4.25, 5.778, 0 ]
+					},
+					{ "time": 5.8333, "x": -21.73 }
+				]
+			}
+		}
+	},
+	"idle_mIK": {
+		"slots": {
+			"eyelids_L": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 4.1833, "name": "images/eyelids/lid_blink" },
+					{ "time": 4.25, "name": null },
+					{ "time": 4.3, "name": null },
+					{ "time": 4.3167, "name": "images/eyelids/lid_blink" },
+					{ "time": 4.4, "name": null }
+				]
+			},
+			"eyelids_R": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 4.1833, "name": "images/eyelids/lid_blink" },
+					{ "time": 4.25, "name": null },
+					{ "time": 4.3, "name": null },
+					{ "time": 4.3167, "name": "images/eyelids/lid_blink" },
+					{ "time": 4.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"eyelids_L": {
+				"scale": [
+					{ "time": 4.1833, "curve": "stepped" },
+					{ "time": 4.3167 }
+				]
+			},
+			"eyelids_R": {
+				"scale": [
+					{ "time": 4.1833, "curve": "stepped" },
+					{ "time": 4.3167 }
+				]
+			},
+			"eyeball_L": {
+				"scale": [
+					{ "time": 4.1667 },
+					{ "time": 4.2167, "x": 1.111, "y": 0.937 },
+					{ "time": 4.2833, "curve": "stepped" },
+					{ "time": 4.3 },
+					{ "time": 4.35, "x": 1.111, "y": 0.937 },
+					{ "time": 4.4167 }
+				]
+			},
+			"eyeball_R": {
+				"scale": [
+					{ "time": 4.1667 },
+					{ "time": 4.2167, "x": 1.111, "y": 0.937 },
+					{ "time": 4.2833, "curve": "stepped" },
+					{ "time": 4.3 },
+					{ "time": 4.35, "x": 1.111, "y": 0.937 },
+					{ "time": 4.4167 }
+				]
+			}
+		},
+		"ik": {
+			"AIM_L": [
+				{ "compress": true }
+			],
+			"AIM_R": [
+				{ "compress": true }
+			]
+		}
+	}
+}
+}

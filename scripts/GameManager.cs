@@ -286,6 +286,13 @@ public partial class GameManager : Component
             }
         }
         CallClient_DoRoundStartAnimation();
+
+        var rand = new Random();
+        foreach (var p in players)
+        {
+            p.CurrentPropIndex.Set(rand.Next(0, WorldManager.Instance.CurrentWorld.Props.Count));
+            p.CallClient_RoundStart();
+        }
     }
 
     public void MessageAllPlayers(string message)

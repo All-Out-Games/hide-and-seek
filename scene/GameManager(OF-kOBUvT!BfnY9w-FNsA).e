@@ -13,7 +13,7 @@
     "X": 1,
     "Y": 1
   },
-  "previous_sibling": "616977759452046:1705802145143242100",
+  "next_sibling": "616977759452046:1705802145143242100",
   "spawn_as_networked_entity": true
 },
 {

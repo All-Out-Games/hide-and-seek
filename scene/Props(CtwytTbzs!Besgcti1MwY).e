@@ -5,8 +5,8 @@
   "name": "Props",
   "local_enabled": true,
   "local_position": {
-    "X": -15.0686178207397461,
-    "Y": 0.3357691764831543
+    "X": -3.4796719551086426,
+    "Y": -8.3091011047363281
   },
   "local_rotation": 0,
   "local_scale": {

@@ -192,6 +192,9 @@ animations/door_haze/Door_Haze.spine - .ao - 66a18c0c6732dee0bb811d2d - 18653335
 animations/evidence_box/MURD002_evidence_box.png - .ao - 668d716eb45eb9e8339c1a40 - 11759303358355103248
 animations/evidence_box/MURD002_evidence_box.png - .ao.ios - 668d716eb45eb9e8339c1a3f - 237216003648282844
 animations/evidence_box/MURD002_evidence_box.spine - .ao - 66a18c0c6732dee0bb811d2f - 11556117271224018421
+animations/eyes/Eyes_mIK.png - .ao - 66aace0ccf7a5e4159a6b71f - 12781784211225555366
+animations/eyes/Eyes_mIK.png - .ao.ios - 66aace0ccf7a5e4159a6b720 - 4961706556627900728
+animations/eyes/Eyes_mIK.spine - .ao - 66aace0ccf7a5e4159a6b71e - 11054783448418792086
 animations/finger_prints/backing.png - .ao - 6684616bb45eb9e8339be7d9 - 3577597490377669885
 animations/finger_prints/backing.png - .ao.ios - 66848ff8b45eb9e8339c07a2 - 17397435485626258415
 animations/finger_prints/cloud/murder_dust_cloud.png - .ao - 6684616cb45eb9e8339be7dc - 11874630149474481324
@@ -2396,6 +2399,32 @@ zoo/overlay_ice_trees.png - .ao - 66aa854996cebaeb1f329a9f - 1538745567155055723
 zoo/overlay_ice_trees.png - .ao.ios - 66aa854996cebaeb1f329aa0 - 6890104566597999782
 zoo/overlay_rainbow_trees.png - .ao - 66aa854996cebaeb1f329aa3 - 13296664294063120473
 zoo/overlay_rainbow_trees.png - .ao.ios - 66aa854996cebaeb1f329aa5 - 18204186732633354165
+zoo/props/Cone 1.png - .ao - 66aac8f9cf7a5e4159a6b71a - 18140845384298742062
+zoo/props/Cone 1.png - .ao.ios - 66aac8f9cf7a5e4159a6b719 - 8236995897975435782
+zoo/props/Log Stack 1.png - .ao - 66aac8f9cf7a5e4159a6b718 - 7104775770481244401
+zoo/props/Log Stack 1.png - .ao.ios - 66aac8f5cf7a5e4159a6b6ea - 11870195181233025926
+zoo/props/Log.png - .ao - 66aac8f6cf7a5e4159a6b6eb - 13343491311272282944
+zoo/props/Log.png - .ao.ios - 66aac8f6cf7a5e4159a6b6ec - 14482192037362729024
+zoo/props/StopSign.png - .ao - 66aac8f6cf7a5e4159a6b6f0 - 4402458062502943982
+zoo/props/StopSign.png - .ao.ios - 66aac8f6cf7a5e4159a6b6f1 - 9468652986526364836
+zoo/props/bench_vertical.png - .ao - 66aac8f6cf7a5e4159a6b6f2 - 6983227182726999223
+zoo/props/bench_vertical.png - .ao.ios - 66aac8f6cf7a5e4159a6b6f5 - 11662296084901987472
+zoo/props/bucket.png - .ao - 66aac8f6cf7a5e4159a6b6f6 - 10048647210886700555
+zoo/props/bucket.png - .ao.ios - 66aac8f7cf7a5e4159a6b6f8 - 17280090956772989221
+zoo/props/crate_single.png - .ao - 66aac8f7cf7a5e4159a6b6fb - 12286372374058509072
+zoo/props/crate_single.png - .ao.ios - 66aac8f7cf7a5e4159a6b6fc - 6768429158870272551
+zoo/props/doggy_poop_bin.png - .ao - 66aac8f7cf7a5e4159a6b6fe - 1774342181417623066
+zoo/props/doggy_poop_bin.png - .ao.ios - 66aac8f7cf7a5e4159a6b701 - 13011591390567568752
+zoo/props/hay_pack1.png - .ao - 66aac8f7cf7a5e4159a6b702 - 1897819871126436284
+zoo/props/hay_pack1.png - .ao.ios - 66aac8f7cf7a5e4159a6b704 - 6319025006527413506
+zoo/props/recycle_bin.png - .ao - 66aac8f8cf7a5e4159a6b707 - 652895820049575635
+zoo/props/recycle_bin.png - .ao.ios - 66aac8f8cf7a5e4159a6b708 - 4634883768366900493
+zoo/props/shovel.png - .ao - 66aac8f8cf7a5e4159a6b70b - 17927542115628944542
+zoo/props/shovel.png - .ao.ios - 66aac8f8cf7a5e4159a6b70d - 9586449231647201598
+zoo/props/trash_bag.png - .ao - 66aac8f8cf7a5e4159a6b70e - 2828593629754540136
+zoo/props/trash_bag.png - .ao.ios - 66aac8f8cf7a5e4159a6b712 - 5226882905264843777
+zoo/props/water_cooler.png - .ao - 66aac8f8cf7a5e4159a6b713 - 17631351227242949218
+zoo/props/water_cooler.png - .ao.ios - 66aac8f9cf7a5e4159a6b714 - 6608440824391526400
 zoo/rainbow pen/fence1 copia.png - .ao - 66aa854996cebaeb1f329aa6 - 17555165937034024160
 zoo/rainbow pen/fence1 copia.png - .ao.ios - 66aa854996cebaeb1f329aa9 - 17650817938236173974
 zoo/rainbow pen/fence1.png - .ao - 66aa854996cebaeb1f329aaa - 3643619217915517053
