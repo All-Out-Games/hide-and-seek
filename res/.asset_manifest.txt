@@ -38,8 +38,8 @@ BABY105_LD_Locked_Door_3.png - .ao - 66846150b45eb9e8339be6f4 - 8267224853081349
 BABY105_LD_Locked_Door_3.png - .ao.ios - 66848ff4b45eb9e8339c076e - 3498706069234923524
 BloodPuddleRend.prefab - .ao - 66846150b45eb9e8339be6f8 - 3044855522418960767
 BookshelfLever.prefab - .ao - 66a18f546732dee0bb811d3e - 11725496746635214144
-Bullet.prefab - .ao - 66996fcbb45eb9e8339c2186 - 8998383833485195028
-CorpseRend.prefab - .ao - 66a29dc86732dee0bb811d98 - 4955668516175999971
+Bullet.prefab - .ao - 66aadbbbcf7a5e4159a6b776 - 13141656281577098272
+CorpseRend.prefab - .ao - 66aadc2acf7a5e4159a6b778 - 3492509630198146902
 DEAD ref text.png - .ao - 66846151b45eb9e8339be6fe - 1630117828485965052
 DEAD ref text.png - .ao.ios - 66846151b45eb9e8339be701 - 10736467287594311732
 DetectiveCamera.prefab - .ao - 66a18f546732dee0bb811d3f - 909882562442526090
@@ -52,7 +52,6 @@ Door Open.png - .ao.ios - 66848ff5b45eb9e8339c0776 - 2731997653104809360
 Door.prefab - .ao - 66846152b45eb9e8339be710 - 1874104976682174033
 Farm_House.png - .ao - 66846153b45eb9e8339be713 - 9878737973035964322
 Farm_House.png - .ao.ios - 66848ff5b45eb9e8339c077b - 227256929499912626
-FatPlayerCollision.prefab - .ao - 669974cfb45eb9e8339c218f - 1747564771367977660
 File_Folders/images/!.png - .ao - 66846154b45eb9e8339be719 - 1623185706266487351
 File_Folders/images/!.png - .ao.ios - 66848ff5b45eb9e8339c0779 - 12785070806647466780
 File_Folders/images/X.png - .ao - 66846154b45eb9e8339be71d - 15651115312684341588
@@ -88,6 +87,7 @@ File_Folders/images/matching_fingerprints/5.png - .ao.ios - 66848ff7b45eb9e8339c
 File_Folders/images/notepad_folder.png - .ao - 6684615ab45eb9e8339be75a - 9978522298200326135
 File_Folders/images/notepad_folder.png - .ao.ios - 66848ff8b45eb9e8339c079b - 14839463148425433161
 FirstCorpse.prefab - .ao - 6684615bb45eb9e8339be75e - 1546402466763571796
+Gun.prefab - .ao - 66aace97cf7a5e4159a6b724 - 7312039359409050905
 InventoryBox.prefab - .ao - 668d72ecb45eb9e8339c1a65 - 2770947122068120567
 Key.prefab - .ao - 6684615bb45eb9e8339be762 - 6023661400784268790
 Keypad.prefab - .ao - 66a3d0346732dee0bb811dea - 3342521285844231526
@@ -134,6 +134,7 @@ NoisyBaseRig/playercharacter_2.png - .ao.ios - 66a2996c6732dee0bb811d8d - 110897
 Painting.prefab - .ao - 66a1aef86732dee0bb811d5e - 11709487911471492884
 Pedestal.prefab - .ao - 66a3d0346732dee0bb811deb - 10951634334701042671
 PiecePainting.prefab - .ao - 66a3d0346732dee0bb811de9 - 18022532007642498373
+PlayerCollision.prefab - .ao - 66aada62cf7a5e4159a6b772 - 1747564771367977660
 PlayerEquip.prefab - .ao - 66996f0cb45eb9e8339c2181 - 10210189900150095139
 PlayerInteractable.prefab - .ao - 6684615eb45eb9e8339be773 - 13267569975969478153
 Radio.prefab - .ao - 66a043bcb45eb9e8339c2264 - 10899947396625848545

@@ -1,4 +1,4 @@
-11
+13
 459561500673
 600605878258026 1714141066707632900
 {
@@ -40,29 +40,11 @@
   "mono_component_type": "PlayerCorpse",
   "data": {
     "PlayerAnimator": "237992662795450:1718489814464556200",
-    "InventoryBox": "1019462471833453:1720548097124452300",
-    "IsDetectiveBox": false,
     "PlayerName": "",
     "ColorIndex": 0,
     "PlayerSkins": [
 
     ],
     "DeathAnim": ""
-  }
-},
-{
-  "cid": 3,
-  "aoid": "1023798863353563:1720549334679875600",
-  "component_type": "Internal_Component",
-  "internal_component_type": "Interactable",
-  "data": {
-    "prompt_offset": {
-      "X": 0,
-      "Y": 1
-    },
-    "text": "",
-    "hold_text": "",
-    "radius": 2,
-    "required_hold_time": 0.6000000238418579
   }
 }

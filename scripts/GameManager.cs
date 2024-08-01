@@ -10,9 +10,13 @@ public partial class GameManager : Component
     public const int RoleNameLayer = 200;
     public const int PlayersNeededToStartGame = 2;
     public const float HideTime = 10f;
+    public const float SeekTime = 60 * 5;
 
-    public SyncVar<float> Countdown = new();
-    public SyncVar<float> HideTimer = new();
+    public float CurrentTimer;
+    public SyncVar<int> Countdown = new();
+    public SyncVar<int> HideTimer = new();
+    public SyncVar<int> SeekTimer = new();
+    public SyncVar<int> EndRoundTime = new();
     public SyncVar<bool> BarrierEnabled = new();
 
     public SyncVar<bool> VoiceChatEnabled = new(false);
@@ -22,6 +26,13 @@ public partial class GameManager : Component
     {
         get => (GameState)_currentState.Value;
         set => _currentState.Set((int)value);
+    }
+
+    private SyncVar<int> _currentWinner = new();
+    public PlayerRole Winner
+    {
+        get => (PlayerRole)_currentWinner.Value;
+        set => _currentWinner.Set((int)value);
     }
 
     public Dictionary<PlayerRole, PlayerRoleDefinition> Roles = new Dictionary<PlayerRole, PlayerRoleDefinition>()
@@ -65,7 +76,8 @@ public partial class GameManager : Component
             Chat.SetChatMode(Chat.Mode.BubbleOnly);
         }
 
-        BarrierEnabled.OnSync += (_, v) => {
+        BarrierEnabled.OnSync += (_, v) =>
+        {
             WorldManager.Instance.CurrentWorld.HunterBarrier.LocalEnabled = v;
         };
     }
@@ -184,7 +196,8 @@ public partial class GameManager : Component
             case "start":
             {
                 State = GameState.CountingDown;
-                Countdown.Set(0);
+                CurrentTimer = 0;
+                Countdown.Set((int)CurrentTimer);
                 break;
             }
             case "z":
@@ -229,15 +242,12 @@ public partial class GameManager : Component
     }
 
     [ClientRpc]
-    public void DoRoundStartAnimation()
+    public void StartRoundForPlayers()
     {
         foreach (var p in Player.AllPlayers)
         {
             var player = (HNSPlayer)p;
-            if (player.PlayerRole == PlayerRole.Hunter || player.PlayerRole == PlayerRole.Prop)
-            {
-                player.AddEffect<RoundStartAnimationEffect>();
-            }
+            player.PreparePlayerForRound();
         }
     }
 
@@ -258,6 +268,12 @@ public partial class GameManager : Component
         var propSpawns = new List<Entity>(WorldManager.Instance.CurrentWorld.PropSpawns);
 
         CallClient_ClearAllPlayerEffects();
+
+        foreach (var corpse in Scene.Components<PlayerCorpse>(true))
+        {
+            Network.Despawn(corpse.Entity);
+            corpse.Entity.Destroy();
+        }
 
         for (var i = 0; i < players.Count; i++)
         {
@@ -285,8 +301,8 @@ public partial class GameManager : Component
                 player.Teleport(spawn.Position);
             }
         }
-        CallClient_DoRoundStartAnimation();
 
+        CallClient_StartRoundForPlayers();
         var rand = new Random();
         foreach (var p in players)
         {
@@ -315,7 +331,8 @@ public partial class GameManager : Component
                     {
                         MessageAllPlayers("STARTING ROUND IN 30 SECONDS");
                         State = GameState.CountingDown;
-                        Countdown.Set(30f);
+                        CurrentTimer = 30;
+                        Countdown.Set((int)CurrentTimer);
 
                         var rand = new Random();
                         WorldManager.Instance.CurrentWorldIndex.Set(rand.Next(0, WorldManager.Instance.Worlds.Count));
@@ -324,8 +341,9 @@ public partial class GameManager : Component
                 }
                 case GameState.CountingDown:
                 {
-                    Countdown.Set(Countdown - Time.DeltaTime);
-                    if (Countdown < 0f)
+                    CurrentTimer -= Time.DeltaTime;
+                    Countdown.Set((int)CurrentTimer);
+                    if (CurrentTimer < 0f)
                     {
                         State = GameState.StartRound;
                     }
@@ -337,8 +355,8 @@ public partial class GameManager : Component
                     {
                         MessageAllPlayers("STARTING ROUND!!!");
                         SetUpRound();
-                        Countdown.Set(0);
-                        HideTimer.Set(HideTime);
+                        CurrentTimer = HideTime;
+                        HideTimer.Set((int)CurrentTimer);
                         State = GameState.Hiding;
                         BarrierEnabled.Set(true);
                     }
@@ -352,10 +370,13 @@ public partial class GameManager : Component
                 }
                 case GameState.Hiding:
                 {
-                    HideTimer.Set(HideTimer - Time.DeltaTime);
-                    if (HideTimer < 0f)
+                    CurrentTimer -= Time.DeltaTime;
+                    HideTimer.Set((int)CurrentTimer);
+                    if (CurrentTimer < 0f)
                     {
                         MessageAllPlayers("Ready or not, here we come!");
+                        CurrentTimer = SeekTime;
+                        SeekTimer.Set((int)CurrentTimer);
                         State = GameState.Round;
                         BarrierEnabled.Set(false);
                     }
@@ -363,6 +384,48 @@ public partial class GameManager : Component
                 }
                 case GameState.Round:
                 {
+                    CurrentTimer -= Time.DeltaTime;
+                    SeekTimer.Set((int)CurrentTimer);
+                    if (CurrentTimer < 0f)
+                    {
+                        MessageAllPlayers("Round over! Hiders win!");
+                        Winner = PlayerRole.Prop;
+                        State = GameState.EndRound;
+                        CurrentTimer = 10;
+                        EndRoundTime.Set((int)CurrentTimer);
+                    }
+                    else
+                    {
+                        var seekersWin = true;
+                        foreach (var p in Player.AllPlayers)
+                        {
+                            var player = (HNSPlayer)p;
+                            if (player.PlayerRole == PlayerRole.Prop)
+                            {
+                                seekersWin = false;
+                                break;
+                            }
+                        }
+
+                        if (seekersWin)
+                        {
+                            MessageAllPlayers("Round over! Seekers win!");
+                            Winner = PlayerRole.Hunter;
+                            State = GameState.EndRound;
+                            CurrentTimer = 10;
+                            EndRoundTime.Set((int)CurrentTimer);
+                        }
+                    }
+                    break;
+                }
+                case GameState.EndRound:
+                {
+                    CurrentTimer -= Time.DeltaTime;
+                    EndRoundTime.Set((int)CurrentTimer);
+                    if (CurrentTimer < 0f)
+                    {
+                        State = GameState.WaitingForPlayers;
+                    }
                     break;
                 }
             }
@@ -393,7 +456,7 @@ public partial class GameManager : Component
                 }
                 case GameState.CountingDown:
                 {
-                    UI.Text(bottomBarRect,("Round starts in "+Math.Round(Countdown)).ToString()+" seconds...",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+                    UI.Text(bottomBarRect,("Round starts in "+Countdown).ToString()+" seconds...",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
                     break;
                 }
                 case GameState.StartRound:
@@ -403,11 +466,22 @@ public partial class GameManager : Component
                 }
                 case GameState.Hiding:
                 {
-                    UI.Text(bottomBarRect,"Hiding: " + Math.Round(HideTimer) + "s", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+                    UI.Text(bottomBarRect,"Hiding: " + HideTimer + "s", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
                     break;
                 }
                 case GameState.Round:
                 {
+                    UI.Text(bottomBarRect,"Time Left: " + SeekTimer + "s", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+                    break;
+                }
+                case GameState.EndRound:
+                {
+                    var str = "Seekers";
+                    if (Winner == PlayerRole.Prop)
+                    {
+                        str = "Hiders";
+                    }
+                    UI.Text(bottomBarRect,$"{str} Win! Next round in {EndRoundTime}s.", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
                     break;
                 }
             }
@@ -475,6 +549,7 @@ public enum GameState
     StartRound,
     Hiding,
     Round,
+    EndRound,
 }
 
 public enum PlayerRole
