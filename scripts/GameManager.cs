@@ -550,11 +550,11 @@ public partial class GameManager : Component
         var localPlayer = (HNSPlayer)Network.LocalPlayer;
         if (localPlayer != null)
         {
-            var topBarRect = UI.ScreenRect.CutTop(100);
+            var topBarRect = UI.ScreenRect.CutTop(150);
             var midBarRect  = UI.ScreenRect.SubRect(0.5f, 0.8f, 0.5f, 0.8f);
             var midBarRect2 = UI.ScreenRect.SubRect(0.5f, 0.2f, 0.5f, 0.2f);
 
-            var bottomBarRect = UI.ScreenRect.CutBottom(350);
+            var bottomBarRect = UI.ScreenRect.CutBottom(300);
 
             using var _ = UI.PUSH_LAYER(RoleNameLayer);
 
