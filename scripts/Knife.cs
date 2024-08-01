@@ -12,7 +12,7 @@ public partial class KnifeAbility : MyAbility
     public override bool CanUse()
     {
         if (!base.CanUse()) return false;
-        if (Player.PlayerRole != PlayerRole.Hunter) return false;
+        if (Player.PlayerRole != PlayerRole.Seeker) return false;
         return true;
     }
 

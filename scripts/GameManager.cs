@@ -38,7 +38,7 @@ public partial class GameManager : Component
     public Dictionary<PlayerRole, PlayerRoleDefinition> Roles = new Dictionary<PlayerRole, PlayerRoleDefinition>()
     {
         [PlayerRole.Spectator] = new () { ID = 0, RoleName = "Spectator", RoleColor = new Vector4(0.35f, 0.76f, 0.98f, 1f)},
-        [PlayerRole.Hunter]    = new () { ID = 1, RoleName = "Hunter",    RoleColor = new Vector4(1, 0, 0, 1)},
+        [PlayerRole.Seeker]    = new () { ID = 1, RoleName = "Seeker",    RoleColor = new Vector4(1, 0, 0, 1)},
         [PlayerRole.Prop]      = new () { ID = 2, RoleName = "Hider",     RoleColor = new Vector4(0, 1, 1, 1)},
     };
 
@@ -306,9 +306,9 @@ public partial class GameManager : Component
         for (var i = 0; i < players.Count; i++)
         {
             var player = players[i];
-            player.PlayerRole = i < huntersCount ? PlayerRole.Hunter : PlayerRole.Prop;
+            player.PlayerRole = i < huntersCount ? PlayerRole.Seeker : PlayerRole.Prop;
 
-            if (player.PlayerRole == PlayerRole.Hunter)
+            if (player.PlayerRole == PlayerRole.Seeker)
             {
                 var spawn = hunterSpawns[0];
                 hunterSpawns.RemoveAt(0);
@@ -518,14 +518,14 @@ public partial class GameManager : Component
                         if (seekersWin)
                         {
                             MessageAllPlayers("Round over! Seekers win!");
-                            Winner = PlayerRole.Hunter;
+                            Winner = PlayerRole.Seeker;
                             State = GameState.EndRound;
                             CurrentTimer = 10;
                             EndRoundTime.Set((int)CurrentTimer);
 
                             foreach (var player in Player.AllPlayers.Cast<HNSPlayer>())
                             {
-                                if (player.PlayerRole == PlayerRole.Hunter)
+                                if (player.PlayerRole == PlayerRole.Seeker)
                                 {
                                     player.Wins += 1;
                                 }
@@ -550,11 +550,11 @@ public partial class GameManager : Component
         var localPlayer = (HNSPlayer)Network.LocalPlayer;
         if (localPlayer != null)
         {
-            var topBarRect = UI.ScreenRect.CutTop(200);
+            var topBarRect = UI.ScreenRect.CutTop(150);
             var midBarRect  = UI.ScreenRect.SubRect(0.5f, 0.8f, 0.5f, 0.8f);
             var midBarRect2 = UI.ScreenRect.SubRect(0.5f, 0.2f, 0.5f, 0.2f);
 
-            var bottomBarRect = UI.ScreenRect.CutBottom(350);
+            var bottomBarRect = UI.ScreenRect.CutBottom(300);
 
             using var _ = UI.PUSH_LAYER(RoleNameLayer);
 
@@ -599,11 +599,33 @@ public partial class GameManager : Component
                 }
                 case GameState.Round:
                 {
-                    UI.Text(bottomBarRect,"Time Left: " + SeekTimer + "s", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+                    var seconds = SeekTimer.Value;
+                    var minutes = seconds / 60;
+                    seconds -= minutes * 60;
+                    var str = "";
+                    if (minutes >= 1)
+                    {
+                        str += $"{minutes}m ";
+                    }
+                    str += $"{seconds}s";
+
+                    if (Game.IsPhone)
+                    {
+                        UI.PushScaleFactor(UI.ScreenScaleFactor * 1.5f);
+                    }
+                    var timeRect = bottomBarRect.Offset(0, -50);
+                    var timeTextRect = UI.Text(timeRect, str, GetTextSettingsColor(60, new Vector4(1, 1, 0, 1), 0f, null, UI.HorizontalAlignment.Center));
+                    UI.Text(timeTextRect.TopRect().Offset(0, 35), "Time Left", GetTextSettings(40, 0f, null, UI.HorizontalAlignment.Center));
                     if (localPlayer.PlayerRole == PlayerRole.Spectator)
                     {
                         UI.Text(topBarRect.Grow(0, 0, 100, 0), "(Fly around till the next round starts!)", GetTextSettings(36, 0f, null));
                     }
+
+                    if (Game.IsPhone)
+                    {
+                        UI.PopScaleFactor();
+                    }
+
                     break;
                 }
                 case GameState.EndRound:
@@ -688,6 +710,6 @@ public enum GameState
 public enum PlayerRole
 {
     Spectator,
-    Hunter,
+    Seeker,
     Prop,
 }
