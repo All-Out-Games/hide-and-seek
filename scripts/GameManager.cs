@@ -19,6 +19,8 @@ public partial class GameManager : Component
     public SyncVar<int> EndRoundTime = new();
     public SyncVar<bool> BarrierEnabled = new();
 
+    public float VignetteFader;
+
     public SyncVar<bool> VoiceChatEnabled = new(true);
 
     private SyncVar<int> _currentState = new();
@@ -429,9 +431,8 @@ public partial class GameManager : Component
                 {
                     if (Player.AllPlayers.Count >= PlayersNeededToStartGame)
                     {
-                        MessageAllPlayers("STARTING ROUND IN 30 SECONDS");
                         State = GameState.CountingDown;
-                        CurrentTimer = 30;
+                        CurrentTimer = 15;
                         Countdown.Set((int)CurrentTimer);
 
                         var rand = new Random();
@@ -453,7 +454,6 @@ public partial class GameManager : Component
                 {
                     try 
                     {
-                        MessageAllPlayers("STARTING ROUND!!!");
                         SetUpRound();
                         CurrentTimer = HideTime;
                         HideTimer.Set((int)CurrentTimer);
@@ -474,7 +474,6 @@ public partial class GameManager : Component
                     HideTimer.Set((int)CurrentTimer);
                     if (CurrentTimer < 0f)
                     {
-                        MessageAllPlayers("Ready or not, here we come!");
                         CurrentTimer = SeekTime;
                         SeekTimer.Set((int)CurrentTimer);
                         State = GameState.Round;
@@ -488,7 +487,6 @@ public partial class GameManager : Component
                     SeekTimer.Set((int)CurrentTimer);
                     if (CurrentTimer < 0f)
                     {
-                        MessageAllPlayers("Round over! Hiders win!");
                         Winner = PlayerRole.Prop;
                         State = GameState.EndRound;
                         CurrentTimer = 10;
@@ -517,7 +515,6 @@ public partial class GameManager : Component
 
                         if (seekersWin)
                         {
-                            MessageAllPlayers("Round over! Seekers win!");
                             Winner = PlayerRole.Seeker;
                             State = GameState.EndRound;
                             CurrentTimer = 10;
@@ -547,9 +544,13 @@ public partial class GameManager : Component
             }
         }
 
+        var vignetteIsShowing = false;
+
         var localPlayer = (HNSPlayer)Network.LocalPlayer;
         if (localPlayer != null)
         {
+            var vignetteSerial = IM.GetNextSerial();
+
             var topBarRect = UI.ScreenRect.CutTop(150);
             var midBarRect  = UI.ScreenRect.SubRect(0.5f, 0.8f, 0.5f, 0.8f);
             var midBarRect2 = UI.ScreenRect.SubRect(0.5f, 0.2f, 0.5f, 0.2f);
@@ -630,6 +631,22 @@ public partial class GameManager : Component
                 }
                 case GameState.EndRound:
                 {
+                    if (localPlayer.Alive())
+                    {
+                        vignetteIsShowing = true;
+                        if (localPlayer.PlayerRole == Winner)
+                        {
+                            IM.SetNextSerial(vignetteSerial);
+                            UI.Image(UI.ScreenRect, null, new Vector4(0, 1, 0, 1) * 0.6f * VignetteFader);
+                            UI.Text(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU WIN", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
+                        }
+                        else
+                        {
+                            IM.SetNextSerial(vignetteSerial);
+                            UI.Image(UI.ScreenRect, null, new Vector4(1, 0, 0, 1) * 0.6f * VignetteFader);
+                            UI.Text(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU LOSE", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
+                        }
+                    }
                     var str = "Seekers";
                     if (Winner == PlayerRole.Prop)
                     {
@@ -639,6 +656,15 @@ public partial class GameManager : Component
                     break;
                 }
             }
+        }
+
+        if (vignetteIsShowing)
+        {
+            VignetteFader = MathF.Min(1, VignetteFader + Time.DeltaTime * 4.0f);
+        }
+        else
+        {
+            VignetteFader = MathF.Max(0, VignetteFader - Time.DeltaTime * 4.0f);
         }
     }
 
