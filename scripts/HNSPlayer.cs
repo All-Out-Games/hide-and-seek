@@ -271,15 +271,6 @@ public class PropEffect : MyEffect
         Player.AddInvisibilityReason(nameof(PropEffect));
         Player.AddNameInvisibilityReason(nameof(PropEffect));
         
-        if (Network.IsClient)
-        {
-            var localPlayerRole = (Network.LocalPlayer as HNSPlayer).PlayerRole;
-            if (localPlayerRole != PlayerRole.Hunter)
-            {
-                Player.PropEyes.Entity.LocalEnabled = true;
-            }
-        }
-        
         RefreshProp();
     }
 
@@ -324,6 +315,20 @@ public class PropEffect : MyEffect
 
     public override void OnEffectUpdate()
     {
+        if (Network.IsClient)
+        {
+            var localPlayerRole = PlayerRole.Spectator;
+            if (Network.LocalPlayer.Alive())
+            {
+                localPlayerRole = (Network.LocalPlayer as HNSPlayer).PlayerRole;
+            }
+
+            if (localPlayerRole != PlayerRole.Hunter)
+            {
+                Player.PropEyes.Entity.LocalEnabled = true;
+            }
+        }
+
         Player nearestHunter = null;
         foreach (var p in AO.Player.AllPlayers.Cast<HNSPlayer>())
         {
@@ -485,7 +490,7 @@ public partial class RoundStartAnimationEffect : MyEffect
             UI.Image(UI.ScreenRect, null, new Vector4(0, 0, 0, 0.9f));
 
             var pos01 = Ease.SlideInAndOut(0.1f, totalTime, ElapsedTime);
-            var ts = GameManager.GetTextSettings(52);
+            var ts = GameManager.Instance.GetTextSettings(52);
             ts.Color = Vector4.White;
             ts.WordWrap = true;
             var rect = UI.SafeRect.Offset(pos01 * 100, 0);

@@ -37,9 +37,9 @@ public partial class GameManager : Component
 
     public Dictionary<PlayerRole, PlayerRoleDefinition> Roles = new Dictionary<PlayerRole, PlayerRoleDefinition>()
     {
-        [PlayerRole.Spectator] = new () { ID = 0, roleName = "Spectator"},
-        [PlayerRole.Hunter] = new () { ID = 1, roleName = "Hunter"},
-        [PlayerRole.Prop]    = new () { ID = 2, roleName = "Prop"},
+        [PlayerRole.Spectator] = new () { ID = 0, RoleName = "Spectator", RoleColor = new Vector4(0.35f, 0.76f, 0.98f, 1f)},
+        [PlayerRole.Hunter]    = new () { ID = 1, RoleName = "Hunter",    RoleColor = new Vector4(1, 0, 0, 1)},
+        [PlayerRole.Prop]      = new () { ID = 2, RoleName = "Hider",     RoleColor = new Vector4(0, 1, 1, 1)},
     };
 
     public override void Awake()
@@ -99,7 +99,7 @@ public partial class GameManager : Component
             for (int i = 0; i < players.Length; i++)
             {
                 var player = (HNSPlayer)players[i];
-                scores[i] = Roles[player.PlayerRole].roleName;
+                scores[i] = Roles[player.PlayerRole].RoleName;
             }
         });
     }
@@ -124,29 +124,29 @@ public partial class GameManager : Component
         // }
     }
 
-    public static UI.TextSettings GetTextSettings(float size, float offset = 0, FontAsset font = null, UI.HorizontalAlignment halign = UI.HorizontalAlignment.Center)
-    {
-        if (font == null)
-        {
-            font = UI.Fonts.BarlowBold;
-        }
-        var ts = new UI.TextSettings()
-        {
-            Font = font,
-            Size = size,
-            Color = Vector4.White,
-            DropShadowColor = new Vector4(0f,0f,0f,0.5f),
-            DropShadowOffset = new Vector2(0f,-3f),
-            HorizontalAlignment = halign,
-            VerticalAlignment = UI.VerticalAlignment.Center,
-            WordWrap = false,
-            WordWrapOffset = 0,
-            Outline = true,
-            OutlineThickness = 3,
-            Offset = new Vector2(0, offset),
-        };
-        return ts;
-    }
+    // public static UI.TextSettings GetTextSettings(float size, float offset = 0, FontAsset font = null, UI.HorizontalAlignment halign = UI.HorizontalAlignment.Center)
+    // {
+    //     if (font == null)
+    //     {
+    //         font = UI.Fonts.BarlowBold;
+    //     }
+    //     var ts = new UI.TextSettings()
+    //     {
+    //         Font = font,
+    //         Size = size,
+    //         Color = Vector4.White,
+    //         DropShadowColor = new Vector4(0f,0f,0f,0.5f),
+    //         DropShadowOffset = new Vector2(0f,-3f),
+    //         HorizontalAlignment = halign,
+    //         VerticalAlignment = UI.VerticalAlignment.Center,
+    //         WordWrap = false,
+    //         WordWrapOffset = 0,
+    //         Outline = true,
+    //         OutlineThickness = 3,
+    //         Offset = new Vector2(0, offset),
+    //     };
+    //     return ts;
+    // }
 
     public void RunChatCommand(Player p, string command)
     {
@@ -347,6 +347,78 @@ public partial class GameManager : Component
         }
     }
 
+    public UI.TextSettings GetTextSettingsColor(float size,Vector4 textColor, float offset = 0, FontAsset font = null,UI.HorizontalAlignment halign = UI.HorizontalAlignment.Center,UI.VerticalAlignment valign = UI.VerticalAlignment.Center)
+    {
+        if (font == null)
+        {
+            font = UI.Fonts.BarlowBold;
+        }
+        var ts = new UI.TextSettings()
+        {
+            Font = font,
+            Size = size,
+            Color = textColor,
+            DropShadow = true,
+            DropShadowColor = new Vector4(0f,0f,0.02f,0.5f),
+            DropShadowOffset = new Vector2(0f,-3f),
+            HorizontalAlignment = halign,
+            VerticalAlignment = valign,
+            WordWrap = false,
+            WordWrapOffset = 0,
+            Outline = true,
+            OutlineThickness = 3,
+            Offset = new Vector2(0, offset),
+        };
+        return ts;
+    }
+
+    public UI.TextSettings GetSimpleTextSettings(float size, float offset = 0, FontAsset font = null)
+    {
+        if (font == null)
+        {
+            font = UI.Fonts.BarlowBold;
+        }
+        var ts = new UI.TextSettings()
+        {
+            Font = font,
+            Size = size,
+            Color = new Vector4(0f,0f,0f,0f),
+            HorizontalAlignment = UI.HorizontalAlignment.Center,
+            VerticalAlignment = UI.VerticalAlignment.Center,
+            WordWrap = false,
+            WordWrapOffset = 0,
+            Outline = false,
+            OutlineThickness = 3,
+            Offset = new Vector2(0, offset),
+        };
+        return ts;
+    }
+
+    public UI.TextSettings GetTextSettings(float size, float offset = 0, FontAsset font = null,UI.HorizontalAlignment halign = UI.HorizontalAlignment.Center,UI.VerticalAlignment valign = UI.VerticalAlignment.Center)
+    {
+        if (font == null)
+        {
+            font = UI.Fonts.BarlowBold;
+        }
+        var ts = new UI.TextSettings()
+        {
+            Font = font,
+            Size = size,
+            Color = Vector4.White,
+            DropShadow = true,
+            DropShadowColor = new Vector4(0f,0f,0.02f,0.5f),
+            DropShadowOffset = new Vector2(0f,-3f),
+            HorizontalAlignment = halign,
+            VerticalAlignment = valign,
+            WordWrap = false,
+            WordWrapOffset = 0,
+            Outline = true,
+            OutlineThickness = 3,
+            Offset = new Vector2(0, offset),
+        };
+        return ts;
+    }
+
     public override void Update()
     {
         if (Network.IsServer)
@@ -491,6 +563,18 @@ public partial class GameManager : Component
             //     UI.Text(topBarRect, localPlayer.Region, GetTextSettings(42, 0f, null));
             // }
 
+            if (State != GameState.WaitingForPlayers && State != GameState.CountingDown)
+            {
+                Vector4 roleColor = Roles[localPlayer.PlayerRole].RoleColor;
+                var roleText = localPlayer.PlayerRole == PlayerRole.Spectator ? "Spectating" : Roles[localPlayer.PlayerRole].RoleName;
+                UI.Text(topBarRect, roleText, GetTextSettingsColor(56, roleColor, 0f, null));
+                UI.Text(topBarRect, roleText, GetTextSettingsColor(56, roleColor, 0f, null));
+                if (localPlayer.PlayerRole == PlayerRole.Spectator)
+                {
+                    UI.Text(topBarRect.Grow(0, 0, 100, 0), "(Fly around till the next round starts!)", GetTextSettings(36, 0f, null));
+                }
+            }
+
             switch (State)
             {
                 case GameState.WaitingForPlayers:
@@ -516,6 +600,10 @@ public partial class GameManager : Component
                 case GameState.Round:
                 {
                     UI.Text(bottomBarRect,"Time Left: " + SeekTimer + "s", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+                    if (localPlayer.PlayerRole == PlayerRole.Spectator)
+                    {
+                        UI.Text(topBarRect.Grow(0, 0, 100, 0), "(Fly around till the next round starts!)", GetTextSettings(36, 0f, null));
+                    }
                     break;
                 }
                 case GameState.EndRound:
@@ -532,30 +620,30 @@ public partial class GameManager : Component
         }
     }
 
-    public UI.TextSettings GetTextSettings(float size, float offset = 0, FontAsset font = null,UI.HorizontalAlignment halign = UI.HorizontalAlignment.Center,UI.VerticalAlignment valign = UI.VerticalAlignment.Center)
-    {
-        if (font == null)
-        {
-            font = UI.Fonts.BarlowBold;
-        }
-        var ts = new UI.TextSettings()
-        {
-            Font = font,
-            Size = size,
-            Color = Vector4.White,
-            DropShadow = true,
-            DropShadowColor = new Vector4(0f,0f,0.02f,0.5f),
-            DropShadowOffset = new Vector2(0f,-3f),
-            HorizontalAlignment = halign,
-            VerticalAlignment = valign,
-            WordWrap = false,
-            WordWrapOffset = 0,
-            Outline = true,
-            OutlineThickness = 3,
-            Offset = new Vector2(0, offset),
-        };
-        return ts;
-    }
+    // public UI.TextSettings GetTextSettings(float size, float offset = 0, FontAsset font = null,UI.HorizontalAlignment halign = UI.HorizontalAlignment.Center,UI.VerticalAlignment valign = UI.VerticalAlignment.Center)
+    // {
+    //     if (font == null)
+    //     {
+    //         font = UI.Fonts.BarlowBold;
+    //     }
+    //     var ts = new UI.TextSettings()
+    //     {
+    //         Font = font,
+    //         Size = size,
+    //         Color = Vector4.White,
+    //         DropShadow = true,
+    //         DropShadowColor = new Vector4(0f,0f,0.02f,0.5f),
+    //         DropShadowOffset = new Vector2(0f,-3f),
+    //         HorizontalAlignment = halign,
+    //         VerticalAlignment = valign,
+    //         WordWrap = false,
+    //         WordWrapOffset = 0,
+    //         Outline = true,
+    //         OutlineThickness = 3,
+    //         Offset = new Vector2(0, offset),
+    //     };
+    //     return ts;
+    // }
 
     public Vector2 GetOnCircle(float angleDegrees, float radius)
     {
@@ -582,7 +670,8 @@ public partial class GameManager : Component
     public class PlayerRoleDefinition
     {
         public int ID;
-        public string roleName;
+        public string RoleName;
+        public Vector4 RoleColor;
     }
 }
 
