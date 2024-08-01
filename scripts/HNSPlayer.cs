@@ -267,6 +267,7 @@ public class PropEffect : MyEffect
     {
         Player.CurrentPropIndex.OnSync += OnPropChange;
         Player.PropEntity.LocalEnabled = true;
+        Player.AddEmoteBlockReason(nameof(PropEffect));
         Player.AddInvisibilityReason(nameof(PropEffect));
         Player.AddNameInvisibilityReason(nameof(PropEffect));
         
@@ -289,6 +290,7 @@ public class PropEffect : MyEffect
         Player.PropEyes.Entity.LocalEnabled = false;
         Player.RemoveInvisibilityReason(nameof(PropEffect));
         Player.RemoveNameInvisibilityReason(nameof(PropEffect));
+        Player.RemoveEmoteBlockReason(nameof(PropEffect));
     }
 
     public void RefreshProp()
