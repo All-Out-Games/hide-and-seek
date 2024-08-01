@@ -21,7 +21,7 @@ public partial class KnifeAbility : MyAbility
     {
         player.AddEffect<KillEffect>(preInit: effect =>
         {
-            effect.DeathSource = KillEffect.DeathSourceEnum.Bullet;
+            effect.DeathSource = KillEffect.DeathSourceEnum.Knife;
         });
     }
 }

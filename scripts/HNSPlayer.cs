@@ -214,14 +214,14 @@ public partial class HNSPlayer : Player
         corpse.Entity.Position = Entity.Position;
         if (deathSource == KillEffect.DeathSourceEnum.Bullet)
         {
-            corpse.PlayerAnimator.SpineInstance.StateMachine.SetTrigger("die");
             corpse.DeathAnim = "die";
+            corpse.PlayerAnimator.SpineInstance.StateMachine.SetTrigger(corpse.DeathAnim);
             SFX.Play(Assets.GetAsset<AudioAsset>("sfx/more/get_shot.wav"), new(){Positional=true, Position=Entity.Position});
         }
         else
         {
-            corpse.PlayerAnimator.SpineInstance.StateMachine.SetTrigger("die");
             corpse.DeathAnim = "die";
+            corpse.PlayerAnimator.SpineInstance.StateMachine.SetTrigger(corpse.DeathAnim);
             SFX.Play(Assets.GetAsset<AudioAsset>("sfx/MurderMystery Player Character/swiped_revision.wav"), new(){Positional=true, Position=Entity.Position});
         }
     }
