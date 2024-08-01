@@ -19,6 +19,8 @@ public partial class GameManager : Component
     public SyncVar<int> EndRoundTime = new();
     public SyncVar<bool> BarrierEnabled = new();
 
+    public float SeekTimeCountdownTime;
+
     public float VignetteFader;
 
     public SyncVar<bool> VoiceChatEnabled = new(false);
@@ -60,6 +62,14 @@ public partial class GameManager : Component
             if (enabled == false)
             {
                 Game.SetVoiceEnabled(false);
+            }
+        };
+
+        SeekTimer.OnSync += (old, value) =>
+        {
+            if (value <= 10)
+            {
+                SeekTimeCountdownTime = Time.TimeSinceStartup;
             }
         };
     }
@@ -614,9 +624,17 @@ public partial class GameManager : Component
                     {
                         UI.PushScaleFactor(UI.ScreenScaleFactor * 1.5f);
                     }
+                    var size01 = Ease.T(Time.TimeSinceStartup - SeekTimeCountdownTime, 1f);
                     var timeRect = bottomBarRect.Offset(0, -50);
-                    var timeTextRect = UI.Text(timeRect, str, GetTextSettingsColor(60, new Vector4(1, 1, 0, 1), 0f, null, UI.HorizontalAlignment.Center));
-                    UI.Text(timeTextRect.TopRect().Offset(0, 35), "Time Left", GetTextSettings(40, 0f, null, UI.HorizontalAlignment.Center));
+                    var color = new Vector4(1, 1, 0, 1);
+                    if (SeekTimer <= 10)
+                    {
+                        color = new Vector4(1, 0, 0, 1);
+                    }
+                    UI.PushScaleFactor(UI.ScreenScaleFactor * AOMath.Lerp(2f, 1f, Ease.OutQuart(size01)));
+                    var timeTextRect = UI.Text(timeRect, str, GetTextSettingsColor(60, color, 0f, null, UI.HorizontalAlignment.Center));
+                    UI.PopScaleFactor();
+                    UI.Text(timeRect.Offset(0, 70), "Time Left", GetTextSettings(40, 0f, null, UI.HorizontalAlignment.Center));
 
                     if (Game.IsPhone)
                     {
