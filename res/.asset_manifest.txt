@@ -2272,6 +2272,8 @@ ui/book_key.png - .ao - 66846417b45eb9e8339bf6ff - 14187943518924372477
 ui/book_key.png - .ao.ios - 66849103b45eb9e8339c0dec - 4741409071554298282
 ui/cams.png - .ao - 66846418b45eb9e8339bf703 - 3233901671236357602
 ui/cams.png - .ao.ios - 66846418b45eb9e8339bf704 - 4692842023712844501
+ui/decoy_icon.png - .ao - 66aafdeacf7a5e4159a6b796 - 15606587201244139717
+ui/decoy_icon.png - .ao.ios - 66aafdeacf7a5e4159a6b79a - 4482117953817157744
 ui/drag.png - .ao - 66846418b45eb9e8339bf706 - 2578577709635420003
 ui/drag.png - .ao.ios - 66846418b45eb9e8339bf709 - 6933053744067276176
 ui/fingerprints.png - .ao - 66846418b45eb9e8339bf70a - 3929595191486977540
@@ -2288,6 +2290,8 @@ ui/placecamera.png - .ao - 6684641ab45eb9e8339bf71f - 15281151572638054560
 ui/placecamera.png - .ao.ios - 6684641ab45eb9e8339bf720 - 3520795163831283872
 ui/shoot.png - .ao - 6684641bb45eb9e8339bf724 - 18137770414817022903
 ui/shoot.png - .ao.ios - 6684641bb45eb9e8339bf725 - 2546299284614066404
+ui/swap_button.png - .ao - 66aafdeacf7a5e4159a6b799 - 6920008663289967215
+ui/swap_button.png - .ao.ios - 66aafde9cf7a5e4159a6b792 - 6040193260784554933
 ui/transform.png - .ao - 6684641bb45eb9e8339bf726 - 17990351443715323831
 ui/transform.png - .ao.ios - 6684641bb45eb9e8339bf728 - 16715469788520074991
 vignetteoverlay.png - .ao - 6684641cb45eb9e8339bf72b - 1622091639176448827
@@ -2316,6 +2320,8 @@ zoo/TEMPORARY barriers/barrier6.png - .ao - 66aa853b96cebaeb1f3299f7 - 164115740
 zoo/TEMPORARY barriers/barrier6.png - .ao.ios - 66aa853b96cebaeb1f3299f8 - 6478049617324447353
 zoo/TEMPORARY minimap/minimap.png - .ao - 66aa853c96cebaeb1f3299fa - 1985435770032901857
 zoo/TEMPORARY minimap/minimap.png - .ao.ios - 66aa853c96cebaeb1f3299fd - 17563654080628274934
+zoo/Zoo_entrance2.png - .ao - 66aafdeacf7a5e4159a6b793 - 6957157453442894427
+zoo/Zoo_entrance2.png - .ao.ios - 66aafdeacf7a5e4159a6b794 - 15153276147582323219
 zoo/base.png - .ao - 66aa853c96cebaeb1f3299ff - 5933255109704550129
 zoo/base.png - .ao.ios - 66aa853c96cebaeb1f329a01 - 2489820261460831724
 zoo/entrance.png - .ao - 66aa853c96cebaeb1f329a02 - 11935632671784167826
