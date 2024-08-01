@@ -6,7 +6,7 @@ public partial class GunAbility : MyAbility
     public override Texture Icon => Assets.GetAsset<Texture>("Ability_Icons/revolver_icon.png");
     public override Type TargettingEffect => typeof(AimingGun);
     public override float MaxDistance => 10f;
-    public override float Cooldown => 15f;
+    public override float Cooldown => 10f;
 
     public override bool OnTryActivate(List<Player> targetPlayers, Vector2 positionOrDirection, float magnitude)
     {
