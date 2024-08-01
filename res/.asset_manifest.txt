@@ -87,7 +87,7 @@ File_Folders/images/matching_fingerprints/5.png - .ao.ios - 66848ff7b45eb9e8339c
 File_Folders/images/notepad_folder.png - .ao - 6684615ab45eb9e8339be75a - 9978522298200326135
 File_Folders/images/notepad_folder.png - .ao.ios - 66848ff8b45eb9e8339c079b - 14839463148425433161
 FirstCorpse.prefab - .ao - 6684615bb45eb9e8339be75e - 1546402466763571796
-Gun.prefab - .ao - 66aae34dcf7a5e4159a6b788 - 7312039359409050905
+Gun.prefab - .ao - 66aafca0cf7a5e4159a6b790 - 5820540500814918722
 InventoryBox.prefab - .ao - 668d72ecb45eb9e8339c1a65 - 2770947122068120567
 Key.prefab - .ao - 6684615bb45eb9e8339be762 - 6023661400784268790
 Keypad.prefab - .ao - 66a3d0346732dee0bb811dea - 3342521285844231526

@@ -173,7 +173,7 @@ public partial class HNSPlayer : Player
             PlayerCorpse.Set(playerCorpse.Entity);
         }
 
-        if (PlayerRole == PlayerRole.Hunter || PlayerRole == PlayerRole.Prop)
+        if (PlayerRole == PlayerRole.Seeker || PlayerRole == PlayerRole.Prop)
         {
             AddEffect<RoundStartAnimationEffect>();
         }
@@ -185,7 +185,7 @@ public partial class HNSPlayer : Player
     {
         if (IsLocal)
         {
-            if (PlayerRole == PlayerRole.Hunter && GameManager.Instance.State == GameState.Round)
+            if (PlayerRole == PlayerRole.Seeker && GameManager.Instance.State == GameState.Round)
             {
                 DrawDefaultAbilityUI(new AbilityDrawOptions(){
                     AbilityElementSize = 75,
@@ -323,7 +323,7 @@ public class PropEffect : MyEffect
                 localPlayerRole = (Network.LocalPlayer as HNSPlayer).PlayerRole;
             }
 
-            if (localPlayerRole != PlayerRole.Hunter)
+            if (localPlayerRole != PlayerRole.Seeker)
             {
                 Player.PropEyes.Entity.LocalEnabled = true;
             }
@@ -332,7 +332,7 @@ public class PropEffect : MyEffect
         Player nearestHunter = null;
         foreach (var p in AO.Player.AllPlayers.Cast<HNSPlayer>())
         {
-            if (p.PlayerRole == PlayerRole.Hunter)
+            if (p.PlayerRole == PlayerRole.Seeker)
             {
                 if (nearestHunter == null || Vector2.Distance(Player.Position, p.Position) < Vector2.Distance(Player.Position, nearestHunter.Position))
                 {
@@ -504,7 +504,7 @@ public partial class RoundStartAnimationEffect : MyEffect
                     UI.Text(actualRect.TopRect().Grow(100, 500, 0, 500), "You are a Hider.\n\n", ts);
                     break;
                 }
-                case PlayerRole.Hunter:
+                case PlayerRole.Seeker:
                 {
                     var actualRect = UI.Text(rect, "Kill all the Hiders before time runs out!", ts);
                     ts.Size = 64;
@@ -568,7 +568,7 @@ public abstract class MyAbility : Ability
 
     public override bool CanUse()
     {
-        if (Player.PlayerRole == PlayerRole.Hunter && GameManager.Instance.State != GameState.Round)
+        if (Player.PlayerRole == PlayerRole.Seeker && GameManager.Instance.State != GameState.Round)
         {
             return false;
         }
