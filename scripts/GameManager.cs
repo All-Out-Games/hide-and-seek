@@ -114,6 +114,8 @@ public partial class GameManager : Component
                 scores[i] = Roles[player.PlayerRole].RoleName;
             }
         });
+
+        Game.SetMatchmakingPriority(0);
     }
 
     public override void OnDestroy()
@@ -452,7 +454,12 @@ public partial class GameManager : Component
                 }
                 case GameState.CountingDown:
                 {
+                    var timerBefore = CurrentTimer;
                     CurrentTimer -= Time.DeltaTime;
+                    if (timerBefore > 10 && CurrentTimer <= 10)
+                    {
+                        Game.SetMatchmakingPriority(1);
+                    }
                     Countdown.Set((int)CurrentTimer);
                     if (CurrentTimer < 0f)
                     {
@@ -493,12 +500,18 @@ public partial class GameManager : Component
                 }
                 case GameState.Round:
                 {
+                    var timerBefore = CurrentTimer;
                     CurrentTimer -= Time.DeltaTime;
+                    if (timerBefore > 15 && timerBefore <= 15)
+                    {
+                        Game.SetMatchmakingPriority(0);
+                    }
                     SeekTimer.Set((int)CurrentTimer);
                     if (CurrentTimer < 0f)
                     {
                         Winner = PlayerRole.Prop;
                         State = GameState.EndRound;
+                        Game.SetMatchmakingPriority(0);
                         CurrentTimer = 10;
                         EndRoundTime.Set((int)CurrentTimer);
 
@@ -527,6 +540,7 @@ public partial class GameManager : Component
                         {
                             Winner = PlayerRole.Seeker;
                             State = GameState.EndRound;
+                            Game.SetMatchmakingPriority(0);
                             CurrentTimer = 10;
                             EndRoundTime.Set((int)CurrentTimer);
 
