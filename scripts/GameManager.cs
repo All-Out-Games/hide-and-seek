@@ -500,56 +500,65 @@ public partial class GameManager : Component
                 }
                 case GameState.Round:
                 {
-                    var timerBefore = CurrentTimer;
-                    CurrentTimer -= Time.DeltaTime;
-                    if (timerBefore > 15 && timerBefore <= 15)
+                    int GetPlayerCountWithRole(PlayerRole role)
                     {
-                        Game.SetMatchmakingPriority(0);
-                    }
-                    SeekTimer.Set((int)CurrentTimer);
-                    if (CurrentTimer < 0f)
-                    {
-                        Winner = PlayerRole.Prop;
-                        State = GameState.EndRound;
-                        Game.SetMatchmakingPriority(0);
-                        CurrentTimer = 10;
-                        EndRoundTime.Set((int)CurrentTimer);
-
-                        foreach (var player in Player.AllPlayers.Cast<HNSPlayer>())
-                        {
-                            if (player.PlayerRole == PlayerRole.Prop)
-                            {
-                                player.Wins += 1;
-                            }
-                        }
-                    }
-                    else
-                    {
-                        var seekersWin = true;
+                        var count = 0;
                         foreach (var p in Player.AllPlayers)
                         {
                             var player = (HNSPlayer)p;
-                            if (player.PlayerRole == PlayerRole.Prop)
+                            if (player.PlayerRole == role)
                             {
-                                seekersWin = false;
-                                break;
+                                count += 1;
                             }
                         }
+                        return count;
+                    }
 
-                        if (seekersWin)
+                    switch (true)
+                    {
+                        case true:
                         {
-                            Winner = PlayerRole.Seeker;
-                            State = GameState.EndRound;
-                            Game.SetMatchmakingPriority(0);
-                            CurrentTimer = 10;
-                            EndRoundTime.Set((int)CurrentTimer);
-
-                            foreach (var player in Player.AllPlayers.Cast<HNSPlayer>())
+                            var timerBefore = CurrentTimer;
+                            CurrentTimer -= Time.DeltaTime;
+                            if (timerBefore > 15 && timerBefore <= 15)
                             {
-                                if (player.PlayerRole == PlayerRole.Seeker)
-                                {
-                                    player.Wins += 1;
-                                }
+                                Game.SetMatchmakingPriority(0);
+                            }
+                            SeekTimer.Set((int)CurrentTimer);
+                            if (CurrentTimer < 0f)
+                            {
+                                Winner = PlayerRole.Prop;
+                                State = GameState.EndRound;
+                                break;
+                            }
+
+                            if (GetPlayerCountWithRole(PlayerRole.Prop) == 0)
+                            {
+                                Winner = PlayerRole.Seeker;
+                                State = GameState.EndRound;
+                                break;
+                            }
+
+                            if (GetPlayerCountWithRole(PlayerRole.Seeker) == 0)
+                            {
+                                Winner = PlayerRole.Prop;
+                                State = GameState.EndRound;
+                                break;
+                            }
+                            break;
+                        }
+                    }
+
+                    if (State == GameState.EndRound) // the game just ended
+                    {
+                        Game.SetMatchmakingPriority(0);
+                        CurrentTimer = 10;
+                        EndRoundTime.Set((int)CurrentTimer);
+                        foreach (var player in Player.AllPlayers.Cast<HNSPlayer>())
+                        {
+                            if (player.PlayerRole == Winner)
+                            {
+                                player.Wins += 1;
                             }
                         }
                     }
