@@ -5,7 +5,7 @@
   "name": "light.png",
   "local_enabled": true,
   "local_position": {
-    "X": -3.1404714584350586,
+    "X": -3.1042108535766602,
     "Y": -0.4544557332992554
   },
   "local_rotation": 0,

@@ -204,8 +204,8 @@ public partial class HNSPlayer : Player
             {
                 DrawDefaultAbilityUI(new AbilityDrawOptions(){
                     Abilities = new Ability[] {
-                        GetAbility<SwapAbility>(),
-                        GetAbility<DecoyAbility>(),
+                        //GetAbility<SwapAbility>(),
+                        GetAbility<DecoyAbility>()
                     }
                 });
             }

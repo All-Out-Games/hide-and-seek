@@ -2255,7 +2255,6 @@ sfx/v2/killer-transform_to_normal_start2_v2.wav - .ao - 66983517b45eb9e8339c215d
 sfx/v2/killer-transform_to_normal_start_v2.wav - .ao - 66983518b45eb9e8339c215f - 2698296381167304928
 sfx/v2/murder_mystery_ambience_v3.wav - .ao - 66983519b45eb9e8339c2167 - 13167624838505899782
 sfx/victory_loop.wav - .ao - 669546b9b45eb9e8339c1cc7 - 6795626721762089604
-shaders/static.aosl - .ao - 66846415b45eb9e8339bf6e4 - 6952280206975408899
 shadow_bigtree.png - .ao - 66846415b45eb9e8339bf6e7 - 16076322516561824159
 shadow_bigtree.png - .ao.ios - 66849102b45eb9e8339c0de8 - 12535551021435101131
 shadow_small_object.png - .ao - 66846415b45eb9e8339bf6ea - 412112585670829836
