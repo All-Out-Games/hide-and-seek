@@ -3,7 +3,7 @@
 614751611071576 1705801509826229700
 {
   "name": "template.png",
-  "local_enabled": false,
+  "local_enabled": true,
   "local_position": {
     "X": 0,
     "Y": 0

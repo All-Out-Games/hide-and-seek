@@ -1,0 +1,24 @@
+{ "skeleton": { "images": "C:/Kat/trabajo/DJ_DoubleJump/2T/may/[SIMP127]simp/images/map/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "traffic_lights/traffic_light_3", "bone": "root", "attachment": "traffic_lights/traffic_light_3" },
+	{ "name": "traffic_lights/traffic_light_2", "bone": "root", "attachment": "traffic_lights/traffic_light_2" },
+	{ "name": "traffic_lights/traffic_light_1", "bone": "root", "attachment": "traffic_lights/traffic_light_1" }
+],
+"skins": {
+	"default": {
+		"traffic_lights/traffic_light_3": {
+			"traffic_lights/traffic_light_3": { "x": 2482.5, "y": -3672, "width": 195, "height": 172 }
+		},
+		"traffic_lights/traffic_light_2": {
+			"traffic_lights/traffic_light_2": { "x": 4059.5, "y": -2461.5, "width": 195, "height": 307 }
+		},
+		"traffic_lights/traffic_light_1": {
+			"traffic_lights/traffic_light_1": { "x": 2449, "y": -1673, "width": 196, "height": 308 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
