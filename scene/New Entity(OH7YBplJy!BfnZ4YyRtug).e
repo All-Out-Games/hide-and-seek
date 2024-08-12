@@ -5,8 +5,8 @@
   "name": "New Entity",
   "local_enabled": true,
   "local_position": {
-    "X": -2.0646314620971680,
-    "Y": -0.1916170716285706
+    "X": -2.0359923839569092,
+    "Y": -0.1540472507476807
   },
   "local_rotation": 0,
   "local_scale": {
@@ -23,7 +23,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/TEMPORARY barriers/barrier2.png",
-    "depth_offset": -0.1018133163452148,
+    "depth_offset": -0.1108573451638222,
     "tint": {
       "X": 1,
       "Y": 1,

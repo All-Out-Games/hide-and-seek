@@ -33,4 +33,13 @@
   "data": {
 
   }
+},
+{
+  "cid": 3,
+  "aoid": "2802073272887822:1723465175501522600",
+  "component_type": "Mono_Component",
+  "mono_component_type": "VoteManager",
+  "data": {
+
+  }
 }

@@ -2261,6 +2261,132 @@ shadow_small_object.png - .ao - 66846415b45eb9e8339bf6ea - 412112585670829836
 shadow_small_object.png - .ao.ios - 66849102b45eb9e8339c0de9 - 14961723710556108904
 shadow_small_tree.png - .ao - 66846416b45eb9e8339bf6ee - 444517517490797405
 shadow_small_tree.png - .ao.ios - 66849102b45eb9e8339c0dea - 14476980711684669430
+simpcitymap/background.png - .ao - 66b9fd8583ee6f3bbee190bd - 18227031784602701440
+simpcitymap/background.png - .ao.ios - 66b9fd8583ee6f3bbee190bc - 17867000641184744248
+simpcitymap/background2.png - .ao - 66b9fd8683ee6f3bbee190c0 - 10718201271528497895
+simpcitymap/background2.png - .ao.ios - 66b9fd6283ee6f3bbee18fe4 - 14945524921224728603
+simpcitymap/bookstore_assets/Capa 558.png - .ao - 66b9fd5b83ee6f3bbee18fc6 - 6106419791068474047
+simpcitymap/bookstore_assets/Capa 558.png - .ao.ios - 66b9fd5c83ee6f3bbee18fc7 - 13331592968116452388
+simpcitymap/bookstore_assets/Capa 559.png - .ao - 66b9fd5c83ee6f3bbee18fca - 14871595386956814519
+simpcitymap/bookstore_assets/Capa 559.png - .ao.ios - 66b9fd5c83ee6f3bbee18fcb - 16200954854728732813
+simpcitymap/bookstore_assets/Capa 564.png - .ao - 66b9fd5d83ee6f3bbee18fcd - 17214104260449871000
+simpcitymap/bookstore_assets/Capa 564.png - .ao.ios - 66b9fd5d83ee6f3bbee18fd1 - 17360999834771108585
+simpcitymap/bookstore_assets/bookcase1.png - .ao - 66b9fd5d83ee6f3bbee18fd0 - 2203170648219951919
+simpcitymap/bookstore_assets/bookcase1.png - .ao.ios - 66b9fd5e83ee6f3bbee18fd3 - 16099923275123348835
+simpcitymap/florist_assets/asset1.png - .ao - 66b9fd5e83ee6f3bbee18fd6 - 4575027133269681444
+simpcitymap/florist_assets/asset1.png - .ao.ios - 66b9fd5f83ee6f3bbee18fd7 - 16307962469038727966
+simpcitymap/florist_assets/counter.png - .ao - 66b9fd5f83ee6f3bbee18fd9 - 14463783152863884265
+simpcitymap/florist_assets/counter.png - .ao.ios - 66b9fd6083ee6f3bbee18fdc - 10364626316894142669
+simpcitymap/florist_assets/flower_overlay.png - .ao - 66b9fd6083ee6f3bbee18fde - 14011845877876964596
+simpcitymap/florist_assets/flower_overlay.png - .ao.ios - 66b9fd6083ee6f3bbee18fdf - 9520173198236652600
+simpcitymap/forest overlay copia.png - .ao - 66b9fd6283ee6f3bbee18fe2 - 9071924540285830593
+simpcitymap/forest overlay copia.png - .ao.ios - 66b9fd6283ee6f3bbee18fe3 - 4201882262545002651
+simpcitymap/garbage_bin/bin1.png - .ao - 66b9fd6383ee6f3bbee18fe7 - 10219837388925349822
+simpcitymap/garbage_bin/bin1.png - .ao.ios - 66b9fd6383ee6f3bbee18fe8 - 10810585023270560601
+simpcitymap/garbage_bin/bin2.png - .ao - 66b9fd6383ee6f3bbee18fec - 4754401373738706654
+simpcitymap/garbage_bin/bin2.png - .ao.ios - 66b9fd6383ee6f3bbee18fed - 6132429165499489272
+simpcitymap/garbage_bin/bin3.png - .ao - 66b9fd6383ee6f3bbee18fee - 7699535701931074776
+simpcitymap/garbage_bin/bin3.png - .ao.ios - 66b9fd6483ee6f3bbee18ff2 - 1287317323725431874
+simpcitymap/garbage_bin/bin4.png - .ao - 66b9fd6483ee6f3bbee18ff3 - 2994738581719658146
+simpcitymap/garbage_bin/bin4.png - .ao.ios - 66b9fd6483ee6f3bbee18ff4 - 8425861836869537672
+simpcitymap/garbage_bin/bin5.png - .ao - 66b9fd6483ee6f3bbee18ff7 - 16159593450591687989
+simpcitymap/garbage_bin/bin5.png - .ao.ios - 66b9fd6483ee6f3bbee18ff9 - 11772559230286647245
+simpcitymap/garbage_bin/bin6 copia.png - .ao - 66b9fd6583ee6f3bbee18ffc - 17529234934690320106
+simpcitymap/garbage_bin/bin6 copia.png - .ao.ios - 66b9fd6583ee6f3bbee18ffd - 11609914019044668361
+simpcitymap/garbage_bin/bin6.png - .ao - 66b9fd6583ee6f3bbee18ffe - 5105783837320449312
+simpcitymap/garbage_bin/bin6.png - .ao.ios - 66b9fd6583ee6f3bbee19001 - 995739071292495296
+simpcitymap/garbage_bin/bin7.png - .ao - 66b9fd6583ee6f3bbee19003 - 3868494088999191319
+simpcitymap/garbage_bin/bin7.png - .ao.ios - 66b9fd6583ee6f3bbee19005 - 13761761511571472792
+simpcitymap/garbage_bin/bin8.png - .ao - 66b9fd6583ee6f3bbee19007 - 13049993415066016418
+simpcitymap/garbage_bin/bin8.png - .ao.ios - 66b9fd6683ee6f3bbee19009 - 17788582660555372248
+simpcitymap/garbage_bin/bin9.png - .ao - 66b9fd6683ee6f3bbee1900a - 9476161258339918894
+simpcitymap/garbage_bin/bin9.png - .ao.ios - 66b9fd6683ee6f3bbee1900d - 2994469769442759999
+simpcitymap/minimap.png - .ao - 66b9fd6683ee6f3bbee19010 - 18012945045852910045
+simpcitymap/minimap.png - .ao.ios - 66b9fd6783ee6f3bbee19013 - 17011750408401247807
+simpcitymap/overlay/bookstore.png - .ao - 66b9fd6783ee6f3bbee19011 - 10840457563589165015
+simpcitymap/overlay/bookstore.png - .ao.ios - 66b9fd6783ee6f3bbee19015 - 7786895057215428455
+simpcitymap/overlay/buildings.png - .ao - 66b9fd6883ee6f3bbee1901c - 10588354107376092431
+simpcitymap/overlay/buildings.png - .ao.ios - 66b9fd6883ee6f3bbee1901b - 3828671011633739090
+simpcitymap/overlay/karaoke.png - .ao - 66b9fd6783ee6f3bbee19018 - 17540784851055287391
+simpcitymap/overlay/karaoke.png - .ao.ios - 66b9fd6883ee6f3bbee1901a - 2737075018031218635
+simpcitymap/overlay/sign.png - .ao - 66b9fd6883ee6f3bbee19021 - 4246493427829417447
+simpcitymap/overlay/sign.png - .ao.ios - 66b9fd6883ee6f3bbee19020 - 2201346514594447964
+simpcitymap/park assets/bench/bench1.png - .ao - 66b9fd6883ee6f3bbee19022 - 12970817068219709415
+simpcitymap/park assets/bench/bench1.png - .ao.ios - 66b9fd6983ee6f3bbee19027 - 14480162567009012074
+simpcitymap/park assets/bench/bench2.png - .ao - 66b9fd6983ee6f3bbee19026 - 15246536051736292089
+simpcitymap/park assets/bench/bench2.png - .ao.ios - 66b9fd6983ee6f3bbee19028 - 17406819956087645801
+simpcitymap/park assets/lake_building.png - .ao - 66b9fd6983ee6f3bbee1902c - 15254955256531060080
+simpcitymap/park assets/lake_building.png - .ao.ios - 66b9fd6983ee6f3bbee1902e - 10871266015725980126
+simpcitymap/park assets/picnic_tables/table1.png - .ao - 66b9fd6983ee6f3bbee1902d - 2273075477776047719
+simpcitymap/park assets/picnic_tables/table1.png - .ao.ios - 66b9fd6a83ee6f3bbee19032 - 8791078807873068261
+simpcitymap/park assets/picnic_tables/table2.png - .ao - 66b9fd6a83ee6f3bbee19034 - 387525866581437372
+simpcitymap/park assets/picnic_tables/table2.png - .ao.ios - 66b9fd6a83ee6f3bbee19033 - 5210199702768243
+simpcitymap/signs/backup/sign (1).png - .ao - 66b9fd6a83ee6f3bbee19039 - 4439378594118887608
+simpcitymap/signs/backup/sign (1).png - .ao.ios - 66b9fd6a83ee6f3bbee19038 - 8364954935279073900
+simpcitymap/signs/backup/sign (2).png - .ao - 66b9fd6b83ee6f3bbee1903b - 13627348404314219845
+simpcitymap/signs/backup/sign (2).png - .ao.ios - 66b9fd6b83ee6f3bbee1903d - 2151082429450341342
+simpcitymap/signs/sign (1).png - .ao - 66b9fd6b83ee6f3bbee1903e - 8182669600943603628
+simpcitymap/signs/sign (1).png - .ao.ios - 66b9fd6b83ee6f3bbee19042 - 15428604996633405419
+simpcitymap/signs/sign (2).png - .ao - 66b9fd6b83ee6f3bbee19041 - 1391232322751665721
+simpcitymap/signs/sign (2).png - .ao.ios - 66b9fd6c83ee6f3bbee19046 - 14450046962201002782
+simpcitymap/signs/sign (3).png - .ao - 66b9fd6c83ee6f3bbee19045 - 9873007845221479157
+simpcitymap/signs/sign (3).png - .ao.ios - 66b9fd6c83ee6f3bbee19049 - 8521151920374374569
+simpcitymap/signs/sign (4).png - .ao - 66b9fd6c83ee6f3bbee1904a - 6676799567172348148
+simpcitymap/signs/sign (4).png - .ao.ios - 66b9fd6d83ee6f3bbee1904d - 2612475572105677580
+simpcitymap/signs/sign (5).png - .ao - 66b9fd6d83ee6f3bbee1904e - 17633585399177873056
+simpcitymap/signs/sign (5).png - .ao.ios - 66b9fd6d83ee6f3bbee19051 - 5610780469640175624
+simpcitymap/signs/sign (6).png - .ao - 66b9fd6d83ee6f3bbee19052 - 3354393311996210699
+simpcitymap/signs/sign (6).png - .ao.ios - 66b9fd6e83ee6f3bbee19055 - 15988877872185880268
+simpcitymap/signs/sign (7).png - .ao - 66b9fd6e83ee6f3bbee19057 - 7819993760300424352
+simpcitymap/signs/sign (7).png - .ao.ios - 66b9fd6e83ee6f3bbee19059 - 7333028981913306358
+simpcitymap/street_lights/street_light.png - .ao - 66b9fd6e83ee6f3bbee1905b - 14586666886067970637
+simpcitymap/street_lights/street_light.png - .ao.ios - 66b9fd6e83ee6f3bbee1905d - 7964702250451840542
+simpcitymap/template.png - .ao - 66b9fd7883ee6f3bbee1908c - 5757648993845599164
+simpcitymap/template.png - .ao.ios - 66b9fd7883ee6f3bbee1908b - 515702594873677753
+simpcitymap/traffic_lights/traffic_light_1.png - .ao - 66b9fd6f83ee6f3bbee19060 - 15515561520321082846
+simpcitymap/traffic_lights/traffic_light_1.png - .ao.ios - 66b9fd6f83ee6f3bbee19062 - 15421009250468786671
+simpcitymap/traffic_lights/traffic_light_2.png - .ao - 66b9fd6f83ee6f3bbee19064 - 7693971049273438827
+simpcitymap/traffic_lights/traffic_light_2.png - .ao.ios - 66b9fd7083ee6f3bbee19066 - 12427678968572991866
+simpcitymap/traffic_lights/traffic_light_3.png - .ao - 66b9fd7083ee6f3bbee19068 - 4539219500836742018
+simpcitymap/traffic_lights/traffic_light_3.png - .ao.ios - 66b9fd7183ee6f3bbee1906a - 12151980637782650179
+simpcitymap/vegetation/Capa 622 copia 2.png - .ao - 66b9fd7183ee6f3bbee1906c - 10725627905038702862
+simpcitymap/vegetation/Capa 622 copia 2.png - .ao.ios - 66b9fd7283ee6f3bbee1906e - 16731177529845728240
+simpcitymap/vegetation/Capa 622.png - .ao - 66b9fd7283ee6f3bbee19070 - 14860288025246267780
+simpcitymap/vegetation/Capa 622.png - .ao.ios - 66b9fd7383ee6f3bbee19072 - 2465833981762098018
+simpcitymap/vegetation/Capa 627.png - .ao - 66b9fd7383ee6f3bbee19074 - 1341992535083134504
+simpcitymap/vegetation/Capa 627.png - .ao.ios - 66b9fd7483ee6f3bbee19076 - 15333484232501160413
+simpcitymap/vegetation/Capa 628.png - .ao - 66b9fd7483ee6f3bbee19078 - 1604220116969216176
+simpcitymap/vegetation/Capa 628.png - .ao.ios - 66b9fd7483ee6f3bbee1907a - 14125929188655896359
+simpcitymap/vegetation/Capa 629.png - .ao - 66b9fd7583ee6f3bbee1907c - 16651867622717333767
+simpcitymap/vegetation/Capa 629.png - .ao.ios - 66b9fd7683ee6f3bbee1907e - 8892017110806838597
+simpcitymap/vegetation/Capa 630.png - .ao - 66b9fd7683ee6f3bbee19080 - 4357513335592191049
+simpcitymap/vegetation/Capa 630.png - .ao.ios - 66b9fd7683ee6f3bbee19082 - 2807215709511027075
+simpcitymap/vegetation/Capa 631.png - .ao - 66b9fd7783ee6f3bbee19084 - 11361554634419355575
+simpcitymap/vegetation/Capa 631.png - .ao.ios - 66b9fd7783ee6f3bbee19086 - 9638150239584494772
+simpcitymap/vegetation/Capa 632.png - .ao - 66b9fd7883ee6f3bbee19088 - 12717505672267674210
+simpcitymap/vegetation/Capa 632.png - .ao.ios - 66b9fd7883ee6f3bbee1908a - 15136620491085380553
+simpcitymap/vegetation/Capa 639.png - .ao - 66b9fd7983ee6f3bbee1908e - 7212959685357141904
+simpcitymap/vegetation/Capa 639.png - .ao.ios - 66b9fd7983ee6f3bbee19092 - 7055070822302071583
+simpcitymap/vegetation/Capa 640.png - .ao - 66b9fd7983ee6f3bbee19094 - 10320723077480795205
+simpcitymap/vegetation/Capa 640.png - .ao.ios - 66b9fd7983ee6f3bbee19093 - 7490878496098209208
+simpcitymap/vegetation/Capa 641.png - .ao - 66b9fd7983ee6f3bbee19097 - 13766636283638983536
+simpcitymap/vegetation/Capa 641.png - .ao.ios - 66b9fd7983ee6f3bbee19098 - 2207122920579364960
+simpcitymap/vegetation/Capa 642.png - .ao - 66b9fd7a83ee6f3bbee1909b - 9204420271046852243
+simpcitymap/vegetation/Capa 642.png - .ao.ios - 66b9fd7a83ee6f3bbee1909d - 12014475532712046307
+simpcitymap/vegetation/Capa 643.png - .ao - 66b9fd7a83ee6f3bbee1909f - 2200462027942833905
+simpcitymap/vegetation/Capa 643.png - .ao.ios - 66b9fd7a83ee6f3bbee190a0 - 10454357782665075301
+simpcitymap/vegetation/Capa 644.png - .ao - 66b9fd7a83ee6f3bbee190a3 - 14194774729544996053
+simpcitymap/vegetation/Capa 644.png - .ao.ios - 66b9fd7a83ee6f3bbee190a5 - 8310796667930551135
+simpcitymap/vegetation/Capa 672.png - .ao - 66b9fd7b83ee6f3bbee190a7 - 17858576760445589996
+simpcitymap/vegetation/Capa 672.png - .ao.ios - 66b9fd7b83ee6f3bbee190aa - 13545998099387435806
+simpcitymap/vegetation/Capa 673.png - .ao - 66b9fd7b83ee6f3bbee190ab - 9023319309204012749
+simpcitymap/vegetation/Capa 673.png - .ao.ios - 66b9fd7b83ee6f3bbee190ac - 9877542518863159160
+simpcitymap/vegetation/Capa 674.png - .ao - 66b9fd7b83ee6f3bbee190b0 - 2757386708758485133
+simpcitymap/vegetation/Capa 674.png - .ao.ios - 66b9fd7b83ee6f3bbee190b1 - 5929378508986942936
+simpcitymap/vegetation/Capa 675.png - .ao - 66b9fd7c83ee6f3bbee190b2 - 5638124818164111463
+simpcitymap/vegetation/Capa 675.png - .ao.ios - 66b9fd7c83ee6f3bbee190b6 - 7561662016274316895
+simpcitymap/vegetation/Capa 676.png - .ao - 66b9fd7c83ee6f3bbee190b7 - 10595836010019363953
+simpcitymap/vegetation/Capa 676.png - .ao.ios - 66b9fd7c83ee6f3bbee190b8 - 16994610054830065468
 spawn/bg.png - .ao - 66aa853896cebaeb1f3299ca - 6802718132511056888
 spawn/bg.png - .ao.ios - 66aa853896cebaeb1f3299c9 - 2237058319001042384
 spawn/bush1.png - .ao - 66aa853896cebaeb1f3299c8 - 8422962093231119823

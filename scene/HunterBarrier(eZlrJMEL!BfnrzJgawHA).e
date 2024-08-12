@@ -3,7 +3,7 @@
 133699834528011 1722538013393355200
 {
   "name": "HunterBarrier",
-  "local_enabled": false,
+  "local_enabled": true,
   "local_position": {
     "X": -3.0266952514648438,
     "Y": -5.3314118385314941
