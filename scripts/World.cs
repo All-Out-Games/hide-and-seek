@@ -12,6 +12,7 @@ public class World : Component
 	public List<Sprite_Renderer> Props = new();
 	
 	[Serialized] public string MapName;
+	[Serialized] public Texture MapThumbnail;
 
 
 	public override void Awake()

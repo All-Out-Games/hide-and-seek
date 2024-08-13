@@ -112,18 +112,23 @@ public partial class VoteManager : Component
 				lastHighestVote = mapVote.Value;
 			}
 		}
+		Log.Info($"Highest vote is: {lastHighestVote}");
 		foreach (var mapVote in MapsVotes)
 		{
 			if (lastHighestVote == mapVote.Value)
 			{
 				selectedMapsIndex.Add(currentIndex);
+				Log.Info($"Index added is: {currentIndex}");
 			}
 			currentIndex++;
 		}
+		Log.Info($"maps count voted: {selectedMapsIndex.Count}");
 		Random rand = new Random();
-		int randomIndex = rand.Next(0, MapsSelected.Count);
-		var selected = MapsSelected[randomIndex];
-		Log.Info($"random index: {randomIndex}");
+		int randomIndex = rand.Next(0, selectedMapsIndex.Count);
+		int actualIndex = selectedMapsIndex[randomIndex];
+		
+		var selected = MapsSelected[actualIndex];
+		Log.Info($"actual vote index: {actualIndex}");
 		return selected.Value;
 	}
 	[ClientRpc]
@@ -141,7 +146,7 @@ public partial class VoteManager : Component
 public partial class VotingEffect : MyEffect
 {
 	public override bool IsActiveEffect => true;
-	public override bool FreezePlayer => true;
+	public override bool FreezePlayer => false;
 
 	public float[] Hold;
 	public bool PlayerHasVoted = false;
@@ -190,20 +195,32 @@ public partial class VotingEffect : MyEffect
 			int currentIndex = 0;
 			foreach (var mapVotes in VoteManager.Instance.MapsSelected)
 			{
+				using var _ = UI.PUSH_ID(currentIndex);
 				var currentMap = WorldManager.Instance.Worlds[mapVotes.Value];
 				var currentVote = VoteManager.Instance.MapsVotes[currentIndex];
 				//Log.Info("{CurrentMap}");
-				var backgroundVoteMap = UI.SafeRect.CenterRect().Offset(offset, 0).Grow(300, 150, 300, 150);
+				var backgroundVoteMap = UI.SafeRect.CenterRect().Offset(offset, 0).Grow(220, 150, 220, 150);
 				UI.Image(backgroundVoteMap, null, new Vector4(0, 0, 0, 0.9f));
 				offset += 400;
 				if (currentMap != null)
 				{
-					UI.Text(backgroundVoteMap.TopCenterRect().Offset(0, -50), $"{currentMap.MapName}", GameManager.Instance.GetTextSettings(42, 0f, null, UI.HorizontalAlignment.Center));
-
 					var buttonSettings = new UI.ButtonSettings() {};
-					using var _ = UI.PUSH_ID(currentIndex);
-					float voteOffset = 150.0f;
-					var button = UI.Button(backgroundVoteMap.BottomCenterRect().Offset(0, voteOffset).Grow(75, 75, 75, 75), $"{currentIndex}", buttonSettings, new UI.TextSettings());
+				
+					var button = UI.BeginButton(backgroundVoteMap, $"{currentIndex}", buttonSettings, new UI.TextSettings());
+					
+					UI.Text(backgroundVoteMap.CutTop(50).Offset(0, -10), $"{currentMap.MapName}", GameManager.Instance.GetTextSettings(60, 0f, null, UI.HorizontalAlignment.Center));
+
+
+					// the map image
+					var boxImage = backgroundVoteMap.CutTop(250).InsetRight(10).InsetLeft(10).Offset(0,0).FitAspect(currentMap.MapThumbnail.Aspect);
+					// var nineSlice = new UI.NineSlice
+					// {
+					// 	slice = new Vector4(boxImage.Center.X, boxImage.Center.Y, currentMap.MapThumbnail.Width, currentMap.MapThumbnail.Height),
+					// 	sliceScale = currentMap.MapThumbnail.Aspect
+					// };
+					UI.Image(boxImage, currentMap.MapThumbnail, Vector4.One);
+			
+					//var button = UI.Button(backgroundVoteMap.BottomCenterRect().Offset(0, voteOffset).Grow(75, 75, 75, 75), $"{currentIndex}", buttonSettings, new UI.TextSettings());
 					//UI.Image(button.Rect, null, new Vector4(0, 0, 0, 0.9f));
 					if (button.Pressed)
 					{
@@ -222,6 +239,7 @@ public partial class VotingEffect : MyEffect
 					Hold[currentIndex] = (float)Math.Clamp(Hold[currentIndex], 0, 1);
 					var ts = GameManager.Instance.GetTextSettings(52);
 					ts.Color = new Vector4(1, 1, 1, 1);
+					float voteOffset = 100.0f;
 					var holdRectBg = backgroundVoteMap.BottomCenterRect().Offset(0, voteOffset).Grow(10, 75, 10, 75);
 					if (!PlayerHasVoted)
 					{
@@ -244,6 +262,7 @@ public partial class VotingEffect : MyEffect
 					ts.Color = Vector4.Green;
 					ts.Size = 50;
 					UI.Text(backgroundVoteMap.BottomCenterRect().Offset(0, 50), $"Votes: {currentVote.Value}", ts);
+					UI.EndButton();
 				}
 				currentIndex +=1;
 			}

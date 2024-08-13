@@ -46,7 +46,8 @@
     "PropSpawnsParent": "14172540296200:1722490125843823800",
     "HunterBarrier": "133699834528011:1722538013393355200",
     "PropsParent": "133996069216234:1722538132077154200",
-    "MapName": "City"
+    "MapName": "City",
+    "MapThumbnail": "simpcitymap/thumbnail.png"
   }
 },
 {

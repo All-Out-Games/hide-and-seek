@@ -2343,6 +2343,8 @@ simpcitymap/street_lights/street_light.png - .ao - 66b9fd6e83ee6f3bbee1905b - 14
 simpcitymap/street_lights/street_light.png - .ao.ios - 66b9fd6e83ee6f3bbee1905d - 7964702250451840542
 simpcitymap/template.png - .ao - 66b9fd7883ee6f3bbee1908c - 5757648993845599164
 simpcitymap/template.png - .ao.ios - 66b9fd7883ee6f3bbee1908b - 515702594873677753
+simpcitymap/thumbnail.png - .ao - 66bb745383ee6f3bbee191c6 - 11590629754717528563
+simpcitymap/thumbnail.png - .ao.ios - 66bb745383ee6f3bbee191c5 - 11144058519981770137
 simpcitymap/traffic_lights/traffic_light_1.png - .ao - 66b9fd6f83ee6f3bbee19060 - 15515561520321082846
 simpcitymap/traffic_lights/traffic_light_1.png - .ao.ios - 66b9fd6f83ee6f3bbee19062 - 15421009250468786671
 simpcitymap/traffic_lights/traffic_light_2.png - .ao - 66b9fd6f83ee6f3bbee19064 - 7693971049273438827
@@ -2609,6 +2611,8 @@ zoo/south_bushes_overlay.png - .ao - 66aa854e96cebaeb1f329aea - 1207306080822904
 zoo/south_bushes_overlay.png - .ao.ios - 66aa854e96cebaeb1f329aec - 17306118313661962933
 zoo/template.png - .ao - 66aa855096cebaeb1f329af3 - 17782345460347206954
 zoo/template.png - .ao.ios - 66aa855196cebaeb1f329af9 - 3815919162678090599
+zoo/thumbnail.png - .ao - 66bb745383ee6f3bbee191c9 - 8718477258399186032
+zoo/thumbnail.png - .ao.ios - 66bb745583ee6f3bbee191cb - 8432410826039616625
 zoo/trees2left.png - .ao - 66aa854f96cebaeb1f329af0 - 16510060126798161837
 zoo/trees2left.png - .ao.ios - 66aa855096cebaeb1f329af2 - 5615283676190194159
 zoo/trees2right.png - .ao - 66aa855096cebaeb1f329af5 - 11135046069610136226

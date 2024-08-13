@@ -42,4 +42,13 @@
   "data": {
 
   }
+},
+{
+  "cid": 4,
+  "aoid": "2936667297213213:1723495085287098800",
+  "component_type": "Mono_Component",
+  "mono_component_type": "References",
+  "data": {
+    "ZooImage": "BABY105_LD_Locked_Door_1.png"
+  }
 }
