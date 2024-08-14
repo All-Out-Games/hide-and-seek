@@ -457,10 +457,10 @@ public partial class GameManager : Component
 					VoteManager.Instance.SetupVoteManager();
 					var timerBefore = CurrentTimer;
 					CurrentTimer -= Time.DeltaTime;
-					if (timerBefore > 10 && CurrentTimer <= 10)
-					{
-						Game.SetMatchmakingPriority(1);
-					}
+					// if (timerBefore > 10 && CurrentTimer <= 10)
+					// {
+					// 	Game.SetMatchmakingPriority(1);
+					// }
 					Countdown.Set((int)CurrentTimer);
 					if (CurrentTimer < 0f)
 					{

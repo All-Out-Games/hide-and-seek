@@ -23,7 +23,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/farm/front_wall.png",
-    "depth_offset": 0,
+    "depth_offset": 1.8005681037902832,
     "tint": {
       "X": 1,
       "Y": 1,

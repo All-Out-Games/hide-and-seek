@@ -5,8 +5,8 @@
   "name": "base.png",
   "local_enabled": true,
   "local_position": {
-    "X": -8.4611072540283203,
-    "Y": -2.9388377666473389
+    "X": -8.4587697982788086,
+    "Y": -2.8876380920410156
   },
   "local_rotation": 0,
   "local_scale": {
@@ -23,7 +23,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/farm/base.png",
-    "depth_offset": 0,
+    "depth_offset": 1.4573771953582764,
     "tint": {
       "X": 1,
       "Y": 1,

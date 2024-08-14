@@ -5,8 +5,8 @@
   "name": "trees2left.png",
   "local_enabled": true,
   "local_position": {
-    "X": -10.0042390823364258,
-    "Y": -1.6434212923049927
+    "X": -10.0115728378295898,
+    "Y": -1.5920864343643188
   },
   "local_rotation": 0,
   "local_scale": {
@@ -24,7 +24,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/trees2left.png",
-    "depth_offset": -1.2100000381469727,
+    "depth_offset": 0.9900608062744141,
     "tint": {
       "X": 1,
       "Y": 1,

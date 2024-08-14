@@ -6,7 +6,7 @@
   "local_enabled": true,
   "local_position": {
     "X": -6.3862633705139160,
-    "Y": -2.8950772285461426
+    "Y": -2.8924510478973389
   },
   "local_rotation": 0,
   "local_scale": {
@@ -24,7 +24,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/vegetation/lightgreen.png",
-    "depth_offset": -0.4500000476837158,
+    "depth_offset": -0.4435529708862305,
     "tint": {
       "X": 1,
       "Y": 1,
