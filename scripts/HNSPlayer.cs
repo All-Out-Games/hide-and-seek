@@ -21,6 +21,7 @@ public partial class HNSPlayer : Player
 
 	public bool WasPresentAtRoundStart;
 
+	public Box_Collider ActualPropCollider;
 	public int Wins
 	{
 		get 
@@ -52,6 +53,8 @@ public partial class HNSPlayer : Player
 				AddEffect<SpectatorEffect>();
 			}
 		};
+		
+	
 
 		var collisionEntity = Assets.GetAsset<Prefab>("PlayerCollision.prefab").Instantiate();
 		collisionEntity.GetComponent<PlayerCollisionChild>().Player = this;
@@ -61,8 +64,14 @@ public partial class HNSPlayer : Player
 		PropEntity = Entity.Create();
 		PropEntity.SetParent(Entity, false);
 		PropSpriteRenderer = PropEntity.AddComponent<Sprite_Renderer>();
-		PropEntity.LocalEnabled = false;
 		
+		ActualPropCollider = PropEntity.AddComponent<Box_Collider>();
+		ActualPropCollider.Size = Vector2.Zero;
+		ActualPropCollider.IsTrigger = true;
+		ActualPropCollider.AddComponent<PlayerCollisionChild>().Player = this;
+	
+		
+		PropEntity.LocalEnabled = false;
 		{
 			var propEyesEntity = Entity.Create();
 			propEyesEntity.SetParent(Entity, false);
@@ -315,6 +324,10 @@ public class PropEffect : MyEffect
 			Player.PropEntity.LocalPosition = propRoot.LocalPosition * -1 * prop.Entity.Scale;
 			Player.PropSpriteRenderer.DepthOffset = (Player.Position.Y - Player.PropEntity.Position.Y) / prop.Entity.Scale.Y;
 
+			// set the new collider size
+			Player.ActualPropCollider.Size = prop.GetWorldSize();
+			
+
 			var propEyes = propRoot.TryGetChildByName("eyes");
 			if (propEyes != null)
 			{
@@ -337,6 +350,12 @@ public class PropEffect : MyEffect
 		{
 			var scale = Player.GetFacingDirection() ? LastPropSelected.Scale : LastPropSelected.Scale * new Vector2(-1,1);
 			Player.PropEntity.LocalScale = scale;
+			
+			// shows a debug collider
+			// var min = Player.PropEntity.Position - Player.PropSpriteRenderer.GetWorldSize() / 2 * Player.PropEntity.LocalScale;
+			// var max = Player.PropEntity.Position + Player.PropSpriteRenderer.GetWorldSize() / 2 * Player.PropEntity.LocalScale;
+			// using var _ = UI.PUSH_CONTEXT(UI.Context.WORLD);
+			// IM.Quad(new IM.QuadData(min, max, Vector4.Red * .5f, UI.WhiteSprite));
 		}
 		if (Network.IsClient)
 		{
