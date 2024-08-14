@@ -5,8 +5,8 @@
   "name": "StopSign.png",
   "local_enabled": true,
   "local_position": {
-    "X": -5.5521254539489746,
-    "Y": -3.0758349895477295
+    "X": -3.4194092750549316,
+    "Y": 0.1457595825195312
   },
   "local_rotation": 0,
   "local_scale": {
@@ -14,6 +14,7 @@
     "Y": 1
   },
   "previous_sibling": "1786090562103709:1723114484214942700",
+  "next_sibling": "3357560115291574:1723667604698789100",
   "parent": "1785149395031652:1723114275066687700",
   "spawn_as_networked_entity": true
 },

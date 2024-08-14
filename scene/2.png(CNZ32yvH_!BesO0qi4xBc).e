@@ -5,8 +5,8 @@
   "name": "2.png",
   "local_enabled": true,
   "local_position": {
-    "X": -0.1376873552799225,
-    "Y": -2.1094832420349121
+    "X": -0.1512991487979889,
+    "Y": -2.1219146251678467
   },
   "local_rotation": 0,
   "local_scale": {
@@ -24,7 +24,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/rock pen/glass2/2.png",
-    "depth_offset": -0.3457870483398438,
+    "depth_offset": -0.2880616188049316,
     "tint": {
       "X": 1,
       "Y": 1,

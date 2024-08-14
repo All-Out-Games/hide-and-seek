@@ -48,12 +48,12 @@ public partial class TransformProp : Component
             {
                 if (swapAbility.CooldownRemaining > 0f)
                 {
-                    Interactable.Text = $"{(int)swapAbility.CooldownRemaining}";
-                    Interactable.HoldText = $"{(int)swapAbility.CooldownRemaining}";
+                    Interactable.Text = $"Time left: {(int)swapAbility.CooldownRemaining}";
+                    Interactable.HoldText = $"Time left: {(int)swapAbility.CooldownRemaining}";
                 }
                 else
                 {
-                    Interactable.Text = $"Interact";
+                    Interactable.Text = $"Transform into";
                     Interactable.HoldText = $"Hold";
                 }
             }

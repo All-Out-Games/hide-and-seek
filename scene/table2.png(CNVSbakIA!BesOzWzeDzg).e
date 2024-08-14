@@ -6,7 +6,7 @@
   "local_enabled": true,
   "local_position": {
     "X": -4.2294268608093262,
-    "Y": -3.1610851287841797
+    "Y": -3.1610856056213379
   },
   "local_rotation": 0,
   "local_scale": {
@@ -15,7 +15,8 @@
   },
   "previous_sibling": "621580605613591:1705803458742324000",
   "next_sibling": "621594346149975:1705803462663714200",
-  "parent": "621516486616844:1705803440443504100"
+  "parent": "1785149395031652:1723114275066687700",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -56,5 +57,30 @@
     "friction": 0.2000000029802322,
     "restitution": 0,
     "restitution_threshold": 1
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3360200127386990:1723668191341283000",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
+  }
+},
+{
+  "cid": 4,
+  "aoid": "3360379871870240:1723668231283066800",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 15
   }
 }

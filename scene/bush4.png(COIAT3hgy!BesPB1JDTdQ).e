@@ -6,7 +6,7 @@
   "local_enabled": true,
   "local_position": {
     "X": -5.4409961700439453,
-    "Y": 0.4194920063018799
+    "Y": 0.4194912910461426
   },
   "local_rotation": 0,
   "local_scale": {
@@ -14,8 +14,9 @@
     "Y": 1
   },
   "previous_sibling": "625061767312024:1705804452225628000",
-  "next_sibling": "625154058986271:1705804478564605100",
-  "parent": "622667000327364:1705803768786816500"
+  "next_sibling": "3369103582054190:1723670169828173100",
+  "parent": "1785149395031652:1723114275066687700",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -35,5 +36,30 @@
     "wait_for_load": false,
     "wrap": false,
     "mask_in_shadow": false
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3368832855509075:1723670109667820500",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 20
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3368859426170667:1723670115572303700",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
   }
 }

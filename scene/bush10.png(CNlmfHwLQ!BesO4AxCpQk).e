@@ -6,16 +6,17 @@
   "local_enabled": true,
   "local_position": {
     "X": 6.4490823745727539,
-    "Y": 1.0911644697189331
+    "Y": 1.0911641120910645
   },
   "local_rotation": 0,
   "local_scale": {
     "X": 1,
     "Y": 1
   },
-  "previous_sibling": "622701079374456:1705803778512582000",
-  "next_sibling": "622713931916120:1705803782180548900",
-  "parent": "622667000327364:1705803768786816500"
+  "previous_sibling": "625909279024742:1705804694095672800",
+  "next_sibling": "3370029883447506:1723670375669156200",
+  "parent": "1785149395031652:1723114275066687700",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -35,5 +36,30 @@
     "wait_for_load": false,
     "wrap": false,
     "mask_in_shadow": false
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3369744828646340:1723670312324805000",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3369754694660630:1723670314517212500",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 22
   }
 }

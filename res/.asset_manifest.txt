@@ -224,6 +224,9 @@ animations/killer/002MURDER_killer.spine - .ao - 66a18c0c6732dee0bb811d35 - 2441
 animations/player/playercharacter.png - .ao - 668eeb63b45eb9e8339c1a83 - 5775840628187999388
 animations/player/playercharacter.png - .ao.ios - 668eeb63b45eb9e8339c1a82 - 14843736996729607427
 animations/player/playercharacter.spine - .ao - 66a18b0e6732dee0bb811d25 - 8500877116462677963
+animations/shield/reflective_shield.png - .ao - 66bccf9983ee6f3bbee1939a - 5864850507114998633
+animations/shield/reflective_shield.png - .ao.ios - 66bccf9983ee6f3bbee19399 - 9232940904494094184
+animations/shield/reflective_shield.spine - .ao - 66bccf9983ee6f3bbee19397 - 4853392334451431204
 animations/torch/Murder_Torch.png - .ao - 66846170b45eb9e8339be7f3 - 18370539223647843455
 animations/torch/Murder_Torch.png - .ao.ios - 66846170b45eb9e8339be7f5 - 711787532538104111
 animations/torch/Murder_Torch.spine - .ao - 66a18c0d6732dee0bb811d38 - 1066566113579507117
@@ -2343,8 +2346,8 @@ simpcitymap/street_lights/street_light.png - .ao - 66b9fd6e83ee6f3bbee1905b - 14
 simpcitymap/street_lights/street_light.png - .ao.ios - 66b9fd6e83ee6f3bbee1905d - 7964702250451840542
 simpcitymap/template.png - .ao - 66b9fd7883ee6f3bbee1908c - 5757648993845599164
 simpcitymap/template.png - .ao.ios - 66b9fd7883ee6f3bbee1908b - 515702594873677753
-simpcitymap/thumbnail.png - .ao - 66bb745383ee6f3bbee191c6 - 11590629754717528563
-simpcitymap/thumbnail.png - .ao.ios - 66bb745383ee6f3bbee191c5 - 11144058519981770137
+simpcitymap/thumbnail.png - .ao - 66bd15e683ee6f3bbee1945a - 7115588472185907502
+simpcitymap/thumbnail.png - .ao.ios - 66bd15e783ee6f3bbee1945d - 11710339124235808078
 simpcitymap/traffic_lights/traffic_light_1.png - .ao - 66b9fd6f83ee6f3bbee19060 - 15515561520321082846
 simpcitymap/traffic_lights/traffic_light_1.png - .ao.ios - 66b9fd6f83ee6f3bbee19062 - 15421009250468786671
 simpcitymap/traffic_lights/traffic_light_2.png - .ao - 66b9fd6f83ee6f3bbee19064 - 7693971049273438827
@@ -2611,8 +2614,8 @@ zoo/south_bushes_overlay.png - .ao - 66aa854e96cebaeb1f329aea - 1207306080822904
 zoo/south_bushes_overlay.png - .ao.ios - 66aa854e96cebaeb1f329aec - 17306118313661962933
 zoo/template.png - .ao - 66aa855096cebaeb1f329af3 - 17782345460347206954
 zoo/template.png - .ao.ios - 66aa855196cebaeb1f329af9 - 3815919162678090599
-zoo/thumbnail.png - .ao - 66bb745383ee6f3bbee191c9 - 8718477258399186032
-zoo/thumbnail.png - .ao.ios - 66bb745583ee6f3bbee191cb - 8432410826039616625
+zoo/thumbnail.png - .ao - 66bd15e683ee6f3bbee19459 - 16601088362540205456
+zoo/thumbnail.png - .ao.ios - 66bd15e583ee6f3bbee19457 - 13136287212675304423
 zoo/trees2left.png - .ao - 66aa854f96cebaeb1f329af0 - 16510060126798161837
 zoo/trees2left.png - .ao.ios - 66aa855096cebaeb1f329af2 - 5615283676190194159
 zoo/trees2right.png - .ao - 66aa855096cebaeb1f329af5 - 11135046069610136226

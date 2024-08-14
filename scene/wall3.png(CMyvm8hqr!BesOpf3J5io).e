@@ -5,8 +5,8 @@
   "name": "wall3.png",
   "local_enabled": true,
   "local_position": {
-    "X": -6.4774894714355469,
-    "Y": 0.4117490947246552
+    "X": -6.4611792564392090,
+    "Y": 0.4144675433635712
   },
   "local_rotation": 0,
   "local_scale": {
@@ -24,7 +24,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/office assets/wall3.png",
-    "depth_offset": 0.1616477966308594,
+    "depth_offset": 0.4263601303100586,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -196,6 +196,10 @@
       {
         "X": -0.0453672409057617,
         "Y": 0.3155708312988281
+      },
+      {
+        "X": -0.1132807731628418,
+        "Y": 0.3484029769897461
       },
       {
         "X": -0.3843355178833008,

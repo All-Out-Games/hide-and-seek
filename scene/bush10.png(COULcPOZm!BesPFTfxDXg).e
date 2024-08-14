@@ -5,8 +5,8 @@
   "name": "bush10.png",
   "local_enabled": true,
   "local_position": {
-    "X": 6.6509375572204590,
-    "Y": 1.8297728300094604
+    "X": 6.6509370803833008,
+    "Y": 1.8297724723815918
   },
   "local_rotation": 0,
   "local_scale": {
@@ -14,8 +14,9 @@
     "Y": 1
   },
   "previous_sibling": "625904656082932:1705804692776338700",
-  "next_sibling": "625974390407198:1705804712677708800",
-  "parent": "622667000327364:1705803768786816500"
+  "next_sibling": "622708503020240:1705803780631204900",
+  "parent": "1785149395031652:1723114275066687700",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -35,5 +36,30 @@
     "wait_for_load": false,
     "wrap": false,
     "mask_in_shadow": false
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3369744828622805:1723670312324799800",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3369754694645960:1723670314517209300",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 22
   }
 }

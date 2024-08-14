@@ -5,7 +5,7 @@
   "name": "table4.png",
   "local_enabled": true,
   "local_position": {
-    "X": -6.7736887931823730,
+    "X": -6.7993535995483398,
     "Y": 0.6670813560485840
   },
   "local_rotation": 0,
@@ -23,7 +23,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/office assets/table4.png",
-    "depth_offset": 0,
+    "depth_offset": 0.2038521766662598,
     "tint": {
       "X": 1,
       "Y": 1,
