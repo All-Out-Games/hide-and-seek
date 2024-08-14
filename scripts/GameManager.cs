@@ -449,6 +449,8 @@ public partial class GameManager : Component
 
 						// selects 3 random maps
 						VoteManager.Instance.SelectRandomMaps();
+						// revive players and teleport to lobby
+						ResetPlayersToLobby();
 					}
 					break;
 				}
@@ -760,7 +762,26 @@ public partial class GameManager : Component
 	//     };
 	//     return ts;
 	// }
-
+	
+  	/// <summary>
+	/// Teleports the player into the lobby and sets the role as <c>Prop</c>.
+	/// </summary>
+	public void ResetPlayersToLobby(bool teleport = true)
+	{
+		foreach (var p in Player.AllPlayers)
+		{
+			var player = (HNSPlayer)p;
+			if (teleport && !player.IsAlreadyInLobby())
+			{
+				player.TeleportToLobby();
+			}
+	
+			if (player.PlayerRole != PlayerRole.Prop)
+			{
+				player.PlayerRole = PlayerRole.Prop;
+			}
+		}
+	}
 	public Vector2 GetOnCircle(float angleDegrees, float radius)
 	{
 		// initialize calculation variables

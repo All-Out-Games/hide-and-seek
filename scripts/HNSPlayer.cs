@@ -155,10 +155,22 @@ public partial class HNSPlayer : Player
 			if (GameManager.Instance.State == GameState.WaitingForPlayers || GameManager.Instance.State == GameState.VotingState || GameManager.Instance.State == GameState.CountingDown)
 			{
 				PlayerRole = PlayerRole.Prop;
+				TeleportToLobby();
 			}
 
 			WinsSync.Set(Wins);
 		}
+	}
+
+	public void TeleportToLobby()
+	{
+		var spawns = WorldManager.Instance.Lobby.PropSpawns;
+		var rand = new Random();
+		Teleport(spawns[rand.Next(0, spawns.Count)].Position);
+	}
+	public bool IsAlreadyInLobby()
+	{
+		return PlayerRole == PlayerRole.Prop && Entity.Position.X < -45.126f;
 	}
 
 	public void PreparePlayerForRound()

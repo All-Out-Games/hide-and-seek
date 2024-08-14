@@ -2,7 +2,7 @@
 863288426497
 659818145183164 1705814368972998000
 {
-  "name": "Spawn",
+  "name": "WorldLobby",
   "local_enabled": true,
   "local_position": {
     "X": -58.3114433288574219,
@@ -1124,5 +1124,19 @@
     "friction": 0.2000000029802322,
     "restitution": 0,
     "restitution_threshold": 1
+  }
+},
+{
+  "cid": 1,
+  "aoid": "3243717969851660:1723642306473163900",
+  "component_type": "Mono_Component",
+  "mono_component_type": "WorldLobby",
+  "data": {
+    "HunterSpawnsParent": "0:0",
+    "PropSpawnsParent": "3238918857835160:1723641240003741500",
+    "HunterBarrier": "0:0",
+    "PropsParent": "0:0",
+    "MapName": "Lobby",
+    "MapThumbnail": ""
   }
 }
