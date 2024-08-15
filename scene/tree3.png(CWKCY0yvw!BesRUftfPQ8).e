@@ -5,7 +5,7 @@
   "name": "tree3.png",
   "local_enabled": true,
   "local_position": {
-    "X": 0.0720399022102356,
+    "X": 0.0868126302957535,
     "Y": -2.0384874343872070
   },
   "local_rotation": 0,

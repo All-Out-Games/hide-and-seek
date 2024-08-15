@@ -3,6 +3,7 @@ using System.Collections;
 
 public partial class GameManager : Component
 {
+	private bool _endGameJinglePlayed = false;
 	public const int IntroLayer = 1000;
 
 	[AOIgnore] public static GameManager Instance;
@@ -10,7 +11,7 @@ public partial class GameManager : Component
 	public const int RoleNameLayer = 200;
 	public const int PlayersNeededToStartGame = 2;
 	public const float HideTime = 15f;
-	public const float SeekTime = 60 * 3;
+	//public const float SeekTime = 60 * 3;
 
 	public float CurrentTimer;
 	public SyncVar<int> Countdown = new();
@@ -516,7 +517,8 @@ public partial class GameManager : Component
 					HideTimer.Set((int)CurrentTimer);
 					if (CurrentTimer < 0f)
 					{
-						CurrentTimer = SeekTime;
+						//CurrentTimer = SeekTime;
+						CurrentTimer = WorldManager.Instance.CurrentWorld.SeekTime;
 						SeekTimer.Set((int)CurrentTimer);
 						State = GameState.Round;
 						BarrierEnabled.Set(false);
@@ -663,6 +665,7 @@ public partial class GameManager : Component
 				}
 				case GameState.Round:
 				{
+					_endGameJinglePlayed = false;
 					var seconds = SeekTimer.Value;
 					var minutes = seconds / 60;
 					seconds -= minutes * 60;
@@ -708,12 +711,14 @@ public partial class GameManager : Component
 								IM.SetNextSerial(vignetteSerial);
 								UI.Image(UI.ScreenRect, null, new Vector4(0, 1, 0, 1) * 0.6f * VignetteFader);
 								UI.Text(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU WIN", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
+								PlayEndGameJingle(true);
 							}
 							else
 							{
 								IM.SetNextSerial(vignetteSerial);
 								UI.Image(UI.ScreenRect, null, new Vector4(1, 0, 0, 1) * 0.6f * VignetteFader);
 								UI.Text(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU LOSE", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
+								PlayEndGameJingle(false);
 							}
 						}
 					}
@@ -738,6 +743,21 @@ public partial class GameManager : Component
 		}
 	}
 
+	public void PlayEndGameJingle(bool winner)
+	{
+		if (!_endGameJinglePlayed)
+		{
+			_endGameJinglePlayed = true;
+			if (winner)
+			{
+				SFX.Play(Assets.GetAsset<AudioAsset>("sfx/win_celebrate_music.wav"), new(){});
+			}
+			else
+			{
+				SFX.Play(Assets.GetAsset<AudioAsset>("sfx/game_lost.wav"), new(){});
+			}		
+		}
+	}
 	// public UI.TextSettings GetTextSettings(float size, float offset = 0, FontAsset font = null,UI.HorizontalAlignment halign = UI.HorizontalAlignment.Center,UI.VerticalAlignment valign = UI.VerticalAlignment.Center)
 	// {
 	//     if (font == null)

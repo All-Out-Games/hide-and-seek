@@ -5,7 +5,7 @@
   "name": "tree2.png",
   "local_enabled": true,
   "local_position": {
-    "X": -0.1173814982175827,
+    "X": -0.1120452880859375,
     "Y": 1.4258922338485718
   },
   "local_rotation": 0,

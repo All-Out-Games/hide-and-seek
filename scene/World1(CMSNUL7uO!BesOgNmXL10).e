@@ -47,6 +47,7 @@
     "HunterBarrier": "3975397103963827:1722459152147312100",
     "PropsParent": "764215028464876:1705881069403032600",
     "MapName": "Zoo",
-    "MapThumbnail": "zoo/thumbnail.png"
+    "MapThumbnail": "zoo/thumbnail.png",
+    "SeekTime": 180
   }
 }

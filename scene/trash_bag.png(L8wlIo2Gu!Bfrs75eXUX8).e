@@ -5,7 +5,7 @@
   "name": "trash_bag.png",
   "local_enabled": true,
   "local_position": {
-    "X": -8.4681644439697266,
+    "X": -8.4254474639892578,
     "Y": 2.4418821334838867
   },
   "local_rotation": 0,

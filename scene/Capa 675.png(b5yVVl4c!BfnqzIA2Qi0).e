@@ -5,7 +5,7 @@
   "name": "Capa 675.png",
   "local_enabled": true,
   "local_position": {
-    "X": 182.9567108154296875,
+    "X": 182.8648223876953125,
     "Y": 21.7715244293212891
   },
   "local_rotation": 0,
@@ -15,7 +15,8 @@
   },
   "previous_sibling": "122601578262599:1722533566975488700",
   "next_sibling": "122863574960306:1722533671942139900",
-  "parent": "120417910222658:1722532692108270900"
+  "parent": "120417910222658:1722532692108270900",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -35,5 +36,30 @@
     "wait_for_load": false,
     "wrap": false,
     "mask_in_shadow": false
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3391784220158870:1723675209918529900",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 14
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3391818108675575:1723675217449286100",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
   }
 }

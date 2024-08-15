@@ -14,7 +14,7 @@
     "Y": 4
   },
   "previous_sibling": "123142461451197:1722533783675537200",
-  "next_sibling": "124185956259830:1722534201742470300",
+  "next_sibling": "128920659695100:1722536098659378000",
   "parent": "116394899364274:1722531080324677800"
 },
 {
@@ -24,7 +24,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "simpcitymap/garbage_bin/bin6.png",
-    "depth_offset": 0,
+    "depth_offset": -0.1099999994039536,
     "tint": {
       "X": 1,
       "Y": 1,

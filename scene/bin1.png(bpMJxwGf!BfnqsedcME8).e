@@ -15,7 +15,8 @@
   },
   "previous_sibling": "121495974831174:1722533124025286600",
   "next_sibling": "121768123469695:1722533233059223100",
-  "parent": "119677221843735:1722532395358046000"
+  "parent": "119677221843735:1722532395358046000",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "simpcitymap/garbage_bin/bin1.png",
-    "depth_offset": 0,
+    "depth_offset": -0.1099999994039536,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -35,5 +36,30 @@
     "wait_for_load": false,
     "wrap": false,
     "mask_in_shadow": false
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3394227303352085:1723675752824049600",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 20
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3394240468136104:1723675755749547000",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
   }
 }

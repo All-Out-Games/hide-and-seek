@@ -47,7 +47,8 @@
     "HunterBarrier": "133699834528011:1722538013393355200",
     "PropsParent": "133996069216234:1722538132077154200",
     "MapName": "City",
-    "MapThumbnail": "simpcitymap/thumbnail.png"
+    "MapThumbnail": "simpcitymap/thumbnail.png",
+    "SeekTime": 300
   }
 },
 {

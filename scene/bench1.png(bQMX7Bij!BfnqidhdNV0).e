@@ -13,9 +13,10 @@
     "X": 4,
     "Y": 4
   },
-  "previous_sibling": "119806847829316:1722532447291546500",
-  "next_sibling": "120081990106477:1722532557524858400",
-  "parent": "119677221843735:1722532395358046000"
+  "previous_sibling": "119731719238974:1722532417191943400",
+  "next_sibling": "119806847829316:1722532447291546500",
+  "parent": "119677221843735:1722532395358046000",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -35,5 +36,30 @@
     "wait_for_load": false,
     "wrap": false,
     "mask_in_shadow": false
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3393308403365270:1723675548624750900",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 3
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3393321024192732:1723675551429369500",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
   }
 }

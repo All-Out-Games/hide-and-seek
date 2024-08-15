@@ -5,17 +5,18 @@
   "name": "sign (3).png",
   "local_enabled": true,
   "local_position": {
-    "X": 159.5949096679687500,
-    "Y": 10.7792100906372070
+    "X": -1.3512725830078125,
+    "Y": -2.3051974773406982
   },
   "local_rotation": 0,
   "local_scale": {
-    "X": 4,
-    "Y": 4
+    "X": 1,
+    "Y": 1
   },
-  "previous_sibling": "125871048251449:1722534876859620200",
+  "previous_sibling": "120967239084469:1722532912192003100",
   "next_sibling": "126138118402237:1722534983858906100",
-  "parent": "119677221843735:1722532395358046000"
+  "parent": "3388691393810285:1723674522626991300",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -35,5 +36,30 @@
     "wait_for_load": false,
     "wrap": false,
     "mask_in_shadow": false
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3390260485970119:1723674871312492100",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3390287627248745:1723674877343858900",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 7
   }
 }

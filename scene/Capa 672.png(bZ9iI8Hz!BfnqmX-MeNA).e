@@ -5,17 +5,18 @@
   "name": "Capa 672.png",
   "local_enabled": true,
   "local_position": {
-    "X": 159.9289855957031250,
-    "Y": 32.9071464538574219
+    "X": -1.2677536010742188,
+    "Y": 3.2267866134643555
   },
   "local_rotation": 0,
   "local_scale": {
-    "X": 4,
-    "Y": 4
+    "X": 1,
+    "Y": 1
   },
-  "previous_sibling": "120507391709359:1722532727958234800",
-  "next_sibling": "120550115620181:1722532745075189100",
-  "parent": "120417910222658:1722532692108270900"
+  "previous_sibling": "120550115620181:1722532745075189100",
+  "next_sibling": "120507391709359:1722532727958234800",
+  "parent": "3388691393810285:1723674522626991300",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -35,5 +36,30 @@
     "wait_for_load": false,
     "wrap": false,
     "mask_in_shadow": false
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3390581802863616:1723674942715909000",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3390596925236982:1723674946076420500",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 2
   }
 }

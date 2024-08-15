@@ -23,7 +23,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "simpcitymap/overlay/bookstore.png",
-    "depth_offset": 0,
+    "depth_offset": -0.1580832004547119,
     "tint": {
       "X": 1,
       "Y": 1,

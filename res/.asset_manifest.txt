@@ -2226,6 +2226,7 @@ sfx/activate_nightvision.wav - .ao - 669546b7b45eb9e8339c1cb7 - 8110944702220769
 sfx/cm_scared_loop.wav - .ao - 669546b7b45eb9e8339c1cb9 - 12092300402863948319
 sfx/defeat_loop2.wav - .ao - 669546b7b45eb9e8339c1cbb - 6616423926643985588
 sfx/drag_loop.wav - .ao - 669546b7b45eb9e8339c1cbe - 5759151054237569798
+sfx/game_lost.wav - .ao - 66bd3da383ee6f3bbee19482 - 6800576610546415337
 sfx/more/find_fingerprint_on_piano.wav - .ao - 66983518b45eb9e8339c2162 - 5042540304990913190
 sfx/more/find_nothing.wav - .ao - 66983519b45eb9e8339c2166 - 18144197180368472627
 sfx/more/folder_pull_out.wav - .ao - 66983519b45eb9e8339c2164 - 13713585231774848138
@@ -2258,6 +2259,7 @@ sfx/v2/killer-transform_to_normal_start2_v2.wav - .ao - 66983517b45eb9e8339c215d
 sfx/v2/killer-transform_to_normal_start_v2.wav - .ao - 66983518b45eb9e8339c215f - 2698296381167304928
 sfx/v2/murder_mystery_ambience_v3.wav - .ao - 66983519b45eb9e8339c2167 - 13167624838505899782
 sfx/victory_loop.wav - .ao - 669546b9b45eb9e8339c1cc7 - 6795626721762089604
+sfx/win_celebrate_music.wav - .ao - 66bd3ed483ee6f3bbee19491 - 8098289220939158847
 shadow_bigtree.png - .ao - 66846415b45eb9e8339bf6e7 - 16076322516561824159
 shadow_bigtree.png - .ao.ios - 66849102b45eb9e8339c0de8 - 12535551021435101131
 shadow_small_object.png - .ao - 66846415b45eb9e8339bf6ea - 412112585670829836

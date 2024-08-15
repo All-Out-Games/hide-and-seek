@@ -14,8 +14,9 @@
     "Y": 4
   },
   "previous_sibling": "125805984373950:1722534850792355800",
-  "next_sibling": "126071562047087:1722534957193696600",
-  "parent": "119677221843735:1722532395358046000"
+  "next_sibling": "130939964788490:1722536907676040900",
+  "parent": "119677221843735:1722532395358046000",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -35,5 +36,30 @@
     "wait_for_load": false,
     "wrap": false,
     "mask_in_shadow": false
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3394987035667745:1723675921652875600",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 4
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3395006069672479:1723675925882640000",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
   }
 }

@@ -14,6 +14,7 @@ public class World : Component
 	[Serialized] public string MapName;
 	[Serialized] public Texture MapThumbnail;
 
+	[Serialized] public float SeekTime = 60 * 3;
 
 	public override void Awake()
 	{

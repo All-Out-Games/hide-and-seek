@@ -5,8 +5,8 @@
   "name": "doggy_poop_bin.png",
   "local_enabled": true,
   "local_position": {
-    "X": 1.7730998992919922,
-    "Y": 3.4672365188598633
+    "X": 2.3664212226867676,
+    "Y": 3.1670856475830078
   },
   "local_rotation": 0,
   "local_scale": {

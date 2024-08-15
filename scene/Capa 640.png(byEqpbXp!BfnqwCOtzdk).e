@@ -15,7 +15,8 @@
   },
   "previous_sibling": "122159746241539:1722533389959411000",
   "next_sibling": "122209455780462:1722533409875098000",
-  "parent": "120417910222658:1722532692108270900"
+  "parent": "120417910222658:1722532692108270900",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -35,5 +36,30 @@
     "wait_for_load": false,
     "wrap": false,
     "mask_in_shadow": false
+  }
+},
+{
+  "cid": 2,
+  "aoid": "3391026490313757:1723675041534875900",
+  "component_type": "Internal_Component",
+  "internal_component_type": "Interactable",
+  "data": {
+    "prompt_offset": {
+      "X": 0,
+      "Y": 1
+    },
+    "text": "",
+    "hold_text": "",
+    "radius": 2,
+    "required_hold_time": 0.6000000238418579
+  }
+},
+{
+  "cid": 3,
+  "aoid": "3391043910787761:1723675045406074000",
+  "component_type": "Mono_Component",
+  "mono_component_type": "TransformProp",
+  "data": {
+    "PropIndex": 12
   }
 }
