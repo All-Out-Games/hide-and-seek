@@ -52,12 +52,13 @@
   }
 },
 {
-  "cid": 3,
-  "aoid": "15313919813706:1722490583127395300",
+  "cid": 4,
+  "aoid": "254463625407297:1723792538439414200",
   "component_type": "Internal_Component",
-  "internal_component_type": "Polygon_Collider",
+  "internal_component_type": "Edge_Collider",
   "data": {
     "is_trigger": false,
+    "is_loop": true,
     "points": [
       {
         "X": -10.5948915481567383,
