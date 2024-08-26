@@ -1,0 +1,60 @@
+{ "skeleton": { "images": "~/Pictures/Work Files/DoubleJump Files/2024/Design/Week 134/The Story Of The Headless Crewmate/Images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Tarantula Assets/tarantula rig/rightlegtop", "bone": "root", "attachment": "Tarantula Assets/tarantula rig/rightlegtop" },
+	{ "name": "Tarantula Assets/tarantula rig/rightlegbottom", "bone": "root", "attachment": "Tarantula Assets/tarantula rig/rightlegbottom" },
+	{ "name": "Tarantula Assets/tarantula rig/body", "bone": "root", "attachment": "Tarantula Assets/tarantula rig/body" },
+	{ "name": "Tarantula Assets/tarantula rig/leftlegtop", "bone": "root", "attachment": "Tarantula Assets/tarantula rig/leftlegtop" },
+	{ "name": "Tarantula Assets/tarantula rig/leftlegbottom", "bone": "root", "attachment": "Tarantula Assets/tarantula rig/leftlegbottom" },
+	{ "name": "Tarantula Assets/tarantula rig/head", "bone": "root", "attachment": "Tarantula Assets/tarantula rig/head" },
+	{ "name": "Tarantula Assets/tarantula rig/mouthr", "bone": "root", "attachment": "Tarantula Assets/tarantula rig/mouthr" },
+	{ "name": "Tarantula Assets/tarantula rig/mouthl", "bone": "root", "attachment": "Tarantula Assets/tarantula rig/mouthl" },
+	{ "name": "Tarantula Assets/tarantula expressions/neutral", "bone": "root", "attachment": "Tarantula Assets/tarantula expressions/neutral" },
+	{ "name": "Tarantula Assets/tarantula expressions/squint", "bone": "root", "attachment": "Tarantula Assets/tarantula expressions/squint" },
+	{ "name": "Tarantula Assets/tarantula expressions/happy", "bone": "root", "attachment": "Tarantula Assets/tarantula expressions/happy" },
+	{ "name": "Tarantula Assets/tarantula expressions/angry", "bone": "root", "attachment": "Tarantula Assets/tarantula expressions/angry" }
+],
+"skins": {
+	"default": {
+		"Tarantula Assets/tarantula rig/rightlegtop": {
+			"Tarantula Assets/tarantula rig/rightlegtop": { "x": 2021.5, "y": -902.5, "width": 88, "height": 80 }
+		},
+		"Tarantula Assets/tarantula rig/rightlegbottom": {
+			"Tarantula Assets/tarantula rig/rightlegbottom": { "x": 2043, "y": -1002.5, "width": 99, "height": 233 }
+		},
+		"Tarantula Assets/tarantula rig/body": {
+			"Tarantula Assets/tarantula rig/body": { "x": 1783, "y": -841.5, "width": 391, "height": 321 }
+		},
+		"Tarantula Assets/tarantula rig/leftlegtop": {
+			"Tarantula Assets/tarantula rig/leftlegtop": { "x": 1720.5, "y": -935, "width": 90, "height": 91 }
+		},
+		"Tarantula Assets/tarantula rig/leftlegbottom": {
+			"Tarantula Assets/tarantula rig/leftlegbottom": { "x": 1704.5, "y": -1039, "width": 99, "height": 233 }
+		},
+		"Tarantula Assets/tarantula rig/head": {
+			"Tarantula Assets/tarantula rig/head": { "x": 1887.5, "y": -779.5, "width": 283, "height": 489 }
+		},
+		"Tarantula Assets/tarantula rig/mouthr": {
+			"Tarantula Assets/tarantula rig/mouthr": { "x": 1969, "y": -1002, "width": 66, "height": 76 }
+		},
+		"Tarantula Assets/tarantula rig/mouthl": {
+			"Tarantula Assets/tarantula rig/mouthl": { "x": 1891, "y": -1011.5, "width": 72, "height": 76 }
+		},
+		"Tarantula Assets/tarantula expressions/neutral": {
+			"Tarantula Assets/tarantula expressions/neutral": { "x": 1905, "y": -921.5, "width": 224, "height": 98 }
+		},
+		"Tarantula Assets/tarantula expressions/squint": {
+			"Tarantula Assets/tarantula expressions/squint": { "x": 1905, "y": -925.5, "width": 224, "height": 95 }
+		},
+		"Tarantula Assets/tarantula expressions/happy": {
+			"Tarantula Assets/tarantula expressions/happy": { "x": 1905, "y": -919, "width": 224, "height": 109 }
+		},
+		"Tarantula Assets/tarantula expressions/angry": {
+			"Tarantula Assets/tarantula expressions/angry": { "x": 1905, "y": -921.5, "width": 224, "height": 98 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

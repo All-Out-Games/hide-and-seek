@@ -1,0 +1,104 @@
+{ "skeleton": { "images": "/h/My Drive/DoubleJump work/scarab mod/scarab/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "scarab/scarab_leg_4", "bone": "root", "attachment": "scarab/scarab_leg_4" },
+	{ "name": "scarab/scarab_body", "bone": "root", "attachment": "scarab/scarab_body" },
+	{ "name": "scarab/scarab_leg_1", "bone": "root", "attachment": "scarab/scarab_leg_1" },
+	{ "name": "scarab/scarab_leg_2", "bone": "root", "attachment": "scarab/scarab_leg_2" },
+	{ "name": "scarab/scarab_leg_3", "bone": "root", "attachment": "scarab/scarab_leg_3" },
+	{ "name": "scrab_bits/scrab_bits_5", "bone": "root", "attachment": "scrab_bits/scrab_bits_5" },
+	{ "name": "scrab_bits/scrab_bits_4", "bone": "root", "attachment": "scrab_bits/scrab_bits_4" },
+	{ "name": "scrab_bits/scrab_bits_3", "bone": "root", "attachment": "scrab_bits/scrab_bits_3" },
+	{ "name": "scrab_bits/scrab_bits_2", "bone": "root", "attachment": "scrab_bits/scrab_bits_2" },
+	{ "name": "scrab_bits/scrab_bits_1", "bone": "root", "attachment": "scrab_bits/scrab_bits_1" },
+	{ "name": "golden_scrab_bits/golden_scrab_bits_5", "bone": "root", "attachment": "golden_scrab_bits/golden_scrab_bits_5" },
+	{ "name": "golden_scrab_bits/golden_scrab_bits_4", "bone": "root", "attachment": "golden_scrab_bits/golden_scrab_bits_4" },
+	{ "name": "golden_scrab_bits/golden_scrab_bits_3", "bone": "root", "attachment": "golden_scrab_bits/golden_scrab_bits_3" },
+	{ "name": "golden_scrab_bits/golden_scrab_bits_2", "bone": "root", "attachment": "golden_scrab_bits/golden_scrab_bits_2" },
+	{ "name": "golden_scrab_bits/golden_scrab_bits_1", "bone": "root", "attachment": "golden_scrab_bits/golden_scrab_bits_1" },
+	{ "name": "golden_scarab/golden_scarab_leg_4", "bone": "root", "attachment": "golden_scarab/golden_scarab_leg_4" },
+	{ "name": "golden_scarab/golden_scarab_body", "bone": "root", "attachment": "golden_scarab/golden_scarab_body" },
+	{ "name": "golden_scarab/golden_scarab_leg_1", "bone": "root", "attachment": "golden_scarab/golden_scarab_leg_1" },
+	{ "name": "golden_scarab/golden_scarab_leg_2", "bone": "root", "attachment": "golden_scarab/golden_scarab_leg_2" },
+	{ "name": "golden_scarab/golden_scarab_leg_3", "bone": "root", "attachment": "golden_scarab/golden_scarab_leg_3" },
+	{ "name": "blood/blood_1", "bone": "root", "attachment": "blood/blood_1" },
+	{ "name": "blood/blood_2", "bone": "root", "attachment": "blood/blood_2" },
+	{ "name": "blood/blood_3", "bone": "root", "attachment": "blood/blood_3" }
+],
+"skins": {
+	"default": {
+		"scarab/scarab_leg_4": {
+			"scarab/scarab_leg_4": { "x": 506.5, "y": -215, "width": 43, "height": 32 }
+		},
+		"scarab/scarab_body": {
+			"scarab/scarab_body": { "x": 565.5, "y": -210, "width": 129, "height": 72 }
+		},
+		"scarab/scarab_leg_1": {
+			"scarab/scarab_leg_1": { "x": 512.5, "y": -244.5, "width": 48, "height": 38 }
+		},
+		"scarab/scarab_leg_2": {
+			"scarab/scarab_leg_2": { "x": 580.5, "y": -246, "width": 42, "height": 43 }
+		},
+		"scarab/scarab_leg_3": {
+			"scarab/scarab_leg_3": { "x": 607, "y": -238, "width": 44, "height": 42 }
+		},
+		"scrab_bits/scrab_bits_5": {
+			"scrab_bits/scrab_bits_5": { "x": 947.5, "y": -181.5, "width": 39, "height": 54 }
+		},
+		"scrab_bits/scrab_bits_4": {
+			"scrab_bits/scrab_bits_4": { "x": 927.5, "y": -229, "width": 34, "height": 25 }
+		},
+		"scrab_bits/scrab_bits_3": {
+			"scrab_bits/scrab_bits_3": { "x": 887, "y": -227.5, "width": 35, "height": 36 }
+		},
+		"scrab_bits/scrab_bits_2": {
+			"scrab_bits/scrab_bits_2": { "x": 892, "y": -184, "width": 36, "height": 30 }
+		},
+		"scrab_bits/scrab_bits_1": {
+			"scrab_bits/scrab_bits_1": { "x": 845.5, "y": -227, "width": 29, "height": 23 }
+		},
+		"golden_scrab_bits/golden_scrab_bits_5": {
+			"golden_scrab_bits/golden_scrab_bits_5": { "x": 792, "y": -182, "width": 40, "height": 53 }
+		},
+		"golden_scrab_bits/golden_scrab_bits_4": {
+			"golden_scrab_bits/golden_scrab_bits_4": { "x": 771.5, "y": -229, "width": 34, "height": 25 }
+		},
+		"golden_scrab_bits/golden_scrab_bits_3": {
+			"golden_scrab_bits/golden_scrab_bits_3": { "x": 731, "y": -227.5, "width": 35, "height": 36 }
+		},
+		"golden_scrab_bits/golden_scrab_bits_2": {
+			"golden_scrab_bits/golden_scrab_bits_2": { "x": 736, "y": -184, "width": 36, "height": 30 }
+		},
+		"golden_scrab_bits/golden_scrab_bits_1": {
+			"golden_scrab_bits/golden_scrab_bits_1": { "x": 689.5, "y": -227, "width": 29, "height": 23 }
+		},
+		"golden_scarab/golden_scarab_leg_4": {
+			"golden_scarab/golden_scarab_leg_4": { "x": 341.5, "y": -215, "width": 43, "height": 32 }
+		},
+		"golden_scarab/golden_scarab_body": {
+			"golden_scarab/golden_scarab_body": { "x": 400.5, "y": -210, "width": 129, "height": 72 }
+		},
+		"golden_scarab/golden_scarab_leg_1": {
+			"golden_scarab/golden_scarab_leg_1": { "x": 347.5, "y": -244.5, "width": 49, "height": 39 }
+		},
+		"golden_scarab/golden_scarab_leg_2": {
+			"golden_scarab/golden_scarab_leg_2": { "x": 415.5, "y": -246, "width": 42, "height": 43 }
+		},
+		"golden_scarab/golden_scarab_leg_3": {
+			"golden_scarab/golden_scarab_leg_3": { "x": 442, "y": -238, "width": 44, "height": 42 }
+		},
+		"blood/blood_1": {
+			"blood/blood_1": { "x": 834, "y": -406, "width": 194, "height": 179 }
+		},
+		"blood/blood_2": {
+			"blood/blood_2": { "x": 829, "y": -406, "width": 230, "height": 190 }
+		},
+		"blood/blood_3": {
+			"blood/blood_3": { "x": 829.5, "y": -403, "width": 260, "height": 230 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

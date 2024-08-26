@@ -1,0 +1,56 @@
+{ "skeleton": { "images": "C:/Kat/trabajo/DJ_DoubleJump/3T/july/[HEAD134]Headless_Crewmate/images/endcard/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "crew/threeschia", "bone": "root", "attachment": "crew/threeschia" },
+	{ "name": "crew/twoschia", "bone": "root", "attachment": "crew/twoschia" },
+	{ "name": "crew/crewschia", "bone": "root", "attachment": "crew/crewschia" },
+	{ "name": "crew/urn", "bone": "root", "attachment": "crew/urn" },
+	{ "name": "crew/ashes/ash1", "bone": "root", "attachment": "crew/ashes/ash1" },
+	{ "name": "crew/ashes/ash2", "bone": "root", "attachment": "crew/ashes/ash2" },
+	{ "name": "crew/ashes/ash3", "bone": "root", "attachment": "crew/ashes/ash3" },
+	{ "name": "crew/ashes/ash4", "bone": "root", "attachment": "crew/ashes/ash4" },
+	{ "name": "crew/ashes/ash5", "bone": "root", "attachment": "crew/ashes/ash5" },
+	{ "name": "crew/ashes/ash6", "bone": "root", "attachment": "crew/ashes/ash6" }
+],
+"skins": {
+	"default": {
+		"BG": {
+			"BG": { "x": 1145, "y": -685, "width": 2292, "height": 1372 }
+		},
+		"crew/threeschia": {
+			"crew/threeschia": { "x": 1392, "y": -284, "width": 324, "height": 256 }
+		},
+		"crew/twoschia": {
+			"crew/twoschia": { "x": 1615, "y": -591.5, "width": 490, "height": 483 }
+		},
+		"crew/crewschia": {
+			"crew/crewschia": { "x": 888.5, "y": -813, "width": 709, "height": 1056 }
+		},
+		"crew/urn": {
+			"crew/urn": { "x": 597.5, "y": -851.5, "width": 673, "height": 663 }
+		},
+		"crew/ashes/ash1": {
+			"crew/ashes/ash1": { "x": 987, "y": -171, "width": 86, "height": 74 }
+		},
+		"crew/ashes/ash2": {
+			"crew/ashes/ash2": { "x": 837.5, "y": -146.5, "width": 139, "height": 131 }
+		},
+		"crew/ashes/ash3": {
+			"crew/ashes/ash3": { "x": 520.5, "y": -415, "width": 67, "height": 76 }
+		},
+		"crew/ashes/ash4": {
+			"crew/ashes/ash4": { "x": 722.5, "y": -281, "width": 69, "height": 68 }
+		},
+		"crew/ashes/ash5": {
+			"crew/ashes/ash5": { "x": 593, "y": -287.5, "width": 118, "height": 111 }
+		},
+		"crew/ashes/ash6": {
+			"crew/ashes/ash6": { "x": 518, "y": -172.5, "width": 102, "height": 97 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
