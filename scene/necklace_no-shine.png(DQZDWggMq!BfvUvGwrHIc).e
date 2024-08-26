@@ -14,7 +14,8 @@
     "Y": 1
   },
   "previous_sibling": "916426899322219:1724688344909927000",
-  "parent": "171762134029398:1724271873740345200"
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -23,7 +24,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/necklace_no-shine.png",
-    "depth_offset": 0,
+    "depth_offset": -0.1840000003576279,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -58,6 +59,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 15
+    "PropIndex": 14
   }
 }

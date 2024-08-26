@@ -5,8 +5,8 @@
   "name": "lantern_on.png",
   "local_enabled": true,
   "local_position": {
-    "X": -4.7621917724609375,
-    "Y": 33.9940948486328125
+    "X": 1.4070434570312500,
+    "Y": 4.5757169723510742
   },
   "local_rotation": 0,
   "local_scale": {
@@ -15,7 +15,8 @@
   },
   "previous_sibling": "235148047130236:1724297268754551100",
   "next_sibling": "235186028998923:1724297283971656300",
-  "parent": "171762134029398:1724271873740345200"
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/lantern/lantern_on.png",
-    "depth_offset": 0,
+    "depth_offset": -0.2399999946355820,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -59,6 +60,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 4
+    "PropIndex": 3
   }
 }

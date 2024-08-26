@@ -15,7 +15,8 @@
   },
   "previous_sibling": "235994649139069:1724297607938275000",
   "next_sibling": "237054576866937:1724298032589091100",
-  "parent": "171762134029398:1724271873740345200"
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/urn/urn.png",
-    "depth_offset": 0,
+    "depth_offset": -0.7530000209808350,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -59,6 +60,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 8
+    "PropIndex": 7
   }
 }

@@ -5,8 +5,8 @@
   "name": "hammer.png",
   "local_enabled": true,
   "local_position": {
-    "X": -1.9426574707031250,
-    "Y": 36.8081741333007812
+    "X": -4.2775268554687500,
+    "Y": 5.5889253616333008
   },
   "local_rotation": 0,
   "local_scale": {
@@ -15,7 +15,8 @@
   },
   "previous_sibling": "237054576866937:1724298032589091100",
   "next_sibling": "237158993617183:1724298074422755200",
-  "parent": "171762134029398:1724271873740345200"
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/warhammer/hammer.png",
-    "depth_offset": 0,
+    "depth_offset": -0.7530000209808350,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -59,6 +60,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 9
+    "PropIndex": 8
   }
 }

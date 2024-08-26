@@ -44,7 +44,7 @@
   "data": {
     "HunterSpawnsParent": "756566104793231:1705878886488643400",
     "PropSpawnsParent": "756572650990672:1705878888356852800",
-    "HunterBarrier": "3975397103963827:1722459152147312100",
+    "HunterBarrier": "2154809889006236:1724708698749699600",
     "PropsParent": "764215028464876:1705881069403032600",
     "MapName": "Zoo",
     "MapThumbnail": "zoo/thumbnail.png",

@@ -14,7 +14,7 @@
     "Y": 4
   },
   "previous_sibling": "659818145183164:1705814368972998000",
-  "next_sibling": "382183214826706:1723239635535288500"
+  "next_sibling": "167794908492918:1724270284305974600"
 },
 {
   "cid": 1,
@@ -58,6 +58,7 @@
   "internal_component_type": "Edge_Collider",
   "data": {
     "is_trigger": false,
+    "is_loop": false,
     "points": [
       {
         "X": -10.5948915481567383,

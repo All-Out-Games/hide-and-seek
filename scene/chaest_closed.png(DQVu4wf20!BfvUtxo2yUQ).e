@@ -5,7 +5,7 @@
   "name": "chaest_closed.png",
   "local_enabled": true,
   "local_position": {
-    "X": 25.4224243164062500,
+    "X": 25.1390075683593750,
     "Y": 11.2713365554809570
   },
   "local_rotation": 0,
@@ -13,9 +13,10 @@
     "X": 1,
     "Y": 1
   },
-  "previous_sibling": "915965849975285:1724688160194611500",
-  "next_sibling": "916351358714658:1724688314645255100",
-  "parent": "171762134029398:1724271873740345200"
+  "previous_sibling": "2142072134146871:1724705868043777600",
+  "next_sibling": "2141343165571380:1724705706043338300",
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/chaest_closed.png",
-    "depth_offset": 0,
+    "depth_offset": -0.4170179367065430,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -59,6 +60,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 14
+    "PropIndex": 13
   }
 }

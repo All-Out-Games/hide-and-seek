@@ -13,7 +13,8 @@
     "X": 4,
     "Y": 4
   },
-  "previous_sibling": "382183214826706:1723239635535288500"
+  "previous_sibling": "7243732406551:1722487349878440000",
+  "next_sibling": "2156170528486556:1724709001119386900"
 },
 {
   "cid": 1,
@@ -41,13 +42,13 @@
   "component_type": "Mono_Component",
   "mono_component_type": "World",
   "data": {
-    "HunterSpawnsParent": "0:0",
-    "PropSpawnsParent": "0:0",
-    "HunterBarrier": "0:0",
-    "PropsParent": "0:0",
+    "HunterSpawnsParent": "168144972798572:1724270424556190700",
+    "PropSpawnsParent": "168158660570901:1724270430040078500",
+    "HunterBarrier": "2144132603846442:1724706325946913900",
+    "PropsParent": "237529689087097:1724298222938666600",
     "MapName": "Temple",
-    "MapThumbnail": "",
-    "SeekTime": 0
+    "MapThumbnail": "ancienttemplemap/thumbnail.png",
+    "SeekTime": 180
   }
 },
 {
@@ -57,6 +58,7 @@
   "internal_component_type": "Edge_Collider",
   "data": {
     "is_trigger": false,
+    "is_loop": false,
     "points": [
       {
         "X": -4.9885482788085938,

@@ -33,13 +33,13 @@ public partial class VoteManager : Component
 		{
 			_firstMapRandom,
 			_secondMapRandom,
-			//_thirdMapRandom
+			_thirdMapRandom
 		};
 		MapsVotes = new List<SyncVar<int>>
 		{
 			_firstMapVotes,
 			_secondMapVotes,
-			//_thirdMapVotes
+			_thirdMapVotes
 		};
 	}
 
@@ -153,17 +153,17 @@ public partial class VotingEffect : MyEffect
 
 	public override void OnEffectStart(bool isDropIn)
 	{
-		// Hold = new float[3]
-		// {
-		// 	0.0f,
-		// 	0.0f,
-		// 	0.0f	
-		// };
-		Hold = new float[2]
+		Hold = new float[3]
 		{
 			0.0f,
-			0.0f
+			0.0f,
+			0.0f	
 		};
+		// Hold = new float[2]
+		// {
+		// 	0.0f,
+		// 	0.0f
+		// };
 	}
 
 	public override void OnEffectEnd(bool interrupt)
@@ -196,8 +196,8 @@ public partial class VotingEffect : MyEffect
 		if (Player.IsLocal)
 		{
 			using var _1 = UI.PUSH_LAYER(GameManager.IntroLayer);
-			//int offset = -400;
-			int offset = -200;
+			int offset = -400;
+			//int offset = -200;
 			int currentIndex = 0;
 			foreach (var mapVotes in VoteManager.Instance.MapsSelected)
 			{

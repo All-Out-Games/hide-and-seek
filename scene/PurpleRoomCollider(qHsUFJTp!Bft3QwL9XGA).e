@@ -23,6 +23,7 @@
   "internal_component_type": "Edge_Collider",
   "data": {
     "is_trigger": false,
+    "is_loop": false,
     "points": [
       {
         "X": 0.5705871582031250,

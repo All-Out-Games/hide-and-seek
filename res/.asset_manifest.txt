@@ -189,6 +189,606 @@ UI_Panel_Content.png - .ao - 66846167b45eb9e8339be7b8 - 1436225698043289306
 UI_Panel_Content.png - .ao.ios - 66846167b45eb9e8339be7ba - 6496654250706307900
 UI_Panel_Window.png - .ao - 66846167b45eb9e8339be7bc - 16407863635009808548
 UI_Panel_Window.png - .ao.ios - 66846168b45eb9e8339be7be - 13173988383019547916
+ancienttemplemap/Environment/Background/R_hand Right.png - .ao - 66cced2e60ed1ef1ffbc42b5 - 15417584482589639227
+ancienttemplemap/Environment/Background/R_hand Right.png - .ao.ios - 66cced2e60ed1ef1ffbc42b8 - 14910102511070345945
+ancienttemplemap/Environment/Background/R_hand_Left.png - .ao - 66cced2f60ed1ef1ffbc42bb - 3311808036366856969
+ancienttemplemap/Environment/Background/R_hand_Left.png - .ao.ios - 66cced0c60ed1ef1ffbc41f4 - 13452845639041185534
+ancienttemplemap/Environment/Background/THC_Minimap.png - .ao - 66cced0c60ed1ef1ffbc41f5 - 10746342350283649811
+ancienttemplemap/Environment/Background/THC_Minimap.png - .ao.ios - 66cced0c60ed1ef1ffbc41f6 - 10901775079595894429
+ancienttemplemap/Environment/Background/background.png - .ao - 66cced1260ed1ef1ffbc41fa - 16956648605227088692
+ancienttemplemap/Environment/Background/background.png - .ao.ios - 66cced1360ed1ef1ffbc41fb - 5456731286048960056
+ancienttemplemap/Environment/Background/backup/background.png - .ao - 66cced1360ed1ef1ffbc41fd - 5903482631845939179
+ancienttemplemap/Environment/Background/backup/background.png - .ao.ios - 66cced1860ed1ef1ffbc4219 - 11715720012345118878
+ancienttemplemap/Environment/Background/bl_hand_l.png - .ao - 66cced1460ed1ef1ffbc41ff - 8808824345983111006
+ancienttemplemap/Environment/Background/bl_hand_l.png - .ao.ios - 66cced1460ed1ef1ffbc4201 - 3914249136227677906
+ancienttemplemap/Environment/Background/bl_hand_r.png - .ao - 66cced1560ed1ef1ffbc4204 - 5746032117283058095
+ancienttemplemap/Environment/Background/bl_hand_r.png - .ao.ios - 66cced1560ed1ef1ffbc4205 - 7500126342324184061
+ancienttemplemap/Environment/Background/ch_wall_1.png - .ao - 66cced1560ed1ef1ffbc4207 - 11034732424275539075
+ancienttemplemap/Environment/Background/ch_wall_1.png - .ao.ios - 66cced1660ed1ef1ffbc420a - 2987033564053316466
+ancienttemplemap/Environment/Background/ch_wall_2.png - .ao - 66cced1660ed1ef1ffbc420b - 7467801895182605650
+ancienttemplemap/Environment/Background/ch_wall_2.png - .ao.ios - 66cced1660ed1ef1ffbc420e - 1110779727469374724
+ancienttemplemap/Environment/Background/ch_wall_3.png - .ao - 66cced1660ed1ef1ffbc420f - 16641711684469460012
+ancienttemplemap/Environment/Background/ch_wall_3.png - .ao.ios - 66cced1760ed1ef1ffbc4213 - 4322774015792000779
+ancienttemplemap/Environment/Background/ch_wall_4.png - .ao - 66cced1760ed1ef1ffbc4212 - 3370023299635513316
+ancienttemplemap/Environment/Background/ch_wall_4.png - .ao.ios - 66cced1860ed1ef1ffbc4216 - 15928910575752277323
+ancienttemplemap/Environment/Background/ch_wall_5.png - .ao - 66cced1860ed1ef1ffbc4217 - 12196481290546898871
+ancienttemplemap/Environment/Background/ch_wall_5.png - .ao.ios - 66cced1860ed1ef1ffbc421a - 1090381990769226257
+ancienttemplemap/Environment/Background/ch_wall_6.png - .ao - 66cced1960ed1ef1ffbc421e - 11151008360292661121
+ancienttemplemap/Environment/Background/ch_wall_6.png - .ao.ios - 66cced1960ed1ef1ffbc421f - 5462955074050192570
+ancienttemplemap/Environment/Background/g_hand.png - .ao - 66cced1960ed1ef1ffbc4220 - 11990297189540486190
+ancienttemplemap/Environment/Background/g_hand.png - .ao.ios - 66cced1960ed1ef1ffbc4225 - 7806997816783370311
+ancienttemplemap/Environment/Background/green_hd.png - .ao - 66cced1960ed1ef1ffbc4226 - 13249384206955361397
+ancienttemplemap/Environment/Background/green_hd.png - .ao.ios - 66cced1960ed1ef1ffbc4224 - 4479936926769699991
+ancienttemplemap/Environment/Background/skull_Clay_gates-2.png - .ao - 66cced1a60ed1ef1ffbc422a - 712023710255574297
+ancienttemplemap/Environment/Background/skull_Clay_gates-2.png - .ao.ios - 66cced1a60ed1ef1ffbc422c - 10939258527084163779
+ancienttemplemap/Environment/Background/skull_Clay_gates.png - .ao - 66cced1a60ed1ef1ffbc422b - 10828986872600112017
+ancienttemplemap/Environment/Background/skull_Clay_gates.png - .ao.ios - 66cced1a60ed1ef1ffbc4230 - 725665148662502297
+ancienttemplemap/Environment/Background/skull_larghe_bottonm.png - .ao - 66cced1b60ed1ef1ffbc4232 - 1455942486433436909
+ancienttemplemap/Environment/Background/skull_larghe_bottonm.png - .ao.ios - 66cced1b60ed1ef1ffbc4231 - 14584767831505172149
+ancienttemplemap/Environment/Background/template.png - .ao - 66cced1e60ed1ef1ffbc423c - 8712459259140133288
+ancienttemplemap/Environment/Background/template.png - .ao.ios - 66cced2060ed1ef1ffbc4244 - 11963884744082671332
+ancienttemplemap/Environment/jungle dropship edit/dropship_temple.png - .ao - 66cced1c60ed1ef1ffbc4236 - 10709524697332793818
+ancienttemplemap/Environment/jungle dropship edit/dropship_temple.png - .ao.ios - 66cced1d60ed1ef1ffbc4238 - 17867211506972471163
+ancienttemplemap/Gold pot Room 6.png - .ao - 66cced1e60ed1ef1ffbc423a - 3801362932741672104
+ancienttemplemap/Gold pot Room 6.png - .ao.ios - 66cced1e60ed1ef1ffbc423d - 15756976026268430271
+ancienttemplemap/Sword.png - .ao - 66cced1f60ed1ef1ffbc4240 - 2187084932182163883
+ancienttemplemap/Sword.png - .ao.ios - 66cced1f60ed1ef1ffbc4241 - 15675228585595449271
+ancienttemplemap/Tarantula Assets/safari headless cm/safariheadlessskin.png - .ao - 66cced2060ed1ef1ffbc4245 - 2073915236899900639
+ancienttemplemap/Tarantula Assets/safari headless cm/safariheadlessskin.png - .ao.ios - 66cced2060ed1ef1ffbc4246 - 12788640206832221131
+ancienttemplemap/Tarantula Assets/tarantula expressions/angry.png - .ao - 66cced2060ed1ef1ffbc4248 - 10824164838549883687
+ancienttemplemap/Tarantula Assets/tarantula expressions/angry.png - .ao.ios - 66cced2160ed1ef1ffbc424c - 15868384170313293675
+ancienttemplemap/Tarantula Assets/tarantula expressions/happy.png - .ao - 66cced2160ed1ef1ffbc424d - 17297805493361823828
+ancienttemplemap/Tarantula Assets/tarantula expressions/happy.png - .ao.ios - 66cced2160ed1ef1ffbc424e - 8149845350014661306
+ancienttemplemap/Tarantula Assets/tarantula expressions/neutral.png - .ao - 66cced2160ed1ef1ffbc4253 - 1056354633232821144
+ancienttemplemap/Tarantula Assets/tarantula expressions/neutral.png - .ao.ios - 66cced2160ed1ef1ffbc4252 - 11974270666019178894
+ancienttemplemap/Tarantula Assets/tarantula expressions/squint.png - .ao - 66cced2260ed1ef1ffbc4254 - 6195763095308530678
+ancienttemplemap/Tarantula Assets/tarantula expressions/squint.png - .ao.ios - 66cced2260ed1ef1ffbc4257 - 2736040995230077123
+ancienttemplemap/Tarantula Assets/tarantula rig/body.png - .ao - 66cced2260ed1ef1ffbc4259 - 10841854896906297996
+ancienttemplemap/Tarantula Assets/tarantula rig/body.png - .ao.ios - 66cced2360ed1ef1ffbc425c - 3220182460820549591
+ancienttemplemap/Tarantula Assets/tarantula rig/head.png - .ao - 66cced2360ed1ef1ffbc425d - 3818901703537571703
+ancienttemplemap/Tarantula Assets/tarantula rig/head.png - .ao.ios - 66cced2360ed1ef1ffbc425f - 286769154372050279
+ancienttemplemap/Tarantula Assets/tarantula rig/leftlegbottom.png - .ao - 66cced2360ed1ef1ffbc4263 - 2939541315323245587
+ancienttemplemap/Tarantula Assets/tarantula rig/leftlegbottom.png - .ao.ios - 66cced2360ed1ef1ffbc4262 - 14217864763567580684
+ancienttemplemap/Tarantula Assets/tarantula rig/leftlegtop.png - .ao - 66cced2360ed1ef1ffbc4264 - 7240888532928636779
+ancienttemplemap/Tarantula Assets/tarantula rig/leftlegtop.png - .ao.ios - 66cced2460ed1ef1ffbc4268 - 7929196518358655712
+ancienttemplemap/Tarantula Assets/tarantula rig/mouthl.png - .ao - 66cced2460ed1ef1ffbc426b - 1012297856557064500
+ancienttemplemap/Tarantula Assets/tarantula rig/mouthl.png - .ao.ios - 66cced2460ed1ef1ffbc4269 - 13602104783620119377
+ancienttemplemap/Tarantula Assets/tarantula rig/mouthr.png - .ao - 66cced2460ed1ef1ffbc426d - 13823952292470421192
+ancienttemplemap/Tarantula Assets/tarantula rig/mouthr.png - .ao.ios - 66cced2460ed1ef1ffbc4270 - 12529118242386873536
+ancienttemplemap/Tarantula Assets/tarantula rig/rightlegbottom.png - .ao - 66cced2560ed1ef1ffbc4271 - 4326597894572914917
+ancienttemplemap/Tarantula Assets/tarantula rig/rightlegbottom.png - .ao.ios - 66cced2560ed1ef1ffbc4272 - 5115114690110797398
+ancienttemplemap/Tarantula Assets/tarantula rig/rightlegtop.png - .ao - 66cced2560ed1ef1ffbc4276 - 7322389181026930924
+ancienttemplemap/Tarantula Assets/tarantula rig/rightlegtop.png - .ao.ios - 66cced2560ed1ef1ffbc4277 - 2285393276405938548
+ancienttemplemap/Tarantula Assets/template.png - .ao - 66cced2660ed1ef1ffbc427b - 10562300869557489494
+ancienttemplemap/Tarantula Assets/template.png - .ao.ios - 66cced2660ed1ef1ffbc427c - 1997544667184940461
+ancienttemplemap/Tarantula Assets/web enveloped cm/Headlesswebcm.png - .ao - 66cced2660ed1ef1ffbc427a - 14404796938741486095
+ancienttemplemap/Tarantula Assets/web enveloped cm/Headlesswebcm.png - .ao.ios - 66cced2660ed1ef1ffbc4280 - 17205395834419601345
+ancienttemplemap/Tarantula Assets/web/web.png - .ao - 66cced2660ed1ef1ffbc4281 - 4184242713094845955
+ancienttemplemap/Tarantula Assets/web/web.png - .ao.ios - 66cced2760ed1ef1ffbc4284 - 12552615584170827766
+ancienttemplemap/_FIX_Heart/HEAD134Item.png - .ao - 66cced2860ed1ef1ffbc4286 - 4157863980521103813
+ancienttemplemap/_FIX_Heart/HEAD134Item.png - .ao.ios - 66cced2860ed1ef1ffbc4288 - 5800539366138577700
+ancienttemplemap/_FIX_Heart/HEAD134_crewmate_5.png - .ao - 66cced2960ed1ef1ffbc428a - 7412484320981149409
+ancienttemplemap/_FIX_Heart/HEAD134_crewmate_5.png - .ao.ios - 66cced2a60ed1ef1ffbc428e - 13022434215242221672
+ancienttemplemap/_FIX_Heart/HEAD134_glyph_stone_pedestal.png - .ao - 66cced2960ed1ef1ffbc428b - 4699794360925097970
+ancienttemplemap/_FIX_Heart/HEAD134_glyph_stone_pedestal.png - .ao.ios - 66cced2a60ed1ef1ffbc4293 - 1852139661893321887
+ancienttemplemap/_FIX_Heart/HEAD134_slot_wall.png - .ao - 66cced2a60ed1ef1ffbc428f - 17228901543108686862
+ancienttemplemap/_FIX_Heart/HEAD134_slot_wall.png - .ao.ios - 66cced2b60ed1ef1ffbc4298 - 12039421647275352127
+ancienttemplemap/_FIX_Heart/heart_drawing.png - .ao - 66cced2a60ed1ef1ffbc4292 - 817435845069461704
+ancienttemplemap/_FIX_Heart/heart_drawing.png - .ao.ios - 66cced2b60ed1ef1ffbc4296 - 5732007726562254066
+ancienttemplemap/_FIX_Heart/heart_glyph.png - .ao - 66cced2b60ed1ef1ffbc4297 - 804516991536774475
+ancienttemplemap/_FIX_Heart/heart_glyph.png - .ao.ios - 66cced2b60ed1ef1ffbc429a - 7912868545395255207
+ancienttemplemap/_FIX_Heart/heart_stone(1).png - .ao - 66cced2c60ed1ef1ffbc429c - 15829052655727397840
+ancienttemplemap/_FIX_Heart/heart_stone(1).png - .ao.ios - 66cced2c60ed1ef1ffbc429f - 10038926901709798225
+ancienttemplemap/_FIX_Heart/heart_stone.png - .ao - 66cced2c60ed1ef1ffbc42a1 - 9904950797892355758
+ancienttemplemap/_FIX_Heart/heart_stone.png - .ao.ios - 66cced2c60ed1ef1ffbc42a2 - 12399543699754641107
+ancienttemplemap/armour/armour_folded.png - .ao - 66cced2d60ed1ef1ffbc42a6 - 5977028077389361482
+ancienttemplemap/armour/armour_folded.png - .ao.ios - 66cced2d60ed1ef1ffbc42a7 - 17517481256658028228
+ancienttemplemap/armour/body.png - .ao - 66cced2d60ed1ef1ffbc42a8 - 16354234334931401321
+ancienttemplemap/armour/body.png - .ao.ios - 66cced2d60ed1ef1ffbc42aa - 935213542164114506
+ancienttemplemap/armour/helmet.png - .ao - 66cced2d60ed1ef1ffbc42ad - 2703199494290552119
+ancienttemplemap/armour/helmet.png - .ao.ios - 66cced2e60ed1ef1ffbc42af - 5710881076736847072
+ancienttemplemap/armour/leg_l.png - .ao - 66cced2e60ed1ef1ffbc42b0 - 9987025624911943889
+ancienttemplemap/armour/leg_l.png - .ao.ios - 66cced2e60ed1ef1ffbc42b4 - 10470642181265923191
+ancienttemplemap/armour/leg_r.png - .ao - 66cced2e60ed1ef1ffbc42b6 - 3339873822250988428
+ancienttemplemap/armour/leg_r.png - .ao.ios - 66cced2f60ed1ef1ffbc42bc - 10921366023595615557
+ancienttemplemap/armour/pieces/piece01.png - .ao - 66cced2f60ed1ef1ffbc42be - 2589631071450554285
+ancienttemplemap/armour/pieces/piece01.png - .ao.ios - 66cced2f60ed1ef1ffbc42c1 - 3965478521387716451
+ancienttemplemap/armour/pieces/piece02.png - .ao - 66cced2f60ed1ef1ffbc42c3 - 7236255896802671235
+ancienttemplemap/armour/pieces/piece02.png - .ao.ios - 66cced2f60ed1ef1ffbc42c5 - 13529211190015787052
+ancienttemplemap/armour/pieces/piece03.png - .ao - 66cced2f60ed1ef1ffbc42c9 - 6008806428457896208
+ancienttemplemap/armour/pieces/piece03.png - .ao.ios - 66cced2f60ed1ef1ffbc42c8 - 13589236539282812030
+ancienttemplemap/armour/pieces/piece04.png - .ao - 66cced3060ed1ef1ffbc42ca - 18321666857015339307
+ancienttemplemap/armour/pieces/piece04.png - .ao.ios - 66cced3060ed1ef1ffbc42cd - 3978742706654378735
+ancienttemplemap/armour/pieces/piece05.png - .ao - 66cced3060ed1ef1ffbc42cf - 665853572927556463
+ancienttemplemap/armour/pieces/piece05.png - .ao.ios - 66cced3060ed1ef1ffbc42d1 - 13647333061262548512
+ancienttemplemap/bird-statue-no-shine.png - .ao - 66cced3060ed1ef1ffbc42d3 - 13559587324349152317
+ancienttemplemap/bird-statue-no-shine.png - .ao.ios - 66cced3060ed1ef1ffbc42d4 - 3738605478224475266
+ancienttemplemap/broom.png - .ao - 66cced3160ed1ef1ffbc42d8 - 11975449606030456304
+ancienttemplemap/broom.png - .ao.ios - 66cced3160ed1ef1ffbc42d9 - 438548429999647744
+ancienttemplemap/candles/export 2/floorfire1.png - .ao - 66cced3160ed1ef1ffbc42da - 8885250825903202707
+ancienttemplemap/candles/export 2/floorfire1.png - .ao.ios - 66cced3160ed1ef1ffbc42dd - 12371420652115933214
+ancienttemplemap/candles/export 2/floorfire3.png - .ao - 66cced3160ed1ef1ffbc42de - 10497813253327310543
+ancienttemplemap/candles/export 2/floorfire3.png - .ao.ios - 66cced3260ed1ef1ffbc42e1 - 17207839026015817227
+ancienttemplemap/candles/export 2/wall1.png - .ao - 66cced3260ed1ef1ffbc42e4 - 15478721556992009521
+ancienttemplemap/candles/export 2/wall1.png - .ao.ios - 66cced3260ed1ef1ffbc42e3 - 17950683269742049265
+ancienttemplemap/candles/export 2/wall2.png - .ao - 66cced3260ed1ef1ffbc42e7 - 15978263269535091886
+ancienttemplemap/candles/export 2/wall2.png - .ao.ios - 66cced3260ed1ef1ffbc42e9 - 13925934203978381448
+ancienttemplemap/candles/export 2/wallfire1.png - .ao - 66cced3360ed1ef1ffbc42eb - 17217585331827603974
+ancienttemplemap/candles/export 2/wallfire1.png - .ao.ios - 66cced3360ed1ef1ffbc42ed - 1842472433002272743
+ancienttemplemap/candles/export 2/wallfire2.png - .ao - 66cced3360ed1ef1ffbc42ef - 1281744164631738798
+ancienttemplemap/candles/export 2/wallfire2.png - .ao.ios - 66cced3360ed1ef1ffbc42f0 - 6836443796241777073
+ancienttemplemap/candles/floor_candle_01.png - .ao - 66cced3360ed1ef1ffbc42f4 - 15550073546863943060
+ancienttemplemap/candles/floor_candle_01.png - .ao.ios - 66cced3460ed1ef1ffbc42f5 - 2070140564702644081
+ancienttemplemap/candles/floor_candle_02.png - .ao - 66cced3460ed1ef1ffbc42f7 - 16957491774450139291
+ancienttemplemap/candles/floor_candle_02.png - .ao.ios - 66cced3460ed1ef1ffbc42f8 - 16164839527090777330
+ancienttemplemap/candles/floor_candle_03.png - .ao - 66cced3460ed1ef1ffbc42fd - 13301665993486657600
+ancienttemplemap/candles/floor_candle_03.png - .ao.ios - 66cced3460ed1ef1ffbc42fc - 6122689517588314039
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_01.png - .ao - 66cced3460ed1ef1ffbc42fe - 15495152134996940043
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_01.png - .ao.ios - 66cced3560ed1ef1ffbc4302 - 16603621171699717992
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_02.png - .ao - 66cced3560ed1ef1ffbc4303 - 16692662102925420830
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_02.png - .ao.ios - 66cced3560ed1ef1ffbc4304 - 12238178942538774744
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_03.png - .ao - 66cced3560ed1ef1ffbc4307 - 1636073250830083856
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_03.png - .ao.ios - 66cced3560ed1ef1ffbc4309 - 11972418253421913114
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_04.png - .ao - 66cced3660ed1ef1ffbc430b - 884004635813046211
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_04.png - .ao.ios - 66cced3660ed1ef1ffbc430c - 13709446809212043344
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_05.png - .ao - 66cced3660ed1ef1ffbc4310 - 7224147627456986077
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_05.png - .ao.ios - 66cced3660ed1ef1ffbc4311 - 10735608542852358279
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_06.png - .ao - 66cced3660ed1ef1ffbc4312 - 17183201346501477194
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_06.png - .ao.ios - 66cced3760ed1ef1ffbc4314 - 10824300248415902412
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_07.png - .ao - 66cced3760ed1ef1ffbc4318 - 2003445681683508132
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_07.png - .ao.ios - 66cced3760ed1ef1ffbc431a - 5977449083654212613
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_08.png - .ao - 66cced3760ed1ef1ffbc4319 - 8900698465158176871
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_08.png - .ao.ios - 66cced3760ed1ef1ffbc431c - 14047955630565352237
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_09.png - .ao - 66cced3760ed1ef1ffbc431f - 6679915984630160997
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_09.png - .ao.ios - 66cced3860ed1ef1ffbc4320 - 16290099285242357441
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_10.png - .ao - 66cced3860ed1ef1ffbc4322 - 8184798308144508584
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_10.png - .ao.ios - 66cced3860ed1ef1ffbc4325 - 2215257302133237266
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_11.png - .ao - 66cced3860ed1ef1ffbc4326 - 5355258668422731744
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_11.png - .ao.ios - 66cced3860ed1ef1ffbc4328 - 9344760918883393152
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_12.png - .ao - 66cced3960ed1ef1ffbc432b - 7819239263425619985
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_12.png - .ao.ios - 66cced3960ed1ef1ffbc432c - 3354532490038531565
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_13.png - .ao - 66cced3960ed1ef1ffbc4330 - 10176377508100204486
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_13.png - .ao.ios - 66cced3960ed1ef1ffbc4332 - 1054186902115483502
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_14.png - .ao - 66cced3960ed1ef1ffbc4331 - 11117077326938581965
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_14.png - .ao.ios - 66cced3960ed1ef1ffbc4336 - 17918129334756460989
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_15.png - .ao - 66cced3a60ed1ef1ffbc4337 - 1727604461114251222
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_15.png - .ao.ios - 66cced3a60ed1ef1ffbc4338 - 18410703301201443601
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_16.png - .ao - 66cced3a60ed1ef1ffbc433b - 169483317908217930
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_16.png - .ao.ios - 66cced3a60ed1ef1ffbc433d - 1578593938591303154
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_17.png - .ao - 66cced3a60ed1ef1ffbc433f - 13124533753958677726
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_17.png - .ao.ios - 66cced3a60ed1ef1ffbc4341 - 13619780703684630626
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_18.png - .ao - 66cced3a60ed1ef1ffbc4343 - 17508460104378500946
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_18.png - .ao.ios - 66cced3b60ed1ef1ffbc4344 - 575130608380913061
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_00.png - .ao - 66cced3b60ed1ef1ffbc4348 - 6102369394906814192
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_00.png - .ao.ios - 66cced3b60ed1ef1ffbc4349 - 15529493923009421677
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_01.png - .ao - 66cced3b60ed1ef1ffbc434a - 10012684180322873290
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_01.png - .ao.ios - 66cced3b60ed1ef1ffbc434e - 10019699151032957436
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_02.png - .ao - 66cced3b60ed1ef1ffbc434f - 8981874041596094940
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_02.png - .ao.ios - 66cced3b60ed1ef1ffbc4350 - 11403019682951207663
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_03.png - .ao - 66cced3c60ed1ef1ffbc4353 - 15303275192839140484
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_03.png - .ao.ios - 66cced3c60ed1ef1ffbc4355 - 503444450581009559
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_04.png - .ao - 66cced3c60ed1ef1ffbc4358 - 15196570821773392266
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_04.png - .ao.ios - 66cced3c60ed1ef1ffbc4357 - 10734546245093550798
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_05.png - .ao - 66cced3d60ed1ef1ffbc435c - 13186906512105252598
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_05.png - .ao.ios - 66cced3d60ed1ef1ffbc435d - 5009612433012839998
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_06.png - .ao - 66cced3d60ed1ef1ffbc435e - 7826954172993641147
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_06.png - .ao.ios - 66cced3d60ed1ef1ffbc4361 - 9331447198258004520
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_07.png - .ao - 66cced3d60ed1ef1ffbc4362 - 11227742094701746929
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_07.png - .ao.ios - 66cced3e60ed1ef1ffbc4366 - 13792698154136029843
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_08.png - .ao - 66cced3e60ed1ef1ffbc4367 - 14400916405019074174
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_08.png - .ao.ios - 66cced3e60ed1ef1ffbc4368 - 15310500813894152103
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_09.png - .ao - 66cced3e60ed1ef1ffbc436a - 16043024220677215487
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_09.png - .ao.ios - 66cced3e60ed1ef1ffbc436e - 16115985274132709035
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_10.png - .ao - 66cced3e60ed1ef1ffbc436f - 13029978694634388622
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_10.png - .ao.ios - 66cced3e60ed1ef1ffbc4370 - 5093897615064570158
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_11.png - .ao - 66cced3f60ed1ef1ffbc4373 - 15043652804445638666
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_11.png - .ao.ios - 66cced3f60ed1ef1ffbc4375 - 16564109257016089277
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_12.png - .ao - 66cced3f60ed1ef1ffbc4377 - 5948847450850127659
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_12.png - .ao.ios - 66cced3f60ed1ef1ffbc4379 - 13529162636702534380
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_13.png - .ao - 66cced3f60ed1ef1ffbc437b - 10504468135908212586
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_13.png - .ao.ios - 66cced4060ed1ef1ffbc437d - 13384418612856495612
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_14.png - .ao - 66cced4060ed1ef1ffbc4381 - 500737070131925037
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_14.png - .ao.ios - 66cced4060ed1ef1ffbc4380 - 8127694565488931607
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_15.png - .ao - 66cced4060ed1ef1ffbc4382 - 12178218623928440805
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_15.png - .ao.ios - 66cced4060ed1ef1ffbc4385 - 298962095031196891
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_16.png - .ao - 66cced4060ed1ef1ffbc4386 - 4404155149696389507
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_16.png - .ao.ios - 66cced4160ed1ef1ffbc438a - 13507050208017332544
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_17.png - .ao - 66cced4160ed1ef1ffbc438d - 3290694396382969907
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_17.png - .ao.ios - 66cced4160ed1ef1ffbc438b - 18210672514945336585
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_00.png - .ao - 66cced4160ed1ef1ffbc438f - 15728277237179321162
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_00.png - .ao.ios - 66cced4160ed1ef1ffbc4390 - 444814856353560215
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_01.png - .ao - 66cced4260ed1ef1ffbc4393 - 9110423444377795719
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_01.png - .ao.ios - 66cced4260ed1ef1ffbc4394 - 3329168678251926704
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_02.png - .ao - 66cced4260ed1ef1ffbc4397 - 2491524654153214936
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_02.png - .ao.ios - 66cced4260ed1ef1ffbc4398 - 8181867855872709761
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_03.png - .ao - 66cced4260ed1ef1ffbc439a - 68566595021542874
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_03.png - .ao.ios - 66cced4360ed1ef1ffbc43a0 - 5350697789658329383
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_04.png - .ao - 66cced4360ed1ef1ffbc439e - 15706999699077164808
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_04.png - .ao.ios - 66cced4360ed1ef1ffbc439f - 12986150998920827031
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_05.png - .ao - 66cced4360ed1ef1ffbc43a3 - 3561494140729707095
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_05.png - .ao.ios - 66cced4360ed1ef1ffbc43a4 - 5666201145247597752
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_06.png - .ao - 66cced4460ed1ef1ffbc43a8 - 10864618241313684976
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_06.png - .ao.ios - 66cced4460ed1ef1ffbc43a9 - 1710369769472722049
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_07.png - .ao - 66cced4460ed1ef1ffbc43aa - 7588171063849322123
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_07.png - .ao.ios - 66cced4460ed1ef1ffbc43ad - 10927797435362658501
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_08.png - .ao - 66cced4460ed1ef1ffbc43af - 1321469368833474092
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_08.png - .ao.ios - 66cced4460ed1ef1ffbc43b0 - 2830159829513330698
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_09.png - .ao - 66cced4560ed1ef1ffbc43b3 - 13315230205200429264
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_09.png - .ao.ios - 66cced4560ed1ef1ffbc43b5 - 3580503810294590767
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_10.png - .ao - 66cced4560ed1ef1ffbc43b6 - 10277312228522417473
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_10.png - .ao.ios - 66cced4560ed1ef1ffbc43ba - 6477077088703544589
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_11.png - .ao - 66cced4560ed1ef1ffbc43b9 - 7132452974359262866
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_11.png - .ao.ios - 66cced4660ed1ef1ffbc43be - 13991828971717819125
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_12.png - .ao - 66cced4660ed1ef1ffbc43c1 - 4013268755201839876
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_12.png - .ao.ios - 66cced4660ed1ef1ffbc43bf - 10164171301416805446
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_13.png - .ao - 66cced4660ed1ef1ffbc43c2 - 4936492134765857976
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_13.png - .ao.ios - 66cced4660ed1ef1ffbc43c4 - 13420763427878906332
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_14.png - .ao - 66cced4760ed1ef1ffbc43c7 - 7366442387114160464
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_14.png - .ao.ios - 66cced4760ed1ef1ffbc43c9 - 775022444532593083
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_00.png - .ao - 66cced4760ed1ef1ffbc43ca - 3029406127400069277
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_00.png - .ao.ios - 66cced4760ed1ef1ffbc43cd - 16917901398166229874
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_01.png - .ao - 66cced4760ed1ef1ffbc43ce - 2088748970259192000
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_01.png - .ao.ios - 66cced4860ed1ef1ffbc43d2 - 7324677772099385713
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_02.png - .ao - 66cced4860ed1ef1ffbc43d3 - 9520146674786983077
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_02.png - .ao.ios - 66cced4860ed1ef1ffbc43d4 - 7041688934826168480
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_03.png - .ao - 66cced4860ed1ef1ffbc43da - 16468185405076098061
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_03.png - .ao.ios - 66cced4860ed1ef1ffbc43d8 - 16077179911859601523
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_04.png - .ao - 66cced4860ed1ef1ffbc43d9 - 7289269837786523637
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_04.png - .ao.ios - 66cced4960ed1ef1ffbc43dc - 3424033048807384916
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_05.png - .ao - 66cced4960ed1ef1ffbc43df - 2198759565723097061
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_05.png - .ao.ios - 66cced4960ed1ef1ffbc43e1 - 6210432690716551526
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_06.png - .ao - 66cced4960ed1ef1ffbc43e3 - 13578147781024345476
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_06.png - .ao.ios - 66cced4960ed1ef1ffbc43e4 - 13227098176758678814
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_07.png - .ao - 66cced4a60ed1ef1ffbc43e6 - 15850478607079617123
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_07.png - .ao.ios - 66cced4a60ed1ef1ffbc43e9 - 18352582857325116508
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_08.png - .ao - 66cced4a60ed1ef1ffbc43ea - 12926394063573453008
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_08.png - .ao.ios - 66cced4a60ed1ef1ffbc43ed - 12158506848702907120
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_09.png - .ao - 66cced4a60ed1ef1ffbc43ee - 1313960441414307070
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_09.png - .ao.ios - 66cced4b60ed1ef1ffbc43f2 - 11336030282142350622
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_00.png - .ao - 66cced4b60ed1ef1ffbc43f3 - 11400766975920802184
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_00.png - .ao.ios - 66cced4b60ed1ef1ffbc43f4 - 10721593037312956791
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_01.png - .ao - 66cced4b60ed1ef1ffbc43f7 - 11117841052782045125
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_01.png - .ao.ios - 66cced4b60ed1ef1ffbc43f9 - 13136878638116480905
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_02.png - .ao - 66cced4b60ed1ef1ffbc43fa - 10864699371854854719
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_02.png - .ao.ios - 66cced4c60ed1ef1ffbc43fe - 2647222202714474584
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_03.png - .ao - 66cced4c60ed1ef1ffbc43ff - 6184001574614182822
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_03.png - .ao.ios - 66cced4c60ed1ef1ffbc4400 - 13756707197269136887
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_04.png - .ao - 66cced4c60ed1ef1ffbc4404 - 709805212121970801
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_04.png - .ao.ios - 66cced4c60ed1ef1ffbc4405 - 7307829497038780060
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_05.png - .ao - 66cced4c60ed1ef1ffbc4406 - 4211695688710660293
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_05.png - .ao.ios - 66cced4d60ed1ef1ffbc440a - 18232241294574868288
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_06.png - .ao - 66cced4d60ed1ef1ffbc440c - 10076220871636301907
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_06.png - .ao.ios - 66cced4d60ed1ef1ffbc440b - 13949194868195315543
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_07.png - .ao - 66cced4d60ed1ef1ffbc4411 - 10681448710022362580
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_07.png - .ao.ios - 66cced4d60ed1ef1ffbc4410 - 1041743313495537951
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_08.png - .ao - 66cced4e60ed1ef1ffbc4412 - 18104479634702208033
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_08.png - .ao.ios - 66cced4e60ed1ef1ffbc4415 - 16650003731553620152
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_09.png - .ao - 66cced4e60ed1ef1ffbc4416 - 2374859918039789296
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_09.png - .ao.ios - 66cced4e60ed1ef1ffbc4419 - 15091044039043384772
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_10.png - .ao - 66cced4e60ed1ef1ffbc441a - 701093687054735855
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_10.png - .ao.ios - 66cced4f60ed1ef1ffbc441c - 7729779138849607110
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_11.png - .ao - 66cced4f60ed1ef1ffbc441e - 1151624519504783517
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_11.png - .ao.ios - 66cced4f60ed1ef1ffbc4422 - 7964666212745940905
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_12.png - .ao - 66cced4f60ed1ef1ffbc4423 - 3716805092089685221
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_12.png - .ao.ios - 66cced4f60ed1ef1ffbc4424 - 15886730842573702744
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_13.png - .ao - 66cced5060ed1ef1ffbc4426 - 13886075254061396565
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_13.png - .ao.ios - 66cced5060ed1ef1ffbc442a - 7381180966908402256
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_14.png - .ao - 66cced5060ed1ef1ffbc442b - 481650148988030806
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_14.png - .ao.ios - 66cced5060ed1ef1ffbc442c - 3591923463245596372
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_15.png - .ao - 66cced5060ed1ef1ffbc442f - 16985665180615401198
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_15.png - .ao.ios - 66cced5060ed1ef1ffbc4430 - 6270010646873504662
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_16.png - .ao - 66cced5160ed1ef1ffbc4434 - 10302179062881238738
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_16.png - .ao.ios - 66cced5160ed1ef1ffbc4435 - 10169430158209464825
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_00.png - .ao - 66cced5160ed1ef1ffbc4436 - 11354922772839415580
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_00.png - .ao.ios - 66cced5160ed1ef1ffbc4439 - 7580576199298841724
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_01.png - .ao - 66cced5260ed1ef1ffbc443a - 13299558696932090304
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_01.png - .ao.ios - 66cced5260ed1ef1ffbc443d - 17812097650960501982
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_02.png - .ao - 66cced5260ed1ef1ffbc443e - 15329560477688317111
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_02.png - .ao.ios - 66cced5260ed1ef1ffbc4442 - 8905067339844716778
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_03.png - .ao - 66cced5260ed1ef1ffbc4443 - 12726522627056190298
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_03.png - .ao.ios - 66cced5260ed1ef1ffbc4444 - 7645289358011177378
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_04.png - .ao - 66cced5360ed1ef1ffbc4448 - 1537528577765484174
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_04.png - .ao.ios - 66cced5360ed1ef1ffbc4449 - 5004985684121704804
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_05.png - .ao - 66cced5360ed1ef1ffbc444a - 12433707506617028339
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_05.png - .ao.ios - 66cced5360ed1ef1ffbc444e - 313876152707789065
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_06.png - .ao - 66cced5360ed1ef1ffbc444f - 1620476250555505643
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_06.png - .ao.ios - 66cced5360ed1ef1ffbc4450 - 15490986490303559397
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_07.png - .ao - 66cced5460ed1ef1ffbc4454 - 16826851657729225399
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_07.png - .ao.ios - 66cced5460ed1ef1ffbc4455 - 3071795188591663330
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_08.png - .ao - 66cced5460ed1ef1ffbc4456 - 15481349118099427366
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_08.png - .ao.ios - 66cced5460ed1ef1ffbc445a - 2598718677089023422
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_09.png - .ao - 66cced5460ed1ef1ffbc445b - 12144458463416806507
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_09.png - .ao.ios - 66cced5460ed1ef1ffbc445c - 8661422723018258499
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_10.png - .ao - 66cced5560ed1ef1ffbc445f - 10667042007433724214
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_10.png - .ao.ios - 66cced5560ed1ef1ffbc4461 - 15240474834254551292
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_11.png - .ao - 66cced5560ed1ef1ffbc4463 - 10547163627603559266
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_11.png - .ao.ios - 66cced5560ed1ef1ffbc4465 - 5234750799237685957
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_12.png - .ao - 66cced5560ed1ef1ffbc4467 - 6672543984120678309
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_12.png - .ao.ios - 66cced5560ed1ef1ffbc4469 - 16515165572737197375
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_13.png - .ao - 66cced5560ed1ef1ffbc446b - 17843438392631981982
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_13.png - .ao.ios - 66cced5660ed1ef1ffbc446d - 10516111400542528531
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_14.png - .ao - 66cced5660ed1ef1ffbc446f - 1548309567470508752
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_14.png - .ao.ios - 66cced5660ed1ef1ffbc4471 - 15088096527645047064
+ancienttemplemap/candles/wall_candle_01.png - .ao - 66cced5660ed1ef1ffbc4473 - 10391683376977130702
+ancienttemplemap/candles/wall_candle_01.png - .ao.ios - 66cced5660ed1ef1ffbc4475 - 8663943921582489696
+ancienttemplemap/candles/wall_candle_02.png - .ao - 66cced5660ed1ef1ffbc4477 - 11299565748435677947
+ancienttemplemap/candles/wall_candle_02.png - .ao.ios - 66cced5660ed1ef1ffbc4479 - 4802719149739321312
+ancienttemplemap/candles/wall_candle_03.png - .ao - 66cced5760ed1ef1ffbc447b - 9589260542532662651
+ancienttemplemap/candles/wall_candle_03.png - .ao.ios - 66cced5760ed1ef1ffbc447d - 6201109780758869062
+ancienttemplemap/chaest_closed.png - .ao - 66cced5760ed1ef1ffbc447e - 17603661575096372923
+ancienttemplemap/chaest_closed.png - .ao.ios - 66cced5760ed1ef1ffbc4482 - 12818086498262969427
+ancienttemplemap/chest_open.png - .ao - 66cced5860ed1ef1ffbc4483 - 2011598403815257499
+ancienttemplemap/chest_open.png - .ao.ios - 66cced5860ed1ef1ffbc4486 - 15514070963666207318
+ancienttemplemap/fire on head/fire1.png - .ao - 66cced5860ed1ef1ffbc4487 - 17574624180198158638
+ancienttemplemap/fire on head/fire1.png - .ao.ios - 66cced5860ed1ef1ffbc4488 - 5852675671937512654
+ancienttemplemap/fire on head/fire2.png - .ao - 66cced5860ed1ef1ffbc448c - 2464350415530895396
+ancienttemplemap/fire on head/fire2.png - .ao.ios - 66cced5860ed1ef1ffbc448d - 3230943659426303462
+ancienttemplemap/fire on head/fire3.png - .ao - 66cced5960ed1ef1ffbc448f - 12613242890845121495
+ancienttemplemap/fire on head/fire3.png - .ao.ios - 66cced5960ed1ef1ffbc4491 - 15513836635349413516
+ancienttemplemap/fire on head/fire4.png - .ao - 66cced5960ed1ef1ffbc4493 - 5131321931921800381
+ancienttemplemap/fire on head/fire4.png - .ao.ios - 66cced5960ed1ef1ffbc4494 - 14492199119586412555
+ancienttemplemap/fire on head/template.png - .ao - 66cced5a60ed1ef1ffbc449a - 10050185759638046330
+ancienttemplemap/fire on head/template.png - .ao.ios - 66cced5a60ed1ef1ffbc4499 - 5885080232276227800
+ancienttemplemap/flamethrower/flamethrower.png - .ao - 66cced5a60ed1ef1ffbc4498 - 5133960020290528810
+ancienttemplemap/flamethrower/flamethrower.png - .ao.ios - 66cced5a60ed1ef1ffbc449e - 4651114577205557859
+ancienttemplemap/flamethrower/hand_L.png - .ao - 66cced5a60ed1ef1ffbc449f - 9589057404182834957
+ancienttemplemap/flamethrower/hand_L.png - .ao.ios - 66cced5b60ed1ef1ffbc44a0 - 14684363255785280887
+ancienttemplemap/flamethrower/hand_R.png - .ao - 66cced5b60ed1ef1ffbc44a4 - 4403359104481629431
+ancienttemplemap/flamethrower/hand_R.png - .ao.ios - 66cced5b60ed1ef1ffbc44a3 - 572116401096661223
+ancienttemplemap/glow/top_glow.png - .ao - 66cced5b60ed1ef1ffbc44a7 - 6059284929145772697
+ancienttemplemap/glow/top_glow.png - .ao.ios - 66cced5c60ed1ef1ffbc44ae - 18002469330683167447
+ancienttemplemap/hieroglyph_wall/Light_green.png - .ao - 66cced5c60ed1ef1ffbc44a9 - 8673056788043981049
+ancienttemplemap/hieroglyph_wall/Light_green.png - .ao.ios - 66cced5c60ed1ef1ffbc44ab - 3693629684637193682
+ancienttemplemap/hieroglyph_wall/Light_off.png - .ao - 66cced5c60ed1ef1ffbc44af - 6460368405340343216
+ancienttemplemap/hieroglyph_wall/Light_off.png - .ao.ios - 66cced5c60ed1ef1ffbc44b0 - 11094092998619356314
+ancienttemplemap/hieroglyph_wall/Light_red.png - .ao - 66cced5d60ed1ef1ffbc44b3 - 14490942313350078266
+ancienttemplemap/hieroglyph_wall/Light_red.png - .ao.ios - 66cced5d60ed1ef1ffbc44b4 - 17924654465402102434
+ancienttemplemap/hieroglyph_wall/arm_stone.png - .ao - 66cced5d60ed1ef1ffbc44b7 - 17942287094674882069
+ancienttemplemap/hieroglyph_wall/arm_stone.png - .ao.ios - 66cced5d60ed1ef1ffbc44b8 - 13569920393947093515
+ancienttemplemap/hieroglyph_wall/big_wall.png - .ao - 66cced5e60ed1ef1ffbc44bd - 9045626236647119327
+ancienttemplemap/hieroglyph_wall/big_wall.png - .ao.ios - 66cced5e60ed1ef1ffbc44bf - 5948635447188475557
+ancienttemplemap/hieroglyph_wall/glyph stones/arm_stone.png - .ao - 66cced5e60ed1ef1ffbc44bc - 17942287094674882069
+ancienttemplemap/hieroglyph_wall/glyph stones/arm_stone.png - .ao.ios - 66cced5e60ed1ef1ffbc44c0 - 13569920393947093515
+ancienttemplemap/hieroglyph_wall/glyph stones/heart_stone.png - .ao - 66cced5f60ed1ef1ffbc44c3 - 4624231811231011055
+ancienttemplemap/hieroglyph_wall/glyph stones/heart_stone.png - .ao.ios - 66cced5f60ed1ef1ffbc44c4 - 8222078471418531777
+ancienttemplemap/hieroglyph_wall/glyph stones/peach_stone.png - .ao - 66cced5f60ed1ef1ffbc44c6 - 2782936915150570785
+ancienttemplemap/hieroglyph_wall/glyph stones/peach_stone.png - .ao.ios - 66cced5f60ed1ef1ffbc44ca - 10291344834773505328
+ancienttemplemap/hieroglyph_wall/glyph stones/sigma_stone.png - .ao - 66cced5f60ed1ef1ffbc44cb - 15348795239937192956
+ancienttemplemap/hieroglyph_wall/glyph stones/sigma_stone.png - .ao.ios - 66cced5f60ed1ef1ffbc44cc - 11420968139475508069
+ancienttemplemap/hieroglyph_wall/glyph stones/toilet_stone.png - .ao - 66cced6060ed1ef1ffbc44d0 - 102206199380638719
+ancienttemplemap/hieroglyph_wall/glyph stones/toilet_stone.png - .ao.ios - 66cced6060ed1ef1ffbc44d1 - 15811436896427709475
+ancienttemplemap/hieroglyph_wall/heart_stone.png - .ao - 66cced6060ed1ef1ffbc44d2 - 4624231811231011055
+ancienttemplemap/hieroglyph_wall/heart_stone.png - .ao.ios - 66cced6060ed1ef1ffbc44d6 - 8222078471418531777
+ancienttemplemap/hieroglyph_wall/peach_stone.png - .ao - 66cced6060ed1ef1ffbc44d7 - 2782936915150570785
+ancienttemplemap/hieroglyph_wall/peach_stone.png - .ao.ios - 66cced6060ed1ef1ffbc44d8 - 10291344834773505328
+ancienttemplemap/hieroglyph_wall/sigma_stone.png - .ao - 66cced6160ed1ef1ffbc44db - 15348795239937192956
+ancienttemplemap/hieroglyph_wall/sigma_stone.png - .ao.ios - 66cced6160ed1ef1ffbc44dd - 11420968139475508069
+ancienttemplemap/hieroglyph_wall/slotwall_1.png - .ao - 66cced6160ed1ef1ffbc44df - 497964823444163837
+ancienttemplemap/hieroglyph_wall/slotwall_1.png - .ao.ios - 66cced6160ed1ef1ffbc44e1 - 9401746219451170984
+ancienttemplemap/hieroglyph_wall/slotwall_2.png - .ao - 66cced6160ed1ef1ffbc44e3 - 7062685076697341589
+ancienttemplemap/hieroglyph_wall/slotwall_2.png - .ao.ios - 66cced6160ed1ef1ffbc44e6 - 12780450133549105655
+ancienttemplemap/hieroglyph_wall/slotwall_3.png - .ao - 66cced6260ed1ef1ffbc44e8 - 10512398612272021622
+ancienttemplemap/hieroglyph_wall/slotwall_3.png - .ao.ios - 66cced6260ed1ef1ffbc44e7 - 152606153100691646
+ancienttemplemap/hieroglyph_wall/slotwall_4.png - .ao - 66cced6260ed1ef1ffbc44eb - 5273313467534816302
+ancienttemplemap/hieroglyph_wall/slotwall_4.png - .ao.ios - 66cced6260ed1ef1ffbc44ee - 5712064320522897078
+ancienttemplemap/hieroglyph_wall/slotwall_5.png - .ao - 66cced6260ed1ef1ffbc44ef - 4095940780592884840
+ancienttemplemap/hieroglyph_wall/slotwall_5.png - .ao.ios - 66cced6260ed1ef1ffbc44f0 - 2253032400407648575
+ancienttemplemap/hieroglyph_wall/template.png - .ao - 66cced6460ed1ef1ffbc44f9 - 18397184832264799848
+ancienttemplemap/hieroglyph_wall/template.png - .ao.ios - 66cced6560ed1ef1ffbc44fc - 10897481094690215417
+ancienttemplemap/hieroglyph_wall/toilet_stone.png - .ao - 66cced6360ed1ef1ffbc44f4 - 102206199380638719
+ancienttemplemap/hieroglyph_wall/toilet_stone.png - .ao.ios - 66cced6360ed1ef1ffbc44f6 - 15811436896427709475
+ancienttemplemap/impostor/crown.png - .ao - 66cced6460ed1ef1ffbc44f8 - 3188108664995781938
+ancienttemplemap/impostor/crown.png - .ao.ios - 66cced6560ed1ef1ffbc44fb - 11537411141576775557
+ancienttemplemap/items/impostor_head.png - .ao - 66cced6560ed1ef1ffbc4502 - 13314949937113618171
+ancienttemplemap/items/impostor_head.png - .ao.ios - 66cced6560ed1ef1ffbc4501 - 15870881049566911673
+ancienttemplemap/lantern/glow.png - .ao - 66cced6560ed1ef1ffbc4500 - 3345355292355868673
+ancienttemplemap/lantern/glow.png - .ao.ios - 66cced6660ed1ef1ffbc4505 - 15228088686869366756
+ancienttemplemap/lantern/hand.png - .ao - 66cced6660ed1ef1ffbc4507 - 12137310066018864525
+ancienttemplemap/lantern/hand.png - .ao.ios - 66cced6660ed1ef1ffbc4509 - 11830182443313116934
+ancienttemplemap/lantern/lantern_off.png - .ao - 66cced6660ed1ef1ffbc450b - 6527069512158092825
+ancienttemplemap/lantern/lantern_off.png - .ao.ios - 66cced6660ed1ef1ffbc450d - 17913413322773604611
+ancienttemplemap/lantern/lantern_on.png - .ao - 66cced6660ed1ef1ffbc450f - 1103214416659330468
+ancienttemplemap/lantern/lantern_on.png - .ao.ios - 66cced6760ed1ef1ffbc4511 - 2935314693755441918
+ancienttemplemap/lantern/template.png - .ao - 66cced6760ed1ef1ffbc4513 - 3156918632780905113
+ancienttemplemap/lantern/template.png - .ao.ios - 66cced6760ed1ef1ffbc4515 - 47940145107916158
+ancienttemplemap/light circle/light_circle.png - .ao - 66cced6760ed1ef1ffbc4518 - 18203448006828506914
+ancienttemplemap/light circle/light_circle.png - .ao.ios - 66cced6860ed1ef1ffbc451a - 7086869670234112122
+ancienttemplemap/necklace_no-shine.png - .ao - 66cced6760ed1ef1ffbc4519 - 11126529747761706301
+ancienttemplemap/necklace_no-shine.png - .ao.ios - 66cced6860ed1ef1ffbc451e - 5499014021279323355
+ancienttemplemap/pedestal/pedestal.png - .ao - 66cced6860ed1ef1ffbc451f - 13635522028161958706
+ancienttemplemap/pedestal/pedestal.png - .ao.ios - 66cced6860ed1ef1ffbc4520 - 2592985749026807098
+ancienttemplemap/puzzle_table/table01.png - .ao - 66cced6960ed1ef1ffbc4524 - 4290130905114648949
+ancienttemplemap/puzzle_table/table01.png - .ao.ios - 66cced6960ed1ef1ffbc4526 - 9333325167129429221
+ancienttemplemap/puzzle_table/table02.png - .ao - 66cced6960ed1ef1ffbc4525 - 889686205876102328
+ancienttemplemap/puzzle_table/table02.png - .ao.ios - 66cced6960ed1ef1ffbc4529 - 11527038060744498351
+ancienttemplemap/scarab/blood/blood_1.png - .ao - 66cced6960ed1ef1ffbc452b - 14413563309791111067
+ancienttemplemap/scarab/blood/blood_1.png - .ao.ios - 66cced6960ed1ef1ffbc452c - 11430805566428602878
+ancienttemplemap/scarab/blood/blood_2.png - .ao - 66cced6960ed1ef1ffbc452f - 14868834691686925262
+ancienttemplemap/scarab/blood/blood_2.png - .ao.ios - 66cced6a60ed1ef1ffbc4530 - 4354558667008516107
+ancienttemplemap/scarab/blood/blood_3.png - .ao - 66cced6a60ed1ef1ffbc4534 - 9845293917219198352
+ancienttemplemap/scarab/blood/blood_3.png - .ao.ios - 66cced6a60ed1ef1ffbc4536 - 5349447654366769065
+ancienttemplemap/scarab/golden_scarab/golden_scarab_body.png - .ao - 66cced6a60ed1ef1ffbc4535 - 11596982184472021740
+ancienttemplemap/scarab/golden_scarab/golden_scarab_body.png - .ao.ios - 66cced6a60ed1ef1ffbc453a - 7916682667535873436
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_1.png - .ao - 66cced6a60ed1ef1ffbc453b - 14671041252466598247
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_1.png - .ao.ios - 66cced6a60ed1ef1ffbc453c - 8358622836047202369
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_2.png - .ao - 66cced6b60ed1ef1ffbc4540 - 12378134679395313311
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_2.png - .ao.ios - 66cced6b60ed1ef1ffbc4541 - 13820327498060746593
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_3.png - .ao - 66cced6b60ed1ef1ffbc4542 - 14176369857517283671
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_3.png - .ao.ios - 66cced6b60ed1ef1ffbc4546 - 8128711337603419841
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_4.png - .ao - 66cced6b60ed1ef1ffbc4547 - 16904249305815444239
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_4.png - .ao.ios - 66cced6b60ed1ef1ffbc4548 - 10072117588156233682
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_1.png - .ao - 66cced6c60ed1ef1ffbc454b - 2590541674863240630
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_1.png - .ao.ios - 66cced6c60ed1ef1ffbc454c - 8670419113448837045
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_2.png - .ao - 66cced6c60ed1ef1ffbc4550 - 1639919165327952704
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_2.png - .ao.ios - 66cced6c60ed1ef1ffbc4551 - 3291041557342174994
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_3.png - .ao - 66cced6c60ed1ef1ffbc4552 - 8251237023105710931
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_3.png - .ao.ios - 66cced6d60ed1ef1ffbc4555 - 11289798221708102718
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_4.png - .ao - 66cced6d60ed1ef1ffbc4556 - 904999116530281950
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_4.png - .ao.ios - 66cced6d60ed1ef1ffbc4559 - 5101713182997805967
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_5.png - .ao - 66cced6d60ed1ef1ffbc455a - 13139453682113990999
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_5.png - .ao.ios - 66cced6d60ed1ef1ffbc455e - 9457779620934122375
+ancienttemplemap/scarab/scarab/scarab_body.png - .ao - 66cced6d60ed1ef1ffbc455f - 12893644731556020667
+ancienttemplemap/scarab/scarab/scarab_body.png - .ao.ios - 66cced6e60ed1ef1ffbc4560 - 9304566647254787715
+ancienttemplemap/scarab/scarab/scarab_leg_1.png - .ao - 66cced6e60ed1ef1ffbc4564 - 15361339759456173978
+ancienttemplemap/scarab/scarab/scarab_leg_1.png - .ao.ios - 66cced6e60ed1ef1ffbc4566 - 10729286131121048539
+ancienttemplemap/scarab/scarab/scarab_leg_2.png - .ao - 66cced6e60ed1ef1ffbc4565 - 16753456112844494869
+ancienttemplemap/scarab/scarab/scarab_leg_2.png - .ao.ios - 66cced6e60ed1ef1ffbc4569 - 12168105313582266519
+ancienttemplemap/scarab/scarab/scarab_leg_3.png - .ao - 66cced6e60ed1ef1ffbc456b - 6224846936249605801
+ancienttemplemap/scarab/scarab/scarab_leg_3.png - .ao.ios - 66cced6f60ed1ef1ffbc456d - 2450974053159686713
+ancienttemplemap/scarab/scarab/scarab_leg_4.png - .ao - 66cced6f60ed1ef1ffbc456f - 12514182086496119114
+ancienttemplemap/scarab/scarab/scarab_leg_4.png - .ao.ios - 66cced6f60ed1ef1ffbc4570 - 1222582771295428559
+ancienttemplemap/scarab/scrab_bits/scrab_bits_1.png - .ao - 66cced6f60ed1ef1ffbc4573 - 8020298669639607168
+ancienttemplemap/scarab/scrab_bits/scrab_bits_1.png - .ao.ios - 66cced6f60ed1ef1ffbc4575 - 11476457075522866668
+ancienttemplemap/scarab/scrab_bits/scrab_bits_2.png - .ao - 66cced6f60ed1ef1ffbc4576 - 12416967214093242808
+ancienttemplemap/scarab/scrab_bits/scrab_bits_2.png - .ao.ios - 66cced6f60ed1ef1ffbc4579 - 5469018254130032291
+ancienttemplemap/scarab/scrab_bits/scrab_bits_3.png - .ao - 66cced7060ed1ef1ffbc457a - 6724774385264128420
+ancienttemplemap/scarab/scrab_bits/scrab_bits_3.png - .ao.ios - 66cced7060ed1ef1ffbc457c - 6788693159524138472
+ancienttemplemap/scarab/scrab_bits/scrab_bits_4.png - .ao - 66cced7060ed1ef1ffbc4580 - 3681992015490899345
+ancienttemplemap/scarab/scrab_bits/scrab_bits_4.png - .ao.ios - 66cced7060ed1ef1ffbc4581 - 5351450246013587292
+ancienttemplemap/scarab/scrab_bits/scrab_bits_5.png - .ao - 66cced7060ed1ef1ffbc4582 - 8422889048253353217
+ancienttemplemap/scarab/scrab_bits/scrab_bits_5.png - .ao.ios - 66cced7060ed1ef1ffbc4585 - 12478916976625195952
+ancienttemplemap/scarab/template.png - .ao - 66cced7160ed1ef1ffbc458a - 17205442444836127831
+ancienttemplemap/scarab/template.png - .ao.ios - 66cced7160ed1ef1ffbc4589 - 9109996606274651188
+ancienttemplemap/scroll/scroll.png - .ao - 66cced7160ed1ef1ffbc4588 - 5815910477929252191
+ancienttemplemap/scroll/scroll.png - .ao.ios - 66cced7160ed1ef1ffbc458d - 6707974776532122456
+ancienttemplemap/spark/spark1.png - .ao - 66cced7160ed1ef1ffbc458f - 494299805359480439
+ancienttemplemap/spark/spark1.png - .ao.ios - 66cced7160ed1ef1ffbc4591 - 1811512321968563332
+ancienttemplemap/spark/spark2.png - .ao - 66cced7260ed1ef1ffbc4593 - 8608959144723249475
+ancienttemplemap/spark/spark2.png - .ao.ios - 66cced7260ed1ef1ffbc4595 - 14099931920335008196
+ancienttemplemap/spear/spear.png - .ao - 66cced7260ed1ef1ffbc4596 - 3750279416456811053
+ancienttemplemap/spear/spear.png - .ao.ios - 66cced7260ed1ef1ffbc459a - 9836693459577617329
+ancienttemplemap/spear_statue/cyan_eyes-mouth/eye.png - .ao - 66cced7260ed1ef1ffbc459b - 2160785138432006724
+ancienttemplemap/spear_statue/cyan_eyes-mouth/eye.png - .ao.ios - 66cced7260ed1ef1ffbc459c - 4460668034490597253
+ancienttemplemap/spear_statue/cyan_eyes-mouth/mouth_front.png - .ao - 66cced7360ed1ef1ffbc45a1 - 5602126057333761173
+ancienttemplemap/spear_statue/cyan_eyes-mouth/mouth_front.png - .ao.ios - 66cced7360ed1ef1ffbc45a0 - 12918201552559064585
+ancienttemplemap/spear_statue/cyan_eyes-mouth/mouth_profile.png - .ao - 66cced7360ed1ef1ffbc45a2 - 1588319513212173671
+ancienttemplemap/spear_statue/cyan_eyes-mouth/mouth_profile.png - .ao.ios - 66cced7360ed1ef1ffbc45a5 - 8430602458641391677
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_1.png - .ao - 66cced7360ed1ef1ffbc45a7 - 4994419683821220761
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_1.png - .ao.ios - 66cced7360ed1ef1ffbc45a8 - 5076233320914112231
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_2.png - .ao - 66cced7360ed1ef1ffbc45ab - 1890514873329337144
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_2.png - .ao.ios - 66cced7460ed1ef1ffbc45ad - 14766727033907557474
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_3.png - .ao - 66cced7460ed1ef1ffbc45b0 - 9210012229513611391
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_3.png - .ao.ios - 66cced7460ed1ef1ffbc45b1 - 3654058748935789933
+ancienttemplemap/spear_statue/endcard/BG.png - .ao - 66cced7460ed1ef1ffbc45b5 - 17559843974009163248
+ancienttemplemap/spear_statue/endcard/BG.png - .ao.ios - 66cced7560ed1ef1ffbc45ba - 10472633756957842781
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash1.png - .ao - 66cced7460ed1ef1ffbc45b4 - 3043827019318169477
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash1.png - .ao.ios - 66cced7560ed1ef1ffbc45b8 - 15266543122611502225
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash2.png - .ao - 66cced7560ed1ef1ffbc45b9 - 1955695911319717546
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash2.png - .ao.ios - 66cced7560ed1ef1ffbc45be - 3924240749761476599
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash3.png - .ao - 66cced7560ed1ef1ffbc45bf - 16696932902870046455
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash3.png - .ao.ios - 66cced7560ed1ef1ffbc45c0 - 7550269194370956756
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash4.png - .ao - 66cced7660ed1ef1ffbc45c4 - 2105226968522124161
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash4.png - .ao.ios - 66cced7660ed1ef1ffbc45c5 - 55391543427593279
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash5.png - .ao - 66cced7660ed1ef1ffbc45c6 - 16163075003698403714
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash5.png - .ao.ios - 66cced7660ed1ef1ffbc45c9 - 16308943564084252719
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash6.png - .ao - 66cced7660ed1ef1ffbc45ca - 15743471480319722383
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash6.png - .ao.ios - 66cced7760ed1ef1ffbc45ce - 17163059705044522367
+ancienttemplemap/spear_statue/endcard/crew/crewschia.png - .ao - 66cced7760ed1ef1ffbc45cf - 11863296322988655617
+ancienttemplemap/spear_statue/endcard/crew/crewschia.png - .ao.ios - 66cced7760ed1ef1ffbc45d4 - 3393670582996056102
+ancienttemplemap/spear_statue/endcard/crew/threeschia.png - .ao - 66cced7760ed1ef1ffbc45d2 - 17280385655065046880
+ancienttemplemap/spear_statue/endcard/crew/threeschia.png - .ao.ios - 66cced7760ed1ef1ffbc45d3 - 4534122684588203831
+ancienttemplemap/spear_statue/endcard/crew/twoschia.png - .ao - 66cced7760ed1ef1ffbc45d7 - 8867453827760953723
+ancienttemplemap/spear_statue/endcard/crew/twoschia.png - .ao.ios - 66cced7860ed1ef1ffbc45d9 - 3763929521226460613
+ancienttemplemap/spear_statue/endcard/crew/urn.png - .ao - 66cced7860ed1ef1ffbc45db - 4179009511199108072
+ancienttemplemap/spear_statue/endcard/crew/urn.png - .ao.ios - 66cced7860ed1ef1ffbc45de - 14739462081446202684
+ancienttemplemap/spear_statue/endcard/template.png - .ao - 66cced7960ed1ef1ffbc45e0 - 14193282504541695655
+ancienttemplemap/spear_statue/endcard/template.png - .ao.ios - 66cced7960ed1ef1ffbc45e5 - 13358460528857385635
+ancienttemplemap/spear_statue/spear/air_fx.png - .ao - 66cced7960ed1ef1ffbc45e1 - 17953477353210145645
+ancienttemplemap/spear_statue/spear/air_fx.png - .ao.ios - 66cced7960ed1ef1ffbc45e6 - 2958446069863775185
+ancienttemplemap/spear_statue/spear/pierced_spear_back.png - .ao - 66cced7960ed1ef1ffbc45e4 - 16026190200718582899
+ancienttemplemap/spear_statue/spear/pierced_spear_back.png - .ao.ios - 66cced7a60ed1ef1ffbc45e9 - 3162943403207968296
+ancienttemplemap/spear_statue/spear/pierced_spear_front.png - .ao - 66cced7a60ed1ef1ffbc45ea - 3496581906223600240
+ancienttemplemap/spear_statue/spear/pierced_spear_front.png - .ao.ios - 66cced7a60ed1ef1ffbc45ed - 17922694209529615004
+ancienttemplemap/spear_statue/spear/spear.png - .ao - 66cced7a60ed1ef1ffbc45ef - 3855405487679836490
+ancienttemplemap/spear_statue/spear/spear.png - .ao.ios - 66cced7a60ed1ef1ffbc45f1 - 3875296919307339150
+ancienttemplemap/spear_statue/statue_front.png - .ao - 66cced7a60ed1ef1ffbc45f3 - 9047825289630758943
+ancienttemplemap/spear_statue/statue_front.png - .ao.ios - 66cced7b60ed1ef1ffbc45f5 - 3708345078845642015
+ancienttemplemap/spear_statue/statue_profile.png - .ao - 66cced7b60ed1ef1ffbc45f8 - 16189328545644690033
+ancienttemplemap/spear_statue/statue_profile.png - .ao.ios - 66cced7b60ed1ef1ffbc45f9 - 6988908261650697018
+ancienttemplemap/thumbnail.png - .ao - 66ccf0e960ed1ef1ffbc46a3 - 7359798889590015146
+ancienttemplemap/thumbnail.png - .ao.ios - 66ccf0e960ed1ef1ffbc46a2 - 7561934669881715609
+ancienttemplemap/urn/shadow.png - .ao - 66cced7b60ed1ef1ffbc45fa - 15122724904051776013
+ancienttemplemap/urn/shadow.png - .ao.ios - 66cced7b60ed1ef1ffbc45fd - 2034014289814117596
+ancienttemplemap/urn/shattered/piece01.png - .ao - 66cced7b60ed1ef1ffbc45fe - 1376148527884574783
+ancienttemplemap/urn/shattered/piece01.png - .ao.ios - 66cced7c60ed1ef1ffbc4602 - 11471207448663376451
+ancienttemplemap/urn/shattered/piece02.png - .ao - 66cced7c60ed1ef1ffbc4603 - 12819926705737057442
+ancienttemplemap/urn/shattered/piece02.png - .ao.ios - 66cced7c60ed1ef1ffbc4604 - 728809941284501511
+ancienttemplemap/urn/shattered/piece03.png - .ao - 66cced7c60ed1ef1ffbc4608 - 16939616154389616738
+ancienttemplemap/urn/shattered/piece03.png - .ao.ios - 66cced7c60ed1ef1ffbc4609 - 6775410254440950012
+ancienttemplemap/urn/shattered/piece04.png - .ao - 66cced7c60ed1ef1ffbc460a - 8854573943324060865
+ancienttemplemap/urn/shattered/piece04.png - .ao.ios - 66cced7d60ed1ef1ffbc460d - 4560990931504239682
+ancienttemplemap/urn/shattered/piece05.png - .ao - 66cced7d60ed1ef1ffbc460f - 17243496980062205659
+ancienttemplemap/urn/shattered/piece05.png - .ao.ios - 66cced7d60ed1ef1ffbc4610 - 6076624094364701079
+ancienttemplemap/urn/shattered/piece06.png - .ao - 66cced7d60ed1ef1ffbc4614 - 16600696455699876547
+ancienttemplemap/urn/shattered/piece06.png - .ao.ios - 66cced7d60ed1ef1ffbc4615 - 3166756192306146301
+ancienttemplemap/urn/shattered/piece07.png - .ao - 66cced7d60ed1ef1ffbc4616 - 8115349391798422562
+ancienttemplemap/urn/shattered/piece07.png - .ao.ios - 66cced7e60ed1ef1ffbc461a - 1749835280354538689
+ancienttemplemap/urn/shattered/piece08.png - .ao - 66cced7e60ed1ef1ffbc461b - 605585200309210541
+ancienttemplemap/urn/shattered/piece08.png - .ao.ios - 66cced7e60ed1ef1ffbc461c - 3177007616885498937
+ancienttemplemap/urn/shattered/piece09.png - .ao - 66cced7e60ed1ef1ffbc4620 - 4343553299261316494
+ancienttemplemap/urn/shattered/piece09.png - .ao.ios - 66cced7e60ed1ef1ffbc4621 - 16282340240816897619
+ancienttemplemap/urn/shattered/piece10.png - .ao - 66cced7e60ed1ef1ffbc4622 - 3336604297807332965
+ancienttemplemap/urn/shattered/piece10.png - .ao.ios - 66cced7e60ed1ef1ffbc4626 - 7909774347062140699
+ancienttemplemap/urn/shattered/piece11.png - .ao - 66cced7e60ed1ef1ffbc4627 - 17930797029994393910
+ancienttemplemap/urn/shattered/piece11.png - .ao.ios - 66cced7f60ed1ef1ffbc4628 - 13458100551975130597
+ancienttemplemap/urn/shattered/piece12.png - .ao - 66cced7f60ed1ef1ffbc462b - 7225620813712372446
+ancienttemplemap/urn/shattered/piece12.png - .ao.ios - 66cced7f60ed1ef1ffbc462c - 13860183603873527149
+ancienttemplemap/urn/shattered/piece13.png - .ao - 66cced7f60ed1ef1ffbc4630 - 13122986750855147505
+ancienttemplemap/urn/shattered/piece13.png - .ao.ios - 66cced7f60ed1ef1ffbc4631 - 10069292028542656193
+ancienttemplemap/urn/urn.png - .ao - 66cced7f60ed1ef1ffbc4632 - 2065696950644193636
+ancienttemplemap/urn/urn.png - .ao.ios - 66cced8060ed1ef1ffbc4637 - 11527865896240435865
+ancienttemplemap/urn/urn/shadow.png - .ao - 66cced8060ed1ef1ffbc4635 - 6494979748021614258
+ancienttemplemap/urn/urn/shadow.png - .ao.ios - 66cced8060ed1ef1ffbc4638 - 12350374585346331174
+ancienttemplemap/urn/urn/shattered/piece01.png - .ao - 66cced8060ed1ef1ffbc463c - 1026748581566455746
+ancienttemplemap/urn/urn/shattered/piece01.png - .ao.ios - 66cced8060ed1ef1ffbc463d - 1122188032188404030
+ancienttemplemap/urn/urn/shattered/piece02.png - .ao - 66cced8060ed1ef1ffbc463e - 7253441821358123862
+ancienttemplemap/urn/urn/shattered/piece02.png - .ao.ios - 66cced8160ed1ef1ffbc4642 - 7714105674362764856
+ancienttemplemap/urn/urn/shattered/piece03.png - .ao - 66cced8160ed1ef1ffbc4641 - 7289967013434243430
+ancienttemplemap/urn/urn/shattered/piece03.png - .ao.ios - 66cced8160ed1ef1ffbc4645 - 13465989064271828046
+ancienttemplemap/urn/urn/shattered/piece04.png - .ao - 66cced8160ed1ef1ffbc4647 - 11333129076104117247
+ancienttemplemap/urn/urn/shattered/piece04.png - .ao.ios - 66cced8160ed1ef1ffbc4649 - 9931664930082699526
+ancienttemplemap/urn/urn/shattered/piece05.png - .ao - 66cced8160ed1ef1ffbc464a - 9068461527848142996
+ancienttemplemap/urn/urn/shattered/piece05.png - .ao.ios - 66cced8160ed1ef1ffbc464d - 6522808287495876285
+ancienttemplemap/urn/urn/shattered/piece06.png - .ao - 66cced8260ed1ef1ffbc464f - 4656847876300019798
+ancienttemplemap/urn/urn/shattered/piece06.png - .ao.ios - 66cced8260ed1ef1ffbc4650 - 18180879636708141089
+ancienttemplemap/urn/urn/shattered/piece07.png - .ao - 66cced8260ed1ef1ffbc4654 - 963885463773466746
+ancienttemplemap/urn/urn/shattered/piece07.png - .ao.ios - 66cced8260ed1ef1ffbc4655 - 11786886621075150110
+ancienttemplemap/urn/urn/shattered/piece08.png - .ao - 66cced8260ed1ef1ffbc4656 - 10110184116667385886
+ancienttemplemap/urn/urn/shattered/piece08.png - .ao.ios - 66cced8260ed1ef1ffbc465a - 16256257008290914126
+ancienttemplemap/urn/urn/shattered/piece09.png - .ao - 66cced8260ed1ef1ffbc465b - 2118236083442251879
+ancienttemplemap/urn/urn/shattered/piece09.png - .ao.ios - 66cced8260ed1ef1ffbc465c - 9966764476430552197
+ancienttemplemap/urn/urn/shattered/piece10.png - .ao - 66cced8360ed1ef1ffbc465f - 9348029635291545522
+ancienttemplemap/urn/urn/shattered/piece10.png - .ao.ios - 66cced8360ed1ef1ffbc4661 - 16700562339131445606
+ancienttemplemap/urn/urn/shattered/piece11.png - .ao - 66cced8360ed1ef1ffbc4662 - 4803184121304627510
+ancienttemplemap/urn/urn/shattered/piece11.png - .ao.ios - 66cced8360ed1ef1ffbc4666 - 17635623193956381507
+ancienttemplemap/urn/urn/shattered/piece12.png - .ao - 66cced8360ed1ef1ffbc4667 - 12185248251473092250
+ancienttemplemap/urn/urn/shattered/piece12.png - .ao.ios - 66cced8460ed1ef1ffbc4668 - 771853182238679675
+ancienttemplemap/urn/urn/shattered/piece13.png - .ao - 66cced8460ed1ef1ffbc466c - 9659661996307830590
+ancienttemplemap/urn/urn/shattered/piece13.png - .ao.ios - 66cced8460ed1ef1ffbc466d - 18017289627346055042
+ancienttemplemap/urn/urn/urn.png - .ao - 66cced8460ed1ef1ffbc466e - 15091678163826551272
+ancienttemplemap/urn/urn/urn.png - .ao.ios - 66cced8460ed1ef1ffbc4671 - 15558736641812640705
+ancienttemplemap/warhammer/hammer.png - .ao - 66cced8460ed1ef1ffbc4673 - 15280042712717456130
+ancienttemplemap/warhammer/hammer.png - .ao.ios - 66cced8560ed1ef1ffbc4674 - 11446629850800263932
+ancienttemplemap/warhammer/hands/hand1.png - .ao - 66cced8560ed1ef1ffbc4677 - 15593976071012933265
+ancienttemplemap/warhammer/hands/hand1.png - .ao.ios - 66cced8560ed1ef1ffbc4679 - 13032096540572041104
+ancienttemplemap/warhammer/hands/hand2.png - .ao - 66cced8560ed1ef1ffbc467a - 11867542495068123589
+ancienttemplemap/warhammer/hands/hand2.png - .ao.ios - 66cced8560ed1ef1ffbc467e - 7367510065599990574
+ancienttemplemap/warhammer/hands/hand3.png - .ao - 66cced8560ed1ef1ffbc467f - 14245245539133270836
+ancienttemplemap/warhammer/hands/hand3.png - .ao.ios - 66cced8660ed1ef1ffbc4680 - 4525174534575065340
+ancienttemplemap/warhammer/hands/hand4.png - .ao - 66cced8660ed1ef1ffbc4684 - 7206745067855821376
+ancienttemplemap/warhammer/hands/hand4.png - .ao.ios - 66cced8660ed1ef1ffbc4685 - 16334694558068164677
+ancienttemplemap/warhammer/pieces/piece01.png - .ao - 66cced8660ed1ef1ffbc4686 - 11101442626767122068
+ancienttemplemap/warhammer/pieces/piece01.png - .ao.ios - 66cced8660ed1ef1ffbc4689 - 2638848875639584334
+ancienttemplemap/warhammer/pieces/piece02.png - .ao - 66cced8660ed1ef1ffbc468a - 16056673030424912541
+ancienttemplemap/warhammer/pieces/piece02.png - .ao.ios - 66cced8760ed1ef1ffbc468e - 64230831360078557
+ancienttemplemap/warhammer/pieces/piece03.png - .ao - 66cced8760ed1ef1ffbc468f - 1576104747162813056
+ancienttemplemap/warhammer/pieces/piece03.png - .ao.ios - 66cced8760ed1ef1ffbc4690 - 16321700062663125918
+ancienttemplemap/warhammer/pieces/piece04.png - .ao - 66cced8760ed1ef1ffbc4694 - 4948211657654053323
+ancienttemplemap/warhammer/pieces/piece04.png - .ao.ios - 66cced8760ed1ef1ffbc4695 - 9813140003002899289
+ancienttemplemap/warhammer/pieces/piece05.png - .ao - 66cced8760ed1ef1ffbc4696 - 3194404936537713376
+ancienttemplemap/warhammer/pieces/piece05.png - .ao.ios - 66cced8860ed1ef1ffbc469a - 9703036637397184039
+ancienttemplemap/warhammer/pieces/piece06.png - .ao - 66cced8860ed1ef1ffbc469b - 597902277363501400
+ancienttemplemap/warhammer/pieces/piece06.png - .ao.ios - 66cced8860ed1ef1ffbc469c - 13664878210991506732
 animations/alarm/MURDER_Alarm.png - .ao - 66846168b45eb9e8339be7c1 - 8920999919162173466
 animations/alarm/MURDER_Alarm.png - .ao.ios - 66846168b45eb9e8339be7c2 - 8001747600545834242
 animations/alarm/MURDER_Alarm.spine - .ao - 66a18c0b6732dee0bb811d27 - 2755719293419295047

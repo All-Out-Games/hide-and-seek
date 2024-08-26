@@ -14,8 +14,9 @@
     "Y": 1
   },
   "previous_sibling": "915825529370736:1724688103976411400",
-  "next_sibling": "916287127682484:1724688288911664400",
-  "parent": "171762134029398:1724271873740345200"
+  "next_sibling": "2142072134146871:1724705868043777600",
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/chest_open.png",
-    "depth_offset": 0,
+    "depth_offset": -0.6713123321533203,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -59,6 +60,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 13
+    "PropIndex": 12
   }
 }

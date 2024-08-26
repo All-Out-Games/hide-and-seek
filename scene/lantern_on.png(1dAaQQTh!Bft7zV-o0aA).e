@@ -15,7 +15,8 @@
   },
   "previous_sibling": "172102883752728:1724272010258754500",
   "next_sibling": "235108652914015:1724297252971602300",
-  "parent": "171762134029398:1724271873740345200"
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/lantern/lantern_on.png",
-    "depth_offset": 0,
+    "depth_offset": -0.2399999946355820,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -59,6 +60,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 4
+    "PropIndex": 3
   }
 }

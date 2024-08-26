@@ -15,7 +15,8 @@
   },
   "previous_sibling": "239613810161428:1724299057923628700",
   "next_sibling": "235596163847112:1724297448288612100",
-  "parent": "171762134029398:1724271873740345200"
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/spear_statue/statue_front.png",
-    "depth_offset": 0,
+    "depth_offset": -0.9300000071525574,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -59,6 +60,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 6
+    "PropIndex": 5
   }
 }

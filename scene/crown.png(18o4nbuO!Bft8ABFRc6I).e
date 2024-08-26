@@ -15,7 +15,8 @@
   },
   "previous_sibling": "172064404573548:1724271994842406300",
   "next_sibling": "915434744992836:1724687947412129900",
-  "parent": "171762134029398:1724271873740345200"
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/impostor/crown.png",
-    "depth_offset": 0,
+    "depth_offset": -0.3639999926090240,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -59,6 +60,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 10
+    "PropIndex": 9
   }
 }

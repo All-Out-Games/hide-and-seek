@@ -5,8 +5,8 @@
   "name": "Hunters",
   "local_enabled": true,
   "local_position": {
-    "X": -4.4885253906250000,
-    "Y": 0.4855518341064453
+    "X": -5.1241455078125000,
+    "Y": 29.5647621154785156
   },
   "local_rotation": 0,
   "local_scale": {

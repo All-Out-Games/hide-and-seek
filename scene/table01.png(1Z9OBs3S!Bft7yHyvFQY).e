@@ -15,7 +15,8 @@
   },
   "previous_sibling": "234815289864974:1724297135438250100",
   "next_sibling": "234919954502650:1724297177371226500",
-  "parent": "171762134029398:1724271873740345200"
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/puzzle_table/table01.png",
-    "depth_offset": 0,
+    "depth_offset": -0.6125545501708984,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -59,6 +60,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 3
+    "PropIndex": 2
   }
 }

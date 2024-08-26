@@ -15,7 +15,8 @@
   },
   "previous_sibling": "234786792911994:1724297124021194100",
   "next_sibling": "234880185585106:1724297161438155800",
-  "parent": "171762134029398:1724271873740345200"
+  "parent": "171762134029398:1724271873740345200",
+  "spawn_as_networked_entity": true
 },
 {
   "cid": 1,
@@ -24,7 +25,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/candles/wall_candle_01.png",
-    "depth_offset": 0,
+    "depth_offset": -0.4090000092983246,
     "tint": {
       "X": 1,
       "Y": 1,
@@ -59,6 +60,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "TransformProp",
   "data": {
-    "PropIndex": 2
+    "PropIndex": 1
   }
 }
