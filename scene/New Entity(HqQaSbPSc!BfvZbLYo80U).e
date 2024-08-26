@@ -5,8 +5,8 @@
   "name": "New Entity",
   "local_enabled": true,
   "local_position": {
-    "X": -347.5190429687500000,
-    "Y": 0
+    "X": 113.6916961669921875,
+    "Y": 4.7036895751953125
   },
   "local_rotation": 0,
   "local_scale": {
@@ -22,16 +22,16 @@
   "internal_component_type": "Light",
   "data": {
     "color": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
-      "W": 1
+      "X": 0,
+      "Y": 0,
+      "Z": 0,
+      "W": 0
     },
     "intensity": 1,
-    "shadow_caster": true,
+    "shadow_caster": false,
     "radi": {
-      "X": 40,
-      "Y": 40
+      "X": 217,
+      "Y": 217
     },
     "softness": 0.1000000014901161
   }
