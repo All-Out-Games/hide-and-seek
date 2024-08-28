@@ -22,6 +22,7 @@ public partial class HNSPlayer : Player
 	public bool WasPresentAtRoundStart;
 
 	public Box_Collider ActualPropCollider;
+	public float SeekerSpeed => 1.25f;
 	public int Wins
 	{
 		get 
@@ -272,6 +273,12 @@ public partial class HNSPlayer : Player
 			corpse.PlayerAnimator.SpineInstance.StateMachine.SetTrigger(corpse.DeathAnim);
 			SFX.Play(Assets.GetAsset<AudioAsset>("sfx/MurderMystery Player Character/swiped_revision.wav"), new(){Positional=true, Position=Entity.Position});
 		}
+	}
+	
+	public override Vector2 CalculatePlayerVelocity(Vector2 currentVelocity, Vector2 input, float deltaTime)
+	{
+		float speedMultiplier = PlayerRole == PlayerRole.Seeker ? SeekerSpeed : 1f;
+		return DefaultPlayerVelocityCalculation(currentVelocity, input, deltaTime, speedMultiplier);
 	}
 }
 
