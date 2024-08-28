@@ -705,8 +705,8 @@ ancienttemplemap/spear_statue/statue_front.png - .ao - 66cced7a60ed1ef1ffbc45f3 
 ancienttemplemap/spear_statue/statue_front.png - .ao.ios - 66cced7b60ed1ef1ffbc45f5 - 3708345078845642015
 ancienttemplemap/spear_statue/statue_profile.png - .ao - 66cced7b60ed1ef1ffbc45f8 - 16189328545644690033
 ancienttemplemap/spear_statue/statue_profile.png - .ao.ios - 66cced7b60ed1ef1ffbc45f9 - 6988908261650697018
-ancienttemplemap/thumbnail.png - .ao - 66ccf0e960ed1ef1ffbc46a3 - 7359798889590015146
-ancienttemplemap/thumbnail.png - .ao.ios - 66ccf0e960ed1ef1ffbc46a2 - 7561934669881715609
+ancienttemplemap/thumbnail.png - .ao - 66cf461660ed1ef1ffbc4cb5 - 8036552455541597098
+ancienttemplemap/thumbnail.png - .ao.ios - 66cf461660ed1ef1ffbc4cb4 - 5950038544789697595
 ancienttemplemap/urn/shadow.png - .ao - 66cced7b60ed1ef1ffbc45fa - 15122724904051776013
 ancienttemplemap/urn/shadow.png - .ao.ios - 66cced7b60ed1ef1ffbc45fd - 2034014289814117596
 ancienttemplemap/urn/shattered/piece01.png - .ao - 66cced7b60ed1ef1ffbc45fe - 1376148527884574783

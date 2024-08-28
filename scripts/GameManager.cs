@@ -88,7 +88,6 @@ public partial class GameManager : Component
 		BarrierEnabled.OnSync += (_, v) =>
 		{
 			WorldManager.Instance.CurrentWorld.HunterBarrier.LocalEnabled = v;
-			WorldManager.Instance.CurrentWorld.HunterBarrier.GetComponent<Polygon_Collider>().LocalEnabled = v;
 			Log.Info($"{WorldManager.Instance.CurrentWorld.MapName}");
 		};
 
