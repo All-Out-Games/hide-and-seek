@@ -751,7 +751,9 @@ public partial class GameManager : Component
 			_endGameJinglePlayed = true;
 			if (winner)
 			{
-				SFX.Play(Assets.GetAsset<AudioAsset>("sfx/win_celebrate_music.wav"), new(){});
+				SFX.PlaySoundDesc playSoundDesc = new SFX.PlaySoundDesc();
+				playSoundDesc.Volume *= .7f; 
+				SFX.Play(Assets.GetAsset<AudioAsset>("sfx/win_celebrate_music.wav"), playSoundDesc);
 			}
 			else
 			{
