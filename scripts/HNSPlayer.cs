@@ -365,10 +365,8 @@ public class PropEffect : MyEffect
 				localPlayerRole = (Network.LocalPlayer as HNSPlayer).PlayerRole;
 			}
 
-			if (localPlayerRole != PlayerRole.Seeker)
-			{
-				Player.PropEyes.Entity.LocalEnabled = true;
-			}
+
+			Player.PropEyes.Entity.LocalEnabled = localPlayerRole == PlayerRole.Prop;
 		}
 
 		Player nearestHunter = null;
