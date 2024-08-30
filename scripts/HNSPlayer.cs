@@ -167,6 +167,11 @@ public partial class HNSPlayer : Player
 				PlayerRole = PlayerRole.Prop;
 				TeleportToLobby();
 			}
+			else
+			{
+				var spawns = WorldManager.Instance.CurrentWorld.PropSpawns;
+				Teleport(spawns[0].Position);
+			}
 
 			WinsSync.Set(Wins);
 		}
