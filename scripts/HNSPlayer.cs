@@ -695,7 +695,7 @@ public class KillEffect : MyEffect
 		if (!Player.WasPresentAtRoundStart) return;
 		if (GameManager.Instance.State == GameState.EndRound) return;
 		var timeLeftRect = UI.ScreenRect.CutBottom(500);
-		UI.Text(timeLeftRect, $"You'll get revive as seeker in: {(int)DurationRemaining}", GameManager.Instance.GetTextSettings(60, 0f, null, UI.HorizontalAlignment.Center));
+		UI.Text(timeLeftRect, $"You'll be revived as seeker in: {(int)DurationRemaining}", GameManager.Instance.GetTextSettings(60, 0f, null, UI.HorizontalAlignment.Center));
 	}
 }
 
