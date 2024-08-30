@@ -1,6 +1,14 @@
 using AO;
 using System.Collections;
 
+public class GameManagerSystem : System<GameManagerSystem>
+{
+    public override void Awake()
+    {
+        Analytics.EnableAutomaticAnalytics("d654cf88af305ee51e77072a52ae773c", "59e30f5fb1b9e0983e370924ff75a8a536dad409");
+    }
+}
+
 public partial class GameManager : Component
 {
 	private bool _endGameJinglePlayed = false;
