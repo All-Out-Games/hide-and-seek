@@ -24,16 +24,6 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/inside zone/base.png",
-    "depth_offset": 2.8110249042510986,
-    "tint": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
-      "W": 1
-    },
-    "layer": 0,
-    "wait_for_load": false,
-    "wrap": false,
-    "mask_in_shadow": false
+    "depth_offset": 2.8110249042510986
   }
 }

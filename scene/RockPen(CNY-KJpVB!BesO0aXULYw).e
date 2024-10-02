@@ -5,8 +5,7 @@
   "name": "RockPen",
   "local_enabled": true,
   "local_position": {
-    "X": 0,
-    "Y": 0
+
   },
   "local_rotation": 0,
   "local_scale": {
@@ -23,7 +22,6 @@
   "component_type": "Internal_Component",
   "internal_component_type": "Polygon_Collider",
   "data": {
-    "is_trigger": false,
     "points": [
       {
         "X": -0.6311684250831604,
@@ -257,10 +255,6 @@
         "X": -0.3103685975074768,
         "Y": 0.3996047973632812
       }
-    ],
-    "density": 1,
-    "friction": 0.2000000029802322,
-    "restitution": 0,
-    "restitution_threshold": 1
+    ]
   }
 }

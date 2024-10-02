@@ -22,7 +22,6 @@
   "component_type": "Internal_Component",
   "internal_component_type": "Polygon_Collider",
   "data": {
-    "is_trigger": false,
     "points": [
       {
         "X": -6.1068487167358398,
@@ -60,10 +59,6 @@
         "X": -0.2362629771232605,
         "Y": -0.6463916301727295
       }
-    ],
-    "density": 1,
-    "friction": 0.2000000029802322,
-    "restitution": 0,
-    "restitution_threshold": 1
+    ]
   }
 }

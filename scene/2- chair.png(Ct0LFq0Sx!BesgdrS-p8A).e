@@ -25,15 +25,6 @@
   "data": {
     "texture": "zoo/office assets/chair.png",
     "depth_offset": -0.0799999982118607,
-    "tint": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
-      "W": 1
-    },
-    "layer": 0,
-    "wait_for_load": true,
-    "wrap": false,
-    "mask_in_shadow": false
+    "wait_for_load": true
   }
 }

@@ -24,17 +24,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/shop.png",
-    "depth_offset": 0.7462339401245117,
-    "tint": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
-      "W": 1
-    },
-    "layer": 0,
-    "wait_for_load": false,
-    "wrap": false,
-    "mask_in_shadow": false
+    "depth_offset": 0.7462339401245117
   }
 },
 {
@@ -43,7 +33,6 @@
   "component_type": "Internal_Component",
   "internal_component_type": "Polygon_Collider",
   "data": {
-    "is_trigger": false,
     "points": [
       {
         "X": -0.8117737174034119,
@@ -269,10 +258,6 @@
         "X": -1.0249979496002197,
         "Y": -0.8903121948242188
       }
-    ],
-    "density": 1,
-    "friction": 0.2000000029802322,
-    "restitution": 0,
-    "restitution_threshold": 1
+    ]
   }
 }

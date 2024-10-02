@@ -24,16 +24,6 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "simpcitymap/park assets/picnic_tables/table1.png",
-    "depth_offset": 0.1899999976158142,
-    "tint": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
-      "W": 1
-    },
-    "layer": 0,
-    "wait_for_load": false,
-    "wrap": false,
-    "mask_in_shadow": false
+    "depth_offset": 0.1899999976158142
   }
 }

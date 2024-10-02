@@ -22,17 +22,12 @@
   "internal_component_type": "Light",
   "data": {
     "color": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0,
-      "W": 0
+
     },
-    "intensity": 1,
     "shadow_caster": false,
     "radi": {
       "X": 217,
       "Y": 217
-    },
-    "softness": 0.1000000014901161
+    }
   }
 }
