@@ -23,18 +23,7 @@
   "component_type": "Internal_Component",
   "internal_component_type": "Sprite_Renderer",
   "data": {
-    "texture": "simpcitymap/bookstore_assets/bookcase1.png",
-    "depth_offset": 0,
-    "tint": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
-      "W": 1
-    },
-    "layer": 0,
-    "wait_for_load": false,
-    "wrap": false,
-    "mask_in_shadow": false
+    "texture": "simpcitymap/bookstore_assets/bookcase1.png"
   }
 },
 {
@@ -50,11 +39,6 @@
     "offset": {
       "X": -0.0112895965576172,
       "Y": -0.1574251055717468
-    },
-    "is_trigger": false,
-    "density": 1,
-    "friction": 0.2000000029802322,
-    "restitution": 0,
-    "restitution_threshold": 1
+    }
   }
 }

@@ -24,17 +24,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "spawn/tree3.png",
-    "depth_offset": -0.5090394020080566,
-    "tint": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
-      "W": 1
-    },
-    "layer": 0,
-    "wait_for_load": false,
-    "wrap": false,
-    "mask_in_shadow": false
+    "depth_offset": -0.5090394020080566
   }
 },
 {
@@ -43,7 +33,6 @@
   "component_type": "Internal_Component",
   "internal_component_type": "Polygon_Collider",
   "data": {
-    "is_trigger": false,
     "points": [
       {
         "X": -0.1236627995967865,
@@ -61,10 +50,6 @@
         "X": -0.0860261917114258,
         "Y": -0.5727608799934387
       }
-    ],
-    "density": 1,
-    "friction": 0.2000000029802322,
-    "restitution": 0,
-    "restitution_threshold": 1
+    ]
   }
 }

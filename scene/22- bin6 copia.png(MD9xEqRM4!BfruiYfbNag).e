@@ -23,16 +23,6 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "simpcitymap/garbage_bin/bin6 copia.png",
-    "depth_offset": -0.1099999994039536,
-    "tint": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
-      "W": 1
-    },
-    "layer": 0,
-    "wait_for_load": false,
-    "wrap": false,
-    "mask_in_shadow": false
+    "depth_offset": -0.1099999994039536
   }
 }

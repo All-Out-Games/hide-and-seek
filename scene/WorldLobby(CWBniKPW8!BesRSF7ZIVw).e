@@ -22,8 +22,6 @@
   "component_type": "Internal_Component",
   "internal_component_type": "Edge_Collider",
   "data": {
-    "is_trigger": false,
-    "is_loop": false,
     "points": [
       {
         "X": -1.1872978210449219,
@@ -885,11 +883,7 @@
         "X": -1.1811389923095703,
         "Y": -0.5908298492431641
       }
-    ],
-    "density": 1,
-    "friction": 0.2000000029802322,
-    "restitution": 0,
-    "restitution_threshold": 1
+    ]
   }
 },
 {
@@ -898,8 +892,6 @@
   "component_type": "Internal_Component",
   "internal_component_type": "Edge_Collider",
   "data": {
-    "is_trigger": false,
-    "is_loop": false,
     "points": [
       {
         "X": -2.0179328918457031,
@@ -1085,11 +1077,7 @@
         "X": -1.8970794677734375,
         "Y": -5.0452017784118652
       }
-    ],
-    "density": 1,
-    "friction": 0.2000000029802322,
-    "restitution": 0,
-    "restitution_threshold": 1
+    ]
   }
 },
 {
@@ -1098,12 +1086,7 @@
   "component_type": "Mono_Component",
   "mono_component_type": "WorldLobby",
   "data": {
-    "HunterSpawnsParent": "0:0",
     "PropSpawnsParent": "3238918857835160:1723641240003741500",
-    "HunterBarrier": "0:0",
-    "PropsParent": "0:0",
-    "MapName": "Lobby",
-    "MapThumbnail": "",
-    "SeekTime": 0
+    "MapName": "Lobby"
   }
 }

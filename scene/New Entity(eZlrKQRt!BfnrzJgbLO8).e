@@ -23,16 +23,6 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "zoo/TEMPORARY barriers/barrier2.png",
-    "depth_offset": -0.1018133163452148,
-    "tint": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
-      "W": 1
-    },
-    "layer": 0,
-    "wait_for_load": false,
-    "wrap": false,
-    "mask_in_shadow": false
+    "depth_offset": -0.1018133163452148
   }
 }

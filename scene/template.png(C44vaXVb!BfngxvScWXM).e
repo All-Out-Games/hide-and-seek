@@ -5,8 +5,7 @@
   "name": "template.png",
   "local_enabled": false,
   "local_position": {
-    "X": 0,
-    "Y": 0
+
   },
   "local_rotation": 0,
   "local_scale": {
@@ -24,16 +23,12 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "simpcitymap/template.png",
-    "depth_offset": 0,
     "tint": {
       "X": 1,
       "Y": 1,
       "Z": 1,
       "W": 0.6549019813537598
     },
-    "layer": 10,
-    "wait_for_load": false,
-    "wrap": false,
-    "mask_in_shadow": false
+    "layer": 10
   }
 }

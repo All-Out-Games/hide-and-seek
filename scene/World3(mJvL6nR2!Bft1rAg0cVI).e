@@ -23,17 +23,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/Environment/Background/background.png",
-    "depth_offset": 0,
-    "tint": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
-      "W": 1
-    },
-    "layer": -1,
-    "wait_for_load": false,
-    "wrap": false,
-    "mask_in_shadow": false
+    "layer": -1
   }
 },
 {
@@ -57,8 +47,6 @@
   "component_type": "Internal_Component",
   "internal_component_type": "Edge_Collider",
   "data": {
-    "is_trigger": false,
-    "is_loop": false,
     "points": [
       {
         "X": -4.9885482788085938,
@@ -2004,10 +1992,6 @@
         "X": -4.9894218444824219,
         "Y": -4.7025184631347656
       }
-    ],
-    "density": 1,
-    "friction": 0.2000000029802322,
-    "restitution": 0,
-    "restitution_threshold": 1
+    ]
   }
 }

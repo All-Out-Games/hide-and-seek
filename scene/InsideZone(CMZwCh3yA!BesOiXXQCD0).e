@@ -5,8 +5,7 @@
   "name": "InsideZone",
   "local_enabled": true,
   "local_position": {
-    "X": 0,
-    "Y": 0
+
   },
   "local_rotation": 0,
   "local_scale": {
@@ -23,7 +22,6 @@
   "component_type": "Internal_Component",
   "internal_component_type": "Polygon_Collider",
   "data": {
-    "is_trigger": false,
     "points": [
       {
         "X": 2.5792815685272217,
@@ -413,10 +411,6 @@
         "X": 2.7836084365844727,
         "Y": -4.3790006637573242
       }
-    ],
-    "density": 1,
-    "friction": 0.2000000029802322,
-    "restitution": 0,
-    "restitution_threshold": 1
+    ]
   }
 }

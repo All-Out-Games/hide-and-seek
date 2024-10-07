@@ -24,16 +24,11 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/Environment/Background/template.png",
-    "depth_offset": 0,
     "tint": {
       "X": 1,
       "Y": 1,
       "Z": 1,
       "W": 0.6549019813537598
-    },
-    "layer": 0,
-    "wait_for_load": false,
-    "wrap": false,
-    "mask_in_shadow": false
+    }
   }
 }

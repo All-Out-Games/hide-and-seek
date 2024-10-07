@@ -21,8 +21,6 @@
   "component_type": "Internal_Component",
   "internal_component_type": "Edge_Collider",
   "data": {
-    "is_trigger": false,
-    "is_loop": false,
     "points": [
       {
         "X": -8.8883056640625000,
@@ -956,10 +954,6 @@
         "X": -8.6904296875000000,
         "Y": -7.5477690696716309
       }
-    ],
-    "density": 1,
-    "friction": 0.2000000029802322,
-    "restitution": 0,
-    "restitution_threshold": 1
+    ]
   }
 }

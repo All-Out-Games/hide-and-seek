@@ -5,7 +5,6 @@
   "name": "root",
   "local_enabled": true,
   "local_position": {
-    "X": 0,
     "Y": -0.1138486862182617
   },
   "local_rotation": 0,

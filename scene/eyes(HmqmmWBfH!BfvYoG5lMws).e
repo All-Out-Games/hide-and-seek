@@ -5,7 +5,6 @@
   "name": "eyes",
   "local_enabled": true,
   "local_position": {
-    "X": 0,
     "Y": 0.2084894180297852
   },
   "local_rotation": 0,
