@@ -44,7 +44,7 @@ public partial class HNSPlayer : Player
 
 	public override void Awake()
 	{
-		SpineAnimator.Entity.LocalScale = new Vector2(0.528f, 0.528f);
+		//SpineAnimator.Entity.LocalScale = new Vector2(0.528f, 0.528f);
 
 		_playerRole.OnSync += (old, value) =>
 		{
@@ -717,7 +717,7 @@ public partial class PlayerCorpse : Component
 	[Serialized] public int ColorIndex;
 	[Serialized] public string[] PlayerSkins;
 
-	[Serialized] public string DeathAnim;
+	public string DeathAnim = "die";
 
 	public override void Start()
 	{
@@ -737,13 +737,13 @@ public partial class PlayerCorpse : Component
 			var sm = StateMachine.Make();
 			var baseLayer = sm.CreateLayer("base");
 			var idleState = baseLayer.CreateState("Idle", 0, true);
-			var deathSwiped = baseLayer.CreateState("MURD_002/death_swiped", 0, false);
-			var deathThrown = baseLayer.CreateState("MURD_002/death_throw", 0, false);
+			var deathSwiped = baseLayer.CreateState("Death_No_HP", 0, false);
+			//var deathThrown = baseLayer.CreateState("Death_No_HP", 0, false);
 			var dieTrigger = sm.CreateVariable("die", StateMachineVariableKind.TRIGGER);
-			var dieThrowTrigger = sm.CreateVariable("die_throw", StateMachineVariableKind.TRIGGER);
+			//var dieThrowTrigger = sm.CreateVariable("die_throw", StateMachineVariableKind.TRIGGER);
 			baseLayer.SetInitialState(idleState);
 			baseLayer.CreateGlobalTransition(deathSwiped).CreateTriggerCondition(dieTrigger);
-			baseLayer.CreateGlobalTransition(deathThrown).CreateTriggerCondition(dieThrowTrigger);
+			//baseLayer.CreateGlobalTransition(deathThrown).CreateTriggerCondition(dieThrowTrigger);
 			PlayerAnimator.SpineInstance.SetStateMachine(sm, Entity);
 
 			PlayerAnimator.SetCrewchsia(ColorIndex);
@@ -757,9 +757,11 @@ public partial class PlayerCorpse : Component
 
 		if (!string.IsNullOrEmpty(DeathAnim))
 		{
-			PlayerAnimator.SpineInstance.StateMachine.SetTrigger(DeathAnim);
 			PlayerAnimator.SpineInstance.Update(0);
-			PlayerAnimator.SpineInstance.Update(10);
+			//PlayerAnimator.SpineInstance.StateMachine.SetTrigger(DeathAnim);
+			PlayerAnimator.SpineInstance.StateMachine.SetTrigger("death");
+			//PlayerAnimator.SpineInstance.Update(0);
+			//PlayerAnimator.SpineInstance.Update(10);
 		}
 	}
 }

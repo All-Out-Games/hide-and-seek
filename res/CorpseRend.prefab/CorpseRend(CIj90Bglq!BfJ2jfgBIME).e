@@ -5,13 +5,12 @@
   "name": "CorpseRend",
   "local_enabled": true,
   "local_position": {
-    "X": 0,
-    "Y": 0
+
   },
   "local_rotation": 0,
   "local_scale": {
-    "X": 0.5279999971389771,
-    "Y": 0.5279999971389771
+    "X": 1,
+    "Y": 1
   },
   "spawn_as_networked_entity": true
 },
@@ -25,11 +24,6 @@
     "ordered_skins": [
 
     ],
-    "depth_offset": 0,
-    "skeleton_scale": {
-      "X": 1,
-      "Y": 1
-    },
     "mask_in_shadow": true
   }
 },
@@ -39,12 +33,6 @@
   "component_type": "Mono_Component",
   "mono_component_type": "PlayerCorpse",
   "data": {
-    "PlayerAnimator": "237992662795450:1718489814464556200",
-    "PlayerName": "",
-    "ColorIndex": 0,
-    "PlayerSkins": [
-
-    ],
-    "DeathAnim": ""
+    "PlayerAnimator": "237992662795450:1718489814464556200"
   }
 }

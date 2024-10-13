@@ -5,7 +5,6 @@
   "name": "Box",
   "local_enabled": true,
   "local_position": {
-    "X": 0,
     "Y": 0.3537431955337524
   },
   "local_rotation": 0,
@@ -26,10 +25,6 @@
 
     ],
     "depth_offset": -0.1551260054111481,
-    "skeleton_scale": {
-      "X": 1,
-      "Y": 1
-    },
     "mask_in_shadow": true
   }
 }

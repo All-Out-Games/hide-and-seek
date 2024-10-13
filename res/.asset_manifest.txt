@@ -53,7 +53,7 @@ BABY105_LD_Locked_Door_3.png - .ao.ios - 66848ff4b45eb9e8339c076e - 349870606923
 BloodPuddleRend.prefab - .ao - 66846150b45eb9e8339be6f8 - 3044855522418960767
 BookshelfLever.prefab - .ao - 66a18f546732dee0bb811d3e - 11725496746635214144
 Bullet.prefab - .ao - 66aae34ccf7a5e4159a6b784 - 13141656281577098272
-CorpseRend.prefab - .ao - 66aae34ccf7a5e4159a6b782 - 3492509630198146902
+CorpseRend.prefab - .ao - 670c536160ed1ef1ffbc670e - 12313218827330273871
 DEAD ref text.png - .ao - 66846151b45eb9e8339be6fe - 1630117828485965052
 DEAD ref text.png - .ao.ios - 66846151b45eb9e8339be701 - 10736467287594311732
 DetectiveCamera.prefab - .ao - 66a18f546732dee0bb811d3f - 909882562442526090
@@ -821,9 +821,11 @@ animations/finger_prints/duster/murder_duster.spine - .ao - 66a18c0c6732dee0bb81
 animations/killer/002MURDER_killer.png - .ao - 6684616db45eb9e8339be7e9 - 15078432499560666038
 animations/killer/002MURDER_killer.png - .ao.ios - 6684616db45eb9e8339be7ea - 1927970883900516849
 animations/killer/002MURDER_killer.spine - .ao - 66a18c0c6732dee0bb811d35 - 244105175570274238
-animations/player/playercharacter.png - .ao - 668eeb63b45eb9e8339c1a83 - 5775840628187999388
-animations/player/playercharacter.png - .ao.ios - 668eeb63b45eb9e8339c1a82 - 14843736996729607427
-animations/player/playercharacter.spine - .ao - 66a18b0e6732dee0bb811d25 - 8500877116462677963
+animations/player/playercharacter.png - .ao - 670c51db60ed1ef1ffbc6706 - 7547593463371354275
+animations/player/playercharacter.png - .ao.ios - 670c51db60ed1ef1ffbc6708 - 11055595542385560965
+animations/player/playercharacter.spine - .ao - 670c51d860ed1ef1ffbc6704 - 7776282173055131362
+animations/player/playercharacter_2.png - .ao - 670c51db60ed1ef1ffbc6707 - 14707534718984414060
+animations/player/playercharacter_2.png - .ao.ios - 670c51dd60ed1ef1ffbc670c - 15856395080183467190
 animations/shield/reflective_shield.png - .ao - 66bccf9983ee6f3bbee1939a - 5864850507114998633
 animations/shield/reflective_shield.png - .ao.ios - 66bccf9983ee6f3bbee19399 - 9232940904494094184
 animations/shield/reflective_shield.spine - .ao - 66bccf9983ee6f3bbee19397 - 4853392334451431204
