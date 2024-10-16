@@ -98,7 +98,7 @@ public partial class HNSPlayer : Player
 			var aoLayer = SpineAnimator.SpineInstance.StateMachine.TryGetLayerByName("main");
 			var aoIdleState = aoLayer.TryGetStateByName("Idle");
 			var aoRunState = aoLayer.TryGetStateByName("Run_Fast");
-			var idleState = murderLayer.CreateState("MURD_002/empty", 0, true);
+			var idleState = murderLayer.CreateState("__CLEAR_TRACK__", 0, true);
 			murderLayer.SetInitialState(idleState);
 
 			var pointBool = SpineAnimator.SpineInstance.StateMachine.CreateVariable("point", StateMachineVariableKind.BOOLEAN);
@@ -112,7 +112,7 @@ public partial class HNSPlayer : Player
 			murderLayer.CreateTransition(pointState, idleState, false).CreateBoolCondition(pointBool, false);
 
 			var attackTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("murder_attack", StateMachineVariableKind.TRIGGER);
-			var attackState = murderLayer.CreateState("MURD_002/kill_swipe_mIK_AL", 0, false);
+			var attackState = murderLayer.CreateState("007BB/swing_weapon_mIK_AL", 0, false);
 			murderLayer.CreateGlobalTransition(attackState).CreateTriggerCondition(attackTrigger);
 			murderLayer.CreateTransition(attackState, idleState, true);
 
