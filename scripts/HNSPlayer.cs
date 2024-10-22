@@ -156,10 +156,7 @@ public partial class HNSPlayer : Player
 			aoLayer.CreateTransition(dragIdle, dragMove, false).CreateBoolCondition(aoMovingBool, true);
 			aoLayer.CreateTransition(dragMove, dragIdle, false).CreateBoolCondition(aoMovingBool, false);
 		}
-	}
 
-	public override void Awake()
-	{
 		if (Network.IsServer)
 		{
 			if (GameManager.Instance.State == GameState.WaitingForPlayers || GameManager.Instance.State == GameState.VotingState || GameManager.Instance.State == GameState.CountingDown)
@@ -381,14 +378,14 @@ public class PropEffect : MyEffect
 			Player.PropEyes.Entity.LocalEnabled = localPlayerRole == PlayerRole.Prop;
 		}
 
-		Player nearestHunter = null;
-		foreach (var p in AO.Player.AllPlayers.Cast<HNSPlayer>())
+		HNSPlayer nearestHunter = null;
+		foreach (var player in Scene.Components<HNSPlayer>())
 		{
-			if (p.PlayerRole == PlayerRole.Seeker)
+			if (player.PlayerRole == PlayerRole.Seeker)
 			{
-				if (nearestHunter == null || Vector2.Distance(Player.Position, p.Position) < Vector2.Distance(Player.Position, nearestHunter.Position))
+				if (nearestHunter == null || Vector2.Distance(Player.Position, player.Position) < Vector2.Distance(Player.Position, nearestHunter.Position))
 				{
-					nearestHunter = p;
+					nearestHunter = player;
 				}
 			}
 		}

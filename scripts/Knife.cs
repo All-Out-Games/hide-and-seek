@@ -67,9 +67,8 @@ public class KnifeSwingEffect : MyEffect
         if (Util.OneTime(ElapsedTime >= 0.35f, ref Done))
         {
             var hitPos = Player.Position + new Vector2(0, 0.5f) + AbilityPositionOrDirection * 1;
-            foreach (var p in AO.Player.AllPlayers)
+            foreach (var player in Scene.Components<HNSPlayer>())
             {
-                var player = (HNSPlayer)p;
                 if (player == Player) continue;
                 if (player.PlayerRole != PlayerRole.Prop) continue;
                 var playerCenter = player.Position + new Vector2(0, 0.5f);

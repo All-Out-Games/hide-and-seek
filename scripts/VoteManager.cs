@@ -77,7 +77,7 @@ public partial class VoteManager : Component
 
 	public void SetupVoteManager() 
 	{
-		foreach(var player in Player.AllPlayers)
+		foreach(var player in Scene.Components<HNSPlayer>())
 		{
 			if (player.HasEffect<VotingEffect>()) continue;
 			CallClient_AddVoteEffect(player);
@@ -85,7 +85,7 @@ public partial class VoteManager : Component
 	}
 	public void RemoveVoteEffect() 
 	{
-		foreach(var player in Player.AllPlayers)
+		foreach(var player in Scene.Components<HNSPlayer>())
 		{
 			if (player.HasEffect<VotingEffect>())
 			{

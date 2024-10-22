@@ -287,9 +287,8 @@ public partial class GameManager : Component
 	[ClientRpc]
 	public void StartRoundForPlayers()
 	{
-		foreach (var p in Player.AllPlayers)
+		foreach (var player in Scene.Components<HNSPlayer>())
 		{
-			var player = (HNSPlayer)p;
 			player.PreparePlayerForRound();
 		}
 	}
@@ -297,11 +296,11 @@ public partial class GameManager : Component
 	public void SetUpRound()
 	{
 		Util.Assert(Network.IsServer, "SetUpRound can only be called on the server");
-		Util.Assert(Player.AllPlayers.Count >= 2, "We need at least 2 players to start the game!");
+		Util.Assert(Scene.Components<HNSPlayer>().Count() >= 2, "We need at least 2 players to start the game!");
 
 		Log.Info("RESETTING ROUND ------------------");
 
-		var players = new List<HNSPlayer>(Player.AllPlayers.Cast<HNSPlayer>());
+		var players = Scene.Components<HNSPlayer>().ToList();
 		players.Shuffle();
 		
 		var huntersCount = (int) (players.Count * 0.2f);
@@ -362,7 +361,7 @@ public partial class GameManager : Component
 
 	public void MessageAllPlayers(string message)
 	{
-		foreach (var player in Player.AllPlayers)
+		foreach (var player in Scene.Components<HNSPlayer>())
 		{
 			Chat.SendMessage(player, message);
 		}
@@ -448,7 +447,7 @@ public partial class GameManager : Component
 			{
 				case GameState.WaitingForPlayers:
 				{
-					if (Player.AllPlayers.Count >= PlayersNeededToStartGame)
+					if (Scene.Components<HNSPlayer>().Count() >= PlayersNeededToStartGame)
 					{
 						State = GameState.VotingState;
 						CurrentTimer = 15;
@@ -536,9 +535,8 @@ public partial class GameManager : Component
 					int GetPlayerCountWithRole(PlayerRole role)
 					{
 						var count = 0;
-						foreach (var p in Player.AllPlayers)
+						foreach (var player in Scene.Components<HNSPlayer>())
 						{
-							var player = (HNSPlayer)p;
 							if (player.PlayerRole == role)
 							{
 								count += 1;
@@ -587,7 +585,7 @@ public partial class GameManager : Component
 						Game.SetMatchmakingPriority(0);
 						CurrentTimer = 10;
 						EndRoundTime.Set((int)CurrentTimer);
-						foreach (var player in Player.AllPlayers.Cast<HNSPlayer>())
+						foreach (var player in Scene.Components<HNSPlayer>())
 						{
 							if (player.PlayerRole == Winner)
 							{
@@ -646,7 +644,7 @@ public partial class GameManager : Component
 			{
 				case GameState.WaitingForPlayers:
 				{
-					UI.Text(bottomBarRect, $"Waiting for players ({Player.AllPlayers.Count}/{PlayersNeededToStartGame})",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+					UI.Text(bottomBarRect, $"Waiting for players ({Scene.Components<HNSPlayer>().Count()}/{PlayersNeededToStartGame})",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
 					break;
 				}
 				case GameState.VotingState:
@@ -796,9 +794,8 @@ public partial class GameManager : Component
 	/// </summary>
 	public void ResetPlayersToLobby(bool teleport = true)
 	{
-		foreach (var p in Player.AllPlayers)
+		foreach (var player in Scene.Components<HNSPlayer>())
 		{
-			var player = (HNSPlayer)p;
 			if (teleport && !player.IsAlreadyInLobby())
 			{
 				player.TeleportToLobby();
