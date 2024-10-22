@@ -61,9 +61,9 @@ public partial class GunProjectile : Component
     public const float MaxLife = 1f;
     public bool AlreadyHitSomething;
 
-    public override void Start()
+    public override void Awake()
     {
-        Entity.GetComponent<Projectile>().OnHit += OnHit;
+        GetComponent<Projectile>().OnHit += OnHit;
     }
 
     public override void Update()

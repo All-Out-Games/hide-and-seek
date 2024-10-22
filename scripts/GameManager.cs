@@ -81,16 +81,13 @@ public partial class GameManager : Component
 				SeekTimeCountdownTime = Time.TimeSinceStartup;
 			}
 		};
-	}
 
-	public override void Start()
-	{
 		UI.SetLeaderboardOpen(false);
 		Chat.RegisterChatCommandHandler(RunChatCommand);
-		
+
 		if (Network.IsServer)
 		{
-			State = GameState.WaitingForPlayers;   
+			State = GameState.WaitingForPlayers;
 		}
 
 		BarrierEnabled.OnSync += (_, v) =>

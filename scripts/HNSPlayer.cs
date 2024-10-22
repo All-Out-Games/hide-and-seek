@@ -158,7 +158,7 @@ public partial class HNSPlayer : Player
 		}
 	}
 
-	public override void Start()
+	public override void Awake()
 	{
 		if (Network.IsServer)
 		{
@@ -719,8 +719,10 @@ public partial class PlayerCorpse : Component
 
 	public string DeathAnim = "die";
 
-	public override void Start()
+	public override void Awake()
 	{
+        PlayerAnimator.Awaken();
+
 		{
 			var sm = StateMachine.Make();
 			var baseLayer = sm.CreateLayer("base");

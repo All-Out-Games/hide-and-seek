@@ -6,7 +6,7 @@ public partial class TransformProp : Component
     
     [Serialized] public int PropIndex; 
 
-    public override void Start()
+    public override void Awake()
     {
         Interactable = Entity.GetComponent<Interactable>();
         Interactable.CanUseCallback = p =>
