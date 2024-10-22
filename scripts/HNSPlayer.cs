@@ -189,12 +189,15 @@ public partial class HNSPlayer : Player
 	{
 		if (Network.IsServer)
 		{
-			var playerCorpse = Assets.GetAsset<Prefab>("CorpseRend.prefab").Instantiate<PlayerCorpse>();
-			playerCorpse.Entity.Name = $"{Name}_corpse";
-			playerCorpse.Entity.Position = new Vector2(1000, 1000);
-			playerCorpse.PlayerName = Name;
-			playerCorpse.ColorIndex = ColorIndex;
-			playerCorpse.PlayerSkins = SpineAnimator.SpineInstance.GetSkins();
+			var playerCorpse = Assets.GetAsset<Prefab>("CorpseRend.prefab").Instantiate<PlayerCorpse>(e =>
+            {
+                var playerCorpse = e.GetComponent<PlayerCorpse>();
+    			playerCorpse.Entity.Name = $"{Name}_corpse";
+    			playerCorpse.Entity.Position = new Vector2(1000, 1000);
+    			playerCorpse.PlayerName = Name;
+    			playerCorpse.ColorIndex = ColorIndex;
+    			playerCorpse.PlayerSkins = SpineAnimator.SpineInstance.GetSkins();
+            });
 			Network.Spawn(playerCorpse.Entity);
 			PlayerCorpse.Set(playerCorpse.Entity);
 		}
