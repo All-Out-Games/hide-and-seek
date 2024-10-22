@@ -59,6 +59,11 @@ public partial class GameManager : Component
 	{
 		Instance = this;
 
+        foreach (var world in Scene.Components<World>())
+        {
+            world.Awaken(); // populates WorldManager.Worlds list
+        }
+
 		VoiceChatEnabled.OnSync += (_, enabled) => {
 			if (Network.LocalPlayer != null)
 			{
