@@ -25,9 +25,6 @@
   "data": {
     "texture": "ancienttemplemap/Environment/Background/template.png",
     "tint": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1,
       "W": 0.6549019813537598
     }
   }

@@ -14,20 +14,4 @@
     "Y": 1
   },
   "previous_sibling": "167794908492918:1724270284305974600"
-},
-{
-  "cid": 1,
-  "aoid": "2156184831535767:1724709004297898500",
-  "component_type": "Internal_Component",
-  "internal_component_type": "Light",
-  "data": {
-    "color": {
-
-    },
-    "shadow_caster": false,
-    "radi": {
-      "X": 217,
-      "Y": 217
-    }
-  }
 }

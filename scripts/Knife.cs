@@ -54,7 +54,7 @@ public class KnifeSwingEffect : MyEffect
     {
         Player.SpineAnimator.SpineInstance.StateMachine.SetTrigger("murder_attack");
         SFX.Play(Assets.GetAsset<AudioAsset>("sfx/MurderMystery Killer/killer-knife_swipe.wav"), new(){Positional=true, Position=Player.Position});
-        Player.SetAimTarget(Player.Position + AbilityPositionOrDirection);
+        Player.SetAimTarget(Player.Position + AbilityDirection);
         DurationRemaining = Player.SpineAnimator.SpineInstance.StateMachine.TryGetLayerByName("murder_layer").GetCurrentStateLength();
     }
 
@@ -66,7 +66,7 @@ public class KnifeSwingEffect : MyEffect
     {
         if (Util.OneTime(ElapsedTime >= 0.35f, ref Done))
         {
-            var hitPos = Player.Position + new Vector2(0, 0.5f) + AbilityPositionOrDirection * 1;
+            var hitPos = Player.Position + new Vector2(0, 0.5f) + AbilityDirection * 1;
             foreach (var player in Scene.Components<HNSPlayer>())
             {
                 if (player == Player) continue;
