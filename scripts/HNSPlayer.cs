@@ -749,7 +749,7 @@ public partial class PlayerCorpse : Component
 			PlayerAnimator.SpineInstance.SetStateMachine(sm, Entity);
 
 			PlayerAnimator.SetCrewchsia(ColorIndex);
-			PlayerAnimator.SpineInstance.SetSkeleton(Assets.GetAsset<SpineSkeletonAsset>("animations/player/merged_player.spine"));
+			PlayerAnimator.SpineInstance.SetSkeleton(Assets.GetAsset<SpineSkeletonAsset>("animations/player/player.merged_spine_rig#output"));
 			foreach (var skin in PlayerSkins)
 			{
 				PlayerAnimator.SpineInstance.EnableSkin(skin);
