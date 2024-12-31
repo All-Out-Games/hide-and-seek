@@ -595,6 +595,10 @@ public partial class GameManager : Component
 							if (player.PlayerRole == Winner)
 							{
 								player.Wins += 1;
+								if (!Game.LaunchedFromEditor)
+								{
+									Battlepass.IncrementProgress(player, "6772ee060824c4126e167f2f", 1);
+								}
 							}
 						}
 					}
