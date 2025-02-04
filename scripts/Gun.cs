@@ -2,7 +2,7 @@ using AO;
 
 public partial class GunAbility : MyAbility
 {
-    public override TargettingMode TargettingMode => TargettingMode.Line;
+    public override TargettingMode TargettingMode => TargettingMode.CircleAOE;
     public override Texture Icon => Assets.GetAsset<Texture>("Ability_Icons/revolver_icon.png");
     public override Type TargettingEffect => typeof(AimingGun);
     public override float MaxDistance => 10f;

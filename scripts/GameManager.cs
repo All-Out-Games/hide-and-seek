@@ -101,7 +101,7 @@ public partial class GameManager : Component
 			Log.Info($"{WorldManager.Instance.CurrentWorld.MapName}");
 		};
 
-		Leaderboard.RegisterSortCallback((Player[] players) =>
+		PlayerList.RegisterSortCallback((Player[] players) =>
 		{
 			Array.Sort(players, (a, b) =>
 			{
@@ -109,7 +109,7 @@ public partial class GameManager : Component
 			});
 		});
 
-		Leaderboard.Register("Wins", (Player[] players, string[] scores) =>
+		PlayerList.Register("Wins", (Player[] players, string[] scores) =>
 		{
 			for (int i = 0; i < players.Length; i++)
 			{
@@ -118,7 +118,7 @@ public partial class GameManager : Component
 			}
 		});
 
-		Leaderboard.Register("Role", (Player[] players, string[] scores) =>
+		PlayerList.Register("Role", (Player[] players, string[] scores) =>
 		{
 			for (int i = 0; i < players.Length; i++)
 			{

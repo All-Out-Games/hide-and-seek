@@ -84,7 +84,7 @@ public partial class HNSPlayer : Player
 			var appearState = layer.CreateState("appear", 0, false);
 			var disappearState = layer.CreateState("disappear", 0, false);
 			var idleState = layer.CreateState("idle_mIK", 0, true);
-			layer.SetInitialState(idleState);
+			layer.InitialState = idleState;
 			layer.CreateGlobalTransition(appearState).CreateTriggerCondition(appearTrigger);
 			layer.CreateTransition(appearState, idleState, true);
 			PropEyes.SpineInstance.SetStateMachine(sm, Entity);
@@ -99,7 +99,7 @@ public partial class HNSPlayer : Player
 			var aoIdleState = aoLayer.TryGetStateByName("Idle");
 			var aoRunState = aoLayer.TryGetStateByName("Run_Fast");
 			var idleState = murderLayer.CreateState("__CLEAR_TRACK__", 0, true);
-			murderLayer.SetInitialState(idleState);
+			murderLayer.InitialState = idleState;
 
 			var pointBool = SpineAnimator.SpineInstance.StateMachine.CreateVariable("point", StateMachineVariableKind.BOOLEAN);
 			var pointExaggerateTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("point_exaggerate", StateMachineVariableKind.TRIGGER);
@@ -729,7 +729,7 @@ public partial class PlayerCorpse : Component
 			var appearState = baseLayer.CreateState("appear", 0, false);
 			var idleState = baseLayer.CreateState("idle", 0, true);
 			var appearTrigger = sm.CreateVariable("appear", StateMachineVariableKind.TRIGGER);
-			baseLayer.SetInitialState(idleState);
+			baseLayer.InitialState = idleState;
 			baseLayer.CreateTransition(idleState, appearState, false).CreateTriggerCondition(appearTrigger);
 			baseLayer.CreateTransition(appearState, idleState, true);
 			Entity.TryGetChildByIndex(0).LocalEnabled = false;
@@ -743,7 +743,7 @@ public partial class PlayerCorpse : Component
 			//var deathThrown = baseLayer.CreateState("Death_No_HP", 0, false);
 			var dieTrigger = sm.CreateVariable("die", StateMachineVariableKind.TRIGGER);
 			//var dieThrowTrigger = sm.CreateVariable("die_throw", StateMachineVariableKind.TRIGGER);
-			baseLayer.SetInitialState(idleState);
+			baseLayer.InitialState = idleState;
 			baseLayer.CreateGlobalTransition(deathSwiped).CreateTriggerCondition(dieTrigger);
 			//baseLayer.CreateGlobalTransition(deathThrown).CreateTriggerCondition(dieThrowTrigger);
 			PlayerAnimator.SpineInstance.SetStateMachine(sm, Entity);
