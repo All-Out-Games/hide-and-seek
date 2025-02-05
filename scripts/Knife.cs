@@ -2,7 +2,7 @@ using AO;
 
 public partial class KnifeAbility : MyAbility
 {
-    public override TargettingMode TargettingMode => TargettingMode.Line;
+    public override TargettingMode TargettingMode => TargettingMode.CircleAOE;
     public override Texture Icon => Assets.GetAsset<Texture>("Ability_Icons/kill_cleaver_icon.png");
     public override Type Effect => typeof(KnifeSwingEffect);
     public override Type TargettingEffect => typeof(AimingKnife);
@@ -28,7 +28,8 @@ public partial class KnifeAbility : MyAbility
 
 public class AimingKnife : MyEffect
 {
-    public override bool IsActiveEffect => true;
+    public override bool IsActiveEffect => false;
+    public override bool GetInterruptedByNewActiveEffects => true;
     public override List<Type> AbilityWhitelist { get; } = new List<Type>(){typeof(KnifeAbility)};
 
     public override void OnEffectStart(bool isDropIn)
