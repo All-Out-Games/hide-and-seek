@@ -676,12 +676,12 @@ animations/finger_prints/duster/murder_duster.spine - .ao - 67745f78d60dd6a1a60c
 animations/killer/002MURDER_killer.png - .ao - 6744f5f5f6994d2906c2269e - 12941102866883238729
 animations/killer/002MURDER_killer.png - .ao.astc - 6744f5f6f6994d2906c226a2 - 13847303295320762872
 animations/killer/002MURDER_killer.spine - .ao - 67745f79d60dd6a1a60ca613 - 17286189675192537389
-animations/player/player.merged_spine_rig - .ao - 6744f5f6f6994d2906c226a3 - 10507115660244655534
-animations/player/playercharacter.png - .ao - 6744f5f6f6994d2906c226a6 - 9196547613928708589
+animations/player/player.merged_spine_rig - .ao - 67e43150567ef7a06a1498d0 - 11457206446847971612
+animations/player/playercharacter.png - .ao - 67e43151567ef7a06a1498d1 - 16899379186221320654
 animations/player/playercharacter.png - .ao.astc - 6744f5f6f6994d2906c226aa - 17949296350688431451
-animations/player/playercharacter.spine - .ao - 67745f79d60dd6a1a60ca615 - 1581795571502676186
-animations/player/playercharacter_2.png - .ao - 6744f5f6f6994d2906c226a7 - 1161540335378655627
-animations/player/playercharacter_2.png - .ao.astc - 6744f5f6f6994d2906c226ab - 2427318416082386070
+animations/player/playercharacter.spine - .ao - 67e43154567ef7a06a1498d2 - 1104271574518833915
+animations/player/playercharacter_2.png - .ao - 67e432cb567ef7a06a1498d4 - 1161540335378655627
+animations/player/playercharacter_2.png - .ao.astc - 67e432cb567ef7a06a1498d3 - 2427318416082386070
 animations/shield/reflective_shield.png - .ao - 6744f5f7f6994d2906c226ac - 12388632069965720033
 animations/shield/reflective_shield.png - .ao.astc - 6744f5f7f6994d2906c226ae - 11607247861999630469
 animations/shield/reflective_shield.spine - .ao - 67745f79d60dd6a1a60ca614 - 11544275275071243204

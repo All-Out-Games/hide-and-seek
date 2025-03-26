@@ -112,7 +112,7 @@ public partial class HNSPlayer : Player
 			murderLayer.CreateTransition(pointState, idleState, false).CreateBoolCondition(pointBool, false);
 
 			var attackTrigger = SpineAnimator.SpineInstance.StateMachine.CreateVariable("murder_attack", StateMachineVariableKind.TRIGGER);
-			var attackState = murderLayer.CreateState("007BB/swing_weapon_mIK_AL", 0, false);
+			var attackState = murderLayer.CreateState("Attack_Melee_1", 0, false);
 			murderLayer.CreateGlobalTransition(attackState).CreateTriggerCondition(attackTrigger);
 			murderLayer.CreateTransition(attackState, idleState, true);
 
