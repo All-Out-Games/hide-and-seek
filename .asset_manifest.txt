@@ -1,0 +1,1683 @@
+Ability_Icons/drag_body_icon.png - .ao - 68c0c70e77e5057f678a8ef8 - 13723927595864939243
+Ability_Icons/drag_body_icon.png - .ao.astc - 68c0c70e77e5057f678a8eed - 13723927595864939243
+Ability_Icons/evidence_button_pressed.png - .ao - 68c0c70e77e5057f678a8efb - 13718501658582132345
+Ability_Icons/evidence_button_pressed.png - .ao.astc - 68c0c70e77e5057f678a8ef1 - 13718501658582132345
+Ability_Icons/evidence_folder_icon.png - .ao - 68c0c70e77e5057f678a8efa - 13691470060502269632
+Ability_Icons/evidence_folder_icon.png - .ao.astc - 68c0c70e77e5057f678a8eef - 13691470060502269632
+Ability_Icons/fingerprint_duster_icon.png - .ao - 68c0c70e77e5057f678a8ef6 - 13698938862884100023
+Ability_Icons/fingerprint_duster_icon.png - .ao.astc - 68c0c70e77e5057f678a8f01 - 13698938862884100023
+Ability_Icons/greenlight_goggles_off_icon.png - .ao - 68c0c70e77e5057f678a8eec - 9366298525889366106
+Ability_Icons/greenlight_goggles_off_icon.png - .ao.astc - 68c0c70e77e5057f678a8eeb - 9366298525889366106
+Ability_Icons/greenlight_goggles_on_icon.png - .ao - 68c0c70e77e5057f678a8f0a - 13728542701335710568
+Ability_Icons/greenlight_goggles_on_icon.png - .ao.astc - 68c0c70e77e5057f678a8f05 - 13728542701335710568
+Ability_Icons/hidenseek/decoy_1.png - .ao - 68c0c70e77e5057f678a8f3a - 13709043431591674375
+Ability_Icons/hidenseek/decoy_1.png - .ao.astc - 68c0c70e77e5057f678a8f0b - 13709043431591674375
+Ability_Icons/hidenseek/decoy_2.png - .ao - 68c0c70e77e5057f678a8f02 - 13691249755167032083
+Ability_Icons/hidenseek/decoy_2.png - .ao.astc - 68c0c70e77e5057f678a8f15 - 13691249755167032083
+Ability_Icons/hidenseek/decoy_3.png - .ao - 68c0c70e77e5057f678a8f5d - 13697347994841489668
+Ability_Icons/hidenseek/decoy_3.png - .ao.astc - 68c0c70e77e5057f678a8f20 - 13697347994841489668
+Ability_Icons/hidenseek/decoy_4.png - .ao - 68c0c70e77e5057f678a8f03 - 13710017385045532297
+Ability_Icons/hidenseek/decoy_4.png - .ao.astc - 68c0c70e77e5057f678a8ef2 - 13710017385045532297
+Ability_Icons/hidenseek/randomize_1.png - .ao - 68c0c70e77e5057f678a8f08 - 13701497969167860003
+Ability_Icons/hidenseek/randomize_1.png - .ao.astc - 68c0c70e77e5057f678a8f38 - 13701497969167860003
+Ability_Icons/hidenseek/randomize_2.png - .ao - 68c0c70e77e5057f678a8f04 - 13743609948770439726
+Ability_Icons/hidenseek/randomize_2.png - .ao.astc - 68c0c70e77e5057f678a8f49 - 13743609948770439726
+Ability_Icons/hidenseek/randomize_3.png - .ao - 68c0c70e77e5057f678a8f07 - 9367069154563151813
+Ability_Icons/hidenseek/randomize_3.png - .ao.astc - 68c0c70e77e5057f678a8f24 - 9367069154563151813
+Ability_Icons/kill_cleaver_icon.png - .ao - 68c0c70e77e5057f678a8f68 - 9359832187703972300
+Ability_Icons/kill_cleaver_icon.png - .ao.astc - 68c0c70e77e5057f678a8efe - 9359832187703972300
+Ability_Icons/lock_doors_icon.png - .ao - 68c0c70e77e5057f678a8f4d - 9362165576909557165
+Ability_Icons/lock_doors_icon.png - .ao.astc - 68c0c70e77e5057f678a8f16 - 9362165576909557165
+Ability_Icons/revolver_icon.png - .ao - 68c0c70e77e5057f678a8f46 - 13740385505344053010
+Ability_Icons/revolver_icon.png - .ao.astc - 68c0c70e77e5057f678a8eea - 13740385505344053010
+Ability_Icons/scanner_button.png - .ao - 68c0c70e77e5057f678a8ef0 - 13740874010814875431
+Ability_Icons/scanner_button.png - .ao.astc - 68c0c70e77e5057f678a8f32 - 13740874010814875431
+Ability_Icons/scanner_button_pressed.png - .ao - 68c0c70e77e5057f678a8eee - 13729217000842058693
+Ability_Icons/scanner_button_pressed.png - .ao.astc - 68c0c70e77e5057f678a8f00 - 13729217000842058693
+Ability_Icons/security_camera_icon.png - .ao - 68c0c70e77e5057f678a8eff - 9334257541507271028
+Ability_Icons/security_camera_icon.png - .ao.astc - 68c0c70e77e5057f678a8f09 - 9334257541507271028
+Ability_Icons/silent_alarm_icon.png - .ao - 68c0c70e77e5057f678a8ef9 - 13698132917394893343
+Ability_Icons/silent_alarm_icon.png - .ao.astc - 68c0c70e77e5057f678a8f13 - 13698132917394893343
+Ability_Icons/throw_knife.png - .ao - 68c0c70e77e5057f678a8f0f - 13743606642139854992
+Ability_Icons/throw_knife.png - .ao.astc - 68c0c70e77e5057f678a8f17 - 13743606642139854992
+Ability_Icons/transform_evil.png - .ao - 68c0c70e77e5057f678a8f10 - 13714382222034623339
+Ability_Icons/transform_evil.png - .ao.astc - 68c0c70e77e5057f678a8f23 - 13714382222034623339
+Ability_Icons/transform_good.png - .ao - 68c0c70e77e5057f678a8f55 - 9355285813553091046
+Ability_Icons/transform_good.png - .ao.astc - 68c0c70e77e5057f678a8ef3 - 9355285813553091046
+ancienttemplemap/_FIX_Heart/HEAD134_crewmate_5.png - .ao - 68c0c70e77e5057f678a8fef - 13718321865034455458
+ancienttemplemap/_FIX_Heart/HEAD134_crewmate_5.png - .ao.astc - 68c0c70e77e5057f678a8fe3 - 13718321865034455458
+ancienttemplemap/_FIX_Heart/HEAD134_glyph_stone_pedestal.png - .ao - 68c0c70e77e5057f678a8f6a - 9335054867162142672
+ancienttemplemap/_FIX_Heart/HEAD134_glyph_stone_pedestal.png - .ao.astc - 68c0c70e77e5057f678a8f6b - 9335054867162142672
+ancienttemplemap/_FIX_Heart/HEAD134_slot_wall.png - .ao - 68c0c70e77e5057f678a8f69 - 13711891470072502259
+ancienttemplemap/_FIX_Heart/HEAD134_slot_wall.png - .ao.astc - 68c0c70e77e5057f678a8f6c - 13711891470072502259
+ancienttemplemap/_FIX_Heart/HEAD134Item.png - .ao - 68c0c70e77e5057f678a8f8e - 9359350602118075027
+ancienttemplemap/_FIX_Heart/HEAD134Item.png - .ao.astc - 68c0c70e77e5057f678a8f84 - 9359350602118075027
+ancienttemplemap/_FIX_Heart/heart_drawing.png - .ao - 68c0c70e77e5057f678a8ef4 - 9356809945008044641
+ancienttemplemap/_FIX_Heart/heart_drawing.png - .ao.astc - 68c0c70e77e5057f678a8efc - 9356809945008044641
+ancienttemplemap/_FIX_Heart/heart_glyph.png - .ao - 68c0c70e77e5057f678a8efd - 9351525275668078471
+ancienttemplemap/_FIX_Heart/heart_glyph.png - .ao.astc - 68c0c70e77e5057f678a8f1d - 9351525275668078471
+ancienttemplemap/_FIX_Heart/heart_stone(1).png - .ao - 68c0c70e77e5057f678a8f34 - 9356368047929585409
+ancienttemplemap/_FIX_Heart/heart_stone(1).png - .ao.astc - 68c0c70e77e5057f678a8ef7 - 9356368047929585409
+ancienttemplemap/_FIX_Heart/heart_stone.png - .ao - 68c0c70e77e5057f678a8f2d - 9362718654791542417
+ancienttemplemap/_FIX_Heart/heart_stone.png - .ao.astc - 68c0c70e77e5057f678a8f30 - 9362718654791542417
+ancienttemplemap/armour/armour_folded.png - .ao - 68c0c70e77e5057f678a8f06 - 9355127133337493458
+ancienttemplemap/armour/armour_folded.png - .ao.astc - 68c0c70e77e5057f678a8f25 - 9355127133337493458
+ancienttemplemap/armour/body.png - .ao - 68c0c70e77e5057f678a8f0c - 13721994194084441895
+ancienttemplemap/armour/body.png - .ao.astc - 68c0c70e77e5057f678a8f18 - 13721994194084441895
+ancienttemplemap/armour/helmet.png - .ao - 68c0c70e77e5057f678a8f2e - 9365792244748177499
+ancienttemplemap/armour/helmet.png - .ao.astc - 68c0c70e77e5057f678a8ef5 - 9365792244748177499
+ancienttemplemap/armour/leg_l.png - .ao - 68c0c70e77e5057f678a8f11 - 13704866496690406596
+ancienttemplemap/armour/leg_l.png - .ao.astc - 68c0c70e77e5057f678a8f14 - 13704866496690406596
+ancienttemplemap/armour/leg_r.png - .ao - 68c0c70e77e5057f678a8f2f - 13744791033135722012
+ancienttemplemap/armour/leg_r.png - .ao.astc - 68c0c70e77e5057f678a8f0d - 13744791033135722012
+ancienttemplemap/armour/pieces/piece01.png - .ao - 68c0c70e77e5057f678a8f1b - 13721366692298430013
+ancienttemplemap/armour/pieces/piece01.png - .ao.astc - 68c0c70e77e5057f678a8f1e - 13721366692298430013
+ancienttemplemap/armour/pieces/piece02.png - .ao - 68c0c70e77e5057f678a8f31 - 9334768322975463060
+ancienttemplemap/armour/pieces/piece02.png - .ao.astc - 68c0c70e77e5057f678a8f12 - 9334768322975463060
+ancienttemplemap/armour/pieces/piece03.png - .ao - 68c0c70e77e5057f678a8f1c - 9335942791003204903
+ancienttemplemap/armour/pieces/piece03.png - .ao.astc - 68c0c70e77e5057f678a8f3d - 9335942791003204903
+ancienttemplemap/armour/pieces/piece04.png - .ao - 68c0c70e77e5057f678a8f28 - 13732605654068229604
+ancienttemplemap/armour/pieces/piece04.png - .ao.astc - 68c0c70e77e5057f678a8f58 - 13732605654068229604
+ancienttemplemap/armour/pieces/piece05.png - .ao - 68c0c70e77e5057f678a8f1f - 13704712128606143232
+ancienttemplemap/armour/pieces/piece05.png - .ao.astc - 68c0c70e77e5057f678a8f3f - 13704712128606143232
+ancienttemplemap/bird-statue-no-shine.png - .ao - 68c0c70e77e5057f678a8f19 - 13719101614415609627
+ancienttemplemap/bird-statue-no-shine.png - .ao.astc - 68c0c70e77e5057f678a8f0e - 13719101614415609627
+ancienttemplemap/broom.png - .ao - 68c0c70e77e5057f678a8f22 - 9362115030444065637
+ancienttemplemap/broom.png - .ao.astc - 68c0c70e77e5057f678a8f26 - 9362115030444065637
+ancienttemplemap/candles/export 2/floorfire1.png - .ao - 68c0c70e77e5057f678a8f27 - 13722460227249584266
+ancienttemplemap/candles/export 2/floorfire1.png - .ao.astc - 68c0c70e77e5057f678a8f1a - 13722460227249584266
+ancienttemplemap/candles/export 2/floorfire3.png - .ao - 68c0c70e77e5057f678a8f21 - 13731651384599346079
+ancienttemplemap/candles/export 2/floorfire3.png - .ao.astc - 68c0c70e77e5057f678a8f2c - 13731651384599346079
+ancienttemplemap/candles/export 2/wall1.png - .ao - 68c0c70e77e5057f678a8f2a - 9366437593255564452
+ancienttemplemap/candles/export 2/wall1.png - .ao.astc - 68c0c70e77e5057f678a8f59 - 9366437593255564452
+ancienttemplemap/candles/export 2/wall2.png - .ao - 68c0c70e77e5057f678a8f29 - 9357122961304952822
+ancienttemplemap/candles/export 2/wall2.png - .ao.astc - 68c0c70e77e5057f678a8f37 - 9357122961304952822
+ancienttemplemap/candles/export 2/wallfire1.png - .ao - 68c0c70e77e5057f678a8f2b - 13737290898153999853
+ancienttemplemap/candles/export 2/wallfire1.png - .ao.astc - 68c0c70e77e5057f678a8f33 - 13737290898153999853
+ancienttemplemap/candles/export 2/wallfire2.png - .ao - 68c0c70e77e5057f678a8f3c - 13699466267051716467
+ancienttemplemap/candles/export 2/wallfire2.png - .ao.astc - 68c0c70e77e5057f678a8f3e - 13699466267051716467
+ancienttemplemap/candles/floor_candle_01.png - .ao - 68c0c70e77e5057f678a8f62 - 9334206298034575064
+ancienttemplemap/candles/floor_candle_01.png - .ao.astc - 68c0c70e77e5057f678a8f5f - 9334206298034575064
+ancienttemplemap/candles/floor_candle_02.png - .ao - 68c0c70e77e5057f678a8f36 - 9365778678293050172
+ancienttemplemap/candles/floor_candle_02.png - .ao.astc - 68c0c70e77e5057f678a8f35 - 9365778678293050172
+ancienttemplemap/candles/floor_candle_03.png - .ao - 68c0c70e77e5057f678a8f3b - 13704138024292017222
+ancienttemplemap/candles/floor_candle_03.png - .ao.astc - 68c0c70e77e5057f678a8f44 - 13704138024292017222
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_01.png - .ao - 68c0c70e77e5057f678a8f66 - 9331619588819841653
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_01.png - .ao.astc - 68c0c70e77e5057f678a8f67 - 9331619588819841653
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_02.png - .ao - 68c0c70e77e5057f678a8f45 - 13710768576752603392
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_02.png - .ao.astc - 68c0c70e77e5057f678a8f5c - 13710768576752603392
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_03.png - .ao - 68c0c70e77e5057f678a8f41 - 13701461432520490031
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_03.png - .ao.astc - 68c0c70e77e5057f678a8f39 - 13701461432520490031
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_04.png - .ao - 68c0c70e77e5057f678a8f42 - 13733673756055468955
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_04.png - .ao.astc - 68c0c70e77e5057f678a8f61 - 13733673756055468955
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_05.png - .ao - 68c0c70e77e5057f678a8f54 - 13713306456239508055
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_05.png - .ao.astc - 68c0c70e77e5057f678a8f4a - 13713306456239508055
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_06.png - .ao - 68c0c70e77e5057f678a8f56 - 9353965961744762598
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_06.png - .ao.astc - 68c0c70e77e5057f678a8f63 - 9353965961744762598
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_07.png - .ao - 68c0c70e77e5057f678a8f40 - 13720657411669900902
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_07.png - .ao.astc - 68c0c70e77e5057f678a8f4f - 13720657411669900902
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_08.png - .ao - 68c0c70e77e5057f678a8f48 - 13706734615834258157
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_08.png - .ao.astc - 68c0c70e77e5057f678a8f5b - 13706734615834258157
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_09.png - .ao - 68c0c70e77e5057f678a8f43 - 9334291382432913239
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_09.png - .ao.astc - 68c0c70e77e5057f678a8f53 - 9334291382432913239
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_10.png - .ao - 68c0c70e77e5057f678a8f4b - 13698194138883444447
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_10.png - .ao.astc - 68c0c70e77e5057f678a8f4c - 13698194138883444447
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_11.png - .ao - 68c0c70e77e5057f678a8f47 - 13720640464051874711
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_11.png - .ao.astc - 68c0c70e77e5057f678a8f51 - 13720640464051874711
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_12.png - .ao - 68c0c70e77e5057f678a8f60 - 13738431406959232562
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_12.png - .ao.astc - 68c0c70e77e5057f678a8f65 - 13738431406959232562
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_13.png - .ao - 68c0c70e77e5057f678a8f5e - 9365370152366761969
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_13.png - .ao.astc - 68c0c70e77e5057f678a8f50 - 9365370152366761969
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_14.png - .ao - 68c0c70e77e5057f678a8f57 - 13718217973602208940
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_14.png - .ao.astc - 68c0c70e77e5057f678a8f5a - 13718217973602208940
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_15.png - .ao - 68c0c70e77e5057f678a8f52 - 13701527239500137839
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_15.png - .ao.astc - 68c0c70e77e5057f678a8f64 - 13701527239500137839
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_16.png - .ao - 68c0c70e77e5057f678a8f4e - 9354633325056427435
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_16.png - .ao.astc - 68c0c70e77e5057f678a8f70 - 9354633325056427435
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_17.png - .ao - 68c0c70e77e5057f678a8f82 - 13719068982591354691
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_17.png - .ao.astc - 68c0c70e77e5057f678a8f87 - 13719068982591354691
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_18.png - .ao - 68c0c70e77e5057f678a8f8b - 9366361543381581293
+ancienttemplemap/candles/smoke/smoke_1/smoke_1_18.png - .ao.astc - 68c0c70e77e5057f678a8f8f - 9366361543381581293
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_00.png - .ao - 68c0c70e77e5057f678a8f6d - 13733635423548587701
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_00.png - .ao.astc - 68c0c70e77e5057f678a8f93 - 13733635423548587701
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_01.png - .ao - 68c0c70e77e5057f678a8f6e - 13736579763820092788
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_01.png - .ao.astc - 68c0c70e77e5057f678a8f95 - 13736579763820092788
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_02.png - .ao - 68c0c70e77e5057f678a8f98 - 13700508983717296578
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_02.png - .ao.astc - 68c0c70e77e5057f678a8fa2 - 13700508983717296578
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_03.png - .ao - 68c0c70e77e5057f678a8f6f - 13712049641427303048
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_03.png - .ao.astc - 68c0c70e77e5057f678a8f71 - 13712049641427303048
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_04.png - .ao - 68c0c70e77e5057f678a8fa1 - 9360466049925254756
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_04.png - .ao.astc - 68c0c70e77e5057f678a8f73 - 9360466049925254756
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_05.png - .ao - 68c0c70e77e5057f678a8faf - 13733128279382493283
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_05.png - .ao.astc - 68c0c70e77e5057f678a8f74 - 13733128279382493283
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_06.png - .ao - 68c0c70e77e5057f678a8fac - 9360586641380921570
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_06.png - .ao.astc - 68c0c70e77e5057f678a8f78 - 9360586641380921570
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_07.png - .ao - 68c0c70e77e5057f678a8fa9 - 9357126176783453482
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_07.png - .ao.astc - 68c0c70e77e5057f678a8f76 - 9357126176783453482
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_08.png - .ao - 68c0c70e77e5057f678a8fa4 - 13711641864257703883
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_08.png - .ao.astc - 68c0c70e77e5057f678a8fb1 - 13711641864257703883
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_09.png - .ao - 68c0c70e77e5057f678a8f77 - 13744954854369995977
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_09.png - .ao.astc - 68c0c70e77e5057f678a8f79 - 13744954854369995977
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_10.png - .ao - 68c0c70e77e5057f678a8fae - 13697466219710557512
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_10.png - .ao.astc - 68c0c70e77e5057f678a8f72 - 13697466219710557512
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_11.png - .ao - 68c0c70e77e5057f678a8f75 - 9359120924293378729
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_11.png - .ao.astc - 68c0c70e77e5057f678a8fa5 - 9359120924293378729
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_12.png - .ao - 68c0c70e77e5057f678a8fad - 13743377650631792403
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_12.png - .ao.astc - 68c0c70e77e5057f678a8fa8 - 13743377650631792403
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_13.png - .ao - 68c0c70e77e5057f678a8fbb - 13692925335748438724
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_13.png - .ao.astc - 68c0c70e77e5057f678a8fb4 - 13692925335748438724
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_14.png - .ao - 68c0c70e77e5057f678a8fb5 - 13700075161897119791
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_14.png - .ao.astc - 68c0c70e77e5057f678a8f7b - 13700075161897119791
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_15.png - .ao - 68c0c70e77e5057f678a8fb3 - 13731757674784979181
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_15.png - .ao.astc - 68c0c70e77e5057f678a8fbe - 13731757674784979181
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_16.png - .ao - 68c0c70e77e5057f678a8f7a - 9351739895549539157
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_16.png - .ao.astc - 68c0c70e77e5057f678a8fc4 - 9351739895549539157
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_17.png - .ao - 68c0c70e77e5057f678a8fce - 13743098907952969573
+ancienttemplemap/candles/smoke/smoke_2/smoke_2_17.png - .ao.astc - 68c0c70e77e5057f678a8fd6 - 13743098907952969573
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_00.png - .ao - 68c0c70e77e5057f678a8fb9 - 13744824576410645089
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_00.png - .ao.astc - 68c0c70e77e5057f678a8fb7 - 13744824576410645089
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_01.png - .ao - 68c0c70e77e5057f678a8fc0 - 9364450256365087851
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_01.png - .ao.astc - 68c0c70e77e5057f678a8fbd - 9364450256365087851
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_02.png - .ao - 68c0c70e77e5057f678a8fc3 - 9350783415777129840
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_02.png - .ao.astc - 68c0c70e77e5057f678a8fc1 - 9350783415777129840
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_03.png - .ao - 68c0c70e77e5057f678a8f7c - 13699803790705809442
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_03.png - .ao.astc - 68c0c70e77e5057f678a8fcb - 13699803790705809442
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_04.png - .ao - 68c0c70e77e5057f678a8fb8 - 9334377603244863048
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_04.png - .ao.astc - 68c0c70e77e5057f678a8f7f - 9334377603244863048
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_05.png - .ao - 68c0c70e77e5057f678a8fb6 - 13721621458497660718
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_05.png - .ao.astc - 68c0c70e77e5057f678a8f7d - 13721621458497660718
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_06.png - .ao - 68c0c70e77e5057f678a8fc7 - 13725465659350562874
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_06.png - .ao.astc - 68c0c70e77e5057f678a8fbf - 13725465659350562874
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_07.png - .ao - 68c0c70e77e5057f678a8f80 - 13741617507512539539
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_07.png - .ao.astc - 68c0c70e77e5057f678a8f7e - 13741617507512539539
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_08.png - .ao - 68c0c70e77e5057f678a8fc5 - 9365833364062704995
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_08.png - .ao.astc - 68c0c70e77e5057f678a8fc9 - 9365833364062704995
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_09.png - .ao - 68c0c70e77e5057f678a8f81 - 13699319140787151826
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_09.png - .ao.astc - 68c0c70e77e5057f678a8fcd - 13699319140787151826
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_10.png - .ao - 68c0c70e77e5057f678a8fcf - 9355467188612249206
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_10.png - .ao.astc - 68c0c70e77e5057f678a8fca - 9355467188612249206
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_11.png - .ao - 68c0c70e77e5057f678a8f88 - 9364078479029443129
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_11.png - .ao.astc - 68c0c70e77e5057f678a8f83 - 9364078479029443129
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_12.png - .ao - 68c0c70e77e5057f678a8fd2 - 13713578934053034316
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_12.png - .ao.astc - 68c0c70e77e5057f678a8fcc - 13713578934053034316
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_13.png - .ao - 68c0c70e77e5057f678a8f89 - 13726598158134980113
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_13.png - .ao.astc - 68c0c70e77e5057f678a8fd4 - 13726598158134980113
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_14.png - .ao - 68c0c70e77e5057f678a8f86 - 13739729597921306901
+ancienttemplemap/candles/smoke/smoke_3/smoke_3_14.png - .ao.astc - 68c0c70e77e5057f678a8fd5 - 13739729597921306901
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_00.png - .ao - 68c0c70e77e5057f678a8f85 - 13702346173621074861
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_00.png - .ao.astc - 68c0c70e77e5057f678a8fd3 - 13702346173621074861
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_01.png - .ao - 68c0c70e77e5057f678a8f8d - 9335409974439458227
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_01.png - .ao.astc - 68c0c70e77e5057f678a8fd1 - 9335409974439458227
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_02.png - .ao - 68c0c70e77e5057f678a8f8a - 9354290827334039615
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_02.png - .ao.astc - 68c0c70e77e5057f678a8fd8 - 9354290827334039615
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_03.png - .ao - 68c0c70e77e5057f678a8fd7 - 13735073611447288625
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_03.png - .ao.astc - 68c0c70e77e5057f678a8f8c - 13735073611447288625
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_04.png - .ao - 68c0c70e77e5057f678a8f90 - 9364386233212899395
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_04.png - .ao.astc - 68c0c70e77e5057f678a8f99 - 9364386233212899395
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_05.png - .ao - 68c0c70e77e5057f678a8f91 - 13714318186218410810
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_05.png - .ao.astc - 68c0c70e77e5057f678a8fd9 - 13714318186218410810
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_06.png - .ao - 68c0c70e77e5057f678a8fda - 13718055196545782342
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_06.png - .ao.astc - 68c0c70e77e5057f678a8f94 - 13718055196545782342
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_07.png - .ao - 68c0c70e77e5057f678a8f92 - 9355410887442480669
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_07.png - .ao.astc - 68c0c70e77e5057f678a8f9f - 9355410887442480669
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_08.png - .ao - 68c0c70e77e5057f678a8f97 - 9360927484094883805
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_08.png - .ao.astc - 68c0c70e77e5057f678a8f96 - 9360927484094883805
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_09.png - .ao - 68c0c70e77e5057f678a8f9d - 13727488349692584393
+ancienttemplemap/candles/smoke/smoke_4/smoke_4_09.png - .ao.astc - 68c0c70e77e5057f678a8f9e - 13727488349692584393
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_00.png - .ao - 68c0c70e77e5057f678a8f9a - 9363600469930581597
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_00.png - .ao.astc - 68c0c70e77e5057f678a8f9c - 9363600469930581597
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_01.png - .ao - 68c0c70e77e5057f678a8f9b - 13715298068863684066
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_01.png - .ao.astc - 68c0c70e77e5057f678a8fdb - 13715298068863684066
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_02.png - .ao - 68c0c70e77e5057f678a8fa0 - 13713725528392121717
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_02.png - .ao.astc - 68c0c70e77e5057f678a8fdc - 13713725528392121717
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_03.png - .ao - 68c0c70e77e5057f678a8fdd - 13722116248485798144
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_03.png - .ao.astc - 68c0c70e77e5057f678a8fde - 13722116248485798144
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_04.png - .ao - 68c0c70e77e5057f678a8fe0 - 9334084549322904142
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_04.png - .ao.astc - 68c0c70e77e5057f678a8fdf - 9334084549322904142
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_05.png - .ao - 68c0c70e77e5057f678a8fa3 - 13738754229378695997
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_05.png - .ao.astc - 68c0c70e77e5057f678a8fab - 13738754229378695997
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_06.png - .ao - 68c0c70e77e5057f678a8fa7 - 13697545311008915834
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_06.png - .ao.astc - 68c0c70e77e5057f678a8fb2 - 13697545311008915834
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_07.png - .ao - 68c0c70e77e5057f678a8fb0 - 13701178919843971207
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_07.png - .ao.astc - 68c0c70e77e5057f678a8fea - 13701178919843971207
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_08.png - .ao - 68c0c70e77e5057f678a8fe1 - 13722181350769143137
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_08.png - .ao.astc - 68c0c70e77e5057f678a8fe6 - 13722181350769143137
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_09.png - .ao - 68c0c70e77e5057f678a8fa6 - 9356088142246847310
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_09.png - .ao.astc - 68c0c70e77e5057f678a8faa - 9356088142246847310
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_10.png - .ao - 68c0c70e77e5057f678a8fe2 - 9362317760760568661
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_10.png - .ao.astc - 68c0c70e77e5057f678a8fe4 - 9362317760760568661
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_11.png - .ao - 68c0c70e77e5057f678a8fe5 - 9366203633007955652
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_11.png - .ao.astc - 68c0c70e77e5057f678a8fe8 - 9366203633007955652
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_12.png - .ao - 68c0c70e77e5057f678a8fe9 - 13726233406570395528
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_12.png - .ao.astc - 68c0c70e77e5057f678a8fe7 - 13726233406570395528
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_13.png - .ao - 68c0c70e77e5057f678a8fec - 9364113977826756484
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_13.png - .ao.astc - 68c0c70e77e5057f678a8feb - 9364113977826756484
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_14.png - .ao - 68c0c70e77e5057f678a8fed - 13703623410910897366
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_14.png - .ao.astc - 68c0c70e77e5057f678a8fba - 13703623410910897366
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_15.png - .ao - 68c0c70e77e5057f678a8fee - 9358741000669556682
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_15.png - .ao.astc - 68c0c70e77e5057f678a8fc2 - 9358741000669556682
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_16.png - .ao - 68c0c70e77e5057f678a8fbc - 9334487696182100953
+ancienttemplemap/candles/smoke/smoke_5/smoke_5_16.png - .ao.astc - 68c0c70e77e5057f678a8fc6 - 9334487696182100953
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_00.png - .ao - 68c0c70e77e5057f678a8fc8 - 13710519163629467718
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_00.png - .ao.astc - 68c0c70e77e5057f678a8fd0 - 13710519163629467718
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_01.png - .ao - 68c0c70e77e5057f678a8ff0 - 9361422744267546824
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_01.png - .ao.astc - 68c0c70e77e5057f678a8ff4 - 9361422744267546824
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_02.png - .ao - 68c0c70e77e5057f678a8ff5 - 13717228834889994812
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_02.png - .ao.astc - 68c0c70f77e5057f678a8ff7 - 13717228834889994812
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_03.png - .ao - 68c0c70f77e5057f678a8ff6 - 9362454214162501883
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_03.png - .ao.astc - 68c0c70f77e5057f678a900c - 9362454214162501883
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_04.png - .ao - 68c0c70f77e5057f678a9009 - 13720561176431202026
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_04.png - .ao.astc - 68c0c70f77e5057f678a900a - 13720561176431202026
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_05.png - .ao - 68c0c70e77e5057f678a8ff1 - 13695440087352347532
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_05.png - .ao.astc - 68c0c70e77e5057f678a8ff3 - 13695440087352347532
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_06.png - .ao - 68c0c70f77e5057f678a9010 - 9359177385082249689
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_06.png - .ao.astc - 68c0c70e77e5057f678a8ff2 - 9359177385082249689
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_07.png - .ao - 68c0c70f77e5057f678a9014 - 13734186425446865646
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_07.png - .ao.astc - 68c0c70f77e5057f678a901b - 13734186425446865646
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_08.png - .ao - 68c0c70f77e5057f678a9018 - 9362587712531357045
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_08.png - .ao.astc - 68c0c70f77e5057f678a8ff8 - 9362587712531357045
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_09.png - .ao - 68c0c70f77e5057f678a9020 - 9355038912320922408
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_09.png - .ao.astc - 68c0c70f77e5057f678a8ffd - 9355038912320922408
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_10.png - .ao - 68c0c70f77e5057f678a9021 - 13697855649318106064
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_10.png - .ao.astc - 68c0c70f77e5057f678a8fff - 13697855649318106064
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_11.png - .ao - 68c0c70f77e5057f678a8ff9 - 13710018072317750377
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_11.png - .ao.astc - 68c0c70f77e5057f678a8ffb - 13710018072317750377
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_12.png - .ao - 68c0c70f77e5057f678a8ffc - 13718605153323714224
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_12.png - .ao.astc - 68c0c70f77e5057f678a8ffa - 13718605153323714224
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_13.png - .ao - 68c0c70f77e5057f678a9026 - 13731593554570629256
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_13.png - .ao.astc - 68c0c70f77e5057f678a9000 - 13731593554570629256
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_14.png - .ao - 68c0c70f77e5057f678a8ffe - 13735344760166668560
+ancienttemplemap/candles/smoke/smoke_side/smoke_side_14.png - .ao.astc - 68c0c70f77e5057f678a9024 - 13735344760166668560
+ancienttemplemap/candles/wall_candle_01.png - .ao - 68c0c70f77e5057f678a9001 - 13713508179633156536
+ancienttemplemap/candles/wall_candle_01.png - .ao.astc - 68c0c70f77e5057f678a9003 - 13713508179633156536
+ancienttemplemap/candles/wall_candle_02.png - .ao - 68c0c70f77e5057f678a9002 - 13740726198329549136
+ancienttemplemap/candles/wall_candle_02.png - .ao.astc - 68c0c70f77e5057f678a9005 - 13740726198329549136
+ancienttemplemap/candles/wall_candle_03.png - .ao - 68c0c70f77e5057f678a9006 - 13699291570056264304
+ancienttemplemap/candles/wall_candle_03.png - .ao.astc - 68c0c70f77e5057f678a9004 - 13699291570056264304
+ancienttemplemap/chaest_closed.png - .ao - 68c0c70f77e5057f678a9007 - 13736407138192005629
+ancienttemplemap/chaest_closed.png - .ao.astc - 68c0c70f77e5057f678a900e - 13736407138192005629
+ancienttemplemap/chest_open.png - .ao - 68c0c70f77e5057f678a902f - 9358927384754374711
+ancienttemplemap/chest_open.png - .ao.astc - 68c0c70f77e5057f678a900b - 9358927384754374711
+ancienttemplemap/Environment/Background/background.png - .ao - 68c0c71077e5057f678a9113 - 13737303940040853343
+ancienttemplemap/Environment/Background/background.png - .ao.astc - 68c0c71077e5057f678a911a - 13737303940040853343
+ancienttemplemap/Environment/Background/backup/background.png - .ao - 68c0c71077e5057f678a914b - 13703240496912364744
+ancienttemplemap/Environment/Background/backup/background.png - .ao.astc - 68c0c71077e5057f678a912b - 13703240496912364744
+ancienttemplemap/Environment/Background/bl_hand_l.png - .ao - 68c0c70f77e5057f678a9008 - 13706531581090584700
+ancienttemplemap/Environment/Background/bl_hand_l.png - .ao.astc - 68c0c70f77e5057f678a902e - 13706531581090584700
+ancienttemplemap/Environment/Background/bl_hand_r.png - .ao - 68c0c70f77e5057f678a900d - 13712246925777679784
+ancienttemplemap/Environment/Background/bl_hand_r.png - .ao.astc - 68c0c70f77e5057f678a9015 - 13712246925777679784
+ancienttemplemap/Environment/Background/ch_wall_1.png - .ao - 68c0c70f77e5057f678a9016 - 9350526777162043088
+ancienttemplemap/Environment/Background/ch_wall_1.png - .ao.astc - 68c0c70f77e5057f678a9011 - 9350526777162043088
+ancienttemplemap/Environment/Background/ch_wall_2.png - .ao - 68c0c70f77e5057f678a9012 - 13722006940287727573
+ancienttemplemap/Environment/Background/ch_wall_2.png - .ao.astc - 68c0c70f77e5057f678a9017 - 13722006940287727573
+ancienttemplemap/Environment/Background/ch_wall_3.png - .ao - 68c0c70f77e5057f678a9013 - 13709050963459165644
+ancienttemplemap/Environment/Background/ch_wall_3.png - .ao.astc - 68c0c70f77e5057f678a900f - 13709050963459165644
+ancienttemplemap/Environment/Background/ch_wall_4.png - .ao - 68c0c70f77e5057f678a9019 - 9354937353860378716
+ancienttemplemap/Environment/Background/ch_wall_4.png - .ao.astc - 68c0c70f77e5057f678a903c - 9354937353860378716
+ancienttemplemap/Environment/Background/ch_wall_5.png - .ao - 68c0c70f77e5057f678a903b - 9349870091167705622
+ancienttemplemap/Environment/Background/ch_wall_5.png - .ao.astc - 68c0c70f77e5057f678a901a - 9349870091167705622
+ancienttemplemap/Environment/Background/ch_wall_6.png - .ao - 68c0c70f77e5057f678a901c - 9357848685965095763
+ancienttemplemap/Environment/Background/ch_wall_6.png - .ao.astc - 68c0c70f77e5057f678a901e - 9357848685965095763
+ancienttemplemap/Environment/Background/g_hand.png - .ao - 68c0c70f77e5057f678a901d - 9350657130351091993
+ancienttemplemap/Environment/Background/g_hand.png - .ao.astc - 68c0c70f77e5057f678a901f - 9350657130351091993
+ancienttemplemap/Environment/Background/green_hd.png - .ao - 68c0c70f77e5057f678a9022 - 13720205938064265423
+ancienttemplemap/Environment/Background/green_hd.png - .ao.astc - 68c0c70f77e5057f678a9041 - 13720205938064265423
+ancienttemplemap/Environment/Background/R_hand Right.png - .ao - 68c0c70f77e5057f678a9023 - 13740161558119803151
+ancienttemplemap/Environment/Background/R_hand Right.png - .ao.astc - 68c0c70f77e5057f678a9025 - 13740161558119803151
+ancienttemplemap/Environment/Background/R_hand_Left.png - .ao - 68c0c70f77e5057f678a9027 - 13693927995462453919
+ancienttemplemap/Environment/Background/R_hand_Left.png - .ao.astc - 68c0c70f77e5057f678a903d - 13693927995462453919
+ancienttemplemap/Environment/Background/skull_Clay_gates-2.png - .ao - 68c0c70f77e5057f678a9029 - 13741891226711608042
+ancienttemplemap/Environment/Background/skull_Clay_gates-2.png - .ao.astc - 68c0c70f77e5057f678a902a - 13741891226711608042
+ancienttemplemap/Environment/Background/skull_Clay_gates.png - .ao - 68c0c70f77e5057f678a9028 - 13702132710617106155
+ancienttemplemap/Environment/Background/skull_Clay_gates.png - .ao.astc - 68c0c70f77e5057f678a902c - 13702132710617106155
+ancienttemplemap/Environment/Background/skull_larghe_bottonm.png - .ao - 68c0c70f77e5057f678a902d - 13697577477842437930
+ancienttemplemap/Environment/Background/skull_larghe_bottonm.png - .ao.astc - 68c0c70f77e5057f678a902b - 13697577477842437930
+ancienttemplemap/Environment/Background/template.png - .ao - 68c0c71077e5057f678a9169 - 13719179354600877924
+ancienttemplemap/Environment/Background/template.png - .ao.astc - 68c0c71077e5057f678a914d - 13719179354600877924
+ancienttemplemap/Environment/Background/THC_Minimap.png - .ao - 68c0c70f77e5057f678a903a - 13728938910143327890
+ancienttemplemap/Environment/Background/THC_Minimap.png - .ao.astc - 68c0c70f77e5057f678a9038 - 13728938910143327890
+ancienttemplemap/Environment/jungle dropship edit/dropship_temple.png - .ao - 68c0c70f77e5057f678a908b - 13712991228907523981
+ancienttemplemap/Environment/jungle dropship edit/dropship_temple.png - .ao.astc - 68c0c70f77e5057f678a9084 - 13712991228907523981
+ancienttemplemap/fire on head/fire1.png - .ao - 68c0c70f77e5057f678a9030 - 13741975671592334325
+ancienttemplemap/fire on head/fire1.png - .ao.astc - 68c0c70f77e5057f678a9031 - 13741975671592334325
+ancienttemplemap/fire on head/fire2.png - .ao - 68c0c70f77e5057f678a9035 - 13710906954957759853
+ancienttemplemap/fire on head/fire2.png - .ao.astc - 68c0c70f77e5057f678a9033 - 13710906954957759853
+ancienttemplemap/fire on head/fire3.png - .ao - 68c0c70f77e5057f678a9032 - 13697782810182210599
+ancienttemplemap/fire on head/fire3.png - .ao.astc - 68c0c70f77e5057f678a9036 - 13697782810182210599
+ancienttemplemap/fire on head/fire4.png - .ao - 68c0c70f77e5057f678a9034 - 13734985861612560973
+ancienttemplemap/fire on head/fire4.png - .ao.astc - 68c0c70f77e5057f678a9055 - 13734985861612560973
+ancienttemplemap/fire on head/template.png - .ao - 68c0c70f77e5057f678a904e - 9365347581885864036
+ancienttemplemap/fire on head/template.png - .ao.astc - 68c0c70f77e5057f678a906e - 9365347581885864036
+ancienttemplemap/flamethrower/flamethrower.png - .ao - 68c0c70f77e5057f678a9051 - 13698817374904597138
+ancienttemplemap/flamethrower/flamethrower.png - .ao.astc - 68c0c70f77e5057f678a9039 - 13698817374904597138
+ancienttemplemap/flamethrower/hand_L.png - .ao - 68c0c70f77e5057f678a9037 - 13697621850409859893
+ancienttemplemap/flamethrower/hand_L.png - .ao.astc - 68c0c70f77e5057f678a9054 - 13697621850409859893
+ancienttemplemap/flamethrower/hand_R.png - .ao - 68c0c70f77e5057f678a903e - 9359718513633945761
+ancienttemplemap/flamethrower/hand_R.png - .ao.astc - 68c0c70f77e5057f678a9056 - 9359718513633945761
+ancienttemplemap/glow/top_glow.png - .ao - 68c0c70f77e5057f678a90b0 - 13698085421792476822
+ancienttemplemap/glow/top_glow.png - .ao.astc - 68c0c70f77e5057f678a9073 - 13698085421792476822
+ancienttemplemap/Gold pot Room 6.png - .ao - 68c0c70f77e5057f678a9040 - 13695671764261597119
+ancienttemplemap/Gold pot Room 6.png - .ao.astc - 68c0c70f77e5057f678a903f - 13695671764261597119
+ancienttemplemap/hieroglyph_wall/arm_stone.png - .ao - 68c0c70f77e5057f678a905d - 13702689574715486242
+ancienttemplemap/hieroglyph_wall/arm_stone.png - .ao.astc - 68c0c70f77e5057f678a9047 - 13702689574715486242
+ancienttemplemap/hieroglyph_wall/big_wall.png - .ao - 68c0c70f77e5057f678a907f - 13734021164676959334
+ancienttemplemap/hieroglyph_wall/big_wall.png - .ao.astc - 68c0c70f77e5057f678a9082 - 13734021164676959334
+ancienttemplemap/hieroglyph_wall/glyph stones/arm_stone.png - .ao - 68c0c70f77e5057f678a9062 - 13702689574715486242
+ancienttemplemap/hieroglyph_wall/glyph stones/arm_stone.png - .ao.astc - 68c0c70f77e5057f678a9049 - 13702689574715486242
+ancienttemplemap/hieroglyph_wall/glyph stones/heart_stone.png - .ao - 68c0c70f77e5057f678a9061 - 13735009735890685622
+ancienttemplemap/hieroglyph_wall/glyph stones/heart_stone.png - .ao.astc - 68c0c70f77e5057f678a905f - 13735009735890685622
+ancienttemplemap/hieroglyph_wall/glyph stones/peach_stone.png - .ao - 68c0c70f77e5057f678a905e - 13715884150710087392
+ancienttemplemap/hieroglyph_wall/glyph stones/peach_stone.png - .ao.astc - 68c0c70f77e5057f678a9046 - 13715884150710087392
+ancienttemplemap/hieroglyph_wall/glyph stones/sigma_stone.png - .ao - 68c0c70f77e5057f678a9048 - 9363929605382234295
+ancienttemplemap/hieroglyph_wall/glyph stones/sigma_stone.png - .ao.astc - 68c0c70f77e5057f678a9043 - 9363929605382234295
+ancienttemplemap/hieroglyph_wall/glyph stones/toilet_stone.png - .ao - 68c0c70f77e5057f678a904b - 9357951837600758107
+ancienttemplemap/hieroglyph_wall/glyph stones/toilet_stone.png - .ao.astc - 68c0c70f77e5057f678a9044 - 9357951837600758107
+ancienttemplemap/hieroglyph_wall/heart_stone.png - .ao - 68c0c70f77e5057f678a906d - 13735009735890685622
+ancienttemplemap/hieroglyph_wall/heart_stone.png - .ao.astc - 68c0c70f77e5057f678a9063 - 13735009735890685622
+ancienttemplemap/hieroglyph_wall/Light_green.png - .ao - 68c0c70f77e5057f678a9045 - 13705750409892080407
+ancienttemplemap/hieroglyph_wall/Light_green.png - .ao.astc - 68c0c70f77e5057f678a9042 - 13705750409892080407
+ancienttemplemap/hieroglyph_wall/Light_off.png - .ao - 68c0c70f77e5057f678a906b - 13728939032757055489
+ancienttemplemap/hieroglyph_wall/Light_off.png - .ao.astc - 68c0c70f77e5057f678a906a - 13728939032757055489
+ancienttemplemap/hieroglyph_wall/Light_red.png - .ao - 68c0c70f77e5057f678a904a - 13743003929099958060
+ancienttemplemap/hieroglyph_wall/Light_red.png - .ao.astc - 68c0c70f77e5057f678a906f - 13743003929099958060
+ancienttemplemap/hieroglyph_wall/peach_stone.png - .ao - 68c0c70f77e5057f678a906c - 13715884150710087392
+ancienttemplemap/hieroglyph_wall/peach_stone.png - .ao.astc - 68c0c70f77e5057f678a904d - 13715884150710087392
+ancienttemplemap/hieroglyph_wall/sigma_stone.png - .ao - 68c0c70f77e5057f678a904c - 9363929605382234295
+ancienttemplemap/hieroglyph_wall/sigma_stone.png - .ao.astc - 68c0c70f77e5057f678a904f - 9363929605382234295
+ancienttemplemap/hieroglyph_wall/slotwall_1.png - .ao - 68c0c70f77e5057f678a9053 - 9363042221022081998
+ancienttemplemap/hieroglyph_wall/slotwall_1.png - .ao.astc - 68c0c70f77e5057f678a907b - 9363042221022081998
+ancienttemplemap/hieroglyph_wall/slotwall_2.png - .ao - 68c0c70f77e5057f678a9074 - 9352013936210277076
+ancienttemplemap/hieroglyph_wall/slotwall_2.png - .ao.astc - 68c0c70f77e5057f678a9050 - 9352013936210277076
+ancienttemplemap/hieroglyph_wall/slotwall_3.png - .ao - 68c0c70f77e5057f678a9052 - 13700379244364274628
+ancienttemplemap/hieroglyph_wall/slotwall_3.png - .ao.astc - 68c0c70f77e5057f678a9077 - 13700379244364274628
+ancienttemplemap/hieroglyph_wall/slotwall_4.png - .ao - 68c0c70f77e5057f678a905c - 13716849059611955163
+ancienttemplemap/hieroglyph_wall/slotwall_4.png - .ao.astc - 68c0c70f77e5057f678a9058 - 13716849059611955163
+ancienttemplemap/hieroglyph_wall/slotwall_5.png - .ao - 68c0c70f77e5057f678a9086 - 9367147873291782984
+ancienttemplemap/hieroglyph_wall/slotwall_5.png - .ao.astc - 68c0c70f77e5057f678a908a - 9367147873291782984
+ancienttemplemap/hieroglyph_wall/template.png - .ao - 68c0c71077e5057f678a90dd - 13741792128010569754
+ancienttemplemap/hieroglyph_wall/template.png - .ao.astc - 68c0c71077e5057f678a911f - 13741792128010569754
+ancienttemplemap/hieroglyph_wall/toilet_stone.png - .ao - 68c0c70f77e5057f678a9057 - 9357951837600758107
+ancienttemplemap/hieroglyph_wall/toilet_stone.png - .ao.astc - 68c0c70f77e5057f678a9059 - 9357951837600758107
+ancienttemplemap/impostor/crown.png - .ao - 68c0c70f77e5057f678a9088 - 13726933975653618008
+ancienttemplemap/impostor/crown.png - .ao.astc - 68c0c70f77e5057f678a9066 - 13726933975653618008
+ancienttemplemap/items/impostor_head.png - .ao - 68c0c70f77e5057f678a908e - 13700660051969386458
+ancienttemplemap/items/impostor_head.png - .ao.astc - 68c0c70f77e5057f678a9068 - 13700660051969386458
+ancienttemplemap/lantern/glow.png - .ao - 68c0c70f77e5057f678a905b - 13717064981827384769
+ancienttemplemap/lantern/glow.png - .ao.astc - 68c0c70f77e5057f678a905a - 13717064981827384769
+ancienttemplemap/lantern/hand.png - .ao - 68c0c70f77e5057f678a9067 - 13699457097134547749
+ancienttemplemap/lantern/hand.png - .ao.astc - 68c0c70f77e5057f678a9064 - 13699457097134547749
+ancienttemplemap/lantern/lantern_off.png - .ao - 68c0c70f77e5057f678a9060 - 13735336607122205934
+ancienttemplemap/lantern/lantern_off.png - .ao.astc - 68c0c70f77e5057f678a9065 - 13735336607122205934
+ancienttemplemap/lantern/lantern_on.png - .ao - 68c0c70f77e5057f678a9069 - 9354007456871864036
+ancienttemplemap/lantern/lantern_on.png - .ao.astc - 68c0c70f77e5057f678a9091 - 9354007456871864036
+ancienttemplemap/lantern/template.png - .ao - 68c0c70f77e5057f678a909a - 9360771715059676066
+ancienttemplemap/lantern/template.png - .ao.astc - 68c0c70f77e5057f678a9071 - 9360771715059676066
+ancienttemplemap/light circle/light_circle.png - .ao - 68c0c70f77e5057f678a9081 - 13734160602730951612
+ancienttemplemap/light circle/light_circle.png - .ao.astc - 68c0c70f77e5057f678a90c1 - 13734160602730951612
+ancienttemplemap/necklace_no-shine.png - .ao - 68c0c70f77e5057f678a9070 - 13713436445881790326
+ancienttemplemap/necklace_no-shine.png - .ao.astc - 68c0c70f77e5057f678a9072 - 13713436445881790326
+ancienttemplemap/pedestal/pedestal.png - .ao - 68c0c70f77e5057f678a90a4 - 13718252442567307562
+ancienttemplemap/pedestal/pedestal.png - .ao.astc - 68c0c70f77e5057f678a909f - 13718252442567307562
+ancienttemplemap/puzzle_table/table01.png - .ao - 68c0c70f77e5057f678a90b6 - 9366298758088446344
+ancienttemplemap/puzzle_table/table01.png - .ao.astc - 68c0c70f77e5057f678a907a - 9366298758088446344
+ancienttemplemap/puzzle_table/table02.png - .ao - 68c0c70f77e5057f678a90b2 - 13702684523502136889
+ancienttemplemap/puzzle_table/table02.png - .ao.astc - 68c0c70f77e5057f678a9083 - 13702684523502136889
+ancienttemplemap/scarab/blood/blood_1.png - .ao - 68c0c70f77e5057f678a9078 - 13737538505002984113
+ancienttemplemap/scarab/blood/blood_1.png - .ao.astc - 68c0c70f77e5057f678a9079 - 13737538505002984113
+ancienttemplemap/scarab/blood/blood_2.png - .ao - 68c0c70f77e5057f678a9075 - 9358596553625040375
+ancienttemplemap/scarab/blood/blood_2.png - .ao.astc - 68c0c70f77e5057f678a9076 - 9358596553625040375
+ancienttemplemap/scarab/blood/blood_3.png - .ao - 68c0c70f77e5057f678a9080 - 13708677530311265356
+ancienttemplemap/scarab/blood/blood_3.png - .ao.astc - 68c0c70f77e5057f678a907e - 13708677530311265356
+ancienttemplemap/scarab/golden_scarab/golden_scarab_body.png - .ao - 68c0c70f77e5057f678a907c - 9362737407229214309
+ancienttemplemap/scarab/golden_scarab/golden_scarab_body.png - .ao.astc - 68c0c70f77e5057f678a907d - 9362737407229214309
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_1.png - .ao - 68c0c70f77e5057f678a9089 - 13701404627288018621
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_1.png - .ao.astc - 68c0c70f77e5057f678a908c - 13701404627288018621
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_2.png - .ao - 68c0c70f77e5057f678a90b8 - 13732331760956825702
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_2.png - .ao.astc - 68c0c70f77e5057f678a908d - 13732331760956825702
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_3.png - .ao - 68c0c70f77e5057f678a9090 - 13736331593996490215
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_3.png - .ao.astc - 68c0c70f77e5057f678a9092 - 13736331593996490215
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_4.png - .ao - 68c0c70f77e5057f678a9096 - 9355985662976808271
+ancienttemplemap/scarab/golden_scarab/golden_scarab_leg_4.png - .ao.astc - 68c0c70f77e5057f678a908f - 9355985662976808271
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_1.png - .ao - 68c0c70f77e5057f678a9097 - 9353763585714116377
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_1.png - .ao.astc - 68c0c70f77e5057f678a9095 - 9353763585714116377
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_2.png - .ao - 68c0c70f77e5057f678a9093 - 13719691832377907258
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_2.png - .ao.astc - 68c0c70f77e5057f678a9094 - 13719691832377907258
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_3.png - .ao - 68c0c70f77e5057f678a9099 - 9361306231860836599
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_3.png - .ao.astc - 68c0c70f77e5057f678a90ba - 9361306231860836599
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_4.png - .ao - 68c0c70f77e5057f678a9098 - 9358728027939168656
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_4.png - .ao.astc - 68c0c70f77e5057f678a90bb - 9358728027939168656
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_5.png - .ao - 68c0c70f77e5057f678a90bd - 9366282704005556621
+ancienttemplemap/scarab/golden_scrab_bits/golden_scrab_bits_5.png - .ao.astc - 68c0c70f77e5057f678a909b - 9366282704005556621
+ancienttemplemap/scarab/scarab/scarab_body.png - .ao - 68c0c70f77e5057f678a9085 - 9364231235796899764
+ancienttemplemap/scarab/scarab/scarab_body.png - .ao.astc - 68c0c70f77e5057f678a9087 - 9364231235796899764
+ancienttemplemap/scarab/scarab/scarab_leg_1.png - .ao - 68c0c70f77e5057f678a90be - 13723282055858711047
+ancienttemplemap/scarab/scarab/scarab_leg_1.png - .ao.astc - 68c0c70f77e5057f678a90bf - 13723282055858711047
+ancienttemplemap/scarab/scarab/scarab_leg_2.png - .ao - 68c0c70f77e5057f678a909d - 9351631981535528110
+ancienttemplemap/scarab/scarab/scarab_leg_2.png - .ao.astc - 68c0c70f77e5057f678a909c - 9351631981535528110
+ancienttemplemap/scarab/scarab/scarab_leg_3.png - .ao - 68c0c70f77e5057f678a90c0 - 13691611733340084750
+ancienttemplemap/scarab/scarab/scarab_leg_3.png - .ao.astc - 68c0c70f77e5057f678a909e - 13691611733340084750
+ancienttemplemap/scarab/scarab/scarab_leg_4.png - .ao - 68c0c70f77e5057f678a90a0 - 13692180030873809760
+ancienttemplemap/scarab/scarab/scarab_leg_4.png - .ao.astc - 68c0c70f77e5057f678a90a7 - 13692180030873809760
+ancienttemplemap/scarab/scrab_bits/scrab_bits_1.png - .ao - 68c0c70f77e5057f678a90a2 - 13725294834027373779
+ancienttemplemap/scarab/scrab_bits/scrab_bits_1.png - .ao.astc - 68c0c70f77e5057f678a90a1 - 13725294834027373779
+ancienttemplemap/scarab/scrab_bits/scrab_bits_2.png - .ao - 68c0c70f77e5057f678a90a6 - 13734003054433077972
+ancienttemplemap/scarab/scrab_bits/scrab_bits_2.png - .ao.astc - 68c0c70f77e5057f678a90ac - 13734003054433077972
+ancienttemplemap/scarab/scrab_bits/scrab_bits_3.png - .ao - 68c0c70f77e5057f678a90a9 - 13714006050191545763
+ancienttemplemap/scarab/scrab_bits/scrab_bits_3.png - .ao.astc - 68c0c70f77e5057f678a90c6 - 13714006050191545763
+ancienttemplemap/scarab/scrab_bits/scrab_bits_4.png - .ao - 68c0c70f77e5057f678a90b1 - 13722503345227599020
+ancienttemplemap/scarab/scrab_bits/scrab_bits_4.png - .ao.astc - 68c0c70f77e5057f678a90ae - 13722503345227599020
+ancienttemplemap/scarab/scrab_bits/scrab_bits_5.png - .ao - 68c0c70f77e5057f678a90c9 - 9351380090596606097
+ancienttemplemap/scarab/scrab_bits/scrab_bits_5.png - .ao.astc - 68c0c70f77e5057f678a90b3 - 9351380090596606097
+ancienttemplemap/scarab/template.png - .ao - 68c0c70f77e5057f678a90ad - 13735581053966189284
+ancienttemplemap/scarab/template.png - .ao.astc - 68c0c70f77e5057f678a90aa - 13735581053966189284
+ancienttemplemap/scroll/scroll.png - .ao - 68c0c70f77e5057f678a90a3 - 9353908276792104374
+ancienttemplemap/scroll/scroll.png - .ao.astc - 68c0c70f77e5057f678a90a8 - 9353908276792104374
+ancienttemplemap/spark/spark1.png - .ao - 68c0c70f77e5057f678a90a5 - 9335353620195842375
+ancienttemplemap/spark/spark1.png - .ao.astc - 68c0c70f77e5057f678a90ab - 9335353620195842375
+ancienttemplemap/spark/spark2.png - .ao - 68c0c70f77e5057f678a90c8 - 13708755535900762186
+ancienttemplemap/spark/spark2.png - .ao.astc - 68c0c70f77e5057f678a90af - 13708755535900762186
+ancienttemplemap/spear/spear.png - .ao - 68c0c70f77e5057f678a90d2 - 13696809593712703445
+ancienttemplemap/spear/spear.png - .ao.astc - 68c0c70f77e5057f678a90b4 - 13696809593712703445
+ancienttemplemap/spear_statue/cyan_eyes-mouth/eye.png - .ao - 68c0c71077e5057f678a90d6 - 9352338883589172470
+ancienttemplemap/spear_statue/cyan_eyes-mouth/eye.png - .ao.astc - 68c0c70f77e5057f678a90b5 - 9352338883589172470
+ancienttemplemap/spear_statue/cyan_eyes-mouth/mouth_front.png - .ao - 68c0c70f77e5057f678a90b7 - 13718729209936175584
+ancienttemplemap/spear_statue/cyan_eyes-mouth/mouth_front.png - .ao.astc - 68c0c70f77e5057f678a90b9 - 13718729209936175584
+ancienttemplemap/spear_statue/cyan_eyes-mouth/mouth_profile.png - .ao - 68c0c70f77e5057f678a90c2 - 13743008716362959783
+ancienttemplemap/spear_statue/cyan_eyes-mouth/mouth_profile.png - .ao.astc - 68c0c70f77e5057f678a90c5 - 13743008716362959783
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_1.png - .ao - 68c0c70f77e5057f678a90bc - 13691341777592376874
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_1.png - .ao.astc - 68c0c71077e5057f678a90db - 13691341777592376874
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_2.png - .ao - 68c0c70f77e5057f678a90c7 - 13693232563280930826
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_2.png - .ao.astc - 68c0c70f77e5057f678a90c4 - 13693232563280930826
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_3.png - .ao - 68c0c71077e5057f678a90de - 13700101860686037115
+ancienttemplemap/spear_statue/cyan_muzzleflash/cyan_muzzleflash_3.png - .ao.astc - 68c0c70f77e5057f678a90c3 - 13700101860686037115
+ancienttemplemap/spear_statue/endcard/BG.png - .ao - 68c0c71077e5057f678a9164 - 13740181792086737755
+ancienttemplemap/spear_statue/endcard/BG.png - .ao.astc - 68c0c71077e5057f678a913a - 13740181792086737755
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash1.png - .ao - 68c0c70f77e5057f678a90ca - 9363941990419001370
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash1.png - .ao.astc - 68c0c70f77e5057f678a90cb - 9363941990419001370
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash2.png - .ao - 68c0c71077e5057f678a90f3 - 9367437938135065255
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash2.png - .ao.astc - 68c0c70f77e5057f678a90cd - 9367437938135065255
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash3.png - .ao - 68c0c70f77e5057f678a90ce - 13725528941154088029
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash3.png - .ao.astc - 68c0c70f77e5057f678a90cc - 13725528941154088029
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash4.png - .ao - 68c0c70f77e5057f678a90d1 - 9331582271799691168
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash4.png - .ao.astc - 68c0c70f77e5057f678a90d0 - 9331582271799691168
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash5.png - .ao - 68c0c70f77e5057f678a90d3 - 13700500292546564552
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash5.png - .ao.astc - 68c0c70f77e5057f678a90d4 - 13700500292546564552
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash6.png - .ao - 68c0c70f77e5057f678a90cf - 13739831670590808053
+ancienttemplemap/spear_statue/endcard/crew/ashes/ash6.png - .ao.astc - 68c0c70f77e5057f678a90d5 - 13739831670590808053
+ancienttemplemap/spear_statue/endcard/crew/crewschia.png - .ao - 68c0c71077e5057f678a90e8 - 9355926276365707332
+ancienttemplemap/spear_statue/endcard/crew/crewschia.png - .ao.astc - 68c0c71077e5057f678a9136 - 9355926276365707332
+ancienttemplemap/spear_statue/endcard/crew/threeschia.png - .ao - 68c0c71077e5057f678a90d7 - 13728046595768401798
+ancienttemplemap/spear_statue/endcard/crew/threeschia.png - .ao.astc - 68c0c71077e5057f678a9101 - 13728046595768401798
+ancienttemplemap/spear_statue/endcard/crew/twoschia.png - .ao - 68c0c71077e5057f678a9110 - 13692546947405930916
+ancienttemplemap/spear_statue/endcard/crew/twoschia.png - .ao.astc - 68c0c71077e5057f678a910e - 13692546947405930916
+ancienttemplemap/spear_statue/endcard/crew/urn.png - .ao - 68c0c71077e5057f678a9129 - 13720171998068422059
+ancienttemplemap/spear_statue/endcard/crew/urn.png - .ao.astc - 68c0c71077e5057f678a90ed - 13720171998068422059
+ancienttemplemap/spear_statue/endcard/template.png - .ao - 68c0c71077e5057f678a917f - 13697512911573747530
+ancienttemplemap/spear_statue/endcard/template.png - .ao.astc - 68c0c71077e5057f678a915e - 13697512911573747530
+ancienttemplemap/spear_statue/spear/air_fx.png - .ao - 68c0c71077e5057f678a90e3 - 13718410317411329940
+ancienttemplemap/spear_statue/spear/air_fx.png - .ao.astc - 68c0c71077e5057f678a90e0 - 13718410317411329940
+ancienttemplemap/spear_statue/spear/pierced_spear_back.png - .ao - 68c0c71077e5057f678a9104 - 13712223198274496174
+ancienttemplemap/spear_statue/spear/pierced_spear_back.png - .ao.astc - 68c0c71077e5057f678a90d8 - 13712223198274496174
+ancienttemplemap/spear_statue/spear/pierced_spear_front.png - .ao - 68c0c71077e5057f678a90d9 - 9362386656553239292
+ancienttemplemap/spear_statue/spear/pierced_spear_front.png - .ao.astc - 68c0c71077e5057f678a90da - 9362386656553239292
+ancienttemplemap/spear_statue/spear/spear.png - .ao - 68c0c71077e5057f678a90dc - 13701237041803662294
+ancienttemplemap/spear_statue/spear/spear.png - .ao.astc - 68c0c71077e5057f678a90e1 - 13701237041803662294
+ancienttemplemap/spear_statue/statue_front.png - .ao - 68c0c71077e5057f678a90e2 - 9360904465857788434
+ancienttemplemap/spear_statue/statue_front.png - .ao.astc - 68c0c71077e5057f678a90ee - 9360904465857788434
+ancienttemplemap/spear_statue/statue_profile.png - .ao - 68c0c71077e5057f678a90ec - 13708089403950414641
+ancienttemplemap/spear_statue/statue_profile.png - .ao.astc - 68c0c71077e5057f678a90f6 - 13708089403950414641
+ancienttemplemap/Sword.png - .ao - 68c0c71077e5057f678a90df - 9367069064822935244
+ancienttemplemap/Sword.png - .ao.astc - 68c0c71077e5057f678a90e4 - 9367069064822935244
+ancienttemplemap/Tarantula Assets/safari headless cm/safariheadlessskin.png - .ao - 68c0c71077e5057f678a90e7 - 13739073036220738849
+ancienttemplemap/Tarantula Assets/safari headless cm/safariheadlessskin.png - .ao.astc - 68c0c71077e5057f678a90e5 - 13739073036220738849
+ancienttemplemap/Tarantula Assets/tarantula expressions/angry.png - .ao - 68c0c71077e5057f678a90ea - 13695505662657503767
+ancienttemplemap/Tarantula Assets/tarantula expressions/angry.png - .ao.astc - 68c0c71077e5057f678a90e6 - 13695505662657503767
+ancienttemplemap/Tarantula Assets/tarantula expressions/happy.png - .ao - 68c0c71077e5057f678a90e9 - 9334840003364873211
+ancienttemplemap/Tarantula Assets/tarantula expressions/happy.png - .ao.astc - 68c0c71077e5057f678a90eb - 9334840003364873211
+ancienttemplemap/Tarantula Assets/tarantula expressions/neutral.png - .ao - 68c0c71077e5057f678a90f0 - 9362978047699868665
+ancienttemplemap/Tarantula Assets/tarantula expressions/neutral.png - .ao.astc - 68c0c71077e5057f678a90f1 - 9362978047699868665
+ancienttemplemap/Tarantula Assets/tarantula expressions/squint.png - .ao - 68c0c71077e5057f678a90ef - 13711571177905107606
+ancienttemplemap/Tarantula Assets/tarantula expressions/squint.png - .ao.astc - 68c0c71077e5057f678a90f2 - 13711571177905107606
+ancienttemplemap/Tarantula Assets/tarantula rig/body.png - .ao - 68c0c71077e5057f678a90fb - 13710608555310913825
+ancienttemplemap/Tarantula Assets/tarantula rig/body.png - .ao.astc - 68c0c71077e5057f678a911e - 13710608555310913825
+ancienttemplemap/Tarantula Assets/tarantula rig/head.png - .ao - 68c0c71077e5057f678a90fd - 13727762824712207172
+ancienttemplemap/Tarantula Assets/tarantula rig/head.png - .ao.astc - 68c0c71077e5057f678a90fa - 13727762824712207172
+ancienttemplemap/Tarantula Assets/tarantula rig/leftlegbottom.png - .ao - 68c0c71077e5057f678a90f4 - 13741619649508417723
+ancienttemplemap/Tarantula Assets/tarantula rig/leftlegbottom.png - .ao.astc - 68c0c71077e5057f678a90f5 - 13741619649508417723
+ancienttemplemap/Tarantula Assets/tarantula rig/leftlegtop.png - .ao - 68c0c71077e5057f678a911c - 9350721714598435937
+ancienttemplemap/Tarantula Assets/tarantula rig/leftlegtop.png - .ao.astc - 68c0c71077e5057f678a90f7 - 9350721714598435937
+ancienttemplemap/Tarantula Assets/tarantula rig/mouthl.png - .ao - 68c0c71077e5057f678a911b - 9353770535814211450
+ancienttemplemap/Tarantula Assets/tarantula rig/mouthl.png - .ao.astc - 68c0c71077e5057f678a90f9 - 9353770535814211450
+ancienttemplemap/Tarantula Assets/tarantula rig/mouthr.png - .ao - 68c0c71077e5057f678a90fc - 13717871367502281855
+ancienttemplemap/Tarantula Assets/tarantula rig/mouthr.png - .ao.astc - 68c0c71077e5057f678a911d - 13717871367502281855
+ancienttemplemap/Tarantula Assets/tarantula rig/rightlegbottom.png - .ao - 68c0c71077e5057f678a9122 - 13700110177084545179
+ancienttemplemap/Tarantula Assets/tarantula rig/rightlegbottom.png - .ao.astc - 68c0c71077e5057f678a90f8 - 13700110177084545179
+ancienttemplemap/Tarantula Assets/tarantula rig/rightlegtop.png - .ao - 68c0c71077e5057f678a9124 - 13740034397128521135
+ancienttemplemap/Tarantula Assets/tarantula rig/rightlegtop.png - .ao.astc - 68c0c71077e5057f678a90fe - 13740034397128521135
+ancienttemplemap/Tarantula Assets/template.png - .ao - 68c0c71077e5057f678a9145 - 9350369982293514254
+ancienttemplemap/Tarantula Assets/template.png - .ao.astc - 68c0c71077e5057f678a9141 - 9350369982293514254
+ancienttemplemap/Tarantula Assets/web enveloped cm/Headlesswebcm.png - .ao - 68c0c71077e5057f678a9100 - 13728904021180906253
+ancienttemplemap/Tarantula Assets/web enveloped cm/Headlesswebcm.png - .ao.astc - 68c0c71077e5057f678a90ff - 13728904021180906253
+ancienttemplemap/Tarantula Assets/web/web.png - .ao - 68c0c71077e5057f678a9109 - 13733355798012310707
+ancienttemplemap/Tarantula Assets/web/web.png - .ao.astc - 68c0c71077e5057f678a9128 - 13733355798012310707
+ancienttemplemap/thumbnail.png - .ao - 68c0c71077e5057f678a914a - 9355242580156254438
+ancienttemplemap/thumbnail.png - .ao.astc - 68c0c71077e5057f678a9149 - 9355242580156254438
+ancienttemplemap/urn/shadow.png - .ao - 68c0c71077e5057f678a9102 - 13718675163817491125
+ancienttemplemap/urn/shadow.png - .ao.astc - 68c0c71077e5057f678a9106 - 13718675163817491125
+ancienttemplemap/urn/shattered/piece01.png - .ao - 68c0c71077e5057f678a9108 - 9364920740971827856
+ancienttemplemap/urn/shattered/piece01.png - .ao.astc - 68c0c71077e5057f678a9103 - 9364920740971827856
+ancienttemplemap/urn/shattered/piece02.png - .ao - 68c0c71077e5057f678a9107 - 9350205281700005523
+ancienttemplemap/urn/shattered/piece02.png - .ao.astc - 68c0c71077e5057f678a912d - 9350205281700005523
+ancienttemplemap/urn/shattered/piece03.png - .ao - 68c0c71077e5057f678a910a - 13711997478526531512
+ancienttemplemap/urn/shattered/piece03.png - .ao.astc - 68c0c71077e5057f678a9105 - 13711997478526531512
+ancienttemplemap/urn/shattered/piece04.png - .ao - 68c0c71077e5057f678a9135 - 9359411258338703828
+ancienttemplemap/urn/shattered/piece04.png - .ao.astc - 68c0c71077e5057f678a910c - 9359411258338703828
+ancienttemplemap/urn/shattered/piece05.png - .ao - 68c0c71077e5057f678a910b - 9354257613280661819
+ancienttemplemap/urn/shattered/piece05.png - .ao.astc - 68c0c71077e5057f678a910d - 9354257613280661819
+ancienttemplemap/urn/shattered/piece06.png - .ao - 68c0c71077e5057f678a9111 - 13732436702595939407
+ancienttemplemap/urn/shattered/piece06.png - .ao.astc - 68c0c71077e5057f678a910f - 13732436702595939407
+ancienttemplemap/urn/shattered/piece07.png - .ao - 68c0c71077e5057f678a913e - 13723467884991006888
+ancienttemplemap/urn/shattered/piece07.png - .ao.astc - 68c0c71077e5057f678a9112 - 13723467884991006888
+ancienttemplemap/urn/shattered/piece08.png - .ao - 68c0c71077e5057f678a9114 - 9334480653322223828
+ancienttemplemap/urn/shattered/piece08.png - .ao.astc - 68c0c71077e5057f678a913d - 9334480653322223828
+ancienttemplemap/urn/shattered/piece09.png - .ao - 68c0c71077e5057f678a9115 - 13692800476197157405
+ancienttemplemap/urn/shattered/piece09.png - .ao.astc - 68c0c71077e5057f678a9116 - 13692800476197157405
+ancienttemplemap/urn/shattered/piece10.png - .ao - 68c0c71077e5057f678a9140 - 13739212565016757185
+ancienttemplemap/urn/shattered/piece10.png - .ao.astc - 68c0c71077e5057f678a9117 - 13739212565016757185
+ancienttemplemap/urn/shattered/piece11.png - .ao - 68c0c71077e5057f678a9118 - 13728839394928887976
+ancienttemplemap/urn/shattered/piece11.png - .ao.astc - 68c0c71077e5057f678a9119 - 13728839394928887976
+ancienttemplemap/urn/shattered/piece12.png - .ao - 68c0c71077e5057f678a9125 - 13735744138705541142
+ancienttemplemap/urn/shattered/piece12.png - .ao.astc - 68c0c71077e5057f678a9123 - 13735744138705541142
+ancienttemplemap/urn/shattered/piece13.png - .ao - 68c0c71077e5057f678a9120 - 13715868290328549102
+ancienttemplemap/urn/shattered/piece13.png - .ao.astc - 68c0c71077e5057f678a9121 - 13715868290328549102
+ancienttemplemap/urn/urn.png - .ao - 68c0c71077e5057f678a912e - 13738546217833415663
+ancienttemplemap/urn/urn.png - .ao.astc - 68c0c71077e5057f678a912a - 13738546217833415663
+ancienttemplemap/urn/urn/shadow.png - .ao - 68c0c71077e5057f678a9131 - 13711602378587135810
+ancienttemplemap/urn/urn/shadow.png - .ao.astc - 68c0c71077e5057f678a913c - 13711602378587135810
+ancienttemplemap/urn/urn/shattered/piece01.png - .ao - 68c0c71077e5057f678a9134 - 13722868032911252095
+ancienttemplemap/urn/urn/shattered/piece01.png - .ao.astc - 68c0c71077e5057f678a9137 - 13722868032911252095
+ancienttemplemap/urn/urn/shattered/piece02.png - .ao - 68c0c71077e5057f678a9138 - 13704388563857629173
+ancienttemplemap/urn/urn/shattered/piece02.png - .ao.astc - 68c0c71077e5057f678a913f - 13704388563857629173
+ancienttemplemap/urn/urn/shattered/piece03.png - .ao - 68c0c71077e5057f678a9126 - 9333963584480085660
+ancienttemplemap/urn/urn/shattered/piece03.png - .ao.astc - 68c0c71077e5057f678a9156 - 9333963584480085660
+ancienttemplemap/urn/urn/shattered/piece04.png - .ao - 68c0c71077e5057f678a9127 - 13740796153797363698
+ancienttemplemap/urn/urn/shattered/piece04.png - .ao.astc - 68c0c71077e5057f678a912c - 13740796153797363698
+ancienttemplemap/urn/urn/shattered/piece05.png - .ao - 68c0c71077e5057f678a9130 - 13697961667232509833
+ancienttemplemap/urn/urn/shattered/piece05.png - .ao.astc - 68c0c71077e5057f678a9133 - 13697961667232509833
+ancienttemplemap/urn/urn/shattered/piece06.png - .ao - 68c0c71077e5057f678a912f - 13703467234245641086
+ancienttemplemap/urn/urn/shattered/piece06.png - .ao.astc - 68c0c71077e5057f678a9139 - 13703467234245641086
+ancienttemplemap/urn/urn/shattered/piece07.png - .ao - 68c0c71077e5057f678a9132 - 13718094945223391505
+ancienttemplemap/urn/urn/shattered/piece07.png - .ao.astc - 68c0c71077e5057f678a913b - 13718094945223391505
+ancienttemplemap/urn/urn/shattered/piece08.png - .ao - 68c0c71077e5057f678a9142 - 9356760142708179464
+ancienttemplemap/urn/urn/shattered/piece08.png - .ao.astc - 68c0c71077e5057f678a9143 - 9356760142708179464
+ancienttemplemap/urn/urn/shattered/piece09.png - .ao - 68c0c71077e5057f678a9144 - 13736852820781327253
+ancienttemplemap/urn/urn/shattered/piece09.png - .ao.astc - 68c0c71077e5057f678a9146 - 13736852820781327253
+ancienttemplemap/urn/urn/shattered/piece10.png - .ao - 68c0c71077e5057f678a9147 - 13692029646104288291
+ancienttemplemap/urn/urn/shattered/piece10.png - .ao.astc - 68c0c71077e5057f678a9150 - 13692029646104288291
+ancienttemplemap/urn/urn/shattered/piece11.png - .ao - 68c0c71077e5057f678a916e - 13734649802614170315
+ancienttemplemap/urn/urn/shattered/piece11.png - .ao.astc - 68c0c71077e5057f678a914c - 13734649802614170315
+ancienttemplemap/urn/urn/shattered/piece12.png - .ao - 68c0c71077e5057f678a914f - 9331929926553754971
+ancienttemplemap/urn/urn/shattered/piece12.png - .ao.astc - 68c0c71077e5057f678a916a - 9331929926553754971
+ancienttemplemap/urn/urn/shattered/piece13.png - .ao - 68c0c71077e5057f678a9155 - 13724693041454262097
+ancienttemplemap/urn/urn/shattered/piece13.png - .ao.astc - 68c0c71077e5057f678a9176 - 13724693041454262097
+ancienttemplemap/urn/urn/urn.png - .ao - 68c0c71077e5057f678a9148 - 13736269575301961604
+ancienttemplemap/urn/urn/urn.png - .ao.astc - 68c0c71077e5057f678a914e - 13736269575301961604
+ancienttemplemap/warhammer/hammer.png - .ao - 68c0c71077e5057f678a9154 - 9360879638275833706
+ancienttemplemap/warhammer/hammer.png - .ao.astc - 68c0c71077e5057f678a9170 - 9360879638275833706
+ancienttemplemap/warhammer/hands/hand1.png - .ao - 68c0c71077e5057f678a9152 - 9357163902304993313
+ancienttemplemap/warhammer/hands/hand1.png - .ao.astc - 68c0c71077e5057f678a9151 - 9357163902304993313
+ancienttemplemap/warhammer/hands/hand2.png - .ao - 68c0c71077e5057f678a9153 - 9358796267439145845
+ancienttemplemap/warhammer/hands/hand2.png - .ao.astc - 68c0c71077e5057f678a916f - 9358796267439145845
+ancienttemplemap/warhammer/hands/hand3.png - .ao - 68c0c71077e5057f678a916d - 13719142869878063013
+ancienttemplemap/warhammer/hands/hand3.png - .ao.astc - 68c0c71077e5057f678a915a - 13719142869878063013
+ancienttemplemap/warhammer/hands/hand4.png - .ao - 68c0c71077e5057f678a915b - 13699759925501958252
+ancienttemplemap/warhammer/hands/hand4.png - .ao.astc - 68c0c71077e5057f678a9158 - 13699759925501958252
+ancienttemplemap/warhammer/pieces/piece01.png - .ao - 68c0c71077e5057f678a9157 - 9335772407637863632
+ancienttemplemap/warhammer/pieces/piece01.png - .ao.astc - 68c0c71077e5057f678a9159 - 9335772407637863632
+ancienttemplemap/warhammer/pieces/piece02.png - .ao - 68c0c71077e5057f678a915c - 13714859291104155405
+ancienttemplemap/warhammer/pieces/piece02.png - .ao.astc - 68c0c71077e5057f678a915d - 13714859291104155405
+ancienttemplemap/warhammer/pieces/piece03.png - .ao - 68c0c71077e5057f678a915f - 13702840295495330233
+ancienttemplemap/warhammer/pieces/piece03.png - .ao.astc - 68c0c71077e5057f678a917b - 13702840295495330233
+ancienttemplemap/warhammer/pieces/piece04.png - .ao - 68c0c71077e5057f678a9160 - 13725593241934608688
+ancienttemplemap/warhammer/pieces/piece04.png - .ao.astc - 68c0c71077e5057f678a9163 - 13725593241934608688
+ancienttemplemap/warhammer/pieces/piece05.png - .ao - 68c0c71077e5057f678a9162 - 9366059612304466400
+ancienttemplemap/warhammer/pieces/piece05.png - .ao.astc - 68c0c71077e5057f678a9161 - 9366059612304466400
+ancienttemplemap/warhammer/pieces/piece06.png - .ao - 68c0c71077e5057f678a917d - 9358928760375171707
+ancienttemplemap/warhammer/pieces/piece06.png - .ao.astc - 68c0c71077e5057f678a917e - 9358928760375171707
+animations/alarm/MURDER_Alarm.png - .ao - 68c0c71077e5057f678a9166 - 13733618814697108067
+animations/alarm/MURDER_Alarm.png - .ao.astc - 68c0c71077e5057f678a9168 - 13733618814697108067
+animations/alarm/MURDER_Alarm.spine - .ao - 68c0c71077e5057f678a9184 - 9364768698605140061
+animations/book_key/murder_key_book.png - .ao - 68c0c71077e5057f678a91af - 13718958499684616799
+animations/book_key/murder_key_book.png - .ao.astc - 68c0c71177e5057f678a91bb - 13718958499684616799
+animations/book_key/murder_key_book.spine - .ao - 68c0c71077e5057f678a9165 - 13715624105815114417
+animations/bookshelf/murder_bookshelf.png - .ao - 68c0c71077e5057f678a9174 - 13693474044195695863
+animations/bookshelf/murder_bookshelf.png - .ao.astc - 68c0c71077e5057f678a9177 - 13693474044195695863
+animations/bookshelf/murder_bookshelf.spine - .ao - 68c0c71077e5057f678a9167 - 9358901973375565986
+animations/camera/Detective_Camera.png - .ao - 68c0c71077e5057f678a9179 - 9364167957850809121
+animations/camera/Detective_Camera.png - .ao.astc - 68c0c71077e5057f678a917a - 9364167957850809121
+animations/camera/Detective_Camera.spine - .ao - 68c0c71077e5057f678a9171 - 13691411347767762103
+animations/door_haze/Door_Haze.png - .ao - 68c0c71077e5057f678a916b - 9354703613755079858
+animations/door_haze/Door_Haze.png - .ao.astc - 68c0c71077e5057f678a9185 - 9354703613755079858
+animations/door_haze/Door_Haze.spine - .ao - 68c0c71077e5057f678a91ac - 13710294385219274598
+animations/evidence_box/MURD002_evidence_box.png - .ao - 68c0c71077e5057f678a9175 - 13718718644680424464
+animations/evidence_box/MURD002_evidence_box.png - .ao.astc - 68c0c71077e5057f678a9178 - 13718718644680424464
+animations/evidence_box/MURD002_evidence_box.spine - .ao - 68c0c71077e5057f678a916c - 9357259730154898001
+animations/eyes/Eyes_mIK.png - .ao - 68c0c71077e5057f678a9172 - 13739328060111402321
+animations/eyes/Eyes_mIK.png - .ao.astc - 68c0c71077e5057f678a9173 - 13739328060111402321
+animations/eyes/Eyes_mIK.spine - .ao - 68c0c71077e5057f678a918b - 13721044605393561326
+animations/finger_prints/backing.png - .ao - 68c0c71177e5057f678a91cb - 13703740541657008945
+animations/finger_prints/backing.png - .ao.astc - 68c0c71077e5057f678a9195 - 13703740541657008945
+animations/finger_prints/cloud/murder_dust_cloud.png - .ao - 68c0c71077e5057f678a9182 - 13735248194595250673
+animations/finger_prints/cloud/murder_dust_cloud.png - .ao.astc - 68c0c71077e5057f678a919a - 13735248194595250673
+animations/finger_prints/cloud/murder_dust_cloud.spine - .ao - 68c0c71077e5057f678a917c - 13720046920132625468
+animations/finger_prints/duster/murder_duster.png - .ao - 68c0c71177e5057f678a91ff - 13739003421112725419
+animations/finger_prints/duster/murder_duster.png - .ao.astc - 68c0c71177e5057f678a920b - 13739003421112725419
+animations/finger_prints/duster/murder_duster.spine - .ao - 68c0c71077e5057f678a9183 - 13722108442601122713
+animations/killer/002MURDER_killer.png - .ao - 68c0c71077e5057f678a919c - 9359229739026666467
+animations/killer/002MURDER_killer.png - .ao.astc - 68c0c71077e5057f678a91a4 - 9359229739026666467
+animations/killer/002MURDER_killer.spine - .ao - 68c0c71077e5057f678a91ae - 13706712705644525233
+animations/player/player.merged_spine_rig - .ao - 68c0c71077e5057f678a9188 - 9351342211244805118
+animations/player/playercharacter.png - .ao - 68c0c71177e5057f678a926c - 13733290142845245769
+animations/player/playercharacter.png - .ao.astc - 68c0c71277e5057f678a92cd - 13733290142845245769
+animations/player/playercharacter.spine - .ao - 68c0c71277e5057f678a9290 - 9364222015891656990
+animations/player/playercharacter_2.png - .ao - 68c0c71177e5057f678a9240 - 13723046034956001179
+animations/player/playercharacter_2.png - .ao.astc - 68c0c71177e5057f678a9259 - 13723046034956001179
+animations/shield/reflective_shield.png - .ao - 68c0c71077e5057f678a918d - 13715293322094564302
+animations/shield/reflective_shield.png - .ao.astc - 68c0c71077e5057f678a9192 - 13715293322094564302
+animations/shield/reflective_shield.spine - .ao - 68c0c71077e5057f678a9181 - 9352455484341260396
+animations/torch/Murder_Torch.png - .ao - 68c0c71077e5057f678a9180 - 13731579140463603068
+animations/torch/Murder_Torch.png - .ao.astc - 68c0c71077e5057f678a9186 - 13731579140463603068
+animations/torch/Murder_Torch.spine - .ao - 68c0c71077e5057f678a918a - 13712817547477413073
+animations/transform_button/traitor_transform_button.png - .ao - 68c0c71077e5057f678a9189 - 9360812916753535985
+animations/transform_button/traitor_transform_button.png - .ao.astc - 68c0c71077e5057f678a9194 - 9360812916753535985
+animations/transform_button/traitor_transform_button.spine - .ao - 68c0c71077e5057f678a9187 - 13739240121204919075
+arrow.png - .ao - 68c0c71077e5057f678a9196 - 13734261194075483546
+arrow.png - .ao.astc - 68c0c71077e5057f678a91aa - 13734261194075483546
+BABY105_LD_Locked_Door_1.png - .ao - 68c0c71077e5057f678a9191 - 13736874007368861857
+BABY105_LD_Locked_Door_1.png - .ao.astc - 68c0c71077e5057f678a918c - 13736874007368861857
+BABY105_LD_Locked_Door_2.png - .ao - 68c0c71077e5057f678a91ab - 13742458034666596892
+BABY105_LD_Locked_Door_2.png - .ao.astc - 68c0c71077e5057f678a9193 - 13742458034666596892
+BABY105_LD_Locked_Door_3.png - .ao - 68c0c71077e5057f678a9190 - 13727441796019724310
+BABY105_LD_Locked_Door_3.png - .ao.astc - 68c0c71077e5057f678a9197 - 13727441796019724310
+back_arrow.png - .ao - 68c0c71077e5057f678a918e - 9331938952567587060
+back_arrow.png - .ao.astc - 68c0c71077e5057f678a918f - 9331938952567587060
+barrel.png - .ao - 68c0c71077e5057f678a91a2 - 13713747358265594603
+barrel.png - .ao.astc - 68c0c71077e5057f678a91ad - 13713747358265594603
+blood_puddle (1).png - .ao - 68c0c71077e5057f678a9199 - 9357609781715465736
+blood_puddle (1).png - .ao.astc - 68c0c71077e5057f678a9198 - 9357609781715465736
+blood_puddle (2).png - .ao - 68c0c71177e5057f678a91be - 13739107821875997021
+blood_puddle (2).png - .ao.astc - 68c0c71077e5057f678a91a6 - 13739107821875997021
+blood_puddle.png - .ao - 68c0c71177e5057f678a91c7 - 13731839744394258374
+blood_puddle.png - .ao.astc - 68c0c71077e5057f678a91a0 - 13731839744394258374
+BloodPuddleRend.prefab - .ao - 68c0c71077e5057f678a91b2 - 9334640618249337687
+blue_button.png - .ao - 68c0c71077e5057f678a91a3 - 9362170809669854990
+blue_button.png - .ao.astc - 68c0c71077e5057f678a91a5 - 9362170809669854990
+body_skel_liedown.png - .ao - 68c0c71077e5057f678a91a1 - 13728664282719655616
+body_skel_liedown.png - .ao.astc - 68c0c71077e5057f678a91a7 - 13728664282719655616
+BookshelfLever.prefab - .ao - 68c0c71077e5057f678a919e - 9354928839471035526
+Bullet.prefab - .ao - 68c0c71077e5057f678a919b - 13710233620764360256
+circle.png - .ao - 68c0c71077e5057f678a919f - 13705515095496401102
+circle.png - .ao.astc - 68c0c71077e5057f678a919d - 13705515095496401102
+cliff.png - .ao - 68c0c71177e5057f678a9230 - 9363294857498501192
+cliff.png - .ao.astc - 68c0c71177e5057f678a921c - 9363294857498501192
+corpse_1.png - .ao - 68c0c71077e5057f678a91a8 - 13693489629971449032
+corpse_1.png - .ao.astc - 68c0c71077e5057f678a91a9 - 13693489629971449032
+corpse_2.png - .ao - 68c0c71077e5057f678a91b6 - 13740852364685795772
+corpse_2.png - .ao.astc - 68c0c71077e5057f678a91b5 - 13740852364685795772
+corpse_5.png - .ao - 68c0c71077e5057f678a91b3 - 9360292593384062146
+corpse_5.png - .ao.astc - 68c0c71077e5057f678a91b7 - 9360292593384062146
+CorpseRend.prefab - .ao - 68c0c71177e5057f678a91f4 - 13736861494129374030
+crt_frame.png - .ao - 68c0c71177e5057f678a91c3 - 13707679663503317428
+crt_frame.png - .ao.astc - 68c0c71177e5057f678a91d5 - 13707679663503317428
+DEAD ref text.png - .ao - 68c0c71077e5057f678a91b1 - 13734780735856506419
+DEAD ref text.png - .ao.astc - 68c0c71077e5057f678a91b0 - 13734780735856506419
+dead_body_merged (1).png - .ao - 68c0c71077e5057f678a91b9 - 13720148541738485918
+dead_body_merged (1).png - .ao.astc - 68c0c71077e5057f678a91ba - 13720148541738485918
+dead_body_merged.png - .ao - 68c0c71077e5057f678a91b4 - 13695020342074027435
+dead_body_merged.png - .ao.astc - 68c0c71177e5057f678a91e2 - 13695020342074027435
+DetectiveCamera.prefab - .ao - 68c0c71177e5057f678a91d3 - 13707573339831414321
+Door Closed.png - .ao - 68c0c71077e5057f678a91b8 - 9331482448996118104
+Door Closed.png - .ao.astc - 68c0c71177e5057f678a91bf - 9331482448996118104
+Door Inbetween.png - .ao - 68c0c71177e5057f678a91f0 - 13691504274364465555
+Door Inbetween.png - .ao.astc - 68c0c71177e5057f678a91c2 - 13691504274364465555
+Door Open.png - .ao - 68c0c71177e5057f678a91bc - 13709388366349475333
+Door Open.png - .ao.astc - 68c0c71177e5057f678a91c1 - 13709388366349475333
+Door.prefab - .ao - 68c0c71177e5057f678a91f1 - 13703777970263386266
+duck.png - .ao - 68c0c71177e5057f678a91c4 - 9361964057976509934
+duck.png - .ao.astc - 68c0c71177e5057f678a91c0 - 9361964057976509934
+emptysquare.png - .ao - 68c0c71177e5057f678a91d4 - 13692222459383941173
+emptysquare.png - .ao.astc - 68c0c71177e5057f678a91d1 - 13692222459383941173
+fail_x.png - .ao - 68c0c71177e5057f678a91bd - 9350490299793535706
+fail_x.png - .ao.astc - 68c0c71177e5057f678a91f8 - 9350490299793535706
+Farm_House.png - .ao - 68c0c71177e5057f678a923e - 13735701497397814790
+Farm_House.png - .ao.astc - 68c0c71177e5057f678a921f - 13735701497397814790
+File_Folders/images/!.png - .ao - 68c0c71177e5057f678a91c6 - 9364481864254842742
+File_Folders/images/!.png - .ao.astc - 68c0c71177e5057f678a91c5 - 9364481864254842742
+File_Folders/images/fingerprint_folder.png - .ao - 68c0c71177e5057f678a91fb - 9334770933225240057
+File_Folders/images/fingerprint_folder.png - .ao.astc - 68c0c71177e5057f678a91f2 - 9334770933225240057
+File_Folders/images/fingerprint_slot.png - .ao - 68c0c71177e5057f678a91c8 - 13727786535013718096
+File_Folders/images/fingerprint_slot.png - .ao.astc - 68c0c71177e5057f678a91d2 - 13727786535013718096
+File_Folders/images/fingerprints/1.png - .ao - 68c0c71177e5057f678a91ce - 13709993001906432148
+File_Folders/images/fingerprints/1.png - .ao.astc - 68c0c71177e5057f678a91c9 - 13709993001906432148
+File_Folders/images/fingerprints/2.png - .ao - 68c0c71177e5057f678a91ca - 9353836237831750825
+File_Folders/images/fingerprints/2.png - .ao.astc - 68c0c71177e5057f678a91d0 - 9353836237831750825
+File_Folders/images/fingerprints/3.png - .ao - 68c0c71177e5057f678a91cf - 13716268351772987191
+File_Folders/images/fingerprints/3.png - .ao.astc - 68c0c71177e5057f678a91cd - 13716268351772987191
+File_Folders/images/fingerprints/4.png - .ao - 68c0c71177e5057f678a91cc - 9335903943226300457
+File_Folders/images/fingerprints/4.png - .ao.astc - 68c0c71177e5057f678a91d7 - 9335903943226300457
+File_Folders/images/fingerprints/5.png - .ao - 68c0c71177e5057f678a91d6 - 13728819621361392191
+File_Folders/images/fingerprints/5.png - .ao.astc - 68c0c71177e5057f678a91db - 13728819621361392191
+File_Folders/images/icon.png - .ao - 68c0c71177e5057f678a91da - 13712895835047678947
+File_Folders/images/icon.png - .ao.astc - 68c0c71177e5057f678a91d9 - 13712895835047678947
+File_Folders/images/large_killer_partial.png - .ao - 68c0c71177e5057f678a91df - 13742665896433129853
+File_Folders/images/large_killer_partial.png - .ao.astc - 68c0c71177e5057f678a91dc - 13742665896433129853
+File_Folders/images/matching_fingerprints/1.png - .ao - 68c0c71177e5057f678a91e1 - 13721944218242767899
+File_Folders/images/matching_fingerprints/1.png - .ao.astc - 68c0c71177e5057f678a91d8 - 13721944218242767899
+File_Folders/images/matching_fingerprints/2.png - .ao - 68c0c71177e5057f678a91de - 13711425488711865343
+File_Folders/images/matching_fingerprints/2.png - .ao.astc - 68c0c71177e5057f678a91dd - 13711425488711865343
+File_Folders/images/matching_fingerprints/3.png - .ao - 68c0c71177e5057f678a9202 - 13707080874344501216
+File_Folders/images/matching_fingerprints/3.png - .ao.astc - 68c0c71177e5057f678a91e0 - 13707080874344501216
+File_Folders/images/matching_fingerprints/4.png - .ao - 68c0c71177e5057f678a9201 - 9363339386116920573
+File_Folders/images/matching_fingerprints/4.png - .ao.astc - 68c0c71177e5057f678a91e3 - 9363339386116920573
+File_Folders/images/matching_fingerprints/5.png - .ao - 68c0c71177e5057f678a91e5 - 9365429776121425545
+File_Folders/images/matching_fingerprints/5.png - .ao.astc - 68c0c71177e5057f678a9204 - 9365429776121425545
+File_Folders/images/notepad_folder.png - .ao - 68c0c71177e5057f678a9221 - 13696635595581769053
+File_Folders/images/notepad_folder.png - .ao.astc - 68c0c71177e5057f678a9234 - 13696635595581769053
+File_Folders/images/X.png - .ao - 68c0c71177e5057f678a91e4 - 13703011181628798958
+File_Folders/images/X.png - .ao.astc - 68c0c71177e5057f678a91e6 - 13703011181628798958
+FirstCorpse.prefab - .ao - 68c0c71177e5057f678a91ea - 13719237218737129578
+footprint_L.png - .ao - 68c0c71177e5057f678a91e8 - 13724592264610855220
+footprint_L.png - .ao.astc - 68c0c71177e5057f678a91e7 - 13724592264610855220
+footprint_R.png - .ao - 68c0c71177e5057f678a91e9 - 13734308029951566703
+footprint_R.png - .ao.astc - 68c0c71177e5057f678a91eb - 13734308029951566703
+green_button.png - .ao - 68c0c71177e5057f678a91ec - 9360531239027411963
+green_button.png - .ao.astc - 68c0c71177e5057f678a91ef - 9360531239027411963
+green_check.png - .ao - 68c0c71177e5057f678a91ed - 9353380706415233141
+green_check.png - .ao.astc - 68c0c71177e5057f678a91ee - 9353380706415233141
+Gun.prefab - .ao - 68c0c71177e5057f678a91f7 - 13740373811534718490
+InventoryBox.prefab - .ao - 68c0c71177e5057f678a91fa - 9363244101227653804
+key.png - .ao - 68c0c71177e5057f678a91f5 - 9362832567687775807
+key.png - .ao.astc - 68c0c71177e5057f678a91f3 - 9362832567687775807
+Key.prefab - .ao - 68c0c71177e5057f678a91f6 - 13707032710051493968
+Keypad.prefab - .ao - 68c0c71177e5057f678a91f9 - 13702995816268433394
+keypadart/green_light.png - .ao - 68c0c71177e5057f678a9223 - 13705896307153040977
+keypadart/green_light.png - .ao.astc - 68c0c71177e5057f678a9233 - 13705896307153040977
+keypadart/key.png - .ao - 68c0c71177e5057f678a91fd - 9353585047518485359
+keypadart/key.png - .ao.astc - 68c0c71177e5057f678a91fe - 9353585047518485359
+keypadart/key_pressed.png - .ao - 68c0c71177e5057f678a91fc - 13695767025660198587
+keypadart/key_pressed.png - .ao.astc - 68c0c71177e5057f678a9200 - 13695767025660198587
+keypadart/keypad.png - .ao - 68c0c71177e5057f678a9251 - 9351697183088300427
+keypadart/keypad.png - .ao.astc - 68c0c71177e5057f678a926f - 9351697183088300427
+keypadart/keypadgreenscreen.png - .ao - 68c0c71177e5057f678a9224 - 13713151790972754825
+keypadart/keypadgreenscreen.png - .ao.astc - 68c0c71177e5057f678a9206 - 13713151790972754825
+keypadart/keypadredscreen.png - .ao - 68c0c71177e5057f678a9203 - 13714868240410307884
+keypadart/keypadredscreen.png - .ao.astc - 68c0c71177e5057f678a9208 - 13714868240410307884
+keypadart/lock_closed.png - .ao - 68c0c71177e5057f678a9205 - 13717598417320863208
+keypadart/lock_closed.png - .ao.astc - 68c0c71177e5057f678a9207 - 13717598417320863208
+keypadart/lock_open.png - .ao - 68c0c71177e5057f678a920a - 13718390732444370045
+keypadart/lock_open.png - .ao.astc - 68c0c71177e5057f678a922b - 13718390732444370045
+keypadart/numbers/0.png - .ao - 68c0c71177e5057f678a9209 - 13696606848603929804
+keypadart/numbers/0.png - .ao.astc - 68c0c71177e5057f678a920c - 13696606848603929804
+keypadart/numbers/1.png - .ao - 68c0c71177e5057f678a920f - 13712489011968654746
+keypadart/numbers/1.png - .ao.astc - 68c0c71177e5057f678a920e - 13712489011968654746
+keypadart/numbers/2.png - .ao - 68c0c71177e5057f678a920d - 9334167011807625008
+keypadart/numbers/2.png - .ao.astc - 68c0c71177e5057f678a9211 - 9334167011807625008
+keypadart/numbers/3.png - .ao - 68c0c71177e5057f678a9210 - 9333928483876528992
+keypadart/numbers/3.png - .ao.astc - 68c0c71177e5057f678a9212 - 9333928483876528992
+keypadart/numbers/4.png - .ao - 68c0c71177e5057f678a9216 - 13723099472998788424
+keypadart/numbers/4.png - .ao.astc - 68c0c71177e5057f678a9213 - 13723099472998788424
+keypadart/numbers/5.png - .ao - 68c0c71177e5057f678a9214 - 13709938885764544948
+keypadart/numbers/5.png - .ao.astc - 68c0c71177e5057f678a9215 - 13709938885764544948
+keypadart/numbers/6.png - .ao - 68c0c71177e5057f678a9218 - 13701124118651825471
+keypadart/numbers/6.png - .ao.astc - 68c0c71177e5057f678a923f - 13701124118651825471
+keypadart/numbers/7.png - .ao - 68c0c71177e5057f678a9246 - 13706535157079184777
+keypadart/numbers/7.png - .ao.astc - 68c0c71177e5057f678a9217 - 13706535157079184777
+keypadart/numbers/8.png - .ao - 68c0c71177e5057f678a9245 - 9356305038782438958
+keypadart/numbers/8.png - .ao.astc - 68c0c71177e5057f678a9219 - 9356305038782438958
+keypadart/numbers/9.png - .ao - 68c0c71177e5057f678a921b - 13741149282292940253
+keypadart/numbers/9.png - .ao.astc - 68c0c71177e5057f678a921a - 13741149282292940253
+keypadart/numbers/X.png - .ao - 68c0c71177e5057f678a921d - 13738560985894622571
+keypadart/numbers/X.png - .ao.astc - 68c0c71177e5057f678a921e - 13738560985894622571
+keypadart/red_light.png - .ao - 68c0c71177e5057f678a924e - 13714073051024190428
+keypadart/red_light.png - .ao.astc - 68c0c71177e5057f678a9252 - 13714073051024190428
+knife.png - .ao - 68c0c71177e5057f678a9222 - 13734238323348146198
+knife.png - .ao.astc - 68c0c71177e5057f678a9225 - 13734238323348146198
+KnifeProjectile.prefab - .ao - 68c0c71177e5057f678a9220 - 9365484803608454051
+Leaderboard/global_leaderboard_ref.png - .ao - 68c0c71277e5057f678a9291 - 13739182708964849692
+Leaderboard/global_leaderboard_ref.png - .ao.astc - 68c0c71177e5057f678a927d - 13739182708964849692
+Leaderboard/leaderboard.png - .ao - 68c0c71177e5057f678a9277 - 13726387238811508703
+Leaderboard/leaderboard.png - .ao.astc - 68c0c71177e5057f678a9280 - 13726387238811508703
+Leaderboard/numberless/RANK 1.png - .ao - 68c0c71177e5057f678a9226 - 9362532683174681168
+Leaderboard/numberless/RANK 1.png - .ao.astc - 68c0c71177e5057f678a9227 - 9362532683174681168
+Leaderboard/numberless/RANK 2.png - .ao - 68c0c71177e5057f678a922f - 13739340315213866547
+Leaderboard/numberless/RANK 2.png - .ao.astc - 68c0c71177e5057f678a9229 - 13739340315213866547
+Leaderboard/numberless/RANK 3.png - .ao - 68c0c71177e5057f678a922e - 9353530670083486857
+Leaderboard/numberless/RANK 3.png - .ao.astc - 68c0c71177e5057f678a922a - 9353530670083486857
+Leaderboard/numberless/RANK 4.png - .ao - 68c0c71177e5057f678a9228 - 9357482835499590640
+Leaderboard/numberless/RANK 4.png - .ao.astc - 68c0c71177e5057f678a922c - 9357482835499590640
+Leaderboard/numberless/RANK ME.png - .ao - 68c0c71177e5057f678a9253 - 13742548719369057253
+Leaderboard/numberless/RANK ME.png - .ao.astc - 68c0c71177e5057f678a922d - 13742548719369057253
+Leaderboard/RANK 1.png - .ao - 68c0c71177e5057f678a9232 - 13709132440601795876
+Leaderboard/RANK 1.png - .ao.astc - 68c0c71177e5057f678a9231 - 13709132440601795876
+Leaderboard/RANK 2.png - .ao - 68c0c71177e5057f678a9236 - 13715193460049328648
+Leaderboard/RANK 2.png - .ao.astc - 68c0c71177e5057f678a9235 - 13715193460049328648
+Leaderboard/RANK 3.png - .ao - 68c0c71177e5057f678a9237 - 13732371441465464191
+Leaderboard/RANK 3.png - .ao.astc - 68c0c71177e5057f678a9238 - 13732371441465464191
+Leaderboard/RANK 4.png - .ao - 68c0c71177e5057f678a9239 - 13698370128227905750
+Leaderboard/RANK 4.png - .ao.astc - 68c0c71177e5057f678a9262 - 13698370128227905750
+Leaderboard/RANK 5.png - .ao - 68c0c71177e5057f678a923d - 13707944026964574064
+Leaderboard/RANK 5.png - .ao.astc - 68c0c71177e5057f678a923b - 13707944026964574064
+Leaderboard/RANK 6.png - .ao - 68c0c71177e5057f678a923a - 13703544540852558076
+Leaderboard/RANK 6.png - .ao.astc - 68c0c71177e5057f678a923c - 13703544540852558076
+Leaderboard/shadow.png - .ao - 68c0c71177e5057f678a9243 - 13704482403614746092
+Leaderboard/shadow.png - .ao.astc - 68c0c71177e5057f678a9269 - 13704482403614746092
+Leaderboard3.png - .ao - 68c0c71177e5057f678a9270 - 9355418760996980511
+Leaderboard3.png - .ao.astc - 68c0c71177e5057f678a9254 - 9355418760996980511
+Leaderboard_shadow.png - .ao - 68c0c71177e5057f678a9241 - 13696084745243297475
+Leaderboard_shadow.png - .ao.astc - 68c0c71177e5057f678a9242 - 13696084745243297475
+LightPlayer.prefab - .ao - 68c0c71177e5057f678a924d - 13703169542581571316
+lock_closed.png - .ao - 68c0c71177e5057f678a9244 - 13733429470894967885
+lock_closed.png - .ao.astc - 68c0c71177e5057f678a9248 - 13733429470894967885
+lock_open.png - .ao - 68c0c71177e5057f678a9268 - 13694979843501716297
+lock_open.png - .ao.astc - 68c0c71177e5057f678a9249 - 13694979843501716297
+map_button.png - .ao - 68c0c71177e5057f678a9247 - 13698146669456919754
+map_button.png - .ao.astc - 68c0c71177e5057f678a924a - 13698146669456919754
+map_button_pressed.png - .ao - 68c0c71177e5057f678a926b - 13709869073343877006
+map_button_pressed.png - .ao.astc - 68c0c71177e5057f678a924b - 13709869073343877006
+minimap/Minimap Murder Mystery.png - .ao - 68c0c71177e5057f678a926e - 13719450053639206074
+minimap/Minimap Murder Mystery.png - .ao.astc - 68c0c71177e5057f678a9282 - 13719450053639206074
+minimap/murder_bookshelf.png - .ao - 68c0c71177e5057f678a925d - 13740659711522497476
+minimap/murder_bookshelf.png - .ao.astc - 68c0c71177e5057f678a925f - 13740659711522497476
+minimap/painting.png - .ao - 68c0c71177e5057f678a9250 - 13723559319382208312
+minimap/painting.png - .ao.astc - 68c0c71177e5057f678a926d - 13723559319382208312
+minimap/torch.png - .ao - 68c0c71177e5057f678a926a - 9365465743641863616
+minimap/torch.png - .ao.astc - 68c0c71177e5057f678a924f - 9365465743641863616
+Mirror.prefab - .ao - 68c0c71177e5057f678a924c - 13693130687314955562
+mirrors/beacon_receiver.png - .ao - 68c0c71177e5057f678a9260 - 13702190891770479546
+mirrors/beacon_receiver.png - .ao.astc - 68c0c71177e5057f678a9261 - 13702190891770479546
+mirrors/beacon_receiver_active.png - .ao - 68c0c71177e5057f678a9274 - 9352760460974531902
+mirrors/beacon_receiver_active.png - .ao.astc - 68c0c71177e5057f678a9271 - 9352760460974531902
+mirrors/beacon_starter.png - .ao - 68c0c71177e5057f678a9256 - 13709356289974144025
+mirrors/beacon_starter.png - .ao.astc - 68c0c71177e5057f678a925b - 13709356289974144025
+mirrors/mirror.png - .ao - 68c0c71177e5057f678a9255 - 13701736572721062053
+mirrors/mirror.png - .ao.astc - 68c0c71177e5057f678a9258 - 13701736572721062053
+mmkeypad1.png - .ao - 68c0c71177e5057f678a9275 - 13706135058822576577
+mmkeypad1.png - .ao.astc - 68c0c71177e5057f678a925e - 13706135058822576577
+next_arrow.png - .ao - 68c0c71177e5057f678a9257 - 13717742761049071541
+next_arrow.png - .ao.astc - 68c0c71177e5057f678a925a - 13717742761049071541
+noise.png - .ao - 68c0c71177e5057f678a9276 - 9357904833301249502
+noise.png - .ao.astc - 68c0c71177e5057f678a925c - 9357904833301249502
+NoisyBaseRig/playercharacter.png - .ao - 68c0c71277e5057f678a9311 - 9355773726596752123
+NoisyBaseRig/playercharacter.png - .ao.astc - 68c0c71277e5057f678a9335 - 9355773726596752123
+NoisyBaseRig/playercharacter.spine - .ao - 68c0c71277e5057f678a9358 - 13724647000751098017
+NoisyBaseRig/playercharacter_2.png - .ao - 68c0c71277e5057f678a931a - 13726956218708544527
+NoisyBaseRig/playercharacter_2.png - .ao.astc - 68c0c71277e5057f678a9333 - 13726956218708544527
+notepad_circles/notepad_circle_1.png - .ao - 68c0c71177e5057f678a927c - 13715605406666388589
+notepad_circles/notepad_circle_1.png - .ao.astc - 68c0c71177e5057f678a9265 - 13715605406666388589
+notepad_circles/notepad_circle_2.png - .ao - 68c0c71177e5057f678a9264 - 13706400734767422946
+notepad_circles/notepad_circle_2.png - .ao.astc - 68c0c71177e5057f678a9263 - 13706400734767422946
+notepad_circles/notepad_circle_3.png - .ao - 68c0c71177e5057f678a9266 - 13728266724718421372
+notepad_circles/notepad_circle_3.png - .ao.astc - 68c0c71177e5057f678a9267 - 13728266724718421372
+notepad_circles/notepad_circle_4.png - .ao - 68c0c71177e5057f678a9273 - 9355684755211248454
+notepad_circles/notepad_circle_4.png - .ao.astc - 68c0c71177e5057f678a9272 - 9355684755211248454
+notepad_circles/notepad_circle_5.png - .ao - 68c0c71177e5057f678a9278 - 9359696374965394593
+notepad_circles/notepad_circle_5.png - .ao.astc - 68c0c71177e5057f678a927a - 9359696374965394593
+notepad_circles/notepad_circle_6.png - .ao - 68c0c71177e5057f678a9279 - 13703897077004716042
+notepad_circles/notepad_circle_6.png - .ao.astc - 68c0c71177e5057f678a927b - 13703897077004716042
+orange_button.png - .ao - 68c0c71177e5057f678a9287 - 13743290380450769048
+orange_button.png - .ao.astc - 68c0c71177e5057f678a927e - 13743290380450769048
+Painting.prefab - .ao - 68c0c71177e5057f678a9281 - 13694541962341181847
+paintingpuzzle/backing.png - .ao - 68c0c71177e5057f678a927f - 13722748277353744594
+paintingpuzzle/backing.png - .ao.astc - 68c0c71277e5057f678a928b - 13722748277353744594
+paintingpuzzle/frame.png - .ao - 68c0c71277e5057f678a92e1 - 9366113529898472460
+paintingpuzzle/frame.png - .ao.astc - 68c0c71277e5057f678a930e - 9366113529898472460
+paintingpuzzle/painting_1/painting.png - .ao - 68c0c71277e5057f678a9314 - 9335565151987549921
+paintingpuzzle/painting_1/painting.png - .ao.astc - 68c0c71277e5057f678a9324 - 9335565151987549921
+paintingpuzzle/painting_1/piece_A.png - .ao - 68c0c71277e5057f678a92a5 - 13712621779467701928
+paintingpuzzle/painting_1/piece_A.png - .ao.astc - 68c0c71277e5057f678a92ac - 13712621779467701928
+paintingpuzzle/painting_1/piece_B.png - .ao - 68c0c71277e5057f678a92ad - 13697903151486452239
+paintingpuzzle/painting_1/piece_B.png - .ao.astc - 68c0c71277e5057f678a92d4 - 13697903151486452239
+paintingpuzzle/painting_1/piece_C.png - .ao - 68c0c71277e5057f678a92cf - 9354969642248278160
+paintingpuzzle/painting_1/piece_C.png - .ao.astc - 68c0c71277e5057f678a92d3 - 9354969642248278160
+paintingpuzzle/painting_1/tag.png - .ao - 68c0c71177e5057f678a9284 - 13713985954119196178
+paintingpuzzle/painting_1/tag.png - .ao.astc - 68c0c71177e5057f678a9283 - 13713985954119196178
+paintingpuzzle/painting_2/painting.png - .ao - 68c0c71277e5057f678a9313 - 13693748321459850687
+paintingpuzzle/painting_2/painting.png - .ao.astc - 68c0c71277e5057f678a931b - 13693748321459850687
+paintingpuzzle/painting_2/piece_A.png - .ao - 68c0c71277e5057f678a92b0 - 13718561399755318766
+paintingpuzzle/painting_2/piece_A.png - .ao.astc - 68c0c71277e5057f678a92af - 13718561399755318766
+paintingpuzzle/painting_2/piece_B.png - .ao - 68c0c71277e5057f678a92bd - 9362378018836624003
+paintingpuzzle/painting_2/piece_B.png - .ao.astc - 68c0c71277e5057f678a92dd - 9362378018836624003
+paintingpuzzle/painting_2/piece_C.png - .ao - 68c0c71277e5057f678a930f - 13708329373736797131
+paintingpuzzle/painting_2/piece_C.png - .ao.astc - 68c0c71277e5057f678a9294 - 13708329373736797131
+paintingpuzzle/painting_2/tag.png - .ao - 68c0c71177e5057f678a9286 - 13709061210322365828
+paintingpuzzle/painting_2/tag.png - .ao.astc - 68c0c71177e5057f678a9285 - 13709061210322365828
+paintingpuzzle/painting_3/painting.png - .ao - 68c0c71277e5057f678a9329 - 9350139607218038025
+paintingpuzzle/painting_3/painting.png - .ao.astc - 68c0c71277e5057f678a92f9 - 9350139607218038025
+paintingpuzzle/painting_3/piece_A.png - .ao - 68c0c71277e5057f678a92d2 - 9355308337161955882
+paintingpuzzle/painting_3/piece_A.png - .ao.astc - 68c0c71277e5057f678a92cb - 9355308337161955882
+paintingpuzzle/painting_3/piece_B.png - .ao - 68c0c71277e5057f678a92da - 9335788735242604417
+paintingpuzzle/painting_3/piece_B.png - .ao.astc - 68c0c71277e5057f678a92e5 - 9335788735242604417
+paintingpuzzle/painting_3/piece_C.png - .ao - 68c0c71277e5057f678a92e4 - 13735802477258480338
+paintingpuzzle/painting_3/piece_C.png - .ao.astc - 68c0c71277e5057f678a92e0 - 13735802477258480338
+paintingpuzzle/painting_3/tag.png - .ao - 68c0c71277e5057f678a928a - 13733344040996102013
+paintingpuzzle/painting_3/tag.png - .ao.astc - 68c0c71177e5057f678a9288 - 13733344040996102013
+paintingpuzzle/UI/backing.png - .ao - 68c0c71277e5057f678a928e - 13713429668221860558
+paintingpuzzle/UI/backing.png - .ao.astc - 68c0c71277e5057f678a9289 - 13713429668221860558
+paintingpuzzle/UI/frame.png - .ao - 68c0c71277e5057f678a9297 - 13723559319382208312
+paintingpuzzle/UI/frame.png - .ao.astc - 68c0c71277e5057f678a9299 - 13723559319382208312
+paintingpuzzle/UI/numbers/0.png - .ao - 68c0c71277e5057f678a928f - 9360508113653816942
+paintingpuzzle/UI/numbers/0.png - .ao.astc - 68c0c71277e5057f678a928c - 9360508113653816942
+paintingpuzzle/UI/numbers/1.png - .ao - 68c0c71277e5057f678a9292 - 13744007906548141840
+paintingpuzzle/UI/numbers/1.png - .ao.astc - 68c0c71277e5057f678a928d - 13744007906548141840
+paintingpuzzle/UI/numbers/2.png - .ao - 68c0c71277e5057f678a9295 - 9357442516411866197
+paintingpuzzle/UI/numbers/2.png - .ao.astc - 68c0c71277e5057f678a9298 - 9357442516411866197
+paintingpuzzle/UI/numbers/3.png - .ao - 68c0c71277e5057f678a9293 - 13706373581212732940
+paintingpuzzle/UI/numbers/3.png - .ao.astc - 68c0c71277e5057f678a9296 - 13706373581212732940
+paintingpuzzle/UI/numbers/4.png - .ao - 68c0c71277e5057f678a929f - 9352360631931534177
+paintingpuzzle/UI/numbers/4.png - .ao.astc - 68c0c71277e5057f678a929a - 9352360631931534177
+paintingpuzzle/UI/numbers/5.png - .ao - 68c0c71277e5057f678a929b - 13719153834471195090
+paintingpuzzle/UI/numbers/5.png - .ao.astc - 68c0c71277e5057f678a929c - 13719153834471195090
+paintingpuzzle/UI/numbers/6.png - .ao - 68c0c71277e5057f678a929e - 13711351953883375804
+paintingpuzzle/UI/numbers/6.png - .ao.astc - 68c0c71277e5057f678a929d - 13711351953883375804
+paintingpuzzle/UI/numbers/7.png - .ao - 68c0c71277e5057f678a92a6 - 13714500956615888369
+paintingpuzzle/UI/numbers/7.png - .ao.astc - 68c0c71277e5057f678a92a4 - 13714500956615888369
+paintingpuzzle/UI/numbers/8.png - .ao - 68c0c71277e5057f678a92a2 - 9362108155591875661
+paintingpuzzle/UI/numbers/8.png - .ao.astc - 68c0c71277e5057f678a92a1 - 9362108155591875661
+paintingpuzzle/UI/numbers/9.png - .ao - 68c0c71277e5057f678a92a0 - 13743034656064310096
+paintingpuzzle/UI/numbers/9.png - .ao.astc - 68c0c71277e5057f678a92a3 - 13743034656064310096
+paintingpuzzle/UI/painting_1.png - .ao - 68c0c71277e5057f678a92b1 - 13696878518732430144
+paintingpuzzle/UI/painting_1.png - .ao.astc - 68c0c71277e5057f678a92e2 - 13696878518732430144
+paintingpuzzle/UI/painting_2.png - .ao - 68c0c71277e5057f678a92b4 - 9353642218776529036
+paintingpuzzle/UI/painting_2.png - .ao.astc - 68c0c71277e5057f678a92ba - 9353642218776529036
+paintingpuzzle/UI/painting_3.png - .ao - 68c0c71277e5057f678a92b7 - 13717370818110265500
+paintingpuzzle/UI/painting_3.png - .ao.astc - 68c0c71277e5057f678a92bc - 13717370818110265500
+paintingpuzzle/UI/painting_piece_A.png - .ao - 68c0c71277e5057f678a92aa - 9364346409473896664
+paintingpuzzle/UI/painting_piece_A.png - .ao.astc - 68c0c71277e5057f678a92ae - 9364346409473896664
+paintingpuzzle/UI/painting_piece_B.png - .ao - 68c0c71277e5057f678a92a7 - 13700780990563511455
+paintingpuzzle/UI/painting_piece_B.png - .ao.astc - 68c0c71277e5057f678a92d8 - 13700780990563511455
+paintingpuzzle/UI/painting_piece_C.png - .ao - 68c0c71277e5057f678a92a8 - 13737222740330921765
+paintingpuzzle/UI/painting_piece_C.png - .ao.astc - 68c0c71277e5057f678a92a9 - 13737222740330921765
+park_tree_medium.png - .ao - 68c0c71277e5057f678a9304 - 9361419628895483186
+park_tree_medium.png - .ao.astc - 68c0c71277e5057f678a92d1 - 9361419628895483186
+park_tree_small.png - .ao - 68c0c71277e5057f678a92c2 - 13705550224339317312
+park_tree_small.png - .ao.astc - 68c0c71277e5057f678a92c0 - 13705550224339317312
+Pedestal.prefab - .ao - 68c0c71277e5057f678a92ab - 13695492821871127856
+pedestals/full_pedestal1.png - .ao - 68c0c71277e5057f678a92b2 - 13741136870666690827
+pedestals/full_pedestal1.png - .ao.astc - 68c0c71277e5057f678a92b6 - 13741136870666690827
+pedestals/full_pedestal2.png - .ao - 68c0c71277e5057f678a92b3 - 9364198849312270723
+pedestals/full_pedestal2.png - .ao.astc - 68c0c71277e5057f678a92b5 - 9364198849312270723
+pedestals/full_pedestal3.png - .ao - 68c0c71277e5057f678a92c3 - 13735106194619998185
+pedestals/full_pedestal3.png - .ao.astc - 68c0c71277e5057f678a92b9 - 13735106194619998185
+pedestals/pedestal1.png - .ao - 68c0c71277e5057f678a92be - 13726472930146658591
+pedestals/pedestal1.png - .ao.astc - 68c0c71277e5057f678a92c8 - 13726472930146658591
+pedestals/pedestal2.png - .ao - 68c0c71277e5057f678a92bf - 13725310351249960923
+pedestals/pedestal2.png - .ao.astc - 68c0c71277e5057f678a92b8 - 13725310351249960923
+pedestals/pedestal3.png - .ao - 68c0c71277e5057f678a92c1 - 9334954975712394235
+pedestals/pedestal3.png - .ao.astc - 68c0c71277e5057f678a92bb - 9334954975712394235
+pedestals/top1.png - .ao - 68c0c71277e5057f678a92c7 - 13722772401430190666
+pedestals/top1.png - .ao.astc - 68c0c71277e5057f678a92c5 - 13722772401430190666
+pedestals/top2.png - .ao - 68c0c71277e5057f678a92c6 - 13721246542406391409
+pedestals/top2.png - .ao.astc - 68c0c71277e5057f678a92c4 - 13721246542406391409
+pedestals/top3.png - .ao - 68c0c71277e5057f678a92c9 - 13699241391600223827
+pedestals/top3.png - .ao.astc - 68c0c71277e5057f678a92e9 - 13699241391600223827
+piano_art/blue_flashlight.png - .ao - 68c0c71277e5057f678a92ca - 13741224375988747189
+piano_art/blue_flashlight.png - .ao.astc - 68c0c71277e5057f678a92ce - 13741224375988747189
+piano_art/fingerprint1.png - .ao - 68c0c71277e5057f678a92ea - 13692650004197514666
+piano_art/fingerprint1.png - .ao.astc - 68c0c71277e5057f678a92ec - 13692650004197514666
+piano_art/fingerprint2.png - .ao - 68c0c71277e5057f678a92cc - 13699963476627451087
+piano_art/fingerprint2.png - .ao.astc - 68c0c71277e5057f678a92d0 - 13699963476627451087
+piano_art/fingerprintTOP.png - .ao - 68c0c71277e5057f678a92d9 - 13710131952473640937
+piano_art/fingerprintTOP.png - .ao.astc - 68c0c71277e5057f678a92f4 - 13710131952473640937
+piano_art/grand_piano.png - .ao - 68c0c71277e5057f678a92fe - 13701485066830539236
+piano_art/grand_piano.png - .ao.astc - 68c0c71277e5057f678a932f - 13701485066830539236
+piano_art/light.png - .ao - 68c0c71277e5057f678a92d5 - 9356553793141775829
+piano_art/light.png - .ao.astc - 68c0c71277e5057f678a92d7 - 9356553793141775829
+piano_art/stool.png - .ao - 68c0c71277e5057f678a92db - 9354024706575902846
+piano_art/stool.png - .ao.astc - 68c0c71277e5057f678a92d6 - 9354024706575902846
+piano_art/UI/black key down.png - .ao - 68c0c71277e5057f678a92dc - 9360572628286900466
+piano_art/UI/black key down.png - .ao.astc - 68c0c71277e5057f678a92df - 9360572628286900466
+piano_art/UI/Black key.png - .ao - 68c0c71277e5057f678a92de - 9360287546104438336
+piano_art/UI/Black key.png - .ao.astc - 68c0c71277e5057f678a92e3 - 9360287546104438336
+piano_art/UI/Black keys.png - .ao - 68c0c71277e5057f678a92ee - 9352808606658294957
+piano_art/UI/Black keys.png - .ao.astc - 68c0c71277e5057f678a92f5 - 9352808606658294957
+piano_art/UI/emptykeyup.png - .ao - 68c0c71277e5057f678a92f0 - 13733216621578463852
+piano_art/UI/emptykeyup.png - .ao.astc - 68c0c71277e5057f678a92f1 - 13733216621578463852
+piano_art/UI/fingerprint_bot1.png - .ao - 68c0c71277e5057f678a92e6 - 13721544391377734224
+piano_art/UI/fingerprint_bot1.png - .ao.astc - 68c0c71277e5057f678a92e8 - 13721544391377734224
+piano_art/UI/fingerprint_bot2.png - .ao - 68c0c71277e5057f678a92e7 - 9365270799766188907
+piano_art/UI/fingerprint_bot2.png - .ao.astc - 68c0c71277e5057f678a92eb - 9365270799766188907
+piano_art/UI/fingerprint_top1.png - .ao - 68c0c71277e5057f678a92ef - 9365675062219349873
+piano_art/UI/fingerprint_top1.png - .ao.astc - 68c0c71277e5057f678a92ed - 9365675062219349873
+piano_art/UI/fingerprint_top2.png - .ao - 68c0c71277e5057f678a92f2 - 13707702726146081874
+piano_art/UI/fingerprint_top2.png - .ao.astc - 68c0c71277e5057f678a92f3 - 13707702726146081874
+piano_art/UI/full piano.png - .ao - 68c0c71277e5057f678a935d - 9359024293325760014
+piano_art/UI/full piano.png - .ao.astc - 68c0c71277e5057f678a9369 - 9359024293325760014
+piano_art/UI/fullflashlight.png - .ao - 68c0c71277e5057f678a9300 - 13728661161235734871
+piano_art/UI/fullflashlight.png - .ao.astc - 68c0c71277e5057f678a92fb - 13728661161235734871
+piano_art/UI/fullflashlightoff.png - .ao - 68c0c71277e5057f678a92f7 - 9367359584279452127
+piano_art/UI/fullflashlightoff.png - .ao.astc - 68c0c71277e5057f678a92f6 - 9367359584279452127
+piano_art/UI/key down.png - .ao - 68c0c71277e5057f678a92f8 - 13695150210452854241
+piano_art/UI/key down.png - .ao.astc - 68c0c71277e5057f678a92fa - 13695150210452854241
+piano_art/UI/key up.png - .ao - 68c0c71277e5057f678a92ff - 13740226092840515931
+piano_art/UI/key up.png - .ao.astc - 68c0c71277e5057f678a92fd - 13740226092840515931
+piano_art/UI/key-up.png - .ao - 68c0c71277e5057f678a92fc - 13714938468249199011
+piano_art/UI/key-up.png - .ao.astc - 68c0c71277e5057f678a9302 - 13714938468249199011
+piano_art/UI/light.png - .ao - 68c0c71277e5057f678a9331 - 13709738093251073946
+piano_art/UI/light.png - .ao.astc - 68c0c71277e5057f678a9364 - 13709738093251073946
+pianonotes/pianonotes-1.wav - .ao - 68c0c71277e5057f678a9306 - 13706318022833429519
+pianonotes/pianonotes-10.wav - .ao - 68c0c71277e5057f678a9305 - 9361347219921224632
+pianonotes/pianonotes-11.wav - .ao - 68c0c71277e5057f678a9301 - 13694671600675701362
+pianonotes/pianonotes-12.wav - .ao - 68c0c71277e5057f678a9303 - 13743789211856284187
+pianonotes/pianonotes-13.wav - .ao - 68c0c71277e5057f678a9307 - 13717312651388941027
+pianonotes/pianonotes-14.wav - .ao - 68c0c71277e5057f678a9308 - 9352682781038719690
+pianonotes/pianonotes-15.wav - .ao - 68c0c71277e5057f678a9309 - 13711445745570218943
+pianonotes/pianonotes-16.wav - .ao - 68c0c71277e5057f678a930b - 13727501146997707297
+pianonotes/pianonotes-17.wav - .ao - 68c0c71277e5057f678a930d - 9331901752383835649
+pianonotes/pianonotes-18.wav - .ao - 68c0c71277e5057f678a930a - 13698741530615099478
+pianonotes/pianonotes-19.wav - .ao - 68c0c71277e5057f678a930c - 9360839327896742808
+pianonotes/pianonotes-2.wav - .ao - 68c0c71277e5057f678a9312 - 13701192095121464464
+pianonotes/pianonotes-20.wav - .ao - 68c0c71277e5057f678a9310 - 9367366109045648286
+pianonotes/pianonotes-21.wav - .ao - 68c0c71277e5057f678a933b - 13719783257937308171
+pianonotes/pianonotes-22.wav - .ao - 68c0c71277e5057f678a9317 - 9351630904968757697
+pianonotes/pianonotes-23.wav - .ao - 68c0c71277e5057f678a9315 - 13706518835686957603
+pianonotes/pianonotes-24.wav - .ao - 68c0c71277e5057f678a9318 - 13719645924930488919
+pianonotes/pianonotes-3.wav - .ao - 68c0c71277e5057f678a9316 - 9361091234773198704
+pianonotes/pianonotes-4.wav - .ao - 68c0c71277e5057f678a931f - 13716273936672391451
+pianonotes/pianonotes-5.wav - .ao - 68c0c71277e5057f678a931e - 13705941462878190038
+pianonotes/pianonotes-6.wav - .ao - 68c0c71277e5057f678a9319 - 9356251104942586364
+pianonotes/pianonotes-7.wav - .ao - 68c0c71277e5057f678a931c - 13691682729516625566
+pianonotes/pianonotes-8.wav - .ao - 68c0c71277e5057f678a9322 - 9363132865554625609
+pianonotes/pianonotes-9.wav - .ao - 68c0c71277e5057f678a934c - 13711568616087896932
+pickle_jar.png - .ao - 68c0c71277e5057f678a931d - 13740672284235340607
+pickle_jar.png - .ao.astc - 68c0c71277e5057f678a9321 - 13740672284235340607
+PiecePainting.prefab - .ao - 68c0c71277e5057f678a9320 - 13701038875848386146
+pistol.png - .ao - 68c0c71277e5057f678a9326 - 9360480093098001696
+pistol.png - .ao.astc - 68c0c71277e5057f678a9323 - 9360480093098001696
+PlayerCollision.prefab - .ao - 68c0c71277e5057f678a9330 - 13717474475077594685
+PlayerEquip.prefab - .ao - 68c0c71277e5057f678a9325 - 13721362336573517863
+PlayerInteractable.prefab - .ao - 68c0c71277e5057f678a9334 - 9364867148070840164
+potion_click_power.png - .ao - 68c0c71277e5057f678a9327 - 13726873451003347929
+potion_click_power.png - .ao.astc - 68c0c71277e5057f678a9328 - 13726873451003347929
+potion_coins.png - .ao - 68c0c71277e5057f678a932a - 13725117194054954105
+potion_coins.png - .ao.astc - 68c0c71277e5057f678a932d - 13725117194054954105
+potion_trophies.png - .ao - 68c0c71277e5057f678a932c - 13723948690759826836
+potion_trophies.png - .ao.astc - 68c0c71277e5057f678a932b - 13723948690759826836
+Radio.prefab - .ao - 68c0c71277e5057f678a933c - 9365661543967090405
+radio/camera.wav - .ao - 68c0c71277e5057f678a932e - 9334653801313750035
+radio/pcmnumbers/eight.wav - .ao - 68c0c71277e5057f678a9336 - 13698095791612172522
+radio/pcmnumbers/five.wav - .ao - 68c0c71277e5057f678a9337 - 9365929969299494073
+radio/pcmnumbers/four.wav - .ao - 68c0c71277e5057f678a9332 - 9352311157693509236
+radio/pcmnumbers/nine.wav - .ao - 68c0c71277e5057f678a9339 - 9353741900639653396
+radio/pcmnumbers/one.wav - .ao - 68c0c71277e5057f678a9338 - 9331614487596219027
+radio/pcmnumbers/seven.wav - .ao - 68c0c71277e5057f678a933a - 13705272340119113675
+radio/pcmnumbers/six.wav - .ao - 68c0c71277e5057f678a933d - 13694305597227651605
+radio/pcmnumbers/three.wav - .ao - 68c0c71277e5057f678a9340 - 13738843882555874039
+radio/pcmnumbers/two.wav - .ao - 68c0c71277e5057f678a9346 - 13739388684235351771
+radio/pcmnumbers/zero.wav - .ao - 68c0c71277e5057f678a933f - 13731577871025122320
+radio/radio.png - .ao - 68c0c71277e5057f678a9345 - 9354045433474161604
+radio/radio.png - .ao.astc - 68c0c71277e5057f678a9347 - 9354045433474161604
+radio/static.wav - .ao - 68c0c71277e5057f678a933e - 13721980499763337139
+radio/UI/dial.png - .ao - 68c0c71277e5057f678a9342 - 13700704731071216012
+radio/UI/dial.png - .ao.astc - 68c0c71277e5057f678a9348 - 13700704731071216012
+radio/UI/needle.png - .ao - 68c0c71277e5057f678a9344 - 9351196576316765250
+radio/UI/needle.png - .ao.astc - 68c0c71277e5057f678a9349 - 9351196576316765250
+radio/UI/radio.png - .ao - 68c0c71377e5057f678a93bc - 13723693651544322762
+radio/UI/radio.png - .ao.astc - 68c0c71377e5057f678a93ce - 13723693651544322762
+red_button.png - .ao - 68c0c71277e5057f678a9341 - 13737715258903861318
+red_button.png - .ao.astc - 68c0c71277e5057f678a9343 - 13737715258903861318
+revolver.png - .ao - 68c0c71277e5057f678a934a - 13723115568969573953
+revolver.png - .ao.astc - 68c0c71277e5057f678a934b - 13723115568969573953
+revolver_bullet.png - .ao - 68c0c71277e5057f678a9353 - 13703516235376674883
+revolver_bullet.png - .ao.astc - 68c0c71277e5057f678a9354 - 13703516235376674883
+sfx/002. Murder_Book_key/murder_key_book-open.wav - .ao - 68c0c71277e5057f678a9351 - 9361752713848093869
+sfx/002. Murder_Bookshelf/murder_bookshelf_book_pull.wav - .ao - 68c0c71277e5057f678a934e - 9352956436587050431
+sfx/002. Murder_Dust_Cloud/murder_dust_cloud-appear.wav - .ao - 68c0c71277e5057f678a936d - 9331571784928007748
+sfx/002. Murder_Dust_Cloud/murder_dust_cloud-fade.wav - .ao - 68c0c71277e5057f678a934f - 13718736513371762792
+sfx/002. Murder_Duster/murder_duster-brush.wav - .ao - 68c0c71277e5057f678a934d - 13703976647646570638
+sfx/002. Murder_Duster/murder_duster-fingerprint.wav - .ao - 68c0c71277e5057f678a936e - 13738995232726571650
+sfx/002. Murder_KeyLock/murder_key_lock-loop2.wav - .ao - 68c0c71277e5057f678a9350 - 13721341195766138774
+sfx/002. Murder_KeyLock/murder_key_unlock.wav - .ao - 68c0c71277e5057f678a9355 - 13698767468744292200
+sfx/002. Murder_Mirror/murder_mirror-reviever_activate.wav - .ao - 68c0c71277e5057f678a9352 - 13738200034604524437
+sfx/002. Murder_toilet/murder_toilet-close.wav - .ao - 68c0c71277e5057f678a9357 - 13692513106105829406
+sfx/002. Murder_toilet/murder_toilet-correct.wav - .ao - 68c0c71277e5057f678a9361 - 9354904801554740268
+sfx/002. Murder_toilet/murder_toilet-idle_loop.wav - .ao - 68c0c71377e5057f678a93bb - 13710490289360365782
+sfx/002. Murder_toilet/murder_toilet-open.wav - .ao - 68c0c71277e5057f678a935a - 13729132363334202300
+sfx/002. Murder_toilet/murder_toilet_wrong.wav - .ao - 68c0c71277e5057f678a935f - 9359893514786606391
+sfx/002. Murder_Torch/murder_torch-pull.wav - .ao - 68c0c71277e5057f678a9359 - 13712479808607886880
+sfx/activate_nightvision.wav - .ao - 68c0c71277e5057f678a9356 - 13702855627064746853
+sfx/cm_scared_loop.wav - .ao - 68c0c71277e5057f678a935e - 13732895515028158561
+sfx/defeat_loop2.wav - .ao - 68c0c71377e5057f678a937f - 13720114665905887092
+sfx/drag_loop.wav - .ao - 68c0c71277e5057f678a9363 - 9351086851068195718
+sfx/game_lost.wav - .ao - 68c0c71377e5057f678a93a5 - 13744603717394748159
+sfx/Jumpscare SFX/jumpscare_01.wav - .ao - 68c0c71377e5057f678a938b - 13742457059864207102
+sfx/Jumpscare SFX/jumpscare_02.wav - .ao - 68c0c71377e5057f678a938c - 9353258096653710808
+sfx/Jumpscare SFX/jumpscare_03.wav - .ao - 68c0c71377e5057f678a9382 - 13735701591929121206
+sfx/more/find_fingerprint_on_piano.wav - .ao - 68c0c71277e5057f678a9362 - 13718293948480597700
+sfx/more/find_nothing.wav - .ao - 68c0c71277e5057f678a9360 - 13738133972668107316
+sfx/more/folder_pull_out.wav - .ao - 68c0c71277e5057f678a935b - 13697432673212038044
+sfx/more/folder_put_away.wav - .ao - 68c0c71277e5057f678a935c - 13725293120207879115
+sfx/more/get_shot.wav - .ao - 68c0c71377e5057f678a9383 - 9351013425408337994
+sfx/more/light_bulb_hum_loop.wav - .ao - 68c0c71377e5057f678a93ff - 9363653066030855724
+sfx/more/light_bult_activate.wav - .ao - 68c0c71277e5057f678a936b - 9333904997385796705
+sfx/more/lose_items.wav - .ao - 68c0c71277e5057f678a9366 - 13701490154906870878
+sfx/more/open_door.wav - .ao - 68c0c71277e5057f678a936a - 13722262262013964369
+sfx/more/place_painting.wav - .ao - 68c0c71277e5057f678a936c - 13715360030445702042
+sfx/more/player_death_generic.wav - .ao - 68c0c71277e5057f678a936f - 13707793001844810357
+sfx/more/player_hit_by_knife_death.wav - .ao - 68c0c71277e5057f678a9368 - 9356038727500347766
+sfx/more/tablet_pull_out.wav - .ao - 68c0c71277e5057f678a9367 - 13734937897849972223
+sfx/more/tablet_put_away.wav - .ao - 68c0c71277e5057f678a9365 - 13707635205307735117
+sfx/more/tablet_screen_idle_loop.wav - .ao - 68c0c71377e5057f678a93be - 13709666249403624355
+sfx/more/tablet_switch_cameras.wav - .ao - 68c0c71277e5057f678a9371 - 13742728272546695123
+sfx/more/turn_mirror.wav - .ao - 68c0c71277e5057f678a9370 - 13697452667762549563
+sfx/more/ui_button.wav - .ao - 68c0c71277e5057f678a9372 - 13740994822009755381
+sfx/Murder Mystery detective_Camera/Detective_Camera-appear_ground.wav - .ao - 68c0c71377e5057f678a9376 - 13708586636905975590
+sfx/Murder Mystery detective_Camera/Detective_Camera-appear_wall.wav - .ao - 68c0c71277e5057f678a9373 - 9361093088049626237
+sfx/Murder Mystery detective_Camera/Detective_Camera-destruction.wav - .ao - 68c0c71377e5057f678a9393 - 9357840170980178124
+sfx/Murder Mystery_Alarm/murder_alarm-alert.wav - .ao - 68c0c71377e5057f678a9385 - 13702265865743524986
+sfx/Murder Mystery_Alarm/Murder_Alarm-appear.wav - .ao - 68c0c71377e5057f678a9374 - 9353436324034002475
+sfx/Murder Mystery_Alarm/murder_alarm-idle_loop.wav - .ao - 68c0c71377e5057f678a9399 - 9363429149856240494
+sfx/MURDER Mystery_House_Lock/house_lock-lock.wav - .ao - 68c0c71377e5057f678a9379 - 13691556145423338977
+sfx/MURDER Mystery_House_Lock/house_lock-unlock.wav - .ao - 68c0c71377e5057f678a9375 - 13744191144401557837
+sfx/Murder Mystery_Jar/murder_jars-appear.wav - .ao - 68c0c71377e5057f678a9377 - 13714378580340276023
+sfx/Murder Mystery_Jar/murder_jars-collect.wav - .ao - 68c0c71377e5057f678a937b - 13710859334654840770
+sfx/murder_mystery_ambience_v3.wav - .ao - 68c0c71877e5057f678a957b - 9331672287888019169
+sfx/MurderMystery Killer/killer-idle_break.wav - .ao - 68c0c71377e5057f678a937d - 13732876619299428055
+sfx/MurderMystery Killer/killer-knife_swipe.wav - .ao - 68c0c71377e5057f678a937a - 13712851828689976928
+sfx/MurderMystery Killer/killer-knife_swipe_01.wav - .ao - 68c0c71377e5057f678a9378 - 13732288746002611598
+sfx/MurderMystery Killer/killer-transform_to_imposter_end.wav - .ao - 68c0c71377e5057f678a9380 - 13740664407243309310
+sfx/MurderMystery Killer/killer-transform_to_normal_start.wav - .ao - 68c0c71377e5057f678a937c - 9355522381907154665
+sfx/MurderMystery Killer/killer-transform_to_normal_start2.wav - .ao - 68c0c71377e5057f678a937e - 13721625211535961095
+sfx/MurderMystery Player Character/camera_tablet_loop.wav - .ao - 68c0c71377e5057f678a93a2 - 13724102777163523491
+sfx/MurderMystery Player Character/defeat_loop1.wav - .ao - 68c0c71377e5057f678a93c8 - 13723906355097131160
+sfx/MurderMystery Player Character/drag_body_loop.wav - .ao - 68c0c71377e5057f678a9392 - 13711525014017918278
+sfx/MurderMystery Player Character/drink2.wav - .ao - 68c0c71377e5057f678a9387 - 13703737226077403211
+sfx/MurderMystery Player Character/footstep_01.wav - .ao - 68c0c71377e5057f678a9381 - 9334588801734992765
+sfx/MurderMystery Player Character/footstep_02.wav - .ao - 68c0c71377e5057f678a9384 - 13739821303671728177
+sfx/MurderMystery Player Character/footstep_03.wav - .ao - 68c0c71377e5057f678a9388 - 13695322152002426465
+sfx/MurderMystery Player Character/footstep_04.wav - .ao - 68c0c71377e5057f678a9386 - 13710956219184362367
+sfx/MurderMystery Player Character/footstep_05.wav - .ao - 68c0c71377e5057f678a938d - 13737186216539084000
+sfx/MurderMystery Player Character/footstep_06.wav - .ao - 68c0c71377e5057f678a9389 - 13715184466465963470
+sfx/MurderMystery Player Character/footstep_07.wav - .ao - 68c0c71377e5057f678a938a - 13709217012866883693
+sfx/MurderMystery Player Character/footstep_08.wav - .ao - 68c0c71377e5057f678a938f - 13736233836284912580
+sfx/MurderMystery Player Character/footstep_09.wav - .ao - 68c0c71377e5057f678a9391 - 13742960660171496629
+sfx/MurderMystery Player Character/footstep_10.wav - .ao - 68c0c71377e5057f678a9390 - 9350689449488613858
+sfx/MurderMystery Player Character/footstep_11.wav - .ao - 68c0c71377e5057f678a93ab - 13695256285394615590
+sfx/MurderMystery Player Character/footstep_12.wav - .ao - 68c0c71377e5057f678a938e - 9366559995853532405
+sfx/MurderMystery Player Character/hold_up_item.wav - .ao - 68c0c71377e5057f678a939f - 9352302410425855907
+sfx/MurderMystery Player Character/idle_flashlight_break.wav - .ao - 68c0c71377e5057f678a93ac - 9366378734903402303
+sfx/MurderMystery Player Character/inspect_eureka.wav - .ao - 68c0c71377e5057f678a9396 - 13709662398689923382
+sfx/MurderMystery Player Character/inspect_start2.wav - .ao - 68c0c71377e5057f678a939b - 13734778005878703613
+sfx/MurderMystery Player Character/jumpscare_large.wav - .ao - 68c0c71377e5057f678a9395 - 13738117693958246890
+sfx/MurderMystery Player Character/jumpscare_small.wav - .ao - 68c0c71377e5057f678a9394 - 9350155173419608296
+sfx/MurderMystery Player Character/look_around.wav - .ao - 68c0c71377e5057f678a9397 - 13702594854196392916
+sfx/MurderMystery Player Character/sneak_loop.wav - .ao - 68c0c71377e5057f678a9398 - 9363582385977170265
+sfx/MurderMystery Player Character/swiped_revision.wav - .ao - 68c0c71377e5057f678a93aa - 13697714515543402959
+sfx/MurderMystery Player Character/transform_to_imposter_start.wav - .ao - 68c0c71377e5057f678a93a4 - 13731644543752927435
+sfx/MurderMystery Player Character/transform_to_normal_end.wav - .ao - 68c0c71377e5057f678a939a - 13693731696695707453
+sfx/MurderMystery Player Character/victory_loop2.wav - .ao - 68c0c71377e5057f678a93a1 - 13716338839595618984
+sfx/MurderMystery Player Character/victoryLoop.wav - .ao - 68c0c71377e5057f678a93cf - 13697120399766405043
+sfx/revolver_shoot.wav - .ao - 68c0c71377e5057f678a939c - 13726589298550672641
+sfx/transform_scary.wav - .ao - 68c0c71377e5057f678a93a8 - 13710034771037700783
+sfx/turn_on_flashlight.wav - .ao - 68c0c71377e5057f678a939d - 9352219077110314454
+sfx/v2/hold_up_item_v2.wav - .ao - 68c0c71377e5057f678a93c3 - 13717043613039193340
+sfx/v2/house_lock-lock_v2.wav - .ao - 68c0c71377e5057f678a93a9 - 13724568142324352313
+sfx/v2/house_lock-unlock_v2.wav - .ao - 68c0c71377e5057f678a93cc - 9364254011025356190
+sfx/v2/kille-idle_break_v2.wav - .ao - 68c0c71377e5057f678a93a7 - 13734417303089815702
+sfx/v2/killer-knife_swipe_01_v2.wav - .ao - 68c0c71377e5057f678a939e - 13739733127796594240
+sfx/v2/killer-transform_to_imposter_end_v2.wav - .ao - 68c0c71377e5057f678a93b7 - 9352809616426233435
+sfx/v2/killer-transform_to_normal_start2_v2.wav - .ao - 68c0c71377e5057f678a93a3 - 13693503097132052460
+sfx/v2/killer-transform_to_normal_start_v2.wav - .ao - 68c0c71377e5057f678a93a0 - 9365374836883486461
+sfx/v2/murder_mystery_ambience_v3.wav - .ao - 68c0c71477e5057f678a951f - 9331672287888019169
+sfx/victory_loop.wav - .ao - 68c0c71377e5057f678a93c1 - 13720412896714348849
+sfx/win_celebrate_music.wav - .ao - 68c0c71377e5057f678a93dc - 13713766491641898768
+shadow_bigtree.png - .ao - 68c0c71377e5057f678a93db - 13707256125191637376
+shadow_bigtree.png - .ao.astc - 68c0c71377e5057f678a93d7 - 13707256125191637376
+shadow_small_object.png - .ao - 68c0c71377e5057f678a93a6 - 9359816301560491487
+shadow_small_object.png - .ao.astc - 68c0c71377e5057f678a93ae - 9359816301560491487
+shadow_small_tree.png - .ao - 68c0c71377e5057f678a93b1 - 13738296855947607021
+shadow_small_tree.png - .ao.astc - 68c0c71377e5057f678a93c0 - 13738296855947607021
+SilentAlarm.prefab - .ao - 68c0c71377e5057f678a93c4 - 13695388371498125045
+simpcitymap/background.png - .ao - 68c0c71b77e5057f678a957d - 13736402831697315888
+simpcitymap/background.png - .ao.astc - 68c0c71577e5057f678a9534 - 13736402831697315888
+simpcitymap/background2.png - .ao - 68c0c71477e5057f678a94dd - 9364701569472503567
+simpcitymap/background2.png - .ao.astc - 68c0c71477e5057f678a94f6 - 9364701569472503567
+simpcitymap/bookstore_assets/bookcase1.png - .ao - 68c0c71377e5057f678a93ad - 9351081960584792613
+simpcitymap/bookstore_assets/bookcase1.png - .ao.astc - 68c0c71377e5057f678a93b2 - 9351081960584792613
+simpcitymap/bookstore_assets/Capa 558.png - .ao - 68c0c71377e5057f678a93b3 - 13702705388866598407
+simpcitymap/bookstore_assets/Capa 558.png - .ao.astc - 68c0c71377e5057f678a93af - 13702705388866598407
+simpcitymap/bookstore_assets/Capa 559.png - .ao - 68c0c71377e5057f678a93b0 - 9356576690242215753
+simpcitymap/bookstore_assets/Capa 559.png - .ao.astc - 68c0c71377e5057f678a93b5 - 9356576690242215753
+simpcitymap/bookstore_assets/Capa 564.png - .ao - 68c0c71377e5057f678a93b6 - 13713391811809224552
+simpcitymap/bookstore_assets/Capa 564.png - .ao.astc - 68c0c71377e5057f678a93b4 - 13713391811809224552
+simpcitymap/florist_assets/asset1.png - .ao - 68c0c71377e5057f678a93ba - 13694353461544360579
+simpcitymap/florist_assets/asset1.png - .ao.astc - 68c0c71377e5057f678a93bd - 13694353461544360579
+simpcitymap/florist_assets/counter.png - .ao - 68c0c71377e5057f678a93b8 - 13711478683589588414
+simpcitymap/florist_assets/counter.png - .ao.astc - 68c0c71377e5057f678a93bf - 13711478683589588414
+simpcitymap/florist_assets/flower_overlay.png - .ao - 68c0c71377e5057f678a93b9 - 9355095678616024063
+simpcitymap/florist_assets/flower_overlay.png - .ao.astc - 68c0c71377e5057f678a93c2 - 9355095678616024063
+simpcitymap/forest overlay copia.png - .ao - 68c0c71377e5057f678a9400 - 13721881770251227790
+simpcitymap/forest overlay copia.png - .ao.astc - 68c0c71377e5057f678a940e - 13721881770251227790
+simpcitymap/garbage_bin/bin1.png - .ao - 68c0c71377e5057f678a93c5 - 13732783644000412884
+simpcitymap/garbage_bin/bin1.png - .ao.astc - 68c0c71377e5057f678a93c7 - 13732783644000412884
+simpcitymap/garbage_bin/bin2.png - .ao - 68c0c71377e5057f678a93c6 - 13716526797577453639
+simpcitymap/garbage_bin/bin2.png - .ao.astc - 68c0c71377e5057f678a93c9 - 13716526797577453639
+simpcitymap/garbage_bin/bin3.png - .ao - 68c0c71377e5057f678a93cb - 9353456989713992337
+simpcitymap/garbage_bin/bin3.png - .ao.astc - 68c0c71377e5057f678a93ca - 9353456989713992337
+simpcitymap/garbage_bin/bin4.png - .ao - 68c0c71377e5057f678a93cd - 13701864905543898751
+simpcitymap/garbage_bin/bin4.png - .ao.astc - 68c0c71377e5057f678a93e2 - 13701864905543898751
+simpcitymap/garbage_bin/bin5.png - .ao - 68c0c71377e5057f678a93d1 - 13744468478960445461
+simpcitymap/garbage_bin/bin5.png - .ao.astc - 68c0c71377e5057f678a93d0 - 13744468478960445461
+simpcitymap/garbage_bin/bin6 copia.png - .ao - 68c0c71377e5057f678a93d5 - 13695319828691430606
+simpcitymap/garbage_bin/bin6 copia.png - .ao.astc - 68c0c71377e5057f678a93d3 - 13695319828691430606
+simpcitymap/garbage_bin/bin6.png - .ao - 68c0c71377e5057f678a93d6 - 13698216831972879342
+simpcitymap/garbage_bin/bin6.png - .ao.astc - 68c0c71377e5057f678a93d2 - 13698216831972879342
+simpcitymap/garbage_bin/bin7.png - .ao - 68c0c71377e5057f678a93d4 - 9360932297108759057
+simpcitymap/garbage_bin/bin7.png - .ao.astc - 68c0c71377e5057f678a93d8 - 9360932297108759057
+simpcitymap/garbage_bin/bin8.png - .ao - 68c0c71377e5057f678a93d9 - 13722292005594782913
+simpcitymap/garbage_bin/bin8.png - .ao.astc - 68c0c71377e5057f678a93da - 13722292005594782913
+simpcitymap/garbage_bin/bin9.png - .ao - 68c0c71377e5057f678a93dd - 13691022252106125222
+simpcitymap/garbage_bin/bin9.png - .ao.astc - 68c0c71377e5057f678a93de - 13691022252106125222
+simpcitymap/minimap.png - .ao - 68c0c71377e5057f678a93e5 - 13723119516237461414
+simpcitymap/minimap.png - .ao.astc - 68c0c71377e5057f678a93e3 - 13723119516237461414
+simpcitymap/overlay/bookstore.png - .ao - 68c0c71377e5057f678a93f1 - 13695021000022332550
+simpcitymap/overlay/bookstore.png - .ao.astc - 68c0c71377e5057f678a93df - 13695021000022332550
+simpcitymap/overlay/buildings.png - .ao - 68c0c71377e5057f678a9407 - 9358798974292799891
+simpcitymap/overlay/buildings.png - .ao.astc - 68c0c71377e5057f678a940f - 9358798974292799891
+simpcitymap/overlay/karaoke.png - .ao - 68c0c71377e5057f678a93e1 - 13734156933477553658
+simpcitymap/overlay/karaoke.png - .ao.astc - 68c0c71377e5057f678a93ef - 13734156933477553658
+simpcitymap/overlay/sign.png - .ao - 68c0c71377e5057f678a93e0 - 13698730812570952557
+simpcitymap/overlay/sign.png - .ao.astc - 68c0c71377e5057f678a93eb - 13698730812570952557
+simpcitymap/park assets/bench/bench1.png - .ao - 68c0c71377e5057f678a9406 - 13728285824000888167
+simpcitymap/park assets/bench/bench1.png - .ao.astc - 68c0c71377e5057f678a93ea - 13728285824000888167
+simpcitymap/park assets/bench/bench2.png - .ao - 68c0c71377e5057f678a93ed - 9357858552667646123
+simpcitymap/park assets/bench/bench2.png - .ao.astc - 68c0c71377e5057f678a93e8 - 9357858552667646123
+simpcitymap/park assets/lake_building.png - .ao - 68c0c71377e5057f678a93f0 - 13706838885369414808
+simpcitymap/park assets/lake_building.png - .ao.astc - 68c0c71377e5057f678a93fe - 13706838885369414808
+simpcitymap/park assets/picnic_tables/table1.png - .ao - 68c0c71377e5057f678a93e9 - 9362918437851590593
+simpcitymap/park assets/picnic_tables/table1.png - .ao.astc - 68c0c71377e5057f678a93e7 - 9362918437851590593
+simpcitymap/park assets/picnic_tables/table2.png - .ao - 68c0c71377e5057f678a93ec - 13697630478088183107
+simpcitymap/park assets/picnic_tables/table2.png - .ao.astc - 68c0c71377e5057f678a93e6 - 13697630478088183107
+simpcitymap/signs/backup/sign (1).png - .ao - 68c0c71377e5057f678a93e4 - 9357354310017694711
+simpcitymap/signs/backup/sign (1).png - .ao.astc - 68c0c71377e5057f678a93ee - 9357354310017694711
+simpcitymap/signs/backup/sign (2).png - .ao - 68c0c71377e5057f678a93f8 - 13713305566994872071
+simpcitymap/signs/backup/sign (2).png - .ao.astc - 68c0c71377e5057f678a93fd - 13713305566994872071
+simpcitymap/signs/sign (1).png - .ao - 68c0c71377e5057f678a93f7 - 13729175171874685891
+simpcitymap/signs/sign (1).png - .ao.astc - 68c0c71377e5057f678a93f5 - 13729175171874685891
+simpcitymap/signs/sign (2).png - .ao - 68c0c71377e5057f678a93f3 - 13699494211727615449
+simpcitymap/signs/sign (2).png - .ao.astc - 68c0c71377e5057f678a93f2 - 13699494211727615449
+simpcitymap/signs/sign (3).png - .ao - 68c0c71377e5057f678a93f6 - 13705217860347638008
+simpcitymap/signs/sign (3).png - .ao.astc - 68c0c71377e5057f678a93fa - 13705217860347638008
+simpcitymap/signs/sign (4).png - .ao - 68c0c71377e5057f678a93fc - 13723799056494873963
+simpcitymap/signs/sign (4).png - .ao.astc - 68c0c71377e5057f678a93f9 - 13723799056494873963
+simpcitymap/signs/sign (5).png - .ao - 68c0c71377e5057f678a93f4 - 13695256039008890125
+simpcitymap/signs/sign (5).png - .ao.astc - 68c0c71377e5057f678a93fb - 13695256039008890125
+simpcitymap/signs/sign (6).png - .ao - 68c0c71377e5057f678a9405 - 13699099211361821709
+simpcitymap/signs/sign (6).png - .ao.astc - 68c0c71377e5057f678a942b - 13699099211361821709
+simpcitymap/signs/sign (7).png - .ao - 68c0c71377e5057f678a9402 - 13725649363669979164
+simpcitymap/signs/sign (7).png - .ao.astc - 68c0c71377e5057f678a9403 - 13725649363669979164
+simpcitymap/street_lights/street_light.png - .ao - 68c0c71377e5057f678a9404 - 13702878235863419231
+simpcitymap/street_lights/street_light.png - .ao.astc - 68c0c71377e5057f678a9401 - 13702878235863419231
+simpcitymap/template.png - .ao - 68c0c71577e5057f678a9556 - 13697277852294824158
+simpcitymap/template.png - .ao.astc - 68c0c71477e5057f678a9513 - 13697277852294824158
+simpcitymap/thumbnail.png - .ao - 68c0c71477e5057f678a9441 - 13734258237718082357
+simpcitymap/thumbnail.png - .ao.astc - 68c0c71477e5057f678a9461 - 13734258237718082357
+simpcitymap/traffic_lights/traffic_light_1.png - .ao - 68c0c71377e5057f678a940b - 13700870380385058133
+simpcitymap/traffic_lights/traffic_light_1.png - .ao.astc - 68c0c71377e5057f678a9433 - 13700870380385058133
+simpcitymap/traffic_lights/traffic_light_2.png - .ao - 68c0c71377e5057f678a940c - 13739793302175828272
+simpcitymap/traffic_lights/traffic_light_2.png - .ao.astc - 68c0c71377e5057f678a940d - 13739793302175828272
+simpcitymap/traffic_lights/traffic_light_3.png - .ao - 68c0c71377e5057f678a9409 - 9360322168012003961
+simpcitymap/traffic_lights/traffic_light_3.png - .ao.astc - 68c0c71377e5057f678a940a - 9360322168012003961
+simpcitymap/vegetation/Capa 622 copia 2.png - .ao - 68c0c71377e5057f678a9408 - 9352845523519151727
+simpcitymap/vegetation/Capa 622 copia 2.png - .ao.astc - 68c0c71377e5057f678a9436 - 9352845523519151727
+simpcitymap/vegetation/Capa 622.png - .ao - 68c0c71377e5057f678a941a - 13734718379645840069
+simpcitymap/vegetation/Capa 622.png - .ao.astc - 68c0c71377e5057f678a9420 - 13734718379645840069
+simpcitymap/vegetation/Capa 627.png - .ao - 68c0c71377e5057f678a9422 - 13708849541372628097
+simpcitymap/vegetation/Capa 627.png - .ao.astc - 68c0c71377e5057f678a9424 - 13708849541372628097
+simpcitymap/vegetation/Capa 628.png - .ao - 68c0c71377e5057f678a9415 - 13734592109514572660
+simpcitymap/vegetation/Capa 628.png - .ao.astc - 68c0c71377e5057f678a9428 - 13734592109514572660
+simpcitymap/vegetation/Capa 629.png - .ao - 68c0c71377e5057f678a9429 - 13710630720122363675
+simpcitymap/vegetation/Capa 629.png - .ao.astc - 68c0c71377e5057f678a941c - 13710630720122363675
+simpcitymap/vegetation/Capa 630.png - .ao - 68c0c71377e5057f678a9412 - 13727927936688213115
+simpcitymap/vegetation/Capa 630.png - .ao.astc - 68c0c71377e5057f678a9413 - 13727927936688213115
+simpcitymap/vegetation/Capa 631.png - .ao - 68c0c71377e5057f678a9411 - 9361379693837992503
+simpcitymap/vegetation/Capa 631.png - .ao.astc - 68c0c71377e5057f678a9425 - 9361379693837992503
+simpcitymap/vegetation/Capa 632.png - .ao - 68c0c71377e5057f678a942a - 9356940821443792780
+simpcitymap/vegetation/Capa 632.png - .ao.astc - 68c0c71377e5057f678a941f - 9356940821443792780
+simpcitymap/vegetation/Capa 639.png - .ao - 68c0c71377e5057f678a941d - 13715729872973523504
+simpcitymap/vegetation/Capa 639.png - .ao.astc - 68c0c71377e5057f678a9417 - 13715729872973523504
+simpcitymap/vegetation/Capa 640.png - .ao - 68c0c71377e5057f678a9423 - 9331919438165801151
+simpcitymap/vegetation/Capa 640.png - .ao.astc - 68c0c71377e5057f678a9410 - 9331919438165801151
+simpcitymap/vegetation/Capa 641.png - .ao - 68c0c71377e5057f678a941b - 9363176827864813551
+simpcitymap/vegetation/Capa 641.png - .ao.astc - 68c0c71377e5057f678a9416 - 9363176827864813551
+simpcitymap/vegetation/Capa 642.png - .ao - 68c0c71377e5057f678a9414 - 13733557857316654781
+simpcitymap/vegetation/Capa 642.png - .ao.astc - 68c0c71377e5057f678a9418 - 13733557857316654781
+simpcitymap/vegetation/Capa 643.png - .ao - 68c0c71377e5057f678a941e - 9359918860850082395
+simpcitymap/vegetation/Capa 643.png - .ao.astc - 68c0c71377e5057f678a9426 - 9359918860850082395
+simpcitymap/vegetation/Capa 644.png - .ao - 68c0c71377e5057f678a9427 - 13716781018389125604
+simpcitymap/vegetation/Capa 644.png - .ao.astc - 68c0c71377e5057f678a9419 - 13716781018389125604
+simpcitymap/vegetation/Capa 672.png - .ao - 68c0c71377e5057f678a9421 - 13740654546924967889
+simpcitymap/vegetation/Capa 672.png - .ao.astc - 68c0c71377e5057f678a9431 - 13740654546924967889
+simpcitymap/vegetation/Capa 673.png - .ao - 68c0c71377e5057f678a9430 - 13704671245552951384
+simpcitymap/vegetation/Capa 673.png - .ao.astc - 68c0c71377e5057f678a942e - 13704671245552951384
+simpcitymap/vegetation/Capa 674.png - .ao - 68c0c71477e5057f678a9457 - 13708419767477383228
+simpcitymap/vegetation/Capa 674.png - .ao.astc - 68c0c71377e5057f678a9432 - 13708419767477383228
+simpcitymap/vegetation/Capa 675.png - .ao - 68c0c71377e5057f678a942c - 13703000578698909300
+simpcitymap/vegetation/Capa 675.png - .ao.astc - 68c0c71377e5057f678a942d - 13703000578698909300
+simpcitymap/vegetation/Capa 676.png - .ao - 68c0c71377e5057f678a942f - 13706641738983590655
+simpcitymap/vegetation/Capa 676.png - .ao.astc - 68c0c71377e5057f678a9434 - 13706641738983590655
+spawn/bg.png - .ao - 68c0c71477e5057f678a94a6 - 9331542651910495483
+spawn/bg.png - .ao.astc - 68c0c71477e5057f678a94b8 - 9331542651910495483
+spawn/bush1.png - .ao - 68c0c71377e5057f678a9435 - 9355249528143158870
+spawn/bush1.png - .ao.astc - 68c0c71377e5057f678a943b - 9355249528143158870
+spawn/bush2.png - .ao - 68c0c71377e5057f678a9437 - 13723854111239816557
+spawn/bush2.png - .ao.astc - 68c0c71377e5057f678a9439 - 13723854111239816557
+spawn/bush3.png - .ao - 68c0c71477e5057f678a9442 - 13724997498825453733
+spawn/bush3.png - .ao.astc - 68c0c71377e5057f678a943d - 13724997498825453733
+spawn/tree1.png - .ao - 68c0c71377e5057f678a943c - 13695362006415872389
+spawn/tree1.png - .ao.astc - 68c0c71477e5057f678a9440 - 13695362006415872389
+spawn/tree2.png - .ao - 68c0c71377e5057f678a943f - 13732095951997932372
+spawn/tree2.png - .ao.astc - 68c0c71477e5057f678a9443 - 13732095951997932372
+spawn/tree3.png - .ao - 68c0c71377e5057f678a943e - 13732208905681281804
+spawn/tree3.png - .ao.astc - 68c0c71377e5057f678a9438 - 13732208905681281804
+SpecimenJar.prefab - .ao - 68c0c71377e5057f678a943a - 13737816629720940291
+Sus note.png - .ao - 68c0c71477e5057f678a9452 - 13717800708606881676
+Sus note.png - .ao.astc - 68c0c71477e5057f678a9455 - 13717800708606881676
+Sus-note-blank.png - .ao - 68c0c71477e5057f678a9451 - 9352703452351042677
+Sus-note-blank.png - .ao.astc - 68c0c71477e5057f678a9454 - 9352703452351042677
+Sus-note2.png - .ao - 68c0c71477e5057f678a944a - 13715999829839392603
+Sus-note2.png - .ao.astc - 68c0c71477e5057f678a944e - 13715999829839392603
+targetscope.png - .ao - 68c0c71477e5057f678a944f - 13742995965326301233
+targetscope.png - .ao.astc - 68c0c71477e5057f678a9449 - 13742995965326301233
+targetscopecrosshair.png - .ao - 68c0c71477e5057f678a9445 - 13744244385205217038
+targetscopecrosshair.png - .ao.astc - 68c0c71477e5057f678a9447 - 13744244385205217038
+TorchLever.prefab - .ao - 68c0c71477e5057f678a9444 - 9363936700907026705
+ui/alarm.png - .ao - 68c0c71477e5057f678a9448 - 13705239659086152316
+ui/alarm.png - .ao.astc - 68c0c71477e5057f678a9446 - 13705239659086152316
+ui/book_key.png - .ao - 68c0c71477e5057f678a9479 - 9335738418492784634
+ui/book_key.png - .ao.astc - 68c0c71477e5057f678a9474 - 9335738418492784634
+ui/cams.png - .ao - 68c0c71477e5057f678a944b - 13710179875311087609
+ui/cams.png - .ao.astc - 68c0c71477e5057f678a9450 - 13710179875311087609
+ui/decoy_icon.png - .ao - 68c0c71477e5057f678a944d - 13735304621984995347
+ui/decoy_icon.png - .ao.astc - 68c0c71477e5057f678a944c - 13735304621984995347
+ui/drag.png - .ao - 68c0c71477e5057f678a9453 - 9356542551648222969
+ui/drag.png - .ao.astc - 68c0c71477e5057f678a9456 - 9356542551648222969
+ui/fingerprints.png - .ao - 68c0c71477e5057f678a9465 - 13695465914611126742
+ui/fingerprints.png - .ao.astc - 68c0c71477e5057f678a9460 - 13695465914611126742
+ui/folder.png - .ao - 68c0c71477e5057f678a945f - 13727713179506303623
+ui/folder.png - .ao.astc - 68c0c71477e5057f678a945c - 13727713179506303623
+ui/goggles.png - .ao - 68c0c71477e5057f678a945d - 9334447027152251183
+ui/goggles.png - .ao.astc - 68c0c71477e5057f678a9462 - 9334447027152251183
+ui/kill.png - .ao - 68c0c71477e5057f678a9458 - 13692531200222363310
+ui/kill.png - .ao.astc - 68c0c71477e5057f678a9459 - 13692531200222363310
+ui/lock.png - .ao - 68c0c71477e5057f678a945e - 13714743813206987960
+ui/lock.png - .ao.astc - 68c0c71477e5057f678a945b - 13714743813206987960
+ui/placecamera.png - .ao - 68c0c71477e5057f678a9463 - 13697415886864134037
+ui/placecamera.png - .ao.astc - 68c0c71477e5057f678a9471 - 13697415886864134037
+ui/shoot.png - .ao - 68c0c71477e5057f678a945a - 9366161032795886194
+ui/shoot.png - .ao.astc - 68c0c71477e5057f678a9466 - 9366161032795886194
+ui/swap_button.png - .ao - 68c0c71477e5057f678a9464 - 13718514422862941791
+ui/swap_button.png - .ao.astc - 68c0c71477e5057f678a9472 - 13718514422862941791
+ui/transform.png - .ao - 68c0c71477e5057f678a9468 - 13734201179356317191
+ui/transform.png - .ao.astc - 68c0c71477e5057f678a9469 - 13734201179356317191
+UI_Button_Standard_Green.png - .ao - 68c0c71477e5057f678a946a - 13713159859819054959
+UI_Button_Standard_Green.png - .ao.astc - 68c0c71477e5057f678a9467 - 13713159859819054959
+UI_Button_Standard_Orange.png - .ao - 68c0c71477e5057f678a946b - 13723708401838400025
+UI_Button_Standard_Orange.png - .ao.astc - 68c0c71477e5057f678a9470 - 13723708401838400025
+UI_Button_Standard_Red.png - .ao - 68c0c71477e5057f678a946c - 13709164239481949430
+UI_Button_Standard_Red.png - .ao.astc - 68c0c71477e5057f678a946e - 13709164239481949430
+UI_Button_Standard_Sky.png - .ao - 68c0c71477e5057f678a946d - 13706541516514687661
+UI_Button_Standard_Sky.png - .ao.astc - 68c0c71477e5057f678a946f - 13706541516514687661
+UI_Fill_Green.png - .ao - 68c0c71477e5057f678a947d - 13743553761138365539
+UI_Fill_Green.png - .ao.astc - 68c0c71477e5057f678a94a8 - 13743553761138365539
+UI_Fill_Orange.png - .ao - 68c0c71477e5057f678a947b - 13695890995569387741
+UI_Fill_Orange.png - .ao.astc - 68c0c71477e5057f678a94a7 - 13695890995569387741
+UI_Fill_Red.png - .ao - 68c0c71477e5057f678a9477 - 9334515993500966521
+UI_Fill_Red.png - .ao.astc - 68c0c71477e5057f678a947a - 9334515993500966521
+UI_Fill_Sky.png - .ao - 68c0c71477e5057f678a9478 - 9349866902153364213
+UI_Fill_Sky.png - .ao.astc - 68c0c71477e5057f678a947e - 9349866902153364213
+UI_Frame_Dark_Transparent.png - .ao - 68c0c71477e5057f678a9476 - 13744775499063173537
+UI_Frame_Dark_Transparent.png - .ao.astc - 68c0c71477e5057f678a947f - 13744775499063173537
+UI_Frame_Dark_White.png - .ao - 68c0c71477e5057f678a949a - 9358330529165065794
+UI_Frame_Dark_White.png - .ao.astc - 68c0c71477e5057f678a949b - 9358330529165065794
+UI_Frame_Transparent.png - .ao - 68c0c71477e5057f678a9496 - 13710811996754856521
+UI_Frame_Transparent.png - .ao.astc - 68c0c71477e5057f678a9498 - 13710811996754856521
+UI_Frame_White.png - .ao - 68c0c71477e5057f678a949c - 13709466685468543684
+UI_Frame_White.png - .ao.astc - 68c0c71477e5057f678a9497 - 13709466685468543684
+UI_Panel_Content.png - .ao - 68c0c71477e5057f678a9499 - 9362150645056746675
+UI_Panel_Content.png - .ao.astc - 68c0c71477e5057f678a949d - 9362150645056746675
+UI_Panel_Window.png - .ao - 68c0c71477e5057f678a9473 - 9354763614152371904
+UI_Panel_Window.png - .ao.astc - 68c0c71477e5057f678a9475 - 9354763614152371904
+vignetteoverlay.png - .ao - 68c0c71477e5057f678a94d6 - 9361806173708820449
+vignetteoverlay.png - .ao.astc - 68c0c71477e5057f678a94a2 - 9361806173708820449
+vignetteoverlay2.png - .ao - 68c0c71477e5057f678a94e7 - 13702699819269061057
+vignetteoverlay2.png - .ao.astc - 68c0c71477e5057f678a94e5 - 13702699819269061057
+vignetteoverlay3.png - .ao - 68c0c71477e5057f678a951e - 13713870263109863149
+vignetteoverlay3.png - .ao.astc - 68c0c71577e5057f678a9539 - 13713870263109863149
+vignetteoverlay4.png - .ao - 68c0c71477e5057f678a9518 - 13728597685295662019
+vignetteoverlay4.png - .ao.astc - 68c0c71577e5057f678a9533 - 13728597685295662019
+vignetteoverlay5.png - .ao - 68c0c71577e5057f678a952d - 13739581920989386044
+vignetteoverlay5.png - .ao.astc - 68c0c71477e5057f678a94d5 - 13739581920989386044
+whitecircle2.png - .ao - 68c0c71477e5057f678a947c - 13710623115937337142
+whitecircle2.png - .ao.astc - 68c0c71477e5057f678a9482 - 13710623115937337142
+zoo/base.png - .ao - 68c0c71577e5057f678a9575 - 13712334851790603805
+zoo/base.png - .ao.astc - 68c0c71577e5057f678a9572 - 13712334851790603805
+zoo/entrance.png - .ao - 68c0c71477e5057f678a94a5 - 9363863862032505410
+zoo/entrance.png - .ao.astc - 68c0c71477e5057f678a94a1 - 9363863862032505410
+zoo/farm/base.png - .ao - 68c0c71477e5057f678a94b3 - 13721641152781149457
+zoo/farm/base.png - .ao.astc - 68c0c71477e5057f678a94a0 - 13721641152781149457
+zoo/farm/fence1.png - .ao - 68c0c71477e5057f678a948d - 9351443524060494426
+zoo/farm/fence1.png - .ao.astc - 68c0c71477e5057f678a9486 - 9351443524060494426
+zoo/farm/fence2.png - .ao - 68c0c71477e5057f678a9485 - 13741070939861050044
+zoo/farm/fence2.png - .ao.astc - 68c0c71477e5057f678a9481 - 13741070939861050044
+zoo/farm/front_wall.png - .ao - 68c0c71477e5057f678a9492 - 13705051271886719671
+zoo/farm/front_wall.png - .ao.astc - 68c0c71477e5057f678a9495 - 13705051271886719671
+zoo/ice pen/fence1.png - .ao - 68c0c71477e5057f678a948a - 13717397280991060607
+zoo/ice pen/fence1.png - .ao.astc - 68c0c71477e5057f678a9487 - 13717397280991060607
+zoo/ice pen/fence2/1.png - .ao - 68c0c71477e5057f678a9483 - 9335008804366701124
+zoo/ice pen/fence2/1.png - .ao.astc - 68c0c71477e5057f678a9480 - 9335008804366701124
+zoo/ice pen/fence2/2.png - .ao - 68c0c71477e5057f678a9484 - 9355312701152045915
+zoo/ice pen/fence2/2.png - .ao.astc - 68c0c71477e5057f678a9488 - 9355312701152045915
+zoo/ice pen/front wall.png - .ao - 68c0c71477e5057f678a949f - 9358884546043660747
+zoo/ice pen/front wall.png - .ao.astc - 68c0c71477e5057f678a949e - 9358884546043660747
+zoo/ice pen/wood.png - .ao - 68c0c71477e5057f678a948e - 13725270408555900128
+zoo/ice pen/wood.png - .ao.astc - 68c0c71477e5057f678a948b - 13725270408555900128
+zoo/inside zone/asset1.png - .ao - 68c0c71477e5057f678a948f - 13705451166917013277
+zoo/inside zone/asset1.png - .ao.astc - 68c0c71477e5057f678a9489 - 13705451166917013277
+zoo/inside zone/asset2.png - .ao - 68c0c71477e5057f678a948c - 13724174280247075235
+zoo/inside zone/asset2.png - .ao.astc - 68c0c71477e5057f678a94b6 - 13724174280247075235
+zoo/inside zone/asset3.png - .ao - 68c0c71477e5057f678a9490 - 13740736935318883540
+zoo/inside zone/asset3.png - .ao.astc - 68c0c71477e5057f678a9494 - 13740736935318883540
+zoo/inside zone/asset4.png - .ao - 68c0c71477e5057f678a9493 - 13700764896328315285
+zoo/inside zone/asset4.png - .ao.astc - 68c0c71477e5057f678a9491 - 13700764896328315285
+zoo/inside zone/base.png - .ao - 68c0c71477e5057f678a94e2 - 9334004732986882895
+zoo/inside zone/base.png - .ao.astc - 68c0c71477e5057f678a9516 - 9334004732986882895
+zoo/inside zone/Capa 943.png - .ao - 68c0c71477e5057f678a94a4 - 13703349739820537730
+zoo/inside zone/Capa 943.png - .ao.astc - 68c0c71477e5057f678a94a3 - 13703349739820537730
+zoo/inside zone/glass1.png - .ao - 68c0c71477e5057f678a94ad - 13719912478102910351
+zoo/inside zone/glass1.png - .ao.astc - 68c0c71477e5057f678a94a9 - 13719912478102910351
+zoo/inside zone/glass2.png - .ao - 68c0c71477e5057f678a94ab - 9355333448483708593
+zoo/inside zone/glass2.png - .ao.astc - 68c0c71477e5057f678a94ac - 9355333448483708593
+zoo/inside zone/overlay_top.png - .ao - 68c0c71477e5057f678a94aa - 13723660667048491033
+zoo/inside zone/overlay_top.png - .ao.astc - 68c0c71477e5057f678a94d4 - 13723660667048491033
+zoo/inside zone/wall4.png - .ao - 68c0c71477e5057f678a94bb - 13741595997563578674
+zoo/inside zone/wall4.png - .ao.astc - 68c0c71477e5057f678a94b9 - 13741595997563578674
+zoo/inside zone/wall5.png - .ao - 68c0c71477e5057f678a94af - 13741856905408886263
+zoo/inside zone/wall5.png - .ao.astc - 68c0c71477e5057f678a94ae - 13741856905408886263
+zoo/inside zone/wall6.png - .ao - 68c0c71477e5057f678a94b0 - 13704464985139777790
+zoo/inside zone/wall6.png - .ao.astc - 68c0c71477e5057f678a94b4 - 13704464985139777790
+zoo/inside zone/wall7.png - .ao - 68c0c71477e5057f678a94b2 - 13705157039524835718
+zoo/inside zone/wall7.png - .ao.astc - 68c0c71477e5057f678a94b1 - 13705157039524835718
+zoo/lab/frontwall.png - .ao - 68c0c71477e5057f678a94b5 - 13726130823553702938
+zoo/lab/frontwall.png - .ao.astc - 68c0c71477e5057f678a94b7 - 13726130823553702938
+zoo/lab/lab base.png - .ao - 68c0c71477e5057f678a94c3 - 13744942224267504415
+zoo/lab/lab base.png - .ao.astc - 68c0c71477e5057f678a94c8 - 13744942224267504415
+zoo/lake/back_fence.png - .ao - 68c0c71477e5057f678a94e1 - 13700631799689677734
+zoo/lake/back_fence.png - .ao.astc - 68c0c71477e5057f678a94d0 - 13700631799689677734
+zoo/lake/front_fence.png - .ao - 68c0c71477e5057f678a94c6 - 13739790783543588713
+zoo/lake/front_fence.png - .ao.astc - 68c0c71477e5057f678a94cb - 13739790783543588713
+zoo/office assets/board.png - .ao - 68c0c71477e5057f678a94c4 - 13717705850107431164
+zoo/office assets/board.png - .ao.astc - 68c0c71477e5057f678a94c0 - 13717705850107431164
+zoo/office assets/book.png - .ao - 68c0c71477e5057f678a94d3 - 13695501150710081824
+zoo/office assets/book.png - .ao.astc - 68c0c71477e5057f678a94d2 - 13695501150710081824
+zoo/office assets/chair.png - .ao - 68c0c71477e5057f678a94ba - 9360607106558555264
+zoo/office assets/chair.png - .ao.astc - 68c0c71477e5057f678a94c7 - 9360607106558555264
+zoo/office assets/table1.png - .ao - 68c0c71477e5057f678a94bc - 13710578836151671831
+zoo/office assets/table1.png - .ao.astc - 68c0c71477e5057f678a94bf - 13710578836151671831
+zoo/office assets/table2.png - .ao - 68c0c71477e5057f678a94bd - 13709967315703606480
+zoo/office assets/table2.png - .ao.astc - 68c0c71477e5057f678a94c2 - 13709967315703606480
+zoo/office assets/table3.png - .ao - 68c0c71477e5057f678a94be - 13737749809396953536
+zoo/office assets/table3.png - .ao.astc - 68c0c71477e5057f678a94c1 - 13737749809396953536
+zoo/office assets/table4.png - .ao - 68c0c71477e5057f678a94c5 - 9359883310656808155
+zoo/office assets/table4.png - .ao.astc - 68c0c71477e5057f678a94cd - 9359883310656808155
+zoo/office assets/wall3.png - .ao - 68c0c71477e5057f678a94cc - 13724650308681248101
+zoo/office assets/wall3.png - .ao.astc - 68c0c71477e5057f678a94ce - 13724650308681248101
+zoo/office assets/wall4.png - .ao - 68c0c71477e5057f678a94c9 - 13704638082426025078
+zoo/office assets/wall4.png - .ao.astc - 68c0c71477e5057f678a94eb - 13704638082426025078
+zoo/outside_assets/light.png - .ao - 68c0c71477e5057f678a94ca - 13720196669802284368
+zoo/outside_assets/light.png - .ao.astc - 68c0c71477e5057f678a94cf - 13720196669802284368
+zoo/outside_assets/sign.png - .ao - 68c0c71477e5057f678a94f7 - 13693498518875760398
+zoo/outside_assets/sign.png - .ao.astc - 68c0c71477e5057f678a94d7 - 13693498518875760398
+zoo/outside_assets/trash_can.png - .ao - 68c0c71477e5057f678a94ee - 13721400038075236857
+zoo/outside_assets/trash_can.png - .ao.astc - 68c0c71477e5057f678a94d1 - 13721400038075236857
+zoo/overlay_ice_trees.png - .ao - 68c0c71477e5057f678a94d8 - 13707984595269402576
+zoo/overlay_ice_trees.png - .ao.astc - 68c0c71477e5057f678a94e0 - 13707984595269402576
+zoo/overlay_rainbow_trees.png - .ao - 68c0c71477e5057f678a94dc - 9363847143405761264
+zoo/overlay_rainbow_trees.png - .ao.astc - 68c0c71477e5057f678a9511 - 9363847143405761264
+zoo/props/bench_vertical.png - .ao - 68c0c71477e5057f678a94d9 - 13707313374403233279
+zoo/props/bench_vertical.png - .ao.astc - 68c0c71477e5057f678a9509 - 13707313374403233279
+zoo/props/bucket.png - .ao - 68c0c71477e5057f678a94ea - 13734478604455116312
+zoo/props/bucket.png - .ao.astc - 68c0c71477e5057f678a94e8 - 13734478604455116312
+zoo/props/Cone 1.png - .ao - 68c0c71477e5057f678a94da - 13702216395135658164
+zoo/props/Cone 1.png - .ao.astc - 68c0c71477e5057f678a94db - 13702216395135658164
+zoo/props/crate_single.png - .ao - 68c0c71477e5057f678a94de - 13722601383637452927
+zoo/props/crate_single.png - .ao.astc - 68c0c71477e5057f678a94df - 13722601383637452927
+zoo/props/doggy_poop_bin.png - .ao - 68c0c71477e5057f678a94e6 - 13744884545339240754
+zoo/props/doggy_poop_bin.png - .ao.astc - 68c0c71477e5057f678a94e9 - 13744884545339240754
+zoo/props/hay_pack1.png - .ao - 68c0c71477e5057f678a94e3 - 9350935772642903655
+zoo/props/hay_pack1.png - .ao.astc - 68c0c71477e5057f678a94e4 - 9350935772642903655
+zoo/props/Log Stack 1.png - .ao - 68c0c71477e5057f678a94ec - 13720808295406432601
+zoo/props/Log Stack 1.png - .ao.astc - 68c0c71477e5057f678a94ed - 13720808295406432601
+zoo/props/Log.png - .ao - 68c0c71477e5057f678a94f4 - 13723345674000062994
+zoo/props/Log.png - .ao.astc - 68c0c71477e5057f678a94f2 - 13723345674000062994
+zoo/props/recycle_bin.png - .ao - 68c0c71477e5057f678a94ef - 13696199991637485630
+zoo/props/recycle_bin.png - .ao.astc - 68c0c71477e5057f678a94f0 - 13696199991637485630
+zoo/props/shovel.png - .ao - 68c0c71477e5057f678a94f1 - 9359015626990467276
+zoo/props/shovel.png - .ao.astc - 68c0c71477e5057f678a94f3 - 9359015626990467276
+zoo/props/StopSign.png - .ao - 68c0c71477e5057f678a94f8 - 9363761317236868842
+zoo/props/StopSign.png - .ao.astc - 68c0c71477e5057f678a94f5 - 9363761317236868842
+zoo/props/trash_bag.png - .ao - 68c0c71477e5057f678a94fb - 13691497233693299554
+zoo/props/trash_bag.png - .ao.astc - 68c0c71477e5057f678a94f9 - 13691497233693299554
+zoo/props/water_cooler.png - .ao - 68c0c71477e5057f678a94fd - 13736340263253888981
+zoo/props/water_cooler.png - .ao.astc - 68c0c71477e5057f678a94fa - 13736340263253888981
+zoo/rainbow pen/fence1 copia.png - .ao - 68c0c71477e5057f678a94ff - 13734546658863950450
+zoo/rainbow pen/fence1 copia.png - .ao.astc - 68c0c71577e5057f678a952b - 13734546658863950450
+zoo/rainbow pen/fence1.png - .ao - 68c0c71477e5057f678a94fc - 13711702824140276756
+zoo/rainbow pen/fence1.png - .ao.astc - 68c0c71577e5057f678a952e - 13711702824140276756
+zoo/restaurant/plant wall/plantwall1.png - .ao - 68c0c71477e5057f678a94fe - 9361518365811783776
+zoo/restaurant/plant wall/plantwall1.png - .ao.astc - 68c0c71477e5057f678a9502 - 9361518365811783776
+zoo/restaurant/plant wall/planwall2.png - .ao - 68c0c71477e5057f678a9501 - 13705704473060545597
+zoo/restaurant/plant wall/planwall2.png - .ao.astc - 68c0c71477e5057f678a9500 - 13705704473060545597
+zoo/restaurant/restaurand_base.png - .ao - 68c0c71477e5057f678a9503 - 9355739498738750932
+zoo/restaurant/restaurand_base.png - .ao.astc - 68c0c71477e5057f678a9505 - 9355739498738750932
+zoo/restaurant/table1.png - .ao - 68c0c71477e5057f678a9506 - 13727939757548697399
+zoo/restaurant/table1.png - .ao.astc - 68c0c71477e5057f678a950a - 13727939757548697399
+zoo/restaurant/table2.png - .ao - 68c0c71477e5057f678a9504 - 13733127675750412360
+zoo/restaurant/table2.png - .ao.astc - 68c0c71477e5057f678a950d - 13733127675750412360
+zoo/restaurant/table3.png - .ao - 68c0c71477e5057f678a950b - 13740729463029752827
+zoo/restaurant/table3.png - .ao.astc - 68c0c71477e5057f678a9508 - 13740729463029752827
+zoo/restaurant/table4.png - .ao - 68c0c71477e5057f678a950c - 13729204263242693122
+zoo/restaurant/table4.png - .ao.astc - 68c0c71477e5057f678a9507 - 13729204263242693122
+zoo/rock pen/front_wall.png - .ao - 68c0c71477e5057f678a9515 - 13713643385366194219
+zoo/rock pen/front_wall.png - .ao.astc - 68c0c71477e5057f678a9512 - 13713643385366194219
+zoo/rock pen/glass1.png - .ao - 68c0c71477e5057f678a9510 - 13693888260541854019
+zoo/rock pen/glass1.png - .ao.astc - 68c0c71477e5057f678a9514 - 13693888260541854019
+zoo/rock pen/glass2/1.png - .ao - 68c0c71477e5057f678a950e - 13737161778669869114
+zoo/rock pen/glass2/1.png - .ao.astc - 68c0c71477e5057f678a950f - 13737161778669869114
+zoo/rock pen/glass2/2.png - .ao - 68c0c71477e5057f678a9517 - 13718020239250490307
+zoo/rock pen/glass2/2.png - .ao.astc - 68c0c71477e5057f678a951a - 13718020239250490307
+zoo/rock pen/rock_base.png - .ao - 68c0c71577e5057f678a9524 - 9365367494844199084
+zoo/rock pen/rock_base.png - .ao.astc - 68c0c71577e5057f678a953a - 9365367494844199084
+zoo/rock pen/stair_rocks1.png - .ao - 68c0c71477e5057f678a9519 - 13714886780861087688
+zoo/rock pen/stair_rocks1.png - .ao.astc - 68c0c71477e5057f678a951b - 13714886780861087688
+zoo/rock pen/stair_rocks2.png - .ao - 68c0c71477e5057f678a951c - 9362915150651065137
+zoo/rock pen/stair_rocks2.png - .ao.astc - 68c0c71477e5057f678a951d - 9362915150651065137
+zoo/shop.png - .ao - 68c0c71477e5057f678a9520 - 9363404529178000043
+zoo/shop.png - .ao.astc - 68c0c71577e5057f678a9523 - 9363404529178000043
+zoo/south_bushes_overlay.png - .ao - 68c0c71577e5057f678a9527 - 9334187390907256741
+zoo/south_bushes_overlay.png - .ao.astc - 68c0c71577e5057f678a9526 - 9334187390907256741
+zoo/template.png - .ao - 68c0c71b77e5057f678a957c - 13716095174900304296
+zoo/template.png - .ao.astc - 68c0c71677e5057f678a957a - 13716095174900304296
+zoo/TEMPORARY barriers/barrier1.png - .ao - 68c0c71577e5057f678a9522 - 9352670643568279981
+zoo/TEMPORARY barriers/barrier1.png - .ao.astc - 68c0c71577e5057f678a9541 - 9352670643568279981
+zoo/TEMPORARY barriers/barrier2.png - .ao - 68c0c71577e5057f678a9521 - 13702720435683341481
+zoo/TEMPORARY barriers/barrier2.png - .ao.astc - 68c0c71577e5057f678a9525 - 13702720435683341481
+zoo/TEMPORARY barriers/barrier3.png - .ao - 68c0c71577e5057f678a9528 - 13695237902699024636
+zoo/TEMPORARY barriers/barrier3.png - .ao.astc - 68c0c71577e5057f678a952a - 13695237902699024636
+zoo/TEMPORARY barriers/barrier4.png - .ao - 68c0c71577e5057f678a9529 - 13706268121610562250
+zoo/TEMPORARY barriers/barrier4.png - .ao.astc - 68c0c71577e5057f678a952c - 13706268121610562250
+zoo/TEMPORARY barriers/barrier5.png - .ao - 68c0c71577e5057f678a952f - 13721967163070565617
+zoo/TEMPORARY barriers/barrier5.png - .ao.astc - 68c0c71577e5057f678a9530 - 13721967163070565617
+zoo/TEMPORARY barriers/barrier6.png - .ao - 68c0c71577e5057f678a9532 - 9362085575777602948
+zoo/TEMPORARY barriers/barrier6.png - .ao.astc - 68c0c71577e5057f678a9531 - 9362085575777602948
+zoo/TEMPORARY minimap/minimap.png - .ao - 68c0c71577e5057f678a9535 - 13715475096020348958
+zoo/TEMPORARY minimap/minimap.png - .ao.astc - 68c0c71577e5057f678a9536 - 13715475096020348958
+zoo/thumbnail.png - .ao - 68c0c71577e5057f678a9554 - 13708236160166757255
+zoo/thumbnail.png - .ao.astc - 68c0c71577e5057f678a9542 - 13708236160166757255
+zoo/trees2left.png - .ao - 68c0c71577e5057f678a9555 - 13722351588352411659
+zoo/trees2left.png - .ao.astc - 68c0c71577e5057f678a9549 - 13722351588352411659
+zoo/trees2right.png - .ao - 68c0c71577e5057f678a9576 - 13696928567465736110
+zoo/trees2right.png - .ao.astc - 68c0c71577e5057f678a9577 - 13696928567465736110
+zoo/trees4.png - .ao - 68c0c71577e5057f678a9579 - 13721983116150993943
+zoo/trees4.png - .ao.astc - 68c0c71577e5057f678a9578 - 13721983116150993943
+zoo/vegetation/bush1.png - .ao - 68c0c71577e5057f678a9538 - 9356030401183444956
+zoo/vegetation/bush1.png - .ao.astc - 68c0c71577e5057f678a953b - 9356030401183444956
+zoo/vegetation/bush10.png - .ao - 68c0c71577e5057f678a953d - 13723088458968822056
+zoo/vegetation/bush10.png - .ao.astc - 68c0c71577e5057f678a953e - 13723088458968822056
+zoo/vegetation/bush11.png - .ao - 68c0c71577e5057f678a9569 - 9352708412049182051
+zoo/vegetation/bush11.png - .ao.astc - 68c0c71577e5057f678a954f - 9352708412049182051
+zoo/vegetation/bush12.png - .ao - 68c0c71577e5057f678a953f - 13743647919891410226
+zoo/vegetation/bush12.png - .ao.astc - 68c0c71577e5057f678a9540 - 13743647919891410226
+zoo/vegetation/bush2.png - .ao - 68c0c71577e5057f678a953c - 13698325030782334229
+zoo/vegetation/bush2.png - .ao.astc - 68c0c71577e5057f678a9547 - 13698325030782334229
+zoo/vegetation/bush3.png - .ao - 68c0c71577e5057f678a9545 - 13717481392947258966
+zoo/vegetation/bush3.png - .ao.astc - 68c0c71577e5057f678a9544 - 13717481392947258966
+zoo/vegetation/bush4.png - .ao - 68c0c71577e5057f678a9548 - 9358933384487876563
+zoo/vegetation/bush4.png - .ao.astc - 68c0c71577e5057f678a9546 - 9358933384487876563
+zoo/vegetation/bush5.png - .ao - 68c0c71577e5057f678a9543 - 13709709801400975957
+zoo/vegetation/bush5.png - .ao.astc - 68c0c71577e5057f678a954d - 13709709801400975957
+zoo/vegetation/bush6.png - .ao - 68c0c71577e5057f678a954a - 13696213100412166071
+zoo/vegetation/bush6.png - .ao.astc - 68c0c71577e5057f678a9568 - 13696213100412166071
+zoo/vegetation/bush7.png - .ao - 68c0c71577e5057f678a954c - 13695951634749409476
+zoo/vegetation/bush7.png - .ao.astc - 68c0c71577e5057f678a954e - 13695951634749409476
+zoo/vegetation/bush8.png - .ao - 68c0c71577e5057f678a954b - 13726700279847036577
+zoo/vegetation/bush8.png - .ao.astc - 68c0c71577e5057f678a9550 - 13726700279847036577
+zoo/vegetation/bush9.png - .ao - 68c0c71577e5057f678a9552 - 9364385085592056472
+zoo/vegetation/bush9.png - .ao.astc - 68c0c71577e5057f678a9553 - 9364385085592056472
+zoo/vegetation/lightgreen copia 4.png - .ao - 68c0c71577e5057f678a9551 - 13735890528997453431
+zoo/vegetation/lightgreen copia 4.png - .ao.astc - 68c0c71577e5057f678a955b - 13735890528997453431
+zoo/vegetation/lightgreen.png - .ao - 68c0c71577e5057f678a955a - 13717626186806041748
+zoo/vegetation/lightgreen.png - .ao.astc - 68c0c71577e5057f678a955d - 13717626186806041748
+zoo/vegetation/rock1.png - .ao - 68c0c71577e5057f678a9557 - 13724690483956170893
+zoo/vegetation/rock1.png - .ao.astc - 68c0c71577e5057f678a9558 - 13724690483956170893
+zoo/vegetation/rock2.png - .ao - 68c0c71577e5057f678a955e - 13741694924099799363
+zoo/vegetation/rock2.png - .ao.astc - 68c0c71577e5057f678a955c - 13741694924099799363
+zoo/vegetation/rock3.png - .ao - 68c0c71577e5057f678a9559 - 9366718031711839067
+zoo/vegetation/rock3.png - .ao.astc - 68c0c71577e5057f678a955f - 9366718031711839067
+zoo/vegetation/rock4.png - .ao - 68c0c71577e5057f678a9567 - 13707564734237688379
+zoo/vegetation/rock4.png - .ao.astc - 68c0c71577e5057f678a9563 - 13707564734237688379
+zoo/vegetation/tree.png - .ao - 68c0c71577e5057f678a9564 - 13738087838974550405
+zoo/vegetation/tree.png - .ao.astc - 68c0c71577e5057f678a9562 - 13738087838974550405
+zoo/vegetation/tree1.png - .ao - 68c0c71577e5057f678a9560 - 9333760177012939078
+zoo/vegetation/tree1.png - .ao.astc - 68c0c71577e5057f678a9566 - 9333760177012939078
+zoo/vegetation/tree2.png - .ao - 68c0c71577e5057f678a9565 - 9357719616920557298
+zoo/vegetation/tree2.png - .ao.astc - 68c0c71577e5057f678a956a - 9357719616920557298
+zoo/vegetation/tree3.png - .ao - 68c0c71577e5057f678a9561 - 13709982148979278068
+zoo/vegetation/tree3.png - .ao.astc - 68c0c71577e5057f678a956c - 13709982148979278068
+zoo/vegetation/tree4.png - .ao - 68c0c71577e5057f678a956e - 13713574228842677110
+zoo/vegetation/tree4.png - .ao.astc - 68c0c71577e5057f678a956b - 13713574228842677110
+zoo/vegetation/tree5.png - .ao - 68c0c71577e5057f678a956f - 13727797109924405849
+zoo/vegetation/tree5.png - .ao.astc - 68c0c71577e5057f678a956d - 13727797109924405849
+zoo/vegetation/vegaetation15 copia 63.png - .ao - 68c0c71577e5057f678a9570 - 13706812498504350739
+zoo/vegetation/vegaetation15 copia 63.png - .ao.astc - 68c0c71577e5057f678a9571 - 13706812498504350739
+zoo/Zoo_entrance2.png - .ao - 68c0c71577e5057f678a9573 - 13717662777037894201
+zoo/Zoo_entrance2.png - .ao.astc - 68c0c71577e5057f678a9574 - 13717662777037894201

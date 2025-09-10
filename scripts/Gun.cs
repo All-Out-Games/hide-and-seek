@@ -10,7 +10,7 @@ public partial class GunAbility : MyAbility
 
     public override bool OnTryActivate(List<Player> targetPlayers, Vector2 positionOrDirection, float magnitude)
     {
-        Game.SpawnProjectile(Player, "Bullet.prefab", "detective_bullet", Player.Entity.Position, positionOrDirection);
+        Game.SpawnProjectile(Player.Entity, "Bullet.prefab", "detective_bullet", Player.Entity.Position, positionOrDirection);
         SFX.Play(Assets.GetAsset<AudioAsset>("sfx/revolver_shoot.wav"), new SFX.PlaySoundDesc(){Positional=true, Position=Player.Entity.Position});
         return true;
     }
@@ -79,6 +79,7 @@ public partial class GunProjectile : Component
     {
         if (AlreadyHitSomething) return;
         if (other.GetComponent<ProjectileIgnore>() != null) return;
+ 
 
         HNSPlayer player = null;
         var collisionChild = other.GetComponent<PlayerCollisionChild>();
@@ -89,16 +90,19 @@ public partial class GunProjectile : Component
 
         if (player == null) return;
         if (player.HasEffect<SpectatorEffect>()) return;
+        //Log.Info($"{Entity.Name} Hit {player.Name}");
 
         var projectile = Entity.GetComponent<Projectile>();
-        if (player == projectile.Owner) return;
+        if (projectile == null || projectile.OwnerEntity == null) return;
+        if (player.Entity == projectile.OwnerEntity) return;
         if (player.PlayerRole == PlayerRole.Seeker) return;
 
         // HIT CONFIRMED
         AlreadyHitSomething = true;
         if (predicted == false)
         {
-            CallClient_KillPlayer(player, (HNSPlayer) projectile.Owner);
+            var playerOwner = projectile.OwnerEntity.GetComponent<HNSPlayer>();
+            CallClient_KillPlayer(player, playerOwner);
         }
 
         Entity.Destroy();
