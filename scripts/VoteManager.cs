@@ -216,7 +216,7 @@ public partial class VotingEffect : MyEffect
 				
 					var button = UI.BeginButton(backgroundVoteMap, $"{currentIndex}", buttonSettings, new UI.TextSettings());
 					
-					UI.Text(backgroundVoteMap.CutTop(50).Offset(0, -10), $"{currentMap.MapName}", GameManager.Instance.GetTextSettings(60, 0f, null, UI.HorizontalAlignment.Center));
+					UI.TextAsync(backgroundVoteMap.CutTop(50).Offset(0, -10), $"{currentMap.MapName}", GameManager.Instance.GetTextSettings(60, 0f, null, UI.HorizontalAlignment.Center));
 
 
 					// the map image
@@ -266,10 +266,10 @@ public partial class VotingEffect : MyEffect
 					{
 						str = "Already voted";
 					}
-					UI.Text(holdRectBg.Offset(0, PlayerHasVoted ? 0 : 35), str, ts);
+					UI.TextAsync(holdRectBg.Offset(0, PlayerHasVoted ? 0 : 35), str, ts);
 					ts.Color = Vector4.Green;
 					ts.Size = 50;
-					UI.Text(backgroundVoteMap.BottomCenterRect().Offset(0, 50), $"Votes: {currentVote.Value}", ts);
+					UI.TextAsync(backgroundVoteMap.BottomCenterRect().Offset(0, 50), $"Votes: {currentVote.Value}", ts);
 					UI.EndButton();
 				}
 				currentIndex +=1;
@@ -277,7 +277,7 @@ public partial class VotingEffect : MyEffect
 
 			var timeLeft = GameManager.Instance.Countdown.Value;
 			var timeLeftRect = UI.ScreenRect.CutBottom(300);
-			UI.Text(timeLeftRect, $"Time left to vote: {timeLeft}", GameManager.Instance.GetTextSettings(60, 0f, null, UI.HorizontalAlignment.Center));
+			UI.TextAsync(timeLeftRect, $"Time left to vote: {timeLeft}", GameManager.Instance.GetTextSettings(60, 0f, null, UI.HorizontalAlignment.Center));
 
 		}
 	}

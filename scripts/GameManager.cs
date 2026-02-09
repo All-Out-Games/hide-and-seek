@@ -641,11 +641,11 @@ public partial class GameManager : Component
 			{
 				Vector4 roleColor = Roles[localPlayer.PlayerRole].RoleColor;
 				var roleText = localPlayer.PlayerRole == PlayerRole.Spectator ? "Spectating" : Roles[localPlayer.PlayerRole].RoleName;
-				UI.Text(topBarRect, roleText, GetTextSettingsColor(56, roleColor, 0f, null));
-				UI.Text(topBarRect, roleText, GetTextSettingsColor(56, roleColor, 0f, null));
+				UI.TextAsync(topBarRect, roleText, GetTextSettingsColor(56, roleColor, 0f, null));
+				UI.TextAsync(topBarRect, roleText, GetTextSettingsColor(56, roleColor, 0f, null));
 				if (localPlayer.PlayerRole == PlayerRole.Spectator)
 				{
-					UI.Text(topBarRect.Grow(0, 0, 100, 0), "(Fly around till the next round starts!)", GetTextSettings(36, 0f, null));
+					UI.TextAsync(topBarRect.Grow(0, 0, 100, 0), "(Fly around till the next round starts!)", GetTextSettings(36, 0f, null));
 				}
 			}
 
@@ -653,7 +653,7 @@ public partial class GameManager : Component
 			{
 				case GameState.WaitingForPlayers:
 				{
-					UI.Text(bottomBarRect, $"Waiting for players ({Scene.Components<HNSPlayer>().Count()}/{PlayersNeededToStartGame})",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+					UI.TextAsync(bottomBarRect, $"Waiting for players ({Scene.Components<HNSPlayer>().Count()}/{PlayersNeededToStartGame})",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
 					break;
 				}
 				case GameState.VotingState:
@@ -663,17 +663,17 @@ public partial class GameManager : Component
 				}
 				case GameState.CountingDown:
 				{
-					UI.Text(bottomBarRect,("Round starts in "+Countdown).ToString()+" seconds...",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+					UI.TextAsync(bottomBarRect,("Round starts in "+Countdown).ToString()+" seconds...",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
 					break;
 				}
 				case GameState.StartRound:
 				{
-					UI.Text(bottomBarRect,"Starting round...",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+					UI.TextAsync(bottomBarRect,"Starting round...",GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
 					break;
 				}
 				case GameState.Hiding:
 				{
-					UI.Text(bottomBarRect,"Hiding: " + HideTimer + "s", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+					UI.TextAsync(bottomBarRect,"Hiding: " + HideTimer + "s", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
 					break;
 				}
 				case GameState.Round:
@@ -701,9 +701,9 @@ public partial class GameManager : Component
 						color = new Vector4(1, 0, 0, 1);
 					}
 					UI.PushScaleFactor(UI.ScreenScaleFactor * AOMath.Lerp(2f, 1f, Ease.OutQuart(size01)));
-					var timeTextRect = UI.Text(timeRect, str, GetTextSettingsColor(60, color, 0f, null, UI.HorizontalAlignment.Center));
+					var timeTextRect = UI.TextSync(timeRect, str, GetTextSettingsColor(60, color, 0f, null, UI.HorizontalAlignment.Center));
 					UI.PopScaleFactor();
-					UI.Text(timeRect.Offset(0, 70), "Time Left", GetTextSettings(40, 0f, null, UI.HorizontalAlignment.Center));
+					UI.TextAsync(timeRect.Offset(0, 70), "Time Left", GetTextSettings(40, 0f, null, UI.HorizontalAlignment.Center));
 
 					if (Game.IsPhone)
 					{
@@ -723,14 +723,14 @@ public partial class GameManager : Component
 							{
 								IM.SetNextSerial(vignetteSerial);
 								UI.Image(UI.ScreenRect, null, new Vector4(0, 1, 0, 1) * 0.6f * VignetteFader);
-								UI.Text(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU WIN", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
+								UI.TextAsync(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU WIN", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
 								PlayEndGameJingle(true);
 							}
 							else
 							{
 								IM.SetNextSerial(vignetteSerial);
 								UI.Image(UI.ScreenRect, null, new Vector4(1, 0, 0, 1) * 0.6f * VignetteFader);
-								UI.Text(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU LOSE", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
+								UI.TextAsync(UI.ScreenRect.CenterRect().Offset(0, 250), "YOU LOSE", GetTextSettingsColor(100, new Vector4(1, 1, 1, 1)));
 								PlayEndGameJingle(false);
 							}
 						}
@@ -740,7 +740,7 @@ public partial class GameManager : Component
 					{
 						str = "Hiders";
 					}
-					UI.Text(bottomBarRect,$"{str} Win! Next round in {EndRoundTime}s.", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
+					UI.TextAsync(bottomBarRect,$"{str} Win! Next round in {EndRoundTime}s.", GetTextSettings(42,0f,null,UI.HorizontalAlignment.Center));
 					break;
 				}
 			}

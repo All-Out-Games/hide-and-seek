@@ -54,8 +54,7 @@ public partial class HNSPlayer : Player
 				AddEffect<SpectatorEffect>();
 			}
 		};
-		
-	
+
 
 		var collisionEntity = Assets.GetAsset<Prefab>("PlayerCollision.prefab").Instantiate();
 		collisionEntity.GetComponent<PlayerCollisionChild>().Player = this;
@@ -63,22 +62,60 @@ public partial class HNSPlayer : Player
 		collisionEntity.SetParent(Entity, false);
 
 		PropEntity = Entity.Create();
+		PropEntity.Name = "Prop";
 		PropEntity.SetParent(Entity, false);
 		PropSpriteRenderer = PropEntity.AddComponent<Sprite_Renderer>();
-		
+
 		ActualPropCollider = PropEntity.AddComponent<Box_Collider>();
 		ActualPropCollider.Size = Vector2.Zero;
 		ActualPropCollider.IsTrigger = true;
 		ActualPropCollider.AddComponent<PlayerCollisionChild>().Player = this;
-	
-		
-		PropEntity.LocalEnabled = false;
+
+
+		foreach (var c in Entity.Children)
+		{
+			if (c.Name == "Prop")
+			{
+				Log.Info($"{this.Name} PropEntity: {c}");
+			}
+		}
+
+		// if (Network.IsServer)
+			// {
+			// 	var collisionEntity = Assets.GetAsset<Prefab>("PlayerCollision.prefab").Instantiate();
+			// 	collisionEntity.GetComponent<PlayerCollisionChild>().Player = this;
+			// 	collisionEntity.LocalScale = new Vector2(1.1f, 1.1f);
+			// 	collisionEntity.SetParent(Entity, false);
+
+			// 	PropEntity = Entity.Create();
+			// 	PropEntity.Name = "Prop";
+			// 	PropEntity.SetParent(Entity, false);
+			// 	PropSpriteRenderer = PropEntity.AddComponent<Sprite_Renderer>();
+
+			// 	ActualPropCollider = PropEntity.AddComponent<Box_Collider>();
+			// 	ActualPropCollider.Size = Vector2.Zero;
+			// 	ActualPropCollider.IsTrigger = true;
+			// 	ActualPropCollider.AddComponent<PlayerCollisionChild>().Player = this;
+			// }
+			// else
+			// {
+			// 	PropEntity = Entity.TryGetChildByName("Prop");
+			// 	Log.Info($"PropEntity: {PropEntity}");
+			// 	PropSpriteRenderer = PropEntity.GetComponent<Sprite_Renderer>();
+			// 	Log.Info($"PropSpriteRenderer: {PropSpriteRenderer}");
+
+			// 	ActualPropCollider = PropEntity.GetComponent<Box_Collider>();
+			// }
+
+
+
+			PropEntity.LocalEnabled = false;
 		{
 			var propEyesEntity = Entity.Create();
 			propEyesEntity.SetParent(Entity, false);
 			PropEyes = propEyesEntity.AddComponent<Spine_Animator>();
 			PropEyes.SpineInstance.SetSkeleton(Assets.GetAsset<SpineSkeletonAsset>("animations/eyes/Eyes_mIK.spine"));
-			var sm = StateMachine.Make();
+			var sm = StateMachine.Create();
 			var appearTrigger = sm.CreateVariable("appear", StateMachineVariableKind.TRIGGER);
 			var layer = sm.CreateLayer("main");
 			var appearState = layer.CreateState("appear", 0, false);
@@ -87,9 +124,11 @@ public partial class HNSPlayer : Player
 			layer.InitialState = idleState;
 			layer.CreateGlobalTransition(appearState).CreateTriggerCondition(appearTrigger);
 			layer.CreateTransition(appearState, idleState, true);
-			PropEyes.SpineInstance.SetStateMachine(sm, Entity);
+			//PropEyes.SpineInstance.SetStateMachine(sm, Entity);
+			PropEyes.SpineInstance.SetStateMachine(sm, transferOwnership: false);
 			propEyesEntity.LocalScale = new Vector2(1.0f, 1.0f);
 			PropEyes.SetCrewchsia(ColorIndex);
+			PropEyes.SpineInstance.RefreshSkins();
 			propEyesEntity.LocalEnabled = false;
 		}
 
@@ -195,7 +234,7 @@ public partial class HNSPlayer : Player
     			playerCorpse.Entity.Name = $"{Name}_corpse";
     			playerCorpse.Entity.Position = new Vector2(1000, 1000);
     			playerCorpse.PlayerName = Name;
-    			playerCorpse.ColorIndex = ColorIndex;
+    			playerCorpse.ColorIndex = (int)ColorIndex;
     			playerCorpse.PlayerSkins = SpineAnimator.SpineInstance.GetSkins();
             });
 			Network.Spawn(playerCorpse.Entity);
@@ -218,7 +257,8 @@ public partial class HNSPlayer : Player
 		{
 			if (PlayerRole == PlayerRole.Seeker && GameManager.Instance.State == GameState.Round)
 			{
-				DrawDefaultAbilityUI(new AbilityDrawOptions(){
+				DrawDefaultAbilityUI(new AbilityDrawOptions()
+				{
 					AbilityElementSize = 75,
 					Abilities = new Ability[]{
 						GetAbility<GunAbility>(),
@@ -229,7 +269,8 @@ public partial class HNSPlayer : Player
 
 			if (PlayerRole == PlayerRole.Prop && (GameManager.Instance.State == GameState.Round || GameManager.Instance.State == GameState.Hiding))
 			{
-				DrawDefaultAbilityUI(new AbilityDrawOptions(){
+				DrawDefaultAbilityUI(new AbilityDrawOptions()
+				{
 					Abilities = new Ability[] {
 						//GetAbility<SwapAbility>(),
 						GetAbility<DecoyAbility>()
@@ -250,7 +291,25 @@ public partial class HNSPlayer : Player
 			//         }
 			//     });
 			// }
+			
+			//DrawDebugCollider(ActualPropCollider);
 		}
+	}
+	public void DrawDebugCollider(Box_Collider collider)
+	{
+		if (collider == null) return;
+		if (!collider.LocalEnabled || !collider.Entity.LocalEnabled) return;
+
+		var size = collider.Size;
+		if (size == Vector2.Zero) return;
+
+		var center = collider.Entity.Position;
+		var half = size / 2;
+		var min = center - half;
+		var max = center + half;
+
+		using var _ = UI.PUSH_CONTEXT(UI.Context.World);
+		IM.Quad(new IM.QuadData(min, max, new Vector4(0, 1, 0, 0.35f), UI.WhiteSprite));
 	}
 
 	[ClientRpc]
@@ -265,6 +324,9 @@ public partial class HNSPlayer : Player
 	public void SetCorpsePosition(KillEffect.DeathSourceEnum deathSource)
 	{
 		var corpse = PlayerCorpse.Value.GetComponent<PlayerCorpse>();
+		if (corpse == null) return;
+		corpse.RefreshCorpse();
+
 		corpse.Entity.Position = Entity.Position;
 		if (deathSource == KillEffect.DeathSourceEnum.Bullet)
 		{
@@ -337,7 +399,9 @@ public class PropEffect : MyEffect
 			Player.PropSpriteRenderer.DepthOffset = (Player.Position.Y - Player.PropEntity.Position.Y) / prop.Entity.Scale.Y;
 
 			// set the new collider size
+			
 			Player.ActualPropCollider.Size = prop.GetWorldSize();
+			Log.Info($"{Player.Name} Setting collider size to {prop.GetWorldSize()}, Player actual collider size: {Player.ActualPropCollider.Size}");
 			
 
 			var propEyes = propRoot.TryGetChildByName("eyes");
@@ -550,18 +614,18 @@ public partial class RoundStartAnimationEffect : MyEffect
 			{
 				case PlayerRole.Prop:
 				{
-					var actualRect = UI.Text(rect, "Hide from the Seekers until time runs out!", ts);
+					var actualRect = UI.TextSync(rect, "Hide from the Seekers until time runs out!", ts);
 					ts.Size = 64;
 					ts.Color = new Vector4(0, 1, 1, 1);
-					UI.Text(actualRect.TopRect().Grow(100, 500, 0, 500), "You are a Hider.\n\n", ts);
+					UI.TextAsync(actualRect.TopRect().Grow(100, 500, 0, 500), "You are a Hider.\n\n", ts);
 					break;
 				}
 				case PlayerRole.Seeker:
 				{
-					var actualRect = UI.Text(rect, "Kill all the Hiders before time runs out!", ts);
+					var actualRect = UI.TextSync(rect, "Kill all the Hiders before time runs out!", ts);
 					ts.Size = 64;
 					ts.Color = new Vector4(1, 0, 0, 1);
-					UI.Text(actualRect.TopRect().Grow(100, 500, 0, 500), "You are a Seeker.\n\n", ts);
+					UI.TextAsync(actualRect.TopRect().Grow(100, 500, 0, 500), "You are a Seeker.\n\n", ts);
 					break;
 				}
 			}
@@ -594,7 +658,7 @@ public partial class RoundStartAnimationEffect : MyEffect
 			{
 				str = "Tap and hold to close";
 			}
-			UI.Text(holdRectBg.Offset(0, 35), str, ts);
+			UI.TextAsync(holdRectBg.Offset(0, 35), str, ts);
 		}
 
 		if (ElapsedTime >= totalTime)
@@ -695,7 +759,7 @@ public class KillEffect : MyEffect
 		if (!Player.WasPresentAtRoundStart) return;
 		if (GameManager.Instance.State == GameState.EndRound) return;
 		var timeLeftRect = UI.ScreenRect.CutBottom(500);
-		UI.Text(timeLeftRect, $"You'll be revived as seeker in: {(int)DurationRemaining}", GameManager.Instance.GetTextSettings(60, 0f, null, UI.HorizontalAlignment.Center));
+		UI.TextAsync(timeLeftRect, $"You'll be revived as seeker in: {(int)DurationRemaining}", GameManager.Instance.GetTextSettings(60, 0f, null, UI.HorizontalAlignment.Center));
 	}
 }
 
@@ -721,10 +785,10 @@ public partial class PlayerCorpse : Component
 
 	public override void Awake()
 	{
-        PlayerAnimator.Awaken();
+		PlayerAnimator.Awaken();
 
 		{
-			var sm = StateMachine.Make();
+			var sm = StateMachine.Create();
 			var baseLayer = sm.CreateLayer("base");
 			var appearState = baseLayer.CreateState("appear", 0, false);
 			var idleState = baseLayer.CreateState("idle", 0, true);
@@ -736,7 +800,7 @@ public partial class PlayerCorpse : Component
 		}
 
 		{
-			var sm = StateMachine.Make();
+			var sm = StateMachine.Create();
 			var baseLayer = sm.CreateLayer("base");
 			var idleState = baseLayer.CreateState("Idle", 0, true);
 			var deathSwiped = baseLayer.CreateState("Death_No_HP", 0, false);
@@ -746,9 +810,9 @@ public partial class PlayerCorpse : Component
 			baseLayer.InitialState = idleState;
 			baseLayer.CreateGlobalTransition(deathSwiped).CreateTriggerCondition(dieTrigger);
 			//baseLayer.CreateGlobalTransition(deathThrown).CreateTriggerCondition(dieThrowTrigger);
-			PlayerAnimator.SpineInstance.SetStateMachine(sm, Entity);
+			PlayerAnimator.SpineInstance.SetStateMachine(sm, transferOwnership: false);
 
-			PlayerAnimator.SetCrewchsia(ColorIndex);
+			PlayerAnimator.SetCrewchsia((CrewchsiaColor)ColorIndex);
 			PlayerAnimator.SpineInstance.SetSkeleton(Assets.GetAsset<SpineSkeletonAsset>("animations/player/player.merged_spine_rig#output"));
 			foreach (var skin in PlayerSkins)
 			{
@@ -765,5 +829,20 @@ public partial class PlayerCorpse : Component
 			//PlayerAnimator.SpineInstance.Update(0);
 			//PlayerAnimator.SpineInstance.Update(10);
 		}
+	}
+
+	public void RefreshCorpse()
+	{
+		this.PlayerAnimator.SetCrewchsia((CrewchsiaColor)ColorIndex);
+		RefreshSkins();
+	}
+	public void RefreshSkins()
+	{
+		PlayerAnimator.Update();
+		foreach (var skin in PlayerSkins)
+		{
+			PlayerAnimator.SpineInstance.EnableSkin(skin);
+		}
+		PlayerAnimator.SpineInstance.RefreshSkins();
 	}
 }
