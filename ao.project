@@ -3,7 +3,6 @@
     "projects": 
     [
         {"name": "Hide and Seek", "id":"66a7eee64183dc70ad924539"},
-        {"name": "Hide and Seek - Staging", "id":"671826d1359939499010bf4b"},
-        {"name": "Protocol Test", "id":"65cecf4d5bd2a28675a271d9"},
+        {"name": "Hide and Seek - Staging", "id":"671826d1359939499010bf4b"}
     ] 
 }

@@ -1,0 +1,390 @@
+---
+description: Any time the user requests ANY UI you must reference this documentation first.
+globs: 
+alwaysApply: false
+---
+
+# UI System Reference
+
+The UI system provides immediate-mode rendering for both screen-space and world-space interfaces.
+
+## Core Principles
+
+1. **Y grows upward** - (0, 0) is the bottom-left of the screen
+2. **Start from screen rects** - Derive all UI from `UI.ScreenRect` (centered/fullscreen) or `UI.SafeRect` (edges/corners respecting notches)
+3. **Push/pop pattern** - Use `using var _ =` for automatic cleanup
+4. **Mobile-first** - Avoid hover effects; design for touch interaction
+5. **Only ASCII** - No emoji support; use text and icons only
+6. **UI functions should be static** - Take inputs as parameters
+7. **NEVER call new Rect()** - Always derive from screen rects
+
+## Where to Draw Interactive UI
+
+Player-interactable UI (buttons, scroll views, etc.) **must** be drawn inside `Update()` or `LateUpdate()`. 
+
+Always check `Network.IsServer` or use `IsLocal` for the player:
+
+```csharp
+public override void Update()
+{
+    if (Network.IsServer) return;
+    
+    var local = Network.LocalPlayer as MyPlayer;
+    if (local == null || !local.Alive()) return;
+    
+    DrawMyHUD(local);
+}
+
+static void DrawMyHUD(MyPlayer player)
+{
+    var rect = UI.SafeRect.BottomRightRect().Grow(40, 100, 40, 100).Offset(-50, 50);
+    var bs = new UI.ButtonSettings();
+    var ts = GetTextSettings(24);
+
+    if (UI.Button(rect, "Action", bs, ts).Clicked)
+    {
+        player.CallServer_DoAction();
+    }
+}
+```
+
+## Basic Drawing
+
+### Images and Quads
+
+```csharp
+// Draw a textured quad
+var rect = UI.ScreenRect.CenterRect().Grow(100); // 200x200 at center
+var texture = Assets.GetAsset<Texture>("ui/my_icon.png");
+UI.Image(rect, texture);
+
+// With color tint (RGBA Vector4, values 0-1)
+UI.Image(rect, texture, new Vector4(1, 0, 0, 0.5f)); // Red, 50% transparent
+
+// Solid color using white sprite
+UI.Image(rect, UI.WhiteSprite, new Vector4(0, 0, 0, 0.75f));
+```
+
+### Text
+
+```csharp
+var rect = UI.ScreenRect.CenterRect().Grow(200, 300, 50, 300);
+var ts = GetTextSettings(48);
+
+// Async text (most common - does not block)
+UI.TextAsync(rect, "Hello, World!", ts);
+
+// Sync text returns actual rendered rect (useful for dynamic layouts)
+var actualRect = UI.TextSync(rect, "Dynamic text", ts);
+```
+
+### Text Settings
+
+```csharp
+var ts = new UI.TextSettings()
+{
+    Font = UI.Fonts.BarlowBold,
+    Size = 32,
+    Color = Vector4.White,
+    HorizontalAlignment = UI.HorizontalAlignment.Center, // Left, Center, Right
+    VerticalAlignment = UI.VerticalAlignment.Center,     // Top, Center, Bottom
+    Offset = new Vector2(0, 0),
+    Outline = true,
+    OutlineThickness = 3,
+    OutlineColor = new Vector4(0, 0, 0, 1),
+    DropShadowColor = new Vector4(0, 0, 0.02f, 0.5f),
+    DropShadowOffset = new Vector2(0, -3),
+    WordWrap = false,
+};
+```
+
+## Rect Functions Reference
+
+```csharp
+// Position rects (0x0 point rects)
+rect.CenterRect()
+rect.TopLeftRect(), rect.TopRightRect()
+rect.BottomLeftRect(), rect.BottomRightRect()
+rect.LeftCenterRect(), rect.RightCenterRect()
+rect.TopCenterRect(), rect.BottomCenterRect()
+
+// Edge rects (line-shaped: one dimension is full, one is zero)
+rect.LeftRect()    // 0 x height
+rect.RightRect()   // 0 x height  
+rect.TopRect()     // width x 0
+rect.BottomRect()  // width x 0
+
+// Manipulation (values scaled by UI scale factor)
+rect.Inset(top, right, bottom, left)
+rect.Inset(all)
+rect.InsetTop(pixels), InsetRight, InsetBottom, InsetLeft
+
+rect.Grow(top, right, bottom, left)
+rect.Grow(all)
+rect.GrowTop(pixels), GrowRight, GrowBottom, GrowLeft
+
+rect.CutTop(pixels)    // Returns cut portion, modifies rect
+rect.CutRight(pixels)
+rect.CutBottom(pixels)
+rect.CutLeft(pixels)
+
+rect.Offset(x, y)      // Move without changing size
+rect.Scale(all)        // Multiply dimensions
+rect.Scale(x, y)
+rect.Slide(x, y)       // Move by percentage of own size
+
+rect.FitAspect(aspect) // For icons/images
+rect.FitAspect(aspect, FitAspectKind.KeepWidth)
+rect.FitAspect(aspect, FitAspectKind.KeepHeight)
+
+rect.SubRect(x1, y1, x2, y2) // Percentage-based (for health bars)
+
+// Properties
+rect.Width, rect.Height
+rect.Center, rect.TopLeft, rect.BottomRight
+```
+
+### Edge Rects vs Point Rects - IMPORTANT
+
+`LeftRect()`, `RightRect()`, `TopRect()`, `BottomRect()` return **line-shaped rects**. If you `Grow()` from these, the result is rectangular, not square.
+
+```csharp
+// WRONG: Creates tall rectangle because LeftRect() has full height
+var button = slider.LeftRect().Grow(20).Offset(20, 0);
+
+// CORRECT: Use a point rect like LeftCenterRect() to grow into a square
+var button = slider.LeftCenterRect().Grow(20).Offset(20, 0);
+```
+
+### Auto-scaling and Unscaled Functions
+
+All rect functions automatically multiply by UI scale factor (screen height / 1080). Values are "pixels if 1080p".
+
+When using **computed pixel values** (like a rect's width), use `_Unscaled` variants:
+
+```csharp
+// WRONG: Double-scaling if scale factor != 1
+listBase = listBase.Offset(0, -listBase.Height);
+
+// CORRECT: Use unscaled with exact pixel values
+listBase = listBase.OffsetUnscaled(0, -listBase.Height);
+```
+
+Available unscaled functions:
+- `OffsetUnscaled`, `InsetUnscaled`, `GrowUnscaled`
+- `CutTopUnscaled`, `CutRightUnscaled`, `CutBottomUnscaled`, `CutLeftUnscaled`
+- `InsetTopUnscaled`, `GrowTopUnscaled`, etc.
+
+### Cutting Pattern (Most Important!)
+
+`Cut` snips a portion off a rect and returns that portion. **Use for sequential layouts to avoid overlap:**
+
+```csharp
+var rect = UI.SafeRect;
+var header = rect.CutTop(60);    // Returns 60px from top, rect shrinks
+var footer = rect.CutBottom(40); // Returns 40px from bottom
+var sidebar = rect.CutLeft(200); // Returns 200px from left
+var content = rect;              // Remaining space
+
+// Space is removed as you allocate it - no overlap possible
+```
+
+### Grid Layout
+
+For grids of equally-sized elements:
+
+```csharp
+var grid = UI.GridLayout.Make(rect, 4, 6, UI.GridLayout.SizeSource.ElementCount, padding: 8);
+
+for (int i = 0; i < items.Count; i++)
+{
+    using var _ = UI.PUSH_ID(i);
+    var slotRect = grid.Next();
+    // Draw item...
+}
+```
+
+Grids start at top-left and advance right, then down.
+
+## Buttons
+
+```csharp
+var rect = UI.SafeRect.BottomCenterRect().Grow(40, 150, 40, 150).Offset(0, 100);
+
+var bs = new UI.ButtonSettings()
+{
+    Sprite = Assets.GetAsset<Texture>("$AO/new/modal/buttons_2/button_2.png"),
+    Slice = new UI.NineSlice() { slice = new Vector4(45, 45, 45, 45), sliceScale = 0.35f },
+    PressScaling = 0.35f,
+    ColorMultiplier = Vector4.White,
+    BackgroundColorMultiplier = Vector4.White, // Just the sprite, not text
+};
+
+var ts = GetTextSettings(24);
+var result = UI.Button(rect, "Click Me!", bs, ts);
+
+if (result.Clicked)
+{
+    Log.Info("Button clicked!");
+}
+```
+
+### Button Results
+
+```csharp
+result.Clicked;   // Was clicked (pressed and released)
+result.Active;    // Being actively interacted with
+result.Hovering;  // Mouse is over (PC only)
+```
+
+## UI State Management
+
+### Push/Pop Pattern
+
+Always use `using var _ =` for automatic cleanup:
+
+```csharp
+// Layers (higher = drawn on top)
+using var _layer = UI.PUSH_LAYER(100);
+using var _relLayer = UI.PUSH_LAYER_RELATIVE(10);
+
+// Z depth (for 3D sorting in world space)
+using var _z = IM.PUSH_Z(5.0f);
+
+// Scale factor
+using var _scale = UI.PUSH_SCALE_FACTOR(1.5f);
+
+// Color multiplier
+using var _color = UI.PUSH_COLOR_MULTIPLIER(new Vector4(1, 1, 1, 0.5f));
+
+// World context
+using var _world = UI.PUSH_CONTEXT(UI.Context.WORLD);
+```
+
+### UI IDs - REQUIRED for repeated elements
+
+When drawing multiple similar elements, push unique IDs:
+
+```csharp
+for (int i = 0; i < items.Count; i++)
+{
+    using var _ = UI.PUSH_ID(i);  // Unique ID for each button
+    
+    var itemRect = rect.CutTop(60);
+    if (UI.Button(itemRect, items[i].Name, bs, ts).Clicked)
+    {
+        SelectItem(i);
+    }
+}
+```
+
+## World Space UI
+
+For UI in the game world (health bars, name tags). **Use meters - characters are ~1 meter tall.**
+
+```csharp
+using var _ctx = UI.PUSH_CONTEXT(UI.Context.WORLD);
+using var _z = IM.PUSH_Z(entity.Y - 0.001f);
+
+var pos = entity.Position;
+var barPos = pos + new Vector2(0, 1.5f); // 1.5m above
+
+// Health bar: 0.2m tall, 1m wide
+var barRect = new Rect(
+    barPos - new Vector2(0.5f, 0.1f),
+    barPos + new Vector2(0.5f, 0.1f)
+);
+
+UI.Image(barRect, UI.WhiteSprite, new Vector4(0, 0, 0, 0.8f));
+
+// Fill using SubRect for percentage
+float healthPct = entity.Health / entity.MaxHealth;
+var fillRect = barRect.Inset(0.02f).SubRect(0, 0, healthPct, 1);
+UI.Image(fillRect, UI.WhiteSprite, new Vector4(0, 1, 0, 1));
+```
+
+## Scroll Views
+
+```csharp
+var sv = UI.PushScrollView("my_scroll", rect, new UI.ScrollViewSettings() { Vertical = true });
+{
+    var contentRect = sv.contentRect;
+    
+    for (int i = 0; i < items.Count; i++)
+    {
+        var itemRect = contentRect.CutTop(40);
+        UI.TextAsync(itemRect, items[i], ts);
+    }
+}
+UI.PopScrollView();
+```
+
+## Common Text Settings Helper
+
+```csharp
+static UI.TextSettings GetTextSettings(float size, Vector4? color = null)
+{
+    return new UI.TextSettings()
+    {
+        Font = UI.Fonts.BarlowBold,
+        Size = size,
+        Color = color ?? Vector4.White,
+        DropShadowColor = new Vector4(0f, 0f, 0.02f, 0.5f),
+        DropShadowOffset = new Vector2(0f, -3f),
+        HorizontalAlignment = UI.HorizontalAlignment.Center,
+        VerticalAlignment = UI.VerticalAlignment.Center,
+        Outline = true,
+        OutlineThickness = 3,
+    };
+}
+```
+
+## [UIPreview] Decorator
+
+For testing UI in the editor without running the game:
+
+```csharp
+[UIPreview]
+public static void PreviewMyUI()
+{
+    DrawMyUI("Example Title", 75, true);
+}
+
+public static void DrawMyUI(string title, int progress, bool showButton)
+{
+    var rect = UI.ScreenRect.CenterRect().Grow(200, 300, 200, 300);
+    // ... draw UI
+}
+```
+
+**Never call Entity.Create in UIPreview functions** - entities will pile up in the editor.
+
+## Button Asset Paths
+
+- `"$AO/new/modal/buttons_2/button_1.png"` - Orange
+- `"$AO/new/modal/buttons_2/button_2.png"` - Green
+- `"$AO/new/modal/buttons_2/button_3.png"` - Red
+- `"$AO/new/modal/buttons_2/button_5.png"` - Blue
+- `"$AO/new/modal/buttons_2/button_7.png"` - Pink
+- `"$AO/new/modal/buttons_2/button_8.png"` - Grey
+- `"$AO/new/modal/buttons_2/button_9.png"` - White
+
+## Common Sizes (for 1080p reference)
+
+- **Text**: Title 52, Body 36, Small 24
+- **Simple dialog**: 600x400
+- **Small button**: 135x50
+- **Exit button**: 50x50
+
+## Best Practices
+
+1. **Always use `using var _ =` for push/pop pairs** - Prevents state leaks
+2. **Use SafeRect for edge UI** - Handles notches and safe areas
+3. **Push IDs for repeated elements** - Ensures correct interaction tracking
+4. **Use unscaled functions with computed dimensions** - Prevents double-scaling
+5. **FitAspect for icons** - Prevents stretched images: `rect.FitAspect(icon.Aspect)`
+6. **Draw following UI in LateUpdate** - Ensures smooth tracking
+7. **Check Network.IsServer before drawing** - Prevents UI on server
+8. **Use GridLayout for fixed-size grids**
+9. **Use cuts for sequential layouts** - Prevents overlapping
+10. **Mobile-first sizing** - Everything should be big enough for touch
