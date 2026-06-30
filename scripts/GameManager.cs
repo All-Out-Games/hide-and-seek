@@ -505,6 +505,12 @@ public partial class GameManager : Component
 				}
 				case GameState.StartRound:
 				{
+					if (Scene.Components<HNSPlayer>().Count() < PlayersNeededToStartGame)
+					{
+						State = GameState.WaitingForPlayers;
+						break;
+					}
+
 					try 
 					{
 						SetUpRound();

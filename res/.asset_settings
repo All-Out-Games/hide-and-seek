@@ -1,3 +1,72 @@
 [
-    { "id": "whitecircle2.png", "texture": { "wrap_repeat": true, "pixels_per_unit": 120 } }
+  {
+    "id": "whitecircle2.png",
+    "texture": {
+      "wrap_repeat": true,
+      "pixels_per_unit": 120
+    }
+  },
+  {
+    "id": "simpcitymap/template.png",
+    "texture": {
+      "resample_multiplier": 0.5
+    },
+    "should_mip": true
+  },
+  {
+    "id": "simpcitymap/background2.png",
+    "texture": {
+      "resample_multiplier": 0.75
+    },
+    "should_mip": true
+  },
+  {
+    "id": "simpcitymap/forest overlay copia.png",
+    "texture": {
+      "resample_multiplier": 0.75
+    },
+    "should_mip": true
+  },
+  {
+    "id": "zoo/template.png",
+    "texture": {
+      "resample_multiplier": 0.5
+    },
+    "should_mip": true
+  },
+  {
+    "id": "zoo/base.png",
+    "texture": {
+      "resample_multiplier": 0.75
+    },
+    "should_mip": true
+  },
+  {
+    "id": "zoo/trees4.png",
+    "texture": {
+      "resample_multiplier": 0.75
+    },
+    "should_mip": true
+  },
+  {
+    "id": "ancienttemplemap/Environment/Background/template.png",
+    "texture": {
+      "resample_multiplier": 0.75
+    },
+    "should_mip": true
+  },
+  {
+    "id": "ancienttemplemap/Environment/Background/background.png",
+    "texture": {
+      "resample_multiplier": 0.75
+    },
+    "should_mip": true
+  },
+  {
+    "id": "spawn/bg.png",
+    "texture": {
+      "resample_multiplier": 0.75
+    },
+    "should_mip": true
+  }
 ]
