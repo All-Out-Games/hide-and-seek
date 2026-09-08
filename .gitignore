@@ -14,7 +14,6 @@ res/.preprocessed
 asset_report.txt
 *.ao.astc
 res/.upload_cache
-.asset_manifest
 .asset_manifest.txt
 *.psd
 .agents
@@ -27,3 +26,4 @@ AGENTS.md
 CLAUDE.md
 ao_debug.lock
 opencode.json
+

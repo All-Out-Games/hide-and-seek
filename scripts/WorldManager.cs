@@ -17,7 +17,7 @@ public class WorldManager : Component
 	}
 
 	public List<World> Worlds = new();
-	public World Lobby;
+	[Serialized] public World Lobby;
 	public World CurrentWorld => Worlds[CurrentWorldIndex.Value];
 	public SyncVar<int> CurrentWorldIndex = new();
 
