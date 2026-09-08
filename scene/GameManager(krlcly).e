@@ -30,7 +30,7 @@
   "component_type": "Mono_Component",
   "mono_component_type": "WorldManager",
   "data": {
-
+    "Lobby": 2611052661
   }
 },
 {
