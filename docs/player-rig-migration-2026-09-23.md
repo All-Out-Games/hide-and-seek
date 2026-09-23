@@ -1,8 +1,8 @@
 # Hide & Seek player rig migration
 
-Status: source, native equivalence, both hosted candidates, multiplayer gameplay,
-cold comparison and persistent-cache restart verified. Ready for guarded activation
-of the existing candidates; production selection and verification remain pending.
+Status: both variants are activated and independently verified. Source, native
+equivalence, hosted multiplayer gameplay, cold comparison and persistent storage
+checks passed. Actual primary production rendering, movement and OPFS reuse passed.
 
 The isolated checkout is `C:/allout-game-rig-rollout/hide-and-seek`, branch
 `codex/hide-seek-rig-migration` in `All-Out-Games/hide-and-seek`. It starts from
@@ -167,3 +167,37 @@ Evidence: `hide-seek-gameplay-summary.json`, `hide-seek-{primary,staging}-multip
 `hide-seek-{primary,staging}-hosted-verification.json`. All owned browsers,
 editors and local game jobs are closed. Activation and independent production
 verification will be recorded separately after the coordinator completes them.
+
+## Activation and production verification
+
+The coordinator activated staging first at 2026-09-23 17:45:35.732 UTC and
+primary at 17:45:43.755 UTC through the normal guarded API (HTTP 200).
+The exact candidate IDs above are active, old versions retained, no pending
+activation, version counts unchanged, primary public/stable and staging
+private/stable unchanged. Root independently read both production selections.
+Source and review commit `adc65840811216b01654368bee685dc0332f0f2f` were clean
+and pushed to master before activation. No additional uploads were made.
+Coordinator receipts: `C:/Users/matth/AppData/Local/Temp/hide-seek-activation-20260923/`.
+
+Actual primary production Chrome used the expected current PRIMARY web
+`4932bc8a15714e3c3bf5f98e5c990564c53968f8` and the exact active game version,
+with no bundle or data substitutions. Fresh and restarted browser processes
+both rendered, spawned and moved with zero runtime merges, page exceptions,
+engine error states and HTTP failures. These are unthrottled functional checks,
+not a production timing A/B or a population retention measurement.
+
+The fresh profile downloaded 18,682,527 game-asset bytes through spawn; later
+streaming brought the observation to 32,332,765 bytes. After browser restart
+with HTTP cleared, 306 cached asset files were retained. It downloaded zero
+game assets through spawn and re-fetched zero previously cached assets
+throughout. Three new assets (799,008 bytes) streamed later; none had been
+requested in the cold capture. Do not report zero whole-session downloads.
+Client and game-data traffic are separate from these game-asset totals.
+
+Evidence: `hide-seek-production-migration-{cold,opfs}/result.json` and screenshots,
+`hide-seek-{primary,staging}-active-readback.json`. Private staging gameplay and
+cache checks used its actual hosted package in isolated development; its
+production check verifies selection, not an authenticated private playthrough.
+All owned editors, browsers and local game jobs are closed. This game family is
+complete; other catalog migrations, minimum-payload work and the broader Poki
+90% real-player loading objective remain open. Do not repeat these publications.
