@@ -1,7 +1,0 @@
-{
-    "output": "animations/player/merged_player.spine",
-    "base_rig": "animations/player/playercharacter.spine",
-    "rigs_to_merge": [
-        { "rig": "$AO/schleem/playercharacter.spine", },
-    ],
-}

@@ -24,7 +24,7 @@
   "internal_component_type": "Sprite_Renderer",
   "data": {
     "texture": "ancienttemplemap/Environment/Background/template.png",
-    "tint": {
+    "color": {
       "W": 0.6549019813537598
     }
   }
