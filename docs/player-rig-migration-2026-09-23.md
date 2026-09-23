@@ -1,7 +1,8 @@
 # Hide & Seek player rig migration
 
-Status: native authoring and source preservation verified; inactive hosted
-validation pending. No candidate uploaded or activated yet.
+Status: source, native equivalence, both hosted candidates, multiplayer gameplay,
+cold comparison and persistent-cache restart verified. Ready for guarded activation
+of the existing candidates; production selection and verification remain pending.
 
 The isolated checkout is `C:/allout-game-rig-rollout/hide-and-seek`, branch
 `codex/hide-seek-rig-migration` in `All-Out-Games/hide-and-seek`. It starts from
@@ -34,21 +35,21 @@ Two existing script edits implement that serialized lobby reference. These are
 pre-existing remote-master changes, not part of the new rig migration; they must
 be retained and included in gameplay validation.
 
-## Planned runtime changes
+## Runtime changes
 
-Use the native merge baker to author an ordinary player rig that preserves the
-custom base, shared skins, bones and animation behavior. Update both the default
-player rig and `PlayerCorpse.Awake`'s explicit skeleton selection. Keep the
+The native merge baker authored an ordinary player rig that preserves the
+custom base, shared skins, bones and animation behavior. Both the default
+player rig and `PlayerCorpse.Awake` select it. The migration keeps the
 original custom rig because `CorpseRend.prefab` still references it. Preserve
 other required rigs, textures, gameplay scripts and cosmetics.
 
-Archive `res/NoisyBaseRig` outside the runtime resource tree. A 5,124-record scan
+`res/NoisyBaseRig` is archived outside the runtime resource tree. A 5,124-record scan
 of authoring files, published source, decoded bundled assets and serialized
 game data found no references outside the rig's own resources and manifest
 identity entries. Unlike the unused Digging authoring rig, this rig is actually
 bundled: 1,418,920 cooked bytes, 3,484,280 decoded bytes. Its two raw texture pages
 and authoring files remain available in Git. These sizes are not a measured
-network saving; final cold and persistent-cache measurements are still required.
+network saving; measured cold and persistent-cache results are recorded below.
 
 The deployed general OPFS reader is unchanged. Merge-output caching is outside
 scope. No engine API, memory layout, protocol or game economy change is planned.
@@ -88,9 +89,81 @@ The new rig captures the current shared engine player. Future shared-rig changes
 must be deliberately reauthored. Game state, economy, network protocol, memory
 layout and general OPFS policy are unchanged by this migration. Source ZIP size
 is not total join transfer. Hosted versions, multiplayer gameplay, same-session
-cold loading and persistent-cache reuse still need validation before activation.
+cold loading and persistent-cache reuse are validated below.
 
 Additional evidence: `hide-seek-rig-native-comparison-summary.json`,
 `hide-seek-rig-native-comparison.json.gz`, both compile responses,
 `hide-seek-candidate-assets-validated.json`, and
 `migration-candidates/hide-seek-baked.json`.
+
+## Hosted candidate verification
+
+Source implementation: `8c512101fc61de2aa4f6f153bfe205065aad5448`.
+Each variant was uploaded once with `setActive=false`. Do not upload again.
+Both compile successfully on P48 with 1,005,992-byte DAT files. The hosted source
+archives exactly match the reviewed SHA above. Compiled manifest, configuration
+and bundled records match review, with 15 external ordinary rigs and no recipes.
+
+| Target | Existing candidate | Build hash | DAT SHA-256 |
+|---|---|---|---|
+| Primary | `6ab409ce2e1d629109efe075` | `e5fa3a5e9deb8835` | `e3169a4f91f27a0e6d5ef8897e1fa71cec1b048b1e0b594554030b7f78e0a6b6` |
+| Staging | `6ab409d32e1d629109efe07b` | `df54c48b9f16fb4d` | `4ab707b9b89ad462763486f488963939f094244d5765f400ae503b5fb6f4fc8f` |
+
+Preserve primary public/stable and staging private/stable settings. Old versions
+remain available. This release needs no engine/server/Jenkins deployment, new
+configuration, migration, protocol change or game-memory-layout change.
+
+## Cold startup comparison
+
+Canonical Chrome full-dev benchmark: pinned Debug Wasm SHA-256
+`a8ccde20a30e7cea03e30133c4dfdb3ef9698c680860f27ff599d3b50a980ac6`,
+CPU6, 655,360 bytes/s and 80 ms latency. Two fresh-profile/all-storage-cleared
+runs per version, same session, warm-server precheck, no retries, no concurrent
+benchmark, editor or heavy build. All four runs passed.
+
+| Median through player spawn | Original | Candidate |
+|---|---:|---:|
+| Navigation to spawn | 77.618 s | 73.508 s |
+| Whole-page encoded transfer | 35.799 MB | 39.779 MB |
+| Separate game-asset transfer | 10.378 MB | 18.673 MB |
+| Game-data transfer | 5.418 MB | 1.105 MB |
+| Wasm heap capacity | 556.794 MB | 386.662 MB |
+| Native allocated snapshot | 115.768 MB | 107.625 MB |
+| Asset-worker heap capacity | 113.770 MB | 113.770 MB |
+
+The median gain is 4.110 seconds (5.29%), with 3.980 MB more cold transfer.
+This removes merge construction and reduces Wasm capacity by 170.131 MB, but
+is not the minimum-payload solution. Capacity and allocation snapshots are not
+peak or resident memory. These Debug timings are not production speed or player
+retention. Source compilation, composition and unused-asset removal changed
+together; this comparison does not isolate one cause. Raw/source ZIP size is
+not join bandwidth. Exact runs and engine phases: `hide-seek-cold-bake-comparison.json`.
+
+## Gameplay and persistent storage
+
+Each actual hosted candidate ran in three isolated Chrome clients against the
+full local development environment, without game-data or bundle overrides.
+Trusted UI input exercised role assignment, movement, prop transformation,
+decoy separation, gun aiming/hit, death/corpse rendering, seeker revival,
+knife hit, final-hider death and win/lose UI. Primary continued into a new round
+on the Zoo map. Staging returned to the island lobby with map voting; its hider
+changed from a recycling bin to a streetlamp. This also exercises the existing
+remote-master lobby-reference change retained in the source.
+
+Both variants had zero runtime merges, JavaScript page exceptions and engine
+error states. Local guest translation requests to the `unseen-strings` endpoint
+returned HTTP 401; there were no game-asset HTTP failures. This is not exhaustive
+coverage of every map, cosmetic combination or animation frame.
+
+Each browser was then restarted, retaining OPFS but clearing HTTP cache.
+Primary retained 376 files; staging retained 369. Both rendered and moved in
+all four tested directions with the exact version, zero game-asset requests
+or bytes and zero rig requests. This confirms the already-deployed general
+OPFS reader works for these packages. It does not imply zero client/game-data
+traffic or eliminate decoding. No merge-output cache work was added.
+
+Evidence: `hide-seek-gameplay-summary.json`, `hide-seek-{primary,staging}-multiplayer/`,
+`hide-seek-{primary,staging}-multiplayer-cache-restart/opfs-only.json` and
+`hide-seek-{primary,staging}-hosted-verification.json`. All owned browsers,
+editors and local game jobs are closed. Activation and independent production
+verification will be recorded separately after the coordinator completes them.
